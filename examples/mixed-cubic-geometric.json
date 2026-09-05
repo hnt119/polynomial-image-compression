@@ -1,0 +1,27 @@
+{
+  "carrier": {
+    "base": 3,
+    "kind": "geometric",
+    "size": 8
+  },
+  "experiment": "carriers",
+  "results": [
+    {
+      "carrier_size": 8,
+      "energy": 120,
+      "image_lower_bound": {
+        "denominator": 15,
+        "numerator": 512
+      },
+      "image_size": 36,
+      "input_count": 64,
+      "normalized_support_ratio": {
+        "denominator": 16,
+        "numerator": 9
+      },
+      "polynomial": "mixed-cubic",
+      "q": 1
+    }
+  ],
+  "scope": "finite same-set enumeration; energy gives a lower bound on support"
+}

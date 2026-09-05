@@ -1,0 +1,288 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\newtheorem{conjecture}{Conjecture}
+
+\title{Proposed Direction: Power-Saving Compression for Nonsingular Quadratic Polynomials}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+The recent experiments suggest a natural next question in the Elekes--R\'onyai direction.
+
+The known 2026 counterexamples proving a fixed power saving
+\[
+|P(A,A)|\le |A|^{2-c}
+\]
+use polynomials whose quadratic part is \emph{rank one}, essentially of the form
+\[
+(x-y)^2+\text{lower-order terms}.
+\]
+
+For example, the mechanism for
+\[
+P(x,y)=5(x+y)+(x-y)^2
+\]
+works because, after introducing a suitable denominator \(Q\),
+\[
+Q^2P(b/Q,c/Q)
+=
+(b-c)^2+5Q(b+c),
+\]
+so modulo every prime \(q\mid Q\) the lower-order part disappears and the output is forced to be a quadratic residue:
+\[
+Q^2P(b/Q,c/Q)\equiv (b-c)^2\pmod q.
+\]
+
+Completely split primes then replicate this restriction independently across every residue coordinate of a high-degree number field. The Chinese remainder theorem gives an exponential saving in the degree, while bounded root discriminant keeps the lattice-counting loss only exponential. This is closely analogous to the high-degree amplification mechanism in the recent unit-distance construction.
+
+However, this mechanism fundamentally exploits the degeneracy
+\[
+\det
+\begin{pmatrix}
+2&-2\\
+-2&2
+\end{pmatrix}
+=0.
+\]
+
+This suggests asking whether fixed power-saving compression persists once the quadratic part is genuinely two-dimensional.
+
+\section{Conjecture 1: Canonical Test Case}
+
+Let
+\[
+Q(x,y)=x^2+xy+y^2.
+\]
+
+\begin{conjecture}[Eisenstein Norm Compression]
+There exists an absolute constant \(c>0\) and arbitrarily large finite sets
+\[
+A\subset\mathbb R
+\]
+such that
+\[
+\boxed{
+|Q(A,A)|\le |A|^{2-c}.
+}
+\]
+\end{conjecture}
+
+This is the immediate conjecture proposed for investigation.
+
+It is structurally different from the known counterexamples because
+\[
+\nabla^2Q=
+\begin{pmatrix}
+2&1\\
+1&2
+\end{pmatrix},
+\qquad
+\det\nabla^2Q=3\neq0.
+\]
+
+Thus the quadratic part has full rank, and the existing denominator trick cannot make it collapse to a one-dimensional square map.
+
+There is also a natural number-theoretic structure. If
+\[
+\omega^2+\omega+1=0,
+\]
+then
+\[
+x^2+xy+y^2
+=
+N_{\mathbb Q(\omega)/\mathbb Q}(x-y\omega).
+\]
+
+So this is the Eisenstein-norm analogue of the Gaussian norm \(x^2+y^2\), making it a particularly natural polynomial on which to try to transfer ideas from the unit-distance construction.
+
+The classical set \(A=[n]\) already gives logarithmic compression of this form, roughly
+\[
+|Q(A,A)|\ll \frac{n^2}{\sqrt{\log n}},
+\]
+but the proposed conjecture asks for the qualitatively stronger bound
+\[
+|Q(A,A)|\le n^{2-c}
+\]
+with fixed \(c>0\).
+
+\section{Why This Is Not Covered by the Current CRT Mechanism}
+
+The previous experiments also give a useful obstruction.
+
+For a homogeneous quadratic such as
+\[
+Q(x,y)=x^2+xy+y^2,
+\]
+rescaling does not create a new degeneration:
+\[
+Q(b/Q,c/Q)=\frac{Q(b,c)}{Q^2}.
+\]
+
+After clearing denominators, one recovers exactly the same quadratic form:
+\[
+Q^2Q(b/Q,c/Q)=Q(b,c).
+\]
+
+Thus there are no lower-degree terms that disappear modulo primes dividing \(Q\).
+
+Moreover, the ordinary local Cartesian restriction experiment gives inequalities of the type
+\[
+R^k\,|Q(B,B)|\ge |B|^2,
+\]
+so simply restricting the input modulo split prime powers cannot produce normalized compression.
+
+Therefore a proof of the conjecture would require a genuinely different use of the arithmetic structure rather than another application of the rank-one square-residue sieve.
+
+\section{Conjecture Hierarchy}
+
+There are three natural levels.
+
+\subsection{Level 1: Eisenstein Norm Compression}
+
+Prove the concrete statement
+\[
+\boxed{
+|x^2+xy+y^2(A,A)|\le |A|^{2-c}
+}
+\]
+for arbitrarily large \(A\subset\mathbb R\).
+
+This is the first target.
+
+\subsection{Level 2: Binary Norm-Form Compression}
+
+Let
+\[
+q(x,y)=ax^2+bxy+cy^2
+\]
+be a positive-definite binary quadratic form over \(\mathbb Q\), with
+\[
+b^2-4ac<0,
+\]
+and assume that \(q\) is not of an Elekes--R\'onyai additive or multiplicative special form.
+
+\begin{conjecture}[Binary Norm-Form Compression]
+There exists \(c_q>0\) and arbitrarily large finite sets
+\[
+A\subset\mathbb R
+\]
+such that
+\[
+\boxed{
+|q(A,A)|\le |A|^{2-c_q}.
+}
+\]
+\end{conjecture}
+
+This asks whether the phenomenon is associated with quadratic norm forms rather than only the single Eisenstein example.
+
+\subsection{Level 3: Nonsingular Quadratic Compression}
+
+Let
+\[
+f(x,y)=ax^2+bxy+cy^2+dx+ey+r\in\mathbb Q[x,y]
+\]
+be Elekes--R\'onyai nonspecial and suppose its quadratic part is nonsingular:
+\[
+\boxed{4ac-b^2\neq0.}
+\]
+
+\begin{conjecture}[Nonsingular Quadratic Compression]
+There exists \(c_f>0\) and finite sets
+\[
+A_j\subset\mathbb R,
+\qquad
+|A_j|\to\infty,
+\]
+such that
+\[
+\boxed{
+|f(A_j,A_j)|\le |A_j|^{2-c_f}.
+}
+\]
+\end{conjecture}
+
+This would show that fixed power-saving compression is not merely a pathology caused by rank-one quadratic degeneration.
+
+\section{Relation to the Unit-Distance and Sum-Product Constructions}
+
+The common principle appears to be
+\[
+\boxed{
+\text{obtain a fixed gain per algebraic coordinate}
++
+\text{keep all losses exponential in the field degree}.
+}
+\]
+
+Then, because
+\[
+d\asymp \log |A|,
+\]
+an exponential gain
+\[
+\theta^d,
+\qquad
+\theta<1,
+\]
+becomes a fixed power saving
+\[
+|A|^{-c}.
+\]
+
+In the unit-distance proof, the gain comes from many norm-one elements obtained from completely split primes in growing-degree fields.
+
+In the recent sum-product construction, the gain comes from simultaneous additive and multiplicative compression in a high-dimensional number-field setting.
+
+For the known polynomial counterexamples, the gain comes from local square-residue restrictions amplified through completely split primes.
+
+For
+\[
+x^2+xy+y^2,
+\]
+the challenge is to find a \emph{new source of per-coordinate gain} compatible with its full-rank norm-form structure.
+
+That is the main research question.
+
+\section{Proposed Immediate Objective}
+
+The immediate objective is therefore
+\[
+\boxed{
+\text{Construct arbitrarily large }A\subset\mathbb R
+\text{ such that }
+|x^2+xy+y^2(A,A)|\le |A|^{2-c}.
+}
+\]
+
+The first stage should not be to attack the full nonsingular quadratic conjecture, but to understand which pieces of the unit-distance and sum-product number-field constructions can survive for the Eisenstein norm.
+
+In particular:
+
+\begin{enumerate}[label=\arabic*.]
+    \item Identify an arithmetic analogue of split-prime amplification that does not rely on rank-one degeneration.
+    \item Test whether the factorization
+    \[
+    x^2+xy+y^2=N(x-y\omega)
+    \]
+    permits a construction using ideals, norm-one ratios, or correlated residue conditions.
+    \item Quantify every gain and discriminant/container loss at the level of one field degree.
+    \item Search for a fixed inequality of the form
+    \[
+    \text{arithmetic gain}>\text{lattice/discriminant cost}.
+    \]
+    \item Only after obtaining such a per-coordinate inequality, let the field degree tend to infinity to convert it into the desired fixed exponent \(c>0\).
+\end{enumerate}
+
+Thus the concrete conjecture \(x^2+xy+y^2\) is the first milestone, while the broader nonsingular quadratic statement provides the longer-term framework.
+
+\end{document}

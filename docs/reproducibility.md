@@ -1,0 +1,101 @@
+# Reproducing the finite experiments
+
+Use Python 3.10 or later from the repository root. No third-party packages are
+required. Successful experiment subcommands produce JSON, and all counting is
+exact. Help, unit tests, and repository checks produce human-readable text.
+
+```bash
+python3 -m experiments --help
+python3 -m experiments verify
+python3 -m unittest discover -s tests -v
+python3 scripts/check_repository.py
+```
+
+## Polynomial identifiers
+
+| Identifier | Fixed polynomial |
+| --- | --- |
+| `baseline` | $(x-y)^2+x+y$ |
+| `quadratic` | $(x+2y)^2+3x-y$ |
+| `quartic` | $(x+2y)^4+3x-y$ |
+| `mixed-cubic` | $xy(x+y)$ |
+| `eisenstein` | $x^2+xy+y^2$ |
+
+## Local images
+
+```bash
+python3 -m experiments local-images --polynomial all --primes 2 3 5 7 --q 1
+python3 -m experiments local-images --polynomial all --primes 5 7 --q 35
+```
+
+For a fixed prime $p$, the program evaluates all $p^2$ ordered pairs in
+$\mathbb F_p^2$ and records the distinct outputs. Composite moduli are rejected:
+these commands describe prime fields, not prime-power extensions or residue rings.
+
+For a degree-$m$ polynomial, `--q Q` selects the integral deformation
+
+$$F_Q(x,y)=Q^mP(x/Q,y/Q).$$
+
+For the baseline and quadratic, this multiplies the linear part by $Q$; for the
+quartic, by $Q^3$. For the two homogeneous polynomials it leaves the polynomial
+unchanged. `--q 1` therefore evaluates the original polynomial.
+
+At an odd prime dividing $Q$, the baseline and quadratic deformations have
+$(p+1)/2$ outputs. The quartic deformation has
+$1+(p-1)/\gcd(4,p-1)$ outputs. These identities motivate checks in the verification
+suite; the suite itself certifies only its explicitly listed finite inputs.
+
+The output reports the exact density $|\mathrm{image}|/p$ as a
+numerator/denominator object. The
+finite-field image of an original polynomial can be full even when its deformation
+has a smaller image. A deformation alone does not establish the required
+split-prime field supply or an asymptotic real-set bound.
+
+## Same-set carriers and collision energy
+
+```bash
+python3 -m experiments carriers --polynomial mixed-cubic --carrier geometric --size 8 --base 3
+python3 -m experiments carriers --polynomial eisenstein --carrier arithmetic --size 20
+```
+
+The command constructs a finite integer set $A$ and evaluates **every** ordered
+pair in $A\times A$. Use `carriers --help` to inspect the available carrier
+parameters and their defaults. The output includes the carrier, image count,
+normalized support ratio $|F_Q(A,A)|/|A|^2$, and collision energy
+
+$$
+E_P(A)=\sum_{z\in P(A,A)}r(z)^2,
+\qquad
+r(z)=|\{(a,b)\in A^2:P(a,b)=z\}|.
+$$
+
+For nonempty $A$, Cauchy–Schwarz gives
+
+$$|P(A,A)|\ge\frac{|A|^4}{E_P(A)}.$$
+
+With `--size 0`, support and energy are zero and both ratios are `null` because
+they are undefined. The reported fraction for nonempty inputs is a **lower
+bound**, not an upper-bound certificate.
+Small favorable finite cases, or a failure to find them, do not settle the
+existential asymptotic question.
+
+For $P(x,y)=xy(x+y)$ and $A=\{3^0,\ldots,3^7\}$, the expected image size is
+$8\cdot9/2=36$ and the expected energy is $2\cdot8^2-8=120$. This is a useful
+adversarial regression example, since symmetry creates collisions but the image
+still has quadratic order in $|A|$.
+
+## Saved examples and checks
+
+[examples/README.md](../examples/README.md) records the commands for the committed
+JSON snapshots. They can be regenerated without a network connection. The test
+suite includes independently stated finite expectations, input validation, exact
+deformation identities, and command-line behavior.
+
+The GitHub workflow runs these checks on Python 3.10, 3.12, and 3.13. A successful
+workflow certifies the implementation and archive checks at that commit; it does
+not certify the research conjectures.
+
+The repository does not currently implement growing number-field towers,
+unit/regulator enumeration, a general symbolic proof assistant, or exhaustive
+search over correlated residue subsets. Those require separately specified
+research tasks and source inputs.

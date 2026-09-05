@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-05",
+  "files": [
+    {
+      "path": "research/prompts/Phase_C0_Conjecture_Proof_Search_Prompt.md",
+      "source_filename": "Phase_C0_Conjecture_Proof_Search_Prompt.md",
+      "bytes": 30220,
+      "sha256": "6fc128ee740900418f63e2cf6f57318a356834c0b1fbd6bff6e721c545e40325"
+    },
+    {
+      "path": "research/prompts/Phase_C1_Corrections_and_Higher_Degree_Proof_Search_Prompt.md",
+      "source_filename": "Phase_C1_Corrections_and_Higher_Degree_Proof_Search_Prompt.md",
+      "bytes": 18853,
+      "sha256": "f058aae1c47de78519924d6e395b955aa03c5565053606d1d7e7cd1f19a6ee02"
+    },
+    {
+      "path": "research/prompts/Phase_C2_Hybrid_Carrier_Structural_Lemma_Prompt.md",
+      "source_filename": "Phase_C2_Hybrid_Carrier_Structural_Lemma_Prompt.md",
+      "bytes": 19720,
+      "sha256": "f7d4d5193a97b1d3ea5d88b416fbef172b2fad7387d69244f3840c36eb8eb621"
+    },
+    {
+      "path": "research/notes/Phase_C1_Review_and_Next_Steps.md",
+      "source_filename": "Phase_C1_Review_and_Next_Steps.md",
+      "bytes": 7195,
+      "sha256": "b89a334375f01da5429e013cbab4327ccbdb36acfed6c2ffe7c48498e0aa1933"
+    },
+    {
+      "path": "research/conjectures/nonsingular_quadratic_compression_conjectures.tex",
+      "source_filename": "nonsingular_quadratic_compression_conjectures.tex",
+      "bytes": 7420,
+      "sha256": "070a49b350a2bb0796207daf6a5fa4b03806f3098c7ee7842480fe1d4f4b1ad9"
+    },
+    {
+      "path": "research/reports/Polynomial_Image_Split_Prime_Generalization.pdf",
+      "source_filename": "Polynomial_Image_Split_Prime_Generalization.pdf",
+      "bytes": 111092,
+      "sha256": "68539d2deddb6285eb5aec6609fd719734957c690aec9b517bec65223abcf145"
+    },
+    {
+      "path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+      "source_filename": "complementary_prime_transfer_obstruction.md",
+      "bytes": 17326,
+      "sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/complementary_prime_transfer_obstruction.pdf",
+      "source_filename": "complementary_prime_transfer_obstruction.pdf",
+      "bytes": 115171,
+      "sha256": "e6ad85745ff402b172b8542b87db45365b88f5322c930adbbf8edc62be2ccda7",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+      "source_filename": "quadratic_to_cubic_transfer_checkpoint.md",
+      "bytes": 24229,
+      "sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.pdf",
+      "source_filename": "quadratic_to_cubic_transfer_checkpoint.pdf",
+      "bytes": 133845,
+      "sha256": "a0c470a526175630a5b270d78ec9873945cd66ef62159c8c8392cb056398e9fa",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/positive_polynomial_phase_checkpoint.pdf",
+      "source_filename": "positive_polynomial_phase_checkpoint.pdf",
+      "bytes": 132162,
+      "sha256": "fa5b64bc584c2f87264f575556906290368e1bcee99e86ef860be1cdb21452b0",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/positive_polynomial_phase_checkpoint.md",
+      "source_filename": "positive_polynomial_phase_checkpoint.md",
+      "bytes": 24104,
+      "sha256": "448f2f54b778ee314c9ec4b7afa014a7cc92914985555d96f5084b90674728af",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/residual_double_critical_cubic_checkpoint.md",
+      "source_filename": "residual_double_critical_cubic_checkpoint.md",
+      "bytes": 17211,
+      "sha256": "e6dff2bd1b77512000c2f771de525c09ee31814c62859c1233af27e425767ddc",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/residual_double_critical_cubic_checkpoint.pdf",
+      "source_filename": "residual_double_critical_cubic_checkpoint.pdf",
+      "bytes": 109231,
+      "sha256": "ec605b2b4f2f3b8b71920b33e42f987d2c5ed834a0830e3587585b2d7c9bdbfc",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Q_Constructive_Local_Compression_to_Real_Set_Report.md",
+      "source_filename": "Q_Constructive_Local_Compression_to_Real_Set_Report.md",
+      "bytes": 11581,
+      "sha256": "de467c0f98cd4f3cc9298378711c29062fa310a60bc61952510748a9166f3065",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update",
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/self_similar_cubic_checkpoint.md",
+      "source_filename": "self_similar_cubic_checkpoint.md",
+      "bytes": 14483,
+      "sha256": "db0631922f094478b9fcd8d506e5634ed1df5a8d2bcf3282079af447931736f6",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 1 · Research Experiment 分支 · Email Progress Update",
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Parity_Twisted_Cartesianization_Composition_Report.md",
+      "source_filename": "Parity_Twisted_Cartesianization_Composition_Report.md",
+      "bytes": 35065,
+      "sha256": "1633748d57a06e307511cd21a3588792fe531eb0509fe8a054b912415d75b608",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Norm_Preserving_Cartesianization_CR_Verdict.md",
+      "source_filename": "Norm_Preserving_Cartesianization_CR_Verdict.md",
+      "bytes": 17548,
+      "sha256": "24bdbe8dfd85a8893c804f6fef1aa03abfec0e7e050c41bc861a068080ce19ec",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Q_Final_Constructive_Push.md",
+      "source_filename": "Q_Final_Constructive_Push.md",
+      "bytes": 21545,
+      "sha256": "db7a667d6e8cfbe06f23664b6a4ddfb00a2cc84c16986684ced130022c48eae9",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/self_similar_cubic_checkpoint.pdf",
+      "source_filename": "self_similar_cubic_checkpoint.pdf",
+      "bytes": 101208,
+      "sha256": "4cddbabf47dd814a17af2b0db0510dc8bbe45a56ef4595085e8667eee7cf3820",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/q13_distinguished_dp.cpp",
+      "source_filename": "q13_distinguished_dp.cpp",
+      "bytes": 1021,
+      "sha256": "dbb49ed9f51735e8972c82da597ca67df8defb91ecbb1e11cafdb39bada4bf36",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/q13_ferrers_exact.cpp",
+      "source_filename": "q13_ferrers_exact.cpp",
+      "bytes": 2364,
+      "sha256": "8c82d9b211e27e4980ec867e91791d93a06ea4bad9f029972f3df73cb4e483ec",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Q_Weighted_Local_Inequality_Checkpoint.md",
+      "source_filename": "Q_Weighted_Local_Inequality_Checkpoint.md",
+      "bytes": 16604,
+      "sha256": "986600d543d3c46cec80c71942f7b326f68d4aaf8b86e8eb1be498a966d271a1",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Q_Correlated_CRT_Tensorization_Checkpoint.md",
+      "source_filename": "Q_Correlated_CRT_Tensorization_Checkpoint.md",
+      "bytes": 17907,
+      "sha256": "5c1cc0b130ba50b2f76a1adede581ab2cc08417cedc1571e8feda39f7e56014c",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Polynomial 2 · Research Experiment 分支 · Email Progress Update"
+      ]
+    },
+    {
+      "path": "research/history-sources/Phase_C0_Conjecture_Proof_Search.pdf",
+      "source_filename": "Phase_C0_Conjecture_Proof_Search.pdf",
+      "bytes": 150960,
+      "sha256": "727ca3326ac722c09c9bbbd2301dbb916ba56ef6e94ff50fc6fc29209bc7a455",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/Phase_B_Abstraction_Cycle_2_Local_to_Global.pdf",
+      "source_filename": "Phase_B_Abstraction_Cycle_2_Local_to_Global.pdf",
+      "bytes": 160544,
+      "sha256": "1411c388a5f5dd3b4d560e326e5cf0eaba3881f1a587288287633971f16dcb49",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/OPEN_LEMMAS_B.md",
+      "source_filename": "OPEN_LEMMAS_B.md",
+      "bytes": 2808,
+      "sha256": "65ae50e88cb3ad6d87f2e8ffbef6eded0699518a770d6413f753db38fbde71bd",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/FAILURE_LIBRARY_B.md",
+      "source_filename": "FAILURE_LIBRARY_B.md",
+      "bytes": 3405,
+      "sha256": "bb92513c0ce1e899c1c70be7a1fa466d2a4b2123a077cd7159cda48ab49d6d06",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/PHASE_B_STATE.md",
+      "source_filename": "PHASE_B_STATE.md",
+      "bytes": 4774,
+      "sha256": "ec695630f89fdc587045710f560324ee6904a8169fcf5e7e261490349414ea6b",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/POLYNOMIAL_MECHANISM_LIBRARY.md",
+      "source_filename": "POLYNOMIAL_MECHANISM_LIBRARY.md",
+      "bytes": 3046,
+      "sha256": "992104e39421cc6bd5c5eed4617ab4727ca6a210436354731e3ade0050afd277",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/COLLISION_LIBRARY.md",
+      "source_filename": "COLLISION_LIBRARY.md",
+      "bytes": 3582,
+      "sha256": "3140e4b30349e97eb87ffb18483c6c4956833d2f004b0d25f21c22c082356930",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/Phase_B_Abstraction_Cycle_1.pdf",
+      "source_filename": "Phase_B_Abstraction_Cycle_1.pdf",
+      "bytes": 157070,
+      "sha256": "3a20cedcd915ffd8235258e5cae0d7894a578b082fd98b621054e1c34943359f",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/Phase_A_Sum_Product_Reproduction_FINAL_FROZEN.pdf",
+      "source_filename": "Phase_A_Sum_Product_Reproduction_FINAL_FROZEN.pdf",
+      "bytes": 509991,
+      "sha256": "55741837f06336e072b390560dadc3ab7e087a946da69599c292c671db64f514",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/Phase_A_FINAL_FROZEN_Change_Log.pdf",
+      "source_filename": "Phase_A_FINAL_FROZEN_Change_Log.pdf",
+      "bytes": 215065,
+      "sha256": "edfead13a44af821a9d320e6dca989179972444959bca5578b5c3984b24bded1",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "Unit Distance and Sum-Product"
+      ]
+    },
+    {
+      "path": "research/history-sources/Concrete_Cubic_Compression_Block_NoGo_Checkpoint.md",
+      "source_filename": "Concrete_Cubic_Compression_Block_NoGo_Checkpoint.md",
+      "bytes": 29147,
+      "sha256": "413dcc5aa06ddc03129d76a68360dc1737a0a7d156d70e27a510a4699d5bbc62",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "cubic polynomial 研究综合与汇报"
+      ]
+    },
+    {
+      "path": "research/history-sources/Cubic_Difference_Sum_Research_Checkpoint.md",
+      "source_filename": "Cubic_Difference_Sum_Research_Checkpoint.md",
+      "bytes": 49450,
+      "sha256": "1a5ecffb8366cd4ef2a0447d16bc183c7c8cde646428db5bc6163959d1e95b92",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "cubic polynomial 研究综合与汇报"
+      ]
+    },
+    {
+      "path": "research/history-sources/direct_construction_Q_checkpoint.pdf",
+      "source_filename": "direct_construction_Q_checkpoint.pdf",
+      "bytes": 477193,
+      "sha256": "8f9d8db7d3efd5d0cd5c404503f01c5606ff5d5cd5cec6eee9cf8367e391f44b",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "cubic polynomial 研究综合与汇报"
+      ]
+    },
+    {
+      "path": "research/history-sources/Q_Split_Prime_Power_Cartesian_Theorem.md",
+      "source_filename": "Q_Split_Prime_Power_Cartesian_Theorem.md",
+      "bytes": 13071,
+      "sha256": "ee56e4588541a3dd022851c435f70ac520ad118cfc97015f8a2d670e36dfa338",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "cubic polynomial 研究综合与汇报"
+      ]
+    },
+    {
+      "path": "research/history-sources/three_prime_cubic_crt_checkpoint.pdf",
+      "source_filename": "three_prime_cubic_crt_checkpoint.pdf",
+      "bytes": 135888,
+      "sha256": "cf15211e4a2df6b34d0d5eba71345868c4758e6b3b492702f764e562af31fafe",
+      "added_on": "2026-09-05",
+      "source_tasks": [
+        "cubic polynomial 研究综合与汇报"
+      ]
+    }
+  ],
+  "last_updated": "2026-09-05"
+}

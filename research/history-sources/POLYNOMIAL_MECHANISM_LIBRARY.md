@@ -1,0 +1,15 @@
+# POLYNOMIAL_MECHANISM_LIBRARY
+
+| Mechanism | Source origin | Formal version | Quantitative gain | Quantitative cost | Status |
+|---|---|---|---|---|---|
+| Factor-through compression | Frozen Phase A and Cycle 1 | If \(F(\alpha(s_1,p_1),\alpha(s_2,p_2))=\Psi(q(s_1,s_2),r(p_1,p_2))\) and \(\alpha\) has multiplicity \(\mu\), then the normalized image ratio is at most \(\mu^2 |q(S,S)||r(P,P)|/(|S|^2|P|^2)\). | Small intermediate supports | Multiplicity \(\mu^2\) and failure of exact separation | VALID WITH HYPOTHESES |
+| Bounded-fiber coordinate compression | Cycle 1; Elekes-Rónyai special forms | \(F=G(u(x)\star v(y))\) implies \(|F(A,A)|\le|u(A)\star v(A)|\), with fibers recorded. | One-dimensional group-law support | Domain and fiber losses | VALID WITH HYPOTHESES |
+| Archimedean container | Phase A; Pohoata Lemma 3.2 | Bound every conjugate of every output and count algebraic integers in a Minkowski box. | Converts height control into finite support | Degree, coefficient height, discriminant | VALID WITH HYPOTHESES; TOO WEAK ALONE |
+| Local residue compression | Pohoata, equations (2), (5) | Restrict \(F(A,A)\bmod R\mathcal O_K\) to \(\Omega\). | Density factor \(|\Omega|/R^d\) | Useless without per-class packing | VALID WITH HYPOTHESES |
+| Uniform residue-class packing | Pohoata Lemma 3.3 | At radius \(M\), each class modulo \(R\mathcal O_K\) contains at most \((2M/R+1)^d\) points. | Makes local density a full-support saving | Archimedean scale \(M\) and modulus \(R\) | VALID |
+| Split-prime amplification | Pohoata Proposition 3.1 and proof of Proposition 4.1 | Complete splitting gives \(\mathcal O_K/p\mathcal O_K\cong\mathbb F_p^d\); local density \(q_p\) becomes \(q_p^d\). | \(-\log q_p\) per field degree | Requires complete splitting in every layer | VALID WITH HYPOTHESES |
+| Several-prime amplification | Pohoata, equations (5)-(6) | For \(Q=\prod p_i\), \(\rho=\prod_i q_{p_i}\) and the allowed density is \(\rho^d\). | Local gains add: \(-\log\rho=\sum_i-\log q_{p_i}\) | \(Q\), coefficient height, and input scale grow | VALID WITH HYPOTHESES |
+| Fixed-polynomial rescaling | Pohoata, equations (7)-(8) | Affine bijections \(\tau_Q,\eta_Q\) with \(F_Q(\tau_Q x,\tau_Q y)=\eta_Q(F(x,y))\) preserve cardinalities. | Removes an auxiliary arithmetic parameter | Must use one fixed \(Q\); maps must be injective | VALID WITH HYPOTHESES |
+| Signed high-dimensional conversion | Unit distance, Phase A, Cycles 1-2 | If carrier rates are \(a,B\), candidate rate is \(c\), and local saving is \(s\), require \(2a-c+s>0\). | Power saving \((2a-c+s)/B\) | Every exponential cost enters with its sign | VALID |
+| Collision equation | Cycle 1 | \(E_F(A)=\sum_z r_F(z)^2\) and \(|F(A,A)|\ge|A|^4/E_F(A)\). | Necessary collision threshold | Does not upper-bound support | VALID AS DIAGNOSTIC; TOO WEAK AS CERTIFICATE |
+| Rank-two correlated sums | Cycle 1 | Control \(U_1(g)V_1(p)+U_2(g)V_2(p)\) without multiplying component supports. | Would extend global hybrid compression | No surviving source lemma | UNRESOLVED |

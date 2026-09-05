@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "logged_on": "2026-09-05",
+  "track_selection": "Explicitly identified by the project owner; recent portions of each source task.",
+  "tracks": [
+    {
+      "id": "T01",
+      "directory": "01-cubic-digital",
+      "source_task": "cubic polynomial 研究综合与汇报",
+      "polynomial": "(x-y)^3+x+y",
+      "direction": "Exact digital carry control",
+      "status": "OPEN_IN_RECORD",
+      "latest_checkpoint_date": "2026-09-03"
+    },
+    {
+      "id": "T02",
+      "directory": "02-quartic-hybrid",
+      "source_task": "Create Phase C0 proof prompt",
+      "polynomial": "(x+2*y)^4+3*x-y",
+      "direction": "Unit-times-additive carrier and realized support lemma",
+      "status": "OPEN_IN_RECORD",
+      "latest_checkpoint_date": "2026-09-03"
+    },
+    {
+      "id": "T03",
+      "directory": "03-eisenstein-cartesianization",
+      "source_task": "Polynomial 2 · Research Experiment 分支 · Email Progress Update",
+      "polynomial": "x^2+x*y+y^2",
+      "direction": "Parity-twisted Cartesianization and global deficit contraction",
+      "status": "OPEN_IN_RECORD",
+      "latest_checkpoint_date": "2026-09-03"
+    },
+    {
+      "id": "T04",
+      "directory": "04-cubic-slices",
+      "source_task": "Polynomial 1 · Research Experiment 分支 · Email Progress Update",
+      "polynomial": "(x-y)^3-3*(x+y)",
+      "direction": "Direct overlap of cubic slices",
+      "status": "OPEN_IN_RECORD",
+      "latest_checkpoint_date": "2026-09-03"
+    }
+  ]
+}

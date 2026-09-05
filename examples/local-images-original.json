@@ -1,0 +1,363 @@
+{
+  "experiment": "local-images",
+  "results": [
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 2,
+        "numerator": 1
+      },
+      "image": [
+        0
+      ],
+      "image_size": 1,
+      "input_count": 4,
+      "polynomial": "baseline",
+      "prime": 2,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2
+      ],
+      "image_size": 3,
+      "input_count": 9,
+      "polynomial": "baseline",
+      "prime": 3,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_size": 5,
+      "input_count": 25,
+      "polynomial": "baseline",
+      "prime": 5,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image_size": 7,
+      "input_count": 49,
+      "polynomial": "baseline",
+      "prime": 7,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1
+      ],
+      "image_size": 2,
+      "input_count": 4,
+      "polynomial": "quadratic",
+      "prime": 2,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2
+      ],
+      "image_size": 3,
+      "input_count": 9,
+      "polynomial": "quadratic",
+      "prime": 3,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_size": 5,
+      "input_count": 25,
+      "polynomial": "quadratic",
+      "prime": 5,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 7,
+        "numerator": 4
+      },
+      "image": [
+        0,
+        3,
+        4,
+        5
+      ],
+      "image_size": 4,
+      "input_count": 49,
+      "polynomial": "quadratic",
+      "prime": 7,
+      "q": 1
+    },
+    {
+      "degree": 4,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1
+      ],
+      "image_size": 2,
+      "input_count": 4,
+      "polynomial": "quartic",
+      "prime": 2,
+      "q": 1
+    },
+    {
+      "degree": 4,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2
+      ],
+      "image_size": 3,
+      "input_count": 9,
+      "polynomial": "quartic",
+      "prime": 3,
+      "q": 1
+    },
+    {
+      "degree": 4,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_size": 5,
+      "input_count": 25,
+      "polynomial": "quartic",
+      "prime": 5,
+      "q": 1
+    },
+    {
+      "degree": 4,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image_size": 7,
+      "input_count": 49,
+      "polynomial": "quartic",
+      "prime": 7,
+      "q": 1
+    },
+    {
+      "degree": 3,
+      "density": {
+        "denominator": 2,
+        "numerator": 1
+      },
+      "image": [
+        0
+      ],
+      "image_size": 1,
+      "input_count": 4,
+      "polynomial": "mixed-cubic",
+      "prime": 2,
+      "q": 1
+    },
+    {
+      "degree": 3,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2
+      ],
+      "image_size": 3,
+      "input_count": 9,
+      "polynomial": "mixed-cubic",
+      "prime": 3,
+      "q": 1
+    },
+    {
+      "degree": 3,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_size": 5,
+      "input_count": 25,
+      "polynomial": "mixed-cubic",
+      "prime": 5,
+      "q": 1
+    },
+    {
+      "degree": 3,
+      "density": {
+        "denominator": 7,
+        "numerator": 5
+      },
+      "image": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "image_size": 5,
+      "input_count": 49,
+      "polynomial": "mixed-cubic",
+      "prime": 7,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1
+      ],
+      "image_size": 2,
+      "input_count": 4,
+      "polynomial": "eisenstein",
+      "prime": 2,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "image": [
+        0,
+        1
+      ],
+      "image_size": 2,
+      "input_count": 9,
+      "polynomial": "eisenstein",
+      "prime": 3,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "image_size": 5,
+      "input_count": 25,
+      "polynomial": "eisenstein",
+      "prime": 5,
+      "q": 1
+    },
+    {
+      "degree": 2,
+      "density": {
+        "denominator": 1,
+        "numerator": 1
+      },
+      "image": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "image_size": 7,
+      "input_count": 49,
+      "polynomial": "eisenstein",
+      "prime": 7,
+      "q": 1
+    }
+  ],
+  "scope": "full finite-field enumeration; not an asymptotic proof"
+}
