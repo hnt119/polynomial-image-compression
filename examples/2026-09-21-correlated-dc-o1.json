@@ -1,0 +1,552 @@
+{
+  "cases": [
+    {
+      "R_integral": {
+        "geometric_mean_approx": 1.5874010519681994,
+        "geometric_mean_exact": "(1^3 * 2^6)^(1/9)",
+        "histogram": {
+          "1": 3,
+          "2": 6
+        },
+        "maximum": 2,
+        "mean": "5/3",
+        "median": "2",
+        "minimum": 1,
+        "one_return_fraction": "1/3",
+        "population": 9
+      },
+      "R_pair": {
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^9)^(1/9)",
+        "histogram": {
+          "1": 9
+        },
+        "maximum": 1,
+        "mean": "1",
+        "median": "1",
+        "minimum": 1,
+        "one_return_fraction": "1",
+        "population": 9
+      },
+      "action_size": 3,
+      "action_vs_pair_counts": "equal at every source; zero absent",
+      "bad_pairs": 9,
+      "d": 1,
+      "epsilon": "1/4",
+      "full_Q_image": 4,
+      "identity_obstruction_pairs": 3,
+      "image_fiber_histogram": {
+        "1": 3,
+        "6": 1
+      },
+      "integer_threshold": 2,
+      "integrality_domain_sizes": [
+        3,
+        9,
+        3
+      ],
+      "modulus": 7,
+      "n": 3,
+      "primes": [
+        7
+      ],
+      "return_domain_sizes": [
+        0,
+        9,
+        0
+      ],
+      "stabilizer_histogram": {
+        "1": 9
+      },
+      "symmetric_difference": 0
+    },
+    {
+      "R_integral": {
+        "geometric_mean_approx": 2.5198420997897464,
+        "geometric_mean_exact": "(1^9 * 2^36 * 4^36)^(1/81)",
+        "histogram": {
+          "1": 9,
+          "2": 36,
+          "4": 36
+        },
+        "maximum": 4,
+        "mean": "25/9",
+        "median": "2",
+        "minimum": 1,
+        "one_return_fraction": "1/9",
+        "population": 81
+      },
+      "R_pair": {
+        "geometric_mean_approx": 1.108146135855019,
+        "geometric_mean_exact": "(1^69 * 2^12)^(1/81)",
+        "histogram": {
+          "1": 69,
+          "2": 12
+        },
+        "maximum": 2,
+        "mean": "31/27",
+        "median": "1",
+        "minimum": 1,
+        "one_return_fraction": "23/27",
+        "population": 81
+      },
+      "action_size": 9,
+      "action_vs_pair_counts": "equal at every source; zero absent",
+      "bad_pairs": 69,
+      "d": 2,
+      "epsilon": "1/4",
+      "full_Q_image": 33,
+      "identity_obstruction_pairs": 45,
+      "image_fiber_histogram": {
+        "1": 9,
+        "2": 18,
+        "6": 6
+      },
+      "integer_threshold": 2,
+      "integrality_domain_sizes": [
+        9,
+        27,
+        9,
+        27,
+        81,
+        27,
+        9,
+        27,
+        9
+      ],
+      "modulus": 91,
+      "n": 9,
+      "primes": [
+        7,
+        13
+      ],
+      "return_domain_sizes": [
+        3,
+        0,
+        3,
+        0,
+        81,
+        0,
+        3,
+        0,
+        3
+      ],
+      "stabilizer_histogram": {
+        "1": 81
+      },
+      "symmetric_difference": 0
+    },
+    {
+      "R_integral": {
+        "geometric_mean_approx": 3.999999999999999,
+        "geometric_mean_exact": "(1^27 * 2^162 * 4^324 * 8^216)^(1/729)",
+        "histogram": {
+          "1": 27,
+          "2": 162,
+          "4": 324,
+          "8": 216
+        },
+        "maximum": 8,
+        "mean": "125/27",
+        "median": "4",
+        "minimum": 1,
+        "one_return_fraction": "1/27",
+        "population": 729
+      },
+      "R_pair": {
+        "geometric_mean_approx": 1.009553538239669,
+        "geometric_mean_exact": "(1^719 * 2^10)^(1/729)",
+        "histogram": {
+          "1": 719,
+          "2": 10
+        },
+        "maximum": 2,
+        "mean": "739/729",
+        "median": "1",
+        "minimum": 1,
+        "one_return_fraction": "719/729",
+        "population": 729
+      },
+      "action_size": 27,
+      "action_vs_pair_counts": "equal at every source; zero absent",
+      "bad_pairs": 729,
+      "d": 3,
+      "epsilon": "1/4",
+      "full_Q_image": 320,
+      "identity_obstruction_pairs": 297,
+      "image_fiber_histogram": {
+        "1": 27,
+        "2": 263,
+        "4": 4,
+        "6": 24,
+        "8": 2
+      },
+      "integer_threshold": 3,
+      "integrality_domain_sizes": [
+        27,
+        81,
+        27,
+        81,
+        243,
+        81,
+        27,
+        81,
+        27,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        27,
+        81,
+        27,
+        81,
+        243,
+        81,
+        27,
+        81,
+        27
+      ],
+      "modulus": 1729,
+      "n": 27,
+      "primes": [
+        7,
+        13,
+        19
+      ],
+      "return_domain_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        729,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stabilizer_histogram": {
+        "1": 729
+      },
+      "symmetric_difference": 0
+    },
+    {
+      "R_integral": {
+        "geometric_mean_approx": 6.349604207872798,
+        "geometric_mean_exact": "(1^81 * 2^648 * 4^1944 * 8^2592 * 16^1296)^(1/6561)",
+        "histogram": {
+          "1": 81,
+          "2": 648,
+          "4": 1944,
+          "8": 2592,
+          "16": 1296
+        },
+        "maximum": 16,
+        "mean": "625/81",
+        "median": "8",
+        "minimum": 1,
+        "one_return_fraction": "1/81",
+        "population": 6561
+      },
+      "R_pair": {
+        "geometric_mean_approx": 1.0044470149163292,
+        "geometric_mean_exact": "(1^6519 * 2^42)^(1/6561)",
+        "histogram": {
+          "1": 6519,
+          "2": 42
+        },
+        "maximum": 2,
+        "mean": "2201/2187",
+        "median": "1",
+        "minimum": 1,
+        "one_return_fraction": "2173/2187",
+        "population": 6561
+      },
+      "action_size": 81,
+      "action_vs_pair_counts": "equal at every source; zero absent",
+      "bad_pairs": 6561,
+      "d": 4,
+      "epsilon": "1/4",
+      "full_Q_image": 2956,
+      "identity_obstruction_pairs": 2673,
+      "image_fiber_histogram": {
+        "1": 81,
+        "2": 2694,
+        "4": 9,
+        "6": 168,
+        "12": 4
+      },
+      "integer_threshold": 3,
+      "integrality_domain_sizes": [
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        729,
+        2187,
+        729,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        729,
+        2187,
+        729,
+        243,
+        729,
+        243,
+        729,
+        2187,
+        729,
+        2187,
+        6561,
+        2187,
+        729,
+        2187,
+        729,
+        243,
+        729,
+        243,
+        729,
+        2187,
+        729,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        729,
+        2187,
+        729,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81,
+        243,
+        729,
+        243,
+        81,
+        243,
+        81
+      ],
+      "modulus": 53599,
+      "n": 81,
+      "primes": [
+        7,
+        13,
+        19,
+        31
+      ],
+      "return_domain_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        6561,
+        0,
+        0,
+        0,
+        6,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stabilizer_histogram": {
+        "1": 6561
+      },
+      "symmetric_difference": 0
+    }
+  ],
+  "error": null,
+  "reproducibility": {
+    "categories": {
+      "constructed_action_norm_check": 120,
+      "factor_divisibility_query": 551880,
+      "full_square_Q_query": 7380,
+      "independent_full_square_Q_query": 7380,
+      "independent_scalar_action_query": 551880,
+      "local_cube_root_query": 126,
+      "scalar_action_query": 551880
+    },
+    "charged_evaluations": 1670646,
+    "command_argv": [
+      "experiments/correlated_returns.py",
+      "--output",
+      "examples/2026-09-21-correlated-dc-o1.json",
+      "--pairs-output",
+      "local-only/runs/T03/2026-09-21-correlated-dc-o1/pairs.json"
+    ],
+    "cpu_cap_seconds": 600,
+    "cpu_seconds": 13.777365,
+    "depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "equality_arithmetic": "exact Fraction",
+    "evaluation_cap": 2000000,
+    "fixed_blocks": [
+      [
+        7,
+        [
+          2,
+          -1
+        ]
+      ],
+      [
+        13,
+        [
+          3,
+          -1
+        ]
+      ],
+      [
+        19,
+        [
+          3,
+          -2
+        ]
+      ],
+      [
+        31,
+        [
+          5,
+          -1
+        ]
+      ]
+    ],
+    "geometric_mean_display": "floating point only",
+    "network_attempted": false,
+    "python": "3.12.7",
+    "seed": null,
+    "source_hashes": {
+      "experiments/correlated_returns.py": "bf53d5b24523fb7c94d9bcc89f61d177b4ff142ab70c728c35444efce82a37a7",
+      "experiments/rectangular_returns.py": "09e3fcd5db3e59a75b8ce795cda793c60a200a78af2fce551701fbf351fc5bfd",
+      "experiments/unit_exponent.py": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a"
+    },
+    "wall_seconds": 13.800429166003596
+  }
+}

@@ -1,0 +1,298 @@
+% Generated from the adjacent canonical Markdown with build.py.
+% Compile with XeLaTeX or Tectonic. No network access or fonts shipped.
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\DeclareMathSizes{9.1}{10}{7}{7}
+\DeclareMathSizes{8.6}{10}{7}{7}
+\usepackage[left=22mm,right=22mm,top=21mm,bottom=24mm]{geometry}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\hypersetup{pdfauthor={Polynomial Image Compression Project},pdfcreator={Offline evidence export}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\newcommand{\teal}[1]{{\special{color push rgb .08 .38 .38}#1\special{color pop}}}
+\newcommand{\kicker}[1]{{\small\teal{\textbf{#1}}\par}}
+\newcommand{\headone}[1]{\vspace{6pt}{\raggedright\hyphenpenalty=10000\fontsize{22}{25}\selectfont\bfseries #1\par}\vspace{3pt}}
+\newcommand{\headtwo}[1]{\vspace{3pt}{\large\bfseries #1\par}}
+\newcommand{\sourceitem}[3]{\par{\fontsize{9.1}{11.3}\selectfont\textbf{#1}\quad\href{#2}{\nolinkurl{#3}}\par}}
+\newcommand{\localfigure}[1]{\par\noindent\hbox to \linewidth{\hfil\XeTeXpicfile "#1" width .98\linewidth\hfil}\par}
+\makeatletter
+\def\ps@evidence{\def\@oddhead{}\let\@evenhead\@oddhead
+\def\@oddfoot{\footnotesize Polynomial Image Compression\hfil 5 November 2026\quad/\quad\thepage}
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{evidence}
+\begin{document}
+
+
+\hypersetup{pdftitle={Quadratic image compression}}
+
+\kicker{MATHEMATICS \quad / \quad EVIDENCE SNAPSHOT}
+
+{\raggedright\hyphenpenalty=10000\fontsize{27}{30}\selectfont\bfseries Quadratic image compression\par}
+
+{\small Technical research report \textperiodcentered{} Evidence snapshot of 5 November 2026\par}
+
+\phantomsection\label{sec:conclusions-and-notation}\headone{Conclusions and notation}
+
+\textbf{Proved.} A single squared integer linear form plus an integer linear term admits same-set power saving. For the full-rank Eisenstein form, the evidence establishes exact return geometry, an exponential supply of integral actions, and a reduction to occupied arithmetic labels. It establishes a quadratic-size image for several specified test families. \textbf{Open.} No fixed positive compression exponent for the full-rank target follows.\par
+
+For a fixed real polynomial $P$, the target is: there exists $\epsilon_P>0$ such that, for every $N_0$, some finite $A\subset\mathbb{R}$ has $|A|\ge N_0$ and $|P(A,A)|\le |A|^{2-\epsilon_P}$. Count the complete set of values of all ordered pairs. An output fiber is the set of all pairs with one value. An action orbit can be strictly smaller.\par
+
+\headtwo{Notation used throughout}
+
+\textbf{$n,d,j$.} Cardinality of an actual scalar set, initial tower-field degree, and tower index. The balanced-factor depth is denoted $r$ instead. Fixed constants precede the growing index.\par
+
+\textbf{$Q,\omega,\tau$.} The benchmark is $Q=x^2+xy+y^2$. The primitive cube root $\omega$ satisfies $\omega^2+\omega+1=0$. The relative involution $\tau$ fixes the coefficient field and sends $\omega$ to $\omega^2$.\par
+
+\textbf{$\mathcal{R}_j,U_j,r_j(p)$.} Respectively the coefficient order, the finite inventory of integral norm-one units, and the number of distinct actual targets reached at a source. The order and the return count use different typefaces and letters here.\par
+
+\textbf{$N_j,\nu_j$.} The number $n_j^2-1$ of nonzero pairs and the number of occupied joint ideal-and-norm labels. Expectations in the report are uniform on these $N_j$ sources.\par
+
+\headtwo{Scope of the four tracks}
+
+The fixed targets remain distinct: T01 is $(x-y)^3+x+y$; T02 is $(x+2y)^4+3x-y$; T03 is $Q$; T04 is $(x-y)^3-3(x+y)$. All four remain open. The separate affine benchmark $Q+x$ does not replace T01. T03's adaptive radical obligation RC15/4 is independent of the order-unit construction below.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{Track identities and source hierarchy}{../../CURRENT_PROJECT_MAP.md}{research/CURRENT_PROJECT_MAP.md}
+
+\sourceitem{T03, current dated status}{../../tracks/03-eisenstein-cartesianization/STATUS.md}{research/tracks/03-eisenstein-cartesianization/STATUS.md}
+
+\sourceitem{Source-indexed claim register}{evidence_register.csv}{research/exports/2026-11-05-evidence/evidence_register.csv}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 02}
+
+\phantomsection\label{sec:the-c0-theorem-and-its-gain}\headone{The C0 theorem and its gain}
+
+\textbf{Statement (proved, v5 Theorem 1).} Fix any $(a,b,c,e)\in\mathbb{Z}^4$, set $L=ax+by$, $M=cx+ey$, and $P=L^2+M$. Then $P$ satisfies the target on page 1. The quadratic part has rank one if $L$ is nonzero and rank zero otherwise. There is no primitivity or nonvanishing requirement. The September corrected theorem proved a narrower statement; the broader quantifier is explicit in the 3 November theorem. The structural condition $ab(ae-bc)\ne0$ suffices for nonspecialness, a different conclusion.\par
+
+\textbf{Mechanism.} Proposition 3.8 of OpenAI, \textit{Planar Point Sets with Many Unit Distances} (2026), supplies many fixed completely split odd primes in a totally real tower with controlled root discriminant $D$. Let $S$ be the product of those primes and put $P_S=L^2+SM$. At each prime divisor of $S$ the linear term vanishes. When both coefficients of $L$ vanish modulo a prime, only zero occurs; in every case the local image is contained in the squares. Writing $\rho$ for the product of the local densities gives\par
+
+\begin{equation*}\tag*{}\label{eq:the-c0-theorem-and-its-gain-1}
+P_S(Sx,Sy)=S^2P(x,y),\qquad \rho=\prod_{p\mid S}\frac{p+1}{2p}.
+\end{equation*}
+
+Complete splitting gives a container of at most $(\rho S)^d$ residue classes in degree $d$. Let $H_P=(|a|+|b|)^2+|c|+|e|$ and $C_P=2H_P+1$. Fix the tower and primes so that $\theta=C_P D\rho<1$, then fix a radius $X>\max(S,\sqrt D)$. The all-conjugate bound on the deformed output is $H_P X^2$. Distinct elements of one residue class differ by $S$ times a nonzero algebraic integer, so the house bound gives a uniform population bound in every permitted class.\par
+
+\textbf{Consequence.} For the centered algebraic-integer box and its real scalar copy divided by $S$, the proof obtains\par
+
+\begin{equation*}\tag*{}\label{eq:the-c0-theorem-and-its-gain-2}
+(X/\sqrt D)^d\le n\le(2X+1)^d,\qquad |P(A,A)|\le\theta^d n^2 .
+\end{equation*}
+
+The lower bound grows; the upper bound converts the gain to exactly $\epsilon_P=-\log(\theta)/\log(2X+1)>0$ in this ledger. There is no remaining prefactor here. The same construction of a sparse local container does not automatically apply to a rank-two quadratic part: the matrix of $Q$ has determinant $3/4$.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{C0 v5, Theorem 1, parameter order, input count and full output bound \cite{c0v5}}{../../proofs/c0-v5/theorem-and-proof.tex}{research/proofs/c0-v5/theorem-and-proof.tex}
+
+\sourceitem{Earlier C0.1, corrected September statement \cite{c0sep}}{../../proofs/c0-2026-09-03/Phase_C0_Corrected.md}{research/proofs/c0-2026-09-03/Phase_C0_Corrected.md}
+
+\sourceitem{External result, OpenAI 2026, Proposition 3.8 \cite{fieldSupply2026}}{https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf}{https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 03}
+
+\phantomsection\label{sec:norm-orbits-and-the-retirement-tests}\headone{Norm orbits and the retirement tests}
+
+For $z=x-\omega y$, the identity $Q(x,y)=z\tau(z)$ explains why exact norm-preserving actions were attractive. Three different levels of evidence resulted.\par
+
+\textbf{Exponent orbit (proved; selected certificate fails).} The depth-$d$ seed orbit has $3^d$ distinct points with at least $2^d$ returning actions at each one. Its two coordinate projections together have exactly $2\cdot3^d$ distinct scalars. The engineered fraction of the resulting Cartesian square is only $1/(4\cdot3^d)$. This estimate is about certified coverage, not the complete image of that projection.\par
+
+\textbf{Dyadic multiscale packings (proved; two families fail).} Exact doubling-angle identities reuse scalar coordinates. In the original cosine-product packing at least $4(n-1)^2/9$ pairs have full fiber size four. In its mixed-amplitude variant at least $(n-1)^2/2-4(n-1)$ have full fiber size at most 48. Dividing these populations by the corresponding full-fiber bounds proves quadratic image growth for each family. The full-fiber arguments strengthen earlier failures for selected actions.\par
+
+\textbf{Balanced products (proved; BFF-O1).} Put $q=7^r$, let $\xi$ be a primitive $q$th root, and take amplitudes $h\prod_{\ell<r}(2-\xi^{i_\ell 7^\ell})$, for $1\le h\le8$ and digits $-3\le i_\ell\le3$. Rotate by the $6q$th roots of unity and take the same-set coordinate completion via $z=x-\omega y$. Its actual size is between $16q^2+1$ and $24q^2-7$. At the last degree-seven tower layer, 1,344 of 2,401 source types give rank-four maps. A finite algebraic elimination bound and an exceptional zero-set count control all target types. For some fixed $M$ and all sufficiently large $r$, at least $32q^4$ actual sources have at most $M$ full targets. Hence\par
+
+\begin{equation*}\tag*{}\label{eq:norm-orbits-and-the-retirement-tests-1}
+n^2/(18M)\le |Q(A,A)|\le n^2 .
+\end{equation*}
+
+This is an actual image theorem for the specified family, not a universal impossibility result.\par
+
+\textbf{Finite evidence.} At depths 0 and 1 the complete exact audits gave $(n,|Q(A,A)|)=(17,44)$ and $(1079,286664)$. Pair-weighted median full-fiber sizes were 12 and 4. A second norm-based traversal matched the full multiplicity distributions. These two sizes suggested the obstruction; the later all-depth proof establishes it.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{UE-P2--P3, orbit coverage \cite{orbit}}{../../notes/2026-09-16-unit-exponent/primary-proof.md}{research/notes/2026-09-16-unit-exponent/primary-proof.md}
+
+\sourceitem{XB-F1--F2, both full-fiber bounds \cite{dyadic}}{../../notes/2026-10-06-cross-block-returns/README.md}{research/notes/2026-10-06-cross-block-returns/README.md}
+
+\sourceitem{BFF-O1, §§1--4 and proof companions \cite{balanced}}{../../notes/2026-10-11-bff-o1/README.md}{research/notes/2026-10-11-bff-o1/README.md}
+
+\sourceitem{Exact two-depth distributions \cite{auditdata}}{../../notes/2026-10-11-balanced-full-fibers/data.json}{research/notes/2026-10-11-balanced-full-fibers/data.json}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 04}
+
+\phantomsection\label{sec:a-lattice-carrier-with-mixed-signature}\headone{A lattice carrier with mixed signature}
+
+\textbf{Statement (proved).} Begin with the bounded-root-discriminant totally real tower $F_j$ of degree $d_j$. Fix the real root $s$ of $s^3+s+1=0$. Set\par
+
+\begin{equation*}\tag*{}\label{eq:a-lattice-carrier-with-mixed-signature-1}
+K_j=F_j(s),\qquad E_j=K_j(\omega),\qquad \mathcal{R}_j=\mathcal{O}_{K_j}[\omega].
+\end{equation*}
+
+Then $K_j$ has $d_j$ real places and $d_j$ complex-place pairs, so its degree is $3d_j$. The extension $E_j$ has degree $6d_j$. If $D_0$ bounds the root discriminants of $F_j$, use $D_*=31^{1/3}D_0$ for $K_j$ and $D_E=\sqrt3D_*$ for $E_j$.\par
+
+\textbf{The actual inputs.} At a fixed radius $T$, take all integers $x\in\mathcal{O}_{K_j}$ satisfying $|\sigma x|\le T$ at every embedding. Intervals at real places and disks at complex places define the window. A chosen real embedding is injective, so its image $A_j$ has no hidden projection multiplicity. With $T\ge T_0=2\sqrt{D_*}$ the carrier count gives\par
+
+\begin{equation*}\tag*{}\label{eq:a-lattice-carrier-with-mixed-signature-2}
+e^{a(T)d_j}\le n_j\le e^{B(T)d_j},\qquad B(T)=3\log(2T+1),
+\end{equation*}
+
+where $a(T)=\log((\pi/2)T^3/D_*^{3/2})>0$. No limiting input exponent is assumed.\par
+
+\textbf{Actual actions.} Write $u=a+b\omega$ for an invertible element of $\mathcal{R}_j$ of relative norm one. Its target is $(ax+by,-bx+(a-b)y)$. The matrix has determinant one, both coordinates remain integral, and $Q$ is unchanged. A candidate target must still lie inside every embedding window. The use of the order rather than all maximal-order units makes the coefficient integrality explicit.\par
+
+\textbf{Return-height cutoff.} At each complex place choose one extension and put $\ell_i(u)=\log|\nu_i^+(u)|$; the other extension has the opposite log. Put $H(u)=\sum_i|\ell_i(u)|$. Every nonzero-pair return obeys $H(u)\le d_j L(T)$ with $L(T)=\log(48T^6)/2$. This follows from the integer absolute norm of the nonzero output, with exponent two at each complex place. Let $U_j(T)$ contain precisely the relative order units below that cutoff.\par
+
+\textbf{Closed seed test.} The integral unit $s^2+s\omega$ has infinite order. All of its powers, even multiplied by all order torsion, have only $O((\log n_j)^3)$ returns per pair. The obstruction does not extend to the full relative-unit group.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{MS-F1--F6, degrees, order and unit group \cite{field}}{../../notes/2026-10-20-mixed-signature/field-units.md}{research/notes/2026-10-20-mixed-signature/field-units.md}
+
+\sourceitem{MS-C1--C3, scalar count and seed limits}{../../notes/2026-10-20-mixed-signature/carrier-rate.md}{research/notes/2026-10-20-mixed-signature/carrier-rate.md}
+
+\sourceitem{MS-W1--W3, action at every place \cite{window}}{../../notes/2026-10-20-mixed-signature/window-returns.md}{research/notes/2026-10-20-mixed-signature/window-returns.md}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 05}
+
+\phantomsection\label{sec:the-unit-population-theorem}\headone{The unit population theorem}
+
+\textbf{Statement (MS-O1, proved).} The relative order-log lattice has rank $d_j$ and ordinary Euclidean covolume at most $K_R^{d_j}$. There is one explicit radius $T_*$ fixed before $j$ grows such that $|U_j(T_*)|\ge2^{d_j}$ at every level. The assertion counts distinct integral norm-one actions in the finite cutoff.\par
+
+\textbf{Why the covolume is bounded.} For a prescribed relative log direction, a product of complex disks in the Minkowski space of $E_j$ has constant volume. Its two radii above a complex place of $K_j$ expand and contract reciprocally. A nonzero algebraic integer in this body approximates the prescribed direction. Keep two labels: its principal ideal in the maximal order at this stage, and the exact relative-norm element. Two representatives with equal labels have a relative norm-one unit as their ratio. The number of possible labels and the log approximation error are explicitly bounded. Integrating the resulting finite coset cover over the log torus bounds the covolume.\par
+
+\textbf{Constants and costs.} With $B_0=2\sqrt{D_E}$, $g=\log B_0$, and $J_0=64B_0^{12}(2B_0^2+1)^3$, the proof uses\par
+
+\begin{equation*}\tag*{}\label{eq:the-unit-population-theorem-1}
+K_E=6egJ_0,\qquad K_R=27K_E,\qquad T_*=\max(T_0,\exp(2K_R/3)).
+\end{equation*}
+
+Here the $e$ in $6egJ_0$ is the base of the natural logarithm. Passage to the order costs at most $27^{d_j}$ and is already included in $K_R$. The torsion multiplicity is between 6 and $8d_j^2$. Counting in the centered log ball gives the required population without a short-unit basis. The radius is large but fixed; increasing it with the level would be a different claim.\par
+
+\textbf{What the count cannot pay for.} At a nonreal place the action sends the eigencoordinates $(z,w)$ to $(tz,t^{-1}w)$. Individual conjugates can be as large as $\exp(d_j L(T_*))$. A small average height therefore does not bound each local distortion. The population argument counts a centered log inventory. A source requires specific translated log windows and actual global phases. Neither a count in those windows nor favorable phase distribution follows.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{MSU-A1--A3, covering, constants and population \cite{population}}{../../notes/2026-10-21-relative-unit-population/arithmetic.md}{research/notes/2026-10-21-relative-unit-population/arithmetic.md}
+
+\sourceitem{MSU-G1--G3, continuous and discrete distortion costs}{../../notes/2026-10-21-relative-unit-population/geometry-audit.md}{research/notes/2026-10-21-relative-unit-population/geometry-audit.md}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 06}
+
+\phantomsection\label{sec:exact-returns-in-the-original-cartesian-square}\headone{Exact returns in the original Cartesian square}
+
+\textbf{Statement (proved).} Fix a nonzero pair from $A_j^2$ and use its unique algebraic representatives $x,y$. At one complex place write $\eta$ for the image of $\omega$, $z=\sigma x-\eta\sigma y$, $w=\sigma x-\eta^2\sigma y$, and $t=e^{\lambda+i\theta}$ for the unit value. The resulting target must obey both disk inequalities\par
+
+\begin{equation*}\tag*{}\label{eq:exact-returns-in-the-original-cartesian-square-1}
+|t^{-1}w-tz|\le\sqrt3T_*,\qquad |\eta t^{-1}w-\eta^2tz|\le\sqrt3T_* .
+\end{equation*}
+
+A necessary log interval is $\log(|w|/(2T_*))\le\lambda\le\log(2T_*/|z|)$. At real places the unit has modulus one, yet rotation of an ellipse need not preserve the coordinate square. All real and complex phases must be those of the same global unit. One cannot independently choose feasible angles. The source-window proof gives exact phase tests as well as explicitly conditional sufficient boxes.\par
+
+\textbf{An estimate that does not close.} A product body inside the true intersection gives a discrete lower bound on the number of sources returned by each unit. It pays for real ellipse volumes, the complex Jacobian, the pair lattice and the subtracted origin. Combining that bound with the population estimate yields a maximum certified rate $\log(P_*/(2K_R))<0$, where\par
+
+\begin{equation*}\tag*{}\label{eq:exact-returns-in-the-original-cartesian-square-2}
+P_*=\frac{3\sqrt3\,\pi^3}{512D_*^3(2+1/T_*)^6}.
+\end{equation*}
+
+This is a deficit in the stated estimates, not an upper bound on the true mean. No exponential mean or typical-return lower bound has been proved.\par
+
+\textbf{Why first moments are insufficient.} Exclude the origin and let $N_j=n_j^2-1$. On the resulting set let $r_j(p)$ count distinct returning targets. If occupied orbit intersections have sizes $m_i$, then $\sum_i m_i=N_j$ and the total incidence count is $\sum_i m_i^2$. A few large classes can dominate this sum even when many sources belong to small classes. The original MS-O2 question asked for both an exponential mean and exponentially small relative variance. Those joint premises remain open. The reciprocal count on the next page instead measures the exact number of occupied classes.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{Local phase geometry, MS2-W1--W3 \cite{phases}}{../../notes/2026-10-21-typical-unit-returns/source-windows.md}{research/notes/2026-10-21-typical-unit-returns/source-windows.md}
+
+\sourceitem{Signed incidence deficit, proof and optimization}{../../notes/2026-10-21-typical-unit-returns/lower-incidence.md}{research/notes/2026-10-21-typical-unit-returns/lower-incidence.md}
+
+\sourceitem{Incidence identities, MSR-I1--I2 \cite{labels}}{../../notes/2026-10-21-typical-unit-returns/incidences.md}{research/notes/2026-10-21-typical-unit-returns/incidences.md}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 07}
+
+\phantomsection\label{sec:the-occupied-label-frontier}\headone{The occupied label frontier}
+
+\textbf{Exact object.} Write $Z_j$ for all nonzero $z=x-\omega y$ obtained from the whole coefficient square. The label of $z$ is $(z\mathcal{R}_j,z\tau(z))$: its actual principal ideal in the order, together with its exact relative-norm element in $K_j$. Equality of order ideals gives $z'/z$ and its inverse in the order; equality of norms makes that ratio a relative norm-one unit. The converse is immediate. No unique factorization in the nonmaximal order is assumed.\par
+
+\localfigure{figures/orbit-labels.png}
+
+\textbf{What is counted (proved).} Every order unit returning one nonzero source falls within $U_j$. An occupied orbit of size $m$ therefore gives exactly $m$ actual targets at each of its $m$ sources. If $\nu_j$ is the number of occupied labels, then\par
+
+\begin{equation*}\tag*{}\label{eq:the-occupied-label-frontier-1}
+N_j\,\mathbb{E}[1/r_j]=\nu_j,\qquad |Q(A_j,A_j)|\le1+\nu_j .
+\end{equation*}
+
+Distinct order-unit classes can map to the same output: equal norms alone only prescribe a field ratio, not necessarily an integral order unit. Counting all candidate ideals in an ambient box is also too costly in the current bounds. The arithmetic count must concern labels actually occupied by this Cartesian square.\par
+
+\textbf{MS-O2-I (open).} Prove or refute that there exist fixed $\gamma>0$, $C_1<\infty$ and $j_0$ such that $\nu_j\le C_1(n_j^2-1)e^{-\gamma d_j}$ for all $j\ge j_0$. If proved, the complete-support inequality and $\log n_j\le B_*d_j$, $B_*=3\log(2T_*+1)$, give every fixed $0<c<\gamma/B_*$ eventually. The exponent at the boundary is not certified. If the estimate fails, other collisions between labels can still reduce the complete image.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{MSR-I1--I4, exact labels, inverse count and divisor budget \cite{labels}}{../../notes/2026-10-21-typical-unit-returns/incidences.md}{research/notes/2026-10-21-typical-unit-returns/incidences.md}
+
+\sourceitem{MS-O2-I, exact quantifiers and strict exponent, §§5--6 \cite{frontier}}{../../notes/2026-10-21-typical-unit-returns/README.md}{research/notes/2026-10-21-typical-unit-returns/README.md}
+
+\clearpage\kicker{RESEARCH REPORT\quad / \quad 08}
+
+\phantomsection\label{sec:evidence-and-reproducibility}\headone{Evidence and reproducibility}
+
+\textbf{The dependency map.} C0 uses a field-supply theorem, square residue containers, and a uniform per-class estimate. The T03 order-unit route imports the tower, then proves field and input growth, then unit population (MS-O1). Return geometry and the occupied-label identity are exact at the fixed radius. The final arrow from an exponential saving in occupied labels to a saving in the entire image is a proved implication with an open premise. Balanced-factor retirement is an independent branch and supplies no step of that implication.\par
+
+\textbf{What the experiments establish.} The small exact orbit and balanced-product runs test a prescribed finite range. In the balanced-factor run, the exact integer-coordinate key and a second complex-norm oracle agreed on every output multiplicity. The figure uses the retained counts of sources with full-fiber size exactly four, rather than the number of \textit{outputs} having that many sources.\par
+
+\localfigure{figures/fiber-audit.png}
+
+\textbf{Reproduction and limitations.} The two-depth JSON and its verification companion record the complete range, conventions and equality checks. The exponent-orbit implementation and its exact results are retained separately. The export reads those records; it does not rerun archived sweeps. MS-O1 and the occupied-label identities are symbolic proofs, not conclusions from either histogram. Repository tests check integrity and regression behavior. The bibliography lists proof records; reported internal proof reviews are not external mathematical verification.\par
+
+\textbf{Related affine branch.} For $Q+x$, the proved transfer also needs a small difference set. Specifically, if $|Q(C,C)|\le K|C|^{2-c_0}$ and $|C-C|\le D|C|^{1+\eta}$ with $0<c_0\le1$ and $0\le\eta<c_0/2$, the produced same-set bound has exponent $(c_0-2\eta)/(1-\eta)$ and a constant prefactor. Every strictly smaller exponent absorbs it eventually. The required witness remains open.\par
+
+\textbf{Source availability.} The T01 fixed-prime digital proof is marked MISSING SOURCE in the inspected intake; a reported result is not a newly inspected proof. The T04 rich-fiber checkpoint, formerly described as unavailable, has been located: §§B--C, Theorem 3. This corrects source availability only. Neither item is a premise for the order-unit bounds.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{Full-fiber data and audit convention \cite{auditdata}}{../../notes/2026-10-11-balanced-full-fibers/data.json}{research/notes/2026-10-11-balanced-full-fibers/data.json}
+
+\sourceitem{Verification and program provenance}{../../notes/2026-10-11-balanced-full-fibers/verification.md}{research/notes/2026-10-11-balanced-full-fibers/verification.md}
+
+\sourceitem{Exponent-orbit finite evidence, §8}{../../notes/2026-09-16-unit-exponent/README.md}{research/notes/2026-09-16-unit-exponent/README.md}
+
+\sourceitem{Affine same-set transfer, §10}{../../notes/2026-09-20-cartesian-norm-freeze/Cartesian_Norm_Symmetry_Research_Checkpoint.md}{research/notes/2026-09-20-cartesian-norm-freeze/Cartesian_Norm_Symmetry_Research_Checkpoint.md}
+
+\sourceitem{Recovered rich-fiber checkpoint, §§B--C}{../../proofs/source-recovery/rich_fiber_results_checkpoint.md}{research/proofs/source-recovery/rich_fiber_results_checkpoint.md}
+
+\clearpage\kicker{SOURCE GUIDE}\begingroup\small\setlength{\parskip}{1pt}\begin{thebibliography}{99}\setlength{\itemsep}{2pt}
+
+\bibitem{c0v5}\textbf{Compression for squares of linear forms plus linear terms}. November 2026. Theorem 1 and proof, section 3; expanded coefficient scope.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/proofs/c0-v5/theorem-and-proof.tex}\par}
+
+\bibitem{c0sep}\textbf{Phase C0 corrected and auditable baseline}. September 2026. Historical Theorem C0.1; the November theorem broadens the hypotheses.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/proofs/c0-2026-09-03/Phase_C0_Corrected.md}\par}
+
+\bibitem{fieldSupply2026}\textbf{Planar Point Sets with Many Unit Distances}. OpenAI 2026. Proposition 3.8, the external field-supply input cited in the C0 proof.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf}\par}
+
+\bibitem{orbit}\textbf{Exponent-box construction and Cartesian projection}. September 2026. UE-P1 to UE-P3, sections 1 to 3.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-09-16-unit-exponent/primary-proof.md}\par}
+
+\bibitem{dyadic}\textbf{Cross-block returns and full-fiber obstructions}. October 2026. XB-F1 and XB-F2; two specified dyadic carriers.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-06-cross-block-returns/README.md}\par}
+
+\bibitem{balanced}\textbf{Balanced-factor carrier retirement}. October 2026. BFF-O1, sections 1 to 4; full-fiber proof.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-11-bff-o1/README.md}\par}
+
+\bibitem{auditdata}\textbf{Balanced-factor full-fiber counts}. October 2026. Exact two-depth distributions; finite evidence.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-11-balanced-full-fibers/data.json}\par}
+
+\bibitem{field}\textbf{Mixed-signature fields and relative order units}. October 2026. MS-F1 to MS-F6.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-20-mixed-signature/field-units.md}\par}
+
+\bibitem{window}\textbf{Mixed-signature lattice windows}. October 2026. MS-W1 to MS-W3; exhaustive cutoff and seed bounds.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-20-mixed-signature/window-returns.md}\par}
+
+\bibitem{population}\textbf{Exponential relative order-unit population}. October 2026. MSU-A1 to MSU-A3; logarithmic covolume, explicit radius and population.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-21-relative-unit-population/arithmetic.md}\par}
+
+\bibitem{phases}\textbf{Source-dependent unit-return windows with all phases retained}. October 2026. MS2-W1 to MS2-W3; local domains, global phases and translations.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-21-typical-unit-returns/source-windows.md}\par}
+
+\bibitem{labels}\textbf{Discrete unit incidences and occupied arithmetic labels}. October 2026. MSR-I1 to MSR-I4; orbit partition, inverse count and exact order labels.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-21-typical-unit-returns/incidences.md}\par}
+
+\bibitem{frontier}\textbf{Typical-pair unit returns}. October 2026. Sections 5 and 6; inverse-moment implication and open MS-O2-I.\par{\fontsize{8.6}{10}\selectfont\nolinkurl{research/notes/2026-10-21-typical-unit-returns/README.md}\par}
+
+\end{thebibliography}\endgroup
+
+\end{document}

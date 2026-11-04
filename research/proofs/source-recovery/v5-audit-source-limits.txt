@@ -1,0 +1,18 @@
+LIMITS THAT MUST ACCOMPANY THE VERDICT
+1. The full proofs of the rich-fiber exact count 4N^2-N+1 and the fixed-prime
+   digital obstruction on printed p.16 are unavailable locally. Their displayed
+   identities were checked, but the full theorems remain source-reported.
+   The report already says this correctly. Omit them from the main talk if
+   you cannot explain their dependency limits, or explicitly retain that label.
+2. The balanced-factor retirement proof was inspected through its core tower,
+   elimination and final counting steps. The inherited amplitude/norm
+   classification was not fully re-audited. It is not a from-first-principles
+   independent reproof of all prerequisites.
+3. The adaptive radical counts (2,2),(4,5),(8,17),(16,68),(32,269) were source-
+   matched, not independently recomputed. Finite certificates were not rerun.
+4. The field tower, standard arithmetic/regulator results and external expansion
+   theorem remain imported results. Primary-source statements and relevant proof
+   steps were inspected; this audit does not reprove all of their upstream theory.
+   The 1984 unit-distance upper-bound proof was not independently re-audited.
+5. This is independent internal checking with parallel reviewers, not external
+   peer review, a novelty survey, or a solution of any of the four open targets.

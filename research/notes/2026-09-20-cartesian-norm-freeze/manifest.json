@@ -1,0 +1,215 @@
+{
+  "checkpoint_id": "CNS-FREEZE-20260920",
+  "version": 1,
+  "date": "2026-09-20",
+  "track": "T03",
+  "polynomial": "x^2+xy+y^2",
+  "mode": "documentation freeze only",
+  "evidence": "Retained complete proofs and prior internal reviews; documentary source-consistency review only in this task.",
+  "verdict": "ACTION GO / CARTESIAN FAIL in specified scopes",
+  "artifacts": [
+    {
+      "path": "research/notes/2026-09-20-cartesian-norm-freeze/Cartesian_Norm_Symmetry_Research_Checkpoint.md",
+      "bytes": 47968,
+      "sha256": "f68da8740c16d475d3023ca111bbc0f4201d622459f22a703733902128d5493f"
+    },
+    {
+      "path": "research/notes/2026-09-20-cartesian-norm-freeze/README.md",
+      "bytes": 965,
+      "sha256": "f364f3d4606e8104494ae088deca1798dbbf7dd647d694ce621c264ccdad13ce"
+    },
+    {
+      "path": "research/notes/2026-09-20-cartesian-norm-freeze/verification.md",
+      "bytes": 4570,
+      "sha256": "e41a7060803dca09406af4589f1d872ad350b2d7478f7c79bc462c873d0e08f8"
+    },
+    {
+      "path": "output/pdf/Cartesian_Norm_Symmetry_Research_Checkpoint.pdf",
+      "bytes": 2069301,
+      "sha256": "ec5a27707a3c3f41ad85e01f481e55020b6f89dcf6d42b980e27bdd5aefcd82b"
+    }
+  ],
+  "source_file_identities": [
+    {
+      "path": "local-only/migration/research_supplement/shared/C0_CORRECTION_LOG.md",
+      "bytes": 6459,
+      "sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480"
+    },
+    {
+      "path": "local-only/migration/research_supplement/shared/Phase_C0_Corrected.md",
+      "bytes": 28002,
+      "sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be"
+    },
+    {
+      "path": "local-only/migration/sources/T01_Norm_Trace_Quadratic_Research_Checkpoint.md",
+      "bytes": 23468,
+      "sha256": "a9de1edb1ebc43465de7e12cd2e815e8647b4199a0c303afff2e4a8815abc0db"
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/README.md",
+      "bytes": 22489,
+      "sha256": "15d8405cdd2d3b2b41bc503dacc8af0c25d3dfe340a5a4252666de39d540d067"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/carrier-screen.md",
+      "bytes": 18059,
+      "sha256": "911639903102a7d57d27110cf546a54fb2083339689c85139320f64e6b2c89eb"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "bytes": 28388,
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/experiments.md",
+      "bytes": 6539,
+      "sha256": "7fdc3728d13b2930ffcf0c8e8a0a331e47e835d531df81c7cbdad22b4ceb142d"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "bytes": 19551,
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/validation.md",
+      "bytes": 5968,
+      "sha256": "9954922662104bbce02c34f1f28549c7da0f241ef3dfa288818110a2db0c99ef"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/README.md",
+      "bytes": 39786,
+      "sha256": "8461ef585241538ea53e57d792ddade1e0ec92677c6e716fe6fbc97d95ce0ed4"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/verification.md",
+      "bytes": 7196,
+      "sha256": "30860f2959e237a187b136947842353c9efb235e0b04b2614ee9704e4f817e8c"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-offline/README.md",
+      "bytes": 18523,
+      "sha256": "ffc7a74e1ede61672dafbc4b10c7b391bfe2586bf7cfe49e917a3b773cf54a30"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-offline/independent-audit.md",
+      "bytes": 12976,
+      "sha256": "508bbdae68b5ebf2d38cbd48aca8a3a90e69d809aefdc12c83d20731c272f0b8"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-offline/local-action.md",
+      "bytes": 17947,
+      "sha256": "3f1dbc726a31dcb6da2ff3a18e4551789f9e8fe19cae9a3af91d110854495450"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-offline/verification.md",
+      "bytes": 7852,
+      "sha256": "a2bc22526e94d92c9014b7edb57604e9f074cfb2bac0d589669d6c13bcc16f22"
+    },
+    {
+      "path": "research/notes/2026-09-16-solvable-norm-trace/sign-cube.md",
+      "bytes": 12636,
+      "sha256": "195582ca56ee4644e2cf68df93ca290e0550314ab28d6cf99d0f31e7aa48e72f"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/README.md",
+      "bytes": 28287,
+      "sha256": "d5c2575ec3cf005d1184ea2b9f0f153e7ecfd36c8c9050f7a02607f25bc5269c"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/local-count-proof.md",
+      "bytes": 12737,
+      "sha256": "64aab89a6d618d42559207dd618d3370d251c5964459cb136d3e369e24d2dc16"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/product-realization.md",
+      "bytes": 19313,
+      "sha256": "d01a61738ddabfee5e8a5ac7ed62ee61fe8250cc6a69433c5e75d8e09054b7ba"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/verification.md",
+      "bytes": 11960,
+      "sha256": "10a12857c6f07d25eb123ac28b2a1f6c17e33fb9ef10339d162e9fd8a358a46b"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/README.md",
+      "bytes": 27707,
+      "sha256": "5056cce252d8e5acdf8cb3e59214a857fb34fd6fb23b0ee09be6bcb7f86ef473"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/primary-proof.md",
+      "bytes": 21268,
+      "sha256": "e043643d28cb9bea69ba4bcf47dc044ff8e0aa69a88eca90c8f0cb53bfa10da9"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/secondary-proof.md",
+      "bytes": 22150,
+      "sha256": "d638d84b22d4307328db77e0fd02ff81d614383220e61eb0b76d0c5630f73868"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/verification.md",
+      "bytes": 10922,
+      "sha256": "5f0d878af45993f387296811cf740427c1be7dea4743bca460c9136ff6eba10d"
+    }
+  ],
+  "sources_note": "Hashes freeze dependency identities; listing a source does not claim a fresh independent proof audit. Original manifests remain authoritative for original cycles.",
+  "prior_unit_checks": {
+    "tests_passed": 52,
+    "baseline_checks_passed": 159,
+    "rerun_in_this_task": false
+  },
+  "current_checks": {
+    "repository_archived_sources": 39,
+    "repository_markdown_files": 80,
+    "local_references": 50,
+    "t03_archive_members": 43,
+    "pdf_pages": 21,
+    "math_expressions": 350,
+    "visual_inspection": "PASS"
+  },
+  "preservation": {
+    "baseline_files": 162,
+    "unchanged_non_append_files": 157,
+    "unexpected_changes": [],
+    "append_integrity": {
+      "research/CURRENT_PROJECT_MAP.md": true,
+      "research/tracks/03-eisenstein-cartesianization/STATUS.md": true,
+      "research/FAILURE_LIBRARY.md": true,
+      "research/OPEN_LEMMAS.md": true,
+      "research/MECHANISM_LIBRARY.md": true
+    }
+  },
+  "append_records": {
+    "research/CURRENT_PROJECT_MAP.md": {
+      "prefix_bytes": 11940,
+      "prefix_sha256": "cac38f4fe1b6ff38c92c1dcc13bb4253fd0fe5c036ae9a8eb7bb9afdc6316089",
+      "append_sha256": "3c04803621b1aa1d51267c4e004ae8f686f5720c7fd53456158ef87f9fca0e5d"
+    },
+    "research/tracks/03-eisenstein-cartesianization/STATUS.md": {
+      "prefix_bytes": 18569,
+      "prefix_sha256": "f6d901b5852ff2280fcf2fcf31688332603086e142d1b5f1eaef7d138e1124e1",
+      "append_sha256": "1a00d287c4dcd3f14f96ea1b79c4e0b2d9f02e5876747a3e88f16c714f0b294f"
+    },
+    "research/FAILURE_LIBRARY.md": {
+      "prefix_bytes": 43302,
+      "prefix_sha256": "da8221565b29cccb68b38ab1d210d33eda741311f8ccd3e1c8a659b3ffba97ec",
+      "append_sha256": "d784e002389942100cf0bdf590347067e8e98a30dce69735bcd3c18d0223a43a"
+    },
+    "research/OPEN_LEMMAS.md": {
+      "prefix_bytes": 14446,
+      "prefix_sha256": "23c9127a20861389a258f0c475d4b852487635b009229f43e1f708cd94f5fc66",
+      "append_sha256": "2b1da8f48a93e05801fcc33a059c3f5894fdfc49615e9059fd358321479505a3"
+    },
+    "research/MECHANISM_LIBRARY.md": {
+      "prefix_bytes": 14417,
+      "prefix_sha256": "c225e6dff7a64732ea0636901acc8e8fc8ef8b147d93b3d7dca6421bb36eeaa1",
+      "append_sha256": "235305772a2ed3664bf546df0903d2266ffd264a74be84a4da3e10a8e98f9303"
+    }
+  },
+  "local_provenance_directory": "local-only/runs/T03/2026-09-20-cartesian-norm-freeze",
+  "commit_made": false
+}

@@ -1,0 +1,155 @@
+{
+  "scope": "New 2026-10-06 fiber-growth companions; excludes this manifest. No historical manifest rewritten.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9330,
+      "sha256": "344a26592bf14fc048b1820951be9c1443db6c5b889b5f7b34b7f38d75441d8f"
+    },
+    {
+      "path": "amplitudes.md",
+      "bytes": 18481,
+      "sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 21793,
+      "sha256": "77237016b617ba1769651b02794f0e7872207ef5f3f656dcc6a29cd840e0b9e8"
+    },
+    {
+      "path": "data.json",
+      "bytes": 5140,
+      "sha256": "e2abb4738a6a9ea0310f872b8b9773927b8029e51c75622e3fd7a203cc53720a"
+    },
+    {
+      "path": "fibers.md",
+      "bytes": 22104,
+      "sha256": "e04cce623dfbc1c1476895d7f1fd163903966a5ae7d0f12a9ca54a70c60a629b"
+    },
+    {
+      "path": "ledger.md",
+      "bytes": 7293,
+      "sha256": "455256354d3d279994eb4f806943ec0d1432784219a55d4cb1792d39cb0cc782"
+    },
+    {
+      "path": "state.json",
+      "bytes": 9633,
+      "sha256": "2b3ec61a75c43625f78b32db660569da906bc31e8a0eeab9a898409481fa1bf7"
+    },
+    {
+      "path": "verification.md",
+      "bytes": 10881,
+      "sha256": "774da02b4ad3ed143310ebf20e548b7a7c11c6862c90c36825c9ac3e50c06076"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "research/notes/2026-10-06-cross-block-returns/README.md",
+      "bytes": 6672,
+      "sha256": "9b6eb3c050a5cce0fb4c67f6056ba30bc1d4f481ac6163a34cbe4572553edb72"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-returns/audit.md",
+      "bytes": 12905,
+      "sha256": "a9f31edee3fdb046f29530199b9f8bda7451960a75aefd18b3140afa3680bb58"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-returns/actions.md",
+      "bytes": 13840,
+      "sha256": "232fb3a475668247fe278a6c236e220c1d35bd5e6514be22649dbcf2de5e4ac8"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-returns/composition.md",
+      "bytes": 12018,
+      "sha256": "31556a9bb41dc23e852e6a4e190d7d9cffa28927bb6aa649290ccf57fd57a377"
+    },
+    {
+      "path": "research/notes/2026-09-30-multiscale-packing/composition.md",
+      "bytes": 22862,
+      "sha256": "2b5d044beaac8a01eacd1442fd2733be6efc433baf0e22e2eae72173c7c9fa08"
+    },
+    {
+      "path": "research/notes/2026-09-30-multiscale-packing/audit.md",
+      "bytes": 23069,
+      "sha256": "a2615cdf995ef2d071fd2042ba041ebfcbc5a29c6148057469b77834bbe3ce0a"
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/proofs.md",
+      "bytes": 19264,
+      "sha256": "2d020a9dd84d67179f4b190d393f3712ff34c05b4c823fb145417b7a1ed2b1fd"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "bytes": 28388,
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d"
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850"
+    },
+    {
+      "path": "experiments/modular_lift.py",
+      "bytes": 9263,
+      "sha256": "0be8b14d111991ec4df96141702e9f4ef156088fc70c3517abd377240b0f6f14"
+    },
+    {
+      "path": "tests/test_modular_lift.py",
+      "bytes": 865,
+      "sha256": "b6f999267579be7850e8470b2d1a82f5fd6e1bc5e13af45a54b7492542dfe0d3"
+    }
+  ],
+  "local_run_files": [
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/budget-initial.json",
+      "bytes": 972,
+      "sha256": "53288d87b24b769d2f4895a156b20448d61dd8436340fd54e70ab42b5e49b049"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/budget.json",
+      "bytes": 1090,
+      "sha256": "29388849aeba1be0402db603d3d8124d1eb3d5e2762c2a9a92d1947ca69d5ffc"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/case-k1.json",
+      "bytes": 1423,
+      "sha256": "eddef4a2b423f6ffc17518783405a56976353e673bccbdbb1881da4880fb3ac8"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/case-k2.json",
+      "bytes": 131349,
+      "sha256": "2e759985134bb88496dd581e4de88a3c4daaba7d392bdac3b1801b659c15ef0b"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/handoff-appends.json",
+      "bytes": 2750,
+      "sha256": "1ed648518437e9d53caf5fce4a9fb293c156bb537f566d9ccdd6253fa1418fab"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/preservation-check.json",
+      "bytes": 2065,
+      "sha256": "4a58ea67f69893fefea4733ab17ef51227118f51b8aa37df5bd77d8df6219626"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/scout-results.json",
+      "bytes": 2812,
+      "sha256": "27c4a0c27073cc0a15e050ceb2eb4f439effe6eb5d4c89284305a10399242415"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/scout.py",
+      "bytes": 6261,
+      "sha256": "f484e5ab204c7c8c3aa924a901e5dc4631eca3ea5d55d55635db6e1d3f7d6b46"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/verification-results.json",
+      "bytes": 685,
+      "sha256": "3396362bd99ca2d90ca46f57e1bcf93f2d6db69906fa512fdfe367b8138c6972"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-fiber-growth/verify_scout.py",
+      "bytes": 3093,
+      "sha256": "b1bd591b7634e54b72bc37fe9ff3c9727d2999522f5a2aeea41f61db06f02799"
+    }
+  ],
+  "local_handoff_note": "Ignored run sources and exact inputs must accompany repository for full reproduction."
+}

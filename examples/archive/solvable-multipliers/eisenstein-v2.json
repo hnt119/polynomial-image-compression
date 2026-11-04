@@ -1,0 +1,560 @@
+{
+  "action_pair_tests": 283992,
+  "arithmetic": "exact independent multiquadratic coefficients; shared-denominator integer Q and action tests",
+  "branch": "T03 separate multiplier diagnostics; not adaptive RC15/4",
+  "budget": {
+    "action_pair_cap": 1000000,
+    "cpu_seconds_cap": 240.0,
+    "pair_output_cap": 600000
+  },
+  "code_sha256": "cb3de0a0a616b6df4e5a4e0a6d7f55476b71a9a2b9654d86e81c1e86a9929b17",
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3",
+    "-m",
+    "experiments.eisenstein_solvable",
+    "--output",
+    "local-only/runs/T03/2026-09-16-solvable-multipliers/eisenstein-v2.json"
+  ],
+  "completed": true,
+  "cpu_seconds": 3.843766,
+  "embedding": "all square roots positive; injective real field embedding",
+  "errors": [],
+  "experiment": "eisenstein-solvable-multiplier-carriers",
+  "families": {
+    "F1": "Z=product u_i^{e_i}, e_i in {-1,0,1}",
+    "F2": "Z=(1+sum b_i sqrt(p_i))*product u_i^{e_i}; b_i in {0,1}, e_i in {-1,0,1}",
+    "F3": "Z=product {1,sqrt(p_i),pi_i,conjugate(pi_i)}",
+    "common": "pi_i=1-omega sqrt(p_i); u_i=pi_i/conjugate(pi_i); A=signed union of both coefficient projections of Z"
+  },
+  "limitations": [
+    "Finite exact counts do not establish an asymptotic power saving.",
+    "Field degree and denominator/height growth have not been converted into a positive rate.",
+    "No random sampling, external data, or imported serialized state is used.",
+    "F3 tail actions are not tested; F1 and F2 use every listed multiplier."
+  ],
+  "pair_output_evaluations": 38524,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "polynomial": "x^2+xy+y^2",
+  "python": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "results": [
+    {
+      "action_pair_tests": 240,
+      "cpu_seconds": 0.0022739999999999982,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "9783eb6950233afe180c2a9d20d550eb29325ad4bce04318132fca6f7dc7d858",
+      "engineered_pairs": 3,
+      "family": "F1",
+      "field_degree": 2,
+      "full_image_size": 18,
+      "input_common_denominator": 7,
+      "input_sha256": "ef0e140b6caf6a8bc98cb3fd70fd22a1b40f43f408bc0379b0997f5cfc899423",
+      "input_size": 9,
+      "m": 1,
+      "max_abs_scaled_coefficient": 7,
+      "max_abs_scaled_output_coefficient": 153,
+      "ordered_pairs": 81,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 4,
+        "4": 9,
+        "6": 3,
+        "18": 1
+      },
+      "output_sha256": "abada56dbe489be864d6cc7634a4db877f7b1da371b20bebf583069b719223a9",
+      "pair_output_evaluations": 85,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 82
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 63,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 207
+          },
+          {
+            "M": 3,
+            "exceptional_pairs": 75,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 102
+          }
+        ],
+        "multiplier_common_denominator": 7,
+        "multiplier_hash": "d2d219be678c16ddc74829d56fbc54558ae51e8aaa26065446248f26334e7d16",
+        "multipliers": 3,
+        "nonzero_pairs_by_return_count": {
+          "1": 62,
+          "2": 12,
+          "3": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 78,
+      "word_labels_before_deduplication": 3
+    },
+    {
+      "action_pair_tests": 6552,
+      "cpu_seconds": 0.06224600000000001,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "9a515e761d4659f2cdb2a3a6ca7d8dc7ea8872cc2bf9fccbbfd0ddec3227110f",
+      "engineered_pairs": 9,
+      "family": "F1",
+      "field_degree": 4,
+      "full_image_size": 171,
+      "input_common_denominator": 91,
+      "input_sha256": "ad1cabf0a9d6b6e1d3290c0b7e51bc9af23f71ce2b576023d41c90942812b5c1",
+      "input_size": 27,
+      "m": 2,
+      "max_abs_scaled_coefficient": 91,
+      "max_abs_scaled_output_coefficient": 25857,
+      "ordered_pairs": 729,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 13,
+        "4": 144,
+        "6": 12,
+        "54": 1
+      },
+      "output_sha256": "793f3095ca682e935e2f614b53e4082cc7c5d4c84067ca3e5b8444879b6fc7a6",
+      "pair_output_evaluations": 740,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 730
+          },
+          {
+            "M": 4,
+            "exceptional_pairs": 675,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 3429
+          },
+          {
+            "M": 6,
+            "exceptional_pairs": 699,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 1641
+          },
+          {
+            "M": 9,
+            "exceptional_pairs": 723,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 804
+          }
+        ],
+        "multiplier_common_denominator": 91,
+        "multiplier_hash": "77554042849475726a49c96eb52e8e3310b505d032da201641f8e6bec0fdf42b",
+        "multipliers": 9,
+        "nonzero_pairs_by_return_count": {
+          "1": 674,
+          "4": 24,
+          "6": 24,
+          "9": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 720,
+      "word_labels_before_deduplication": 9
+    },
+    {
+      "action_pair_tests": 177120,
+      "cpu_seconds": 2.679815,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "802ba2b7f07639da15b38d3779a5f9305d5554a6760bb6195f2df30f200fb6c5",
+      "engineered_pairs": 27,
+      "family": "F1",
+      "field_degree": 8,
+      "full_image_size": 1602,
+      "input_common_denominator": 2821,
+      "input_sha256": "a4b38b339c59444e6312855ca249d56841c312d1a35e9e8a379ec7d5459b87a8",
+      "input_size": 81,
+      "m": 3,
+      "max_abs_scaled_coefficient": 2821,
+      "max_abs_scaled_output_coefficient": 24848577,
+      "ordered_pairs": 6561,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 40,
+        "4": 1521,
+        "6": 39,
+        "162": 1
+      },
+      "output_sha256": "1a4032d92640219c22714a367eb9e2d7d8cd1bd8b662b0f3b818619f9fd53808",
+      "pair_output_evaluations": 6591,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 6562
+          },
+          {
+            "M": 8,
+            "exceptional_pairs": 6399,
+            "support_bound_denominator": 8,
+            "support_bound_numerator": 57753
+          },
+          {
+            "M": 12,
+            "exceptional_pairs": 6447,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 27975
+          },
+          {
+            "M": 18,
+            "exceptional_pairs": 6519,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 13767
+          },
+          {
+            "M": 27,
+            "exceptional_pairs": 6555,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 6798
+          }
+        ],
+        "multiplier_common_denominator": 2821,
+        "multiplier_hash": "9bf2a00197793d51e4681d4b6daa7c64d52cf631a17092b18260dbee5975731d",
+        "multipliers": 27,
+        "nonzero_pairs_by_return_count": {
+          "1": 6398,
+          "8": 48,
+          "12": 72,
+          "18": 36,
+          "27": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 6534,
+      "word_labels_before_deduplication": 27
+    },
+    {
+      "action_pair_tests": 864,
+      "cpu_seconds": 0.006616000000000177,
+      "engineered_norms": 2,
+      "engineered_norms_sha256": "9aa7fcf1dd250d810a5c63a37944aca65613853df880ddf05fa9f290ade4b9eb",
+      "engineered_pairs": 6,
+      "family": "F2",
+      "field_degree": 2,
+      "full_image_size": 59,
+      "input_common_denominator": 7,
+      "input_sha256": "0bfd8910bb7cd4cc1e840b2868c4625bb9f194b0ef08417d38db7e30623d2085",
+      "input_size": 17,
+      "m": 1,
+      "max_abs_scaled_coefficient": 10,
+      "max_abs_scaled_output_coefficient": 516,
+      "ordered_pairs": 289,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 7,
+        "4": 39,
+        "6": 5,
+        "8": 1,
+        "10": 2,
+        "12": 2,
+        "18": 2
+      },
+      "output_sha256": "bd7dffb67ea4bae01cda5a69734d7c3bc5f7ac2c97488a6ca03aa805a8f7846e",
+      "pair_output_evaluations": 296,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 290
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 233,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 755
+          },
+          {
+            "M": 3,
+            "exceptional_pairs": 277,
+            "support_bound_denominator": 3,
+            "support_bound_numerator": 1120
+          }
+        ],
+        "multiplier_common_denominator": 7,
+        "multiplier_hash": "d2d219be678c16ddc74829d56fbc54558ae51e8aaa26065446248f26334e7d16",
+        "multipliers": 3,
+        "nonzero_pairs_by_return_count": {
+          "1": 232,
+          "2": 44,
+          "3": 12
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 283,
+      "word_labels_before_deduplication": 6
+    },
+    {
+      "action_pair_tests": 99216,
+      "cpu_seconds": 1.0021619999999998,
+      "engineered_norms": 4,
+      "engineered_norms_sha256": "a8b089c819e608ddfc64128ca5d90aa4ee6c5debe9ed3fa7ba485d5eb379f154",
+      "engineered_pairs": 36,
+      "family": "F2",
+      "field_degree": 4,
+      "full_image_size": 2690,
+      "input_common_denominator": 91,
+      "input_sha256": "1b54b2d1abadbc473ea039ad3d03c45691ac4cd7fa5738be164bd4176692c449",
+      "input_size": 105,
+      "m": 2,
+      "max_abs_scaled_coefficient": 147,
+      "max_abs_scaled_output_coefficient": 155664,
+      "ordered_pairs": 11025,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 51,
+        "4": 2573,
+        "6": 47,
+        "8": 8,
+        "10": 2,
+        "12": 4,
+        "54": 4
+      },
+      "output_sha256": "55180bed39444da9e0669ebf05858b3255b055574f761ce43269f55c72db8fc4",
+      "pair_output_evaluations": 11063,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 11026
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 10697,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 32419
+          },
+          {
+            "M": 4,
+            "exceptional_pairs": 10809,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 54261
+          },
+          {
+            "M": 6,
+            "exceptional_pairs": 10905,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 25485
+          },
+          {
+            "M": 9,
+            "exceptional_pairs": 11001,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 12226
+          }
+        ],
+        "multiplier_common_denominator": 91,
+        "multiplier_hash": "77554042849475726a49c96eb52e8e3310b505d032da201641f8e6bec0fdf42b",
+        "multipliers": 9,
+        "nonzero_pairs_by_return_count": {
+          "1": 10696,
+          "2": 112,
+          "4": 96,
+          "6": 96,
+          "9": 24
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 10989,
+      "word_labels_before_deduplication": 36
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.000380000000000269,
+      "engineered_norms": 3,
+      "engineered_norms_sha256": "927bd307e2c972417027241985ecc510b6548ea360815ef542ca4ba05777ac81",
+      "engineered_pairs": 4,
+      "family": "F3",
+      "field_degree": 2,
+      "full_image_size": 11,
+      "input_common_denominator": 1,
+      "input_sha256": "6707f3c458c9cf69238ba585272d3614d99df57bda19b23d7fe4589398cfa77e",
+      "input_size": 7,
+      "m": 1,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 9,
+      "ordered_pairs": 49,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 3,
+        "4": 3,
+        "6": 3,
+        "12": 1
+      },
+      "output_sha256": "5d617ddb5396ca38fca0930ae4b366a54fef68316e5df2d4dcd01c7d389e97c0",
+      "pair_output_evaluations": 54,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 45,
+      "word_labels_before_deduplication": 4
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.0031689999999997553,
+      "engineered_norms": 9,
+      "engineered_norms_sha256": "5c1638e27bc74f9e890bd6338eba0400619b19662c4118966f8672df9a5db04c",
+      "engineered_pairs": 16,
+      "family": "F3",
+      "field_degree": 4,
+      "full_image_size": 163,
+      "input_common_denominator": 1,
+      "input_sha256": "5293f955de00411e932f8e851d02ec0ae5d58ff2f59aacffde953f277bd6ea29",
+      "input_size": 29,
+      "m": 2,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 33,
+      "ordered_pairs": 841,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 10,
+        "4": 115,
+        "6": 12,
+        "8": 6,
+        "12": 18,
+        "24": 1
+      },
+      "output_sha256": "f04b3bbb19f3afbea232a5445e556ebdb7bf14667f4bbe244f3962af512075ef",
+      "pair_output_evaluations": 859,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 825,
+      "word_labels_before_deduplication": 16
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.07468399999999997,
+      "engineered_norms": 27,
+      "engineered_norms_sha256": "9462d6a8980313a92f0631024930bf40aaeaec8a73ec62767d0adb9bd1f918b8",
+      "engineered_pairs": 64,
+      "family": "F3",
+      "field_degree": 8,
+      "full_image_size": 4289,
+      "input_common_denominator": 1,
+      "input_sha256": "3dcec9881e3606cb9eece1a8e2104399debe81e22f6632372432a157b078ac05",
+      "input_size": 137,
+      "m": 3,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 186,
+      "ordered_pairs": 18769,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 52,
+        "4": 3978,
+        "6": 55,
+        "8": 32,
+        "12": 163,
+        "18": 1,
+        "24": 6,
+        "48": 1
+      },
+      "output_sha256": "b6cc848e0ca2f8d70afca10531cd7c3f4fbec833f8f8478daa0ab2e237e1712a",
+      "pair_output_evaluations": 18836,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 18705,
+      "word_labels_before_deduplication": 64
+    }
+  ],
+  "results_sha256": "e5b4c1e05785f6a8d97d1395a6d4ead28cdedeaad3f4d68d7860e3e68510e0f0",
+  "schedule": [
+    [
+      "F1",
+      1
+    ],
+    [
+      "F1",
+      2
+    ],
+    [
+      "F1",
+      3
+    ],
+    [
+      "F2",
+      1
+    ],
+    [
+      "F2",
+      2
+    ],
+    [
+      "F3",
+      1
+    ],
+    [
+      "F3",
+      2
+    ],
+    [
+      "F3",
+      3
+    ]
+  ],
+  "started_utc": "2026-09-15T16:38:38.652397+00:00",
+  "wall_seconds": 3.8604614170035347
+}

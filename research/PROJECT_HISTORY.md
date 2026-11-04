@@ -73,3 +73,7 @@ specifications. External novelty has not been reverified for this release.
 
 See [the source recovery record](HISTORY_SOURCES.md) for inspected sections,
 remaining missing inputs, and links to the preserved files.
+
+## 5 November 2026 evidence publication
+
+The [dated snapshot](exports/2026-11-05-evidence/README.md) collects the C0 and full-rank quadratic evidence. The 3 November proof relaxes the September coefficient hypotheses. BFF-O1 settles its carrier negatively; MS-O1 proves unit supply. The mixed-signature occupied-label saving (MS-O2-I) and the unrestricted full-rank target remain open. See the dated [T03 addenda](tracks/03-eisenstein-cartesianization/STATUS.md) for the intervening checkpoints. Other tracks retain their separate targets.

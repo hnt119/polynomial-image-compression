@@ -1,0 +1,112 @@
+{
+  "field_modulus": [
+    1,
+    -1,
+    1
+  ],
+  "scaled3A": [
+    [
+      -24,
+      0
+    ],
+    [
+      -21,
+      0
+    ],
+    [
+      -18,
+      0
+    ],
+    [
+      -15,
+      0
+    ],
+    [
+      -12,
+      0
+    ],
+    [
+      -9,
+      0
+    ],
+    [
+      -6,
+      0
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      15,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      24,
+      0
+    ]
+  ],
+  "summary": {
+    "k": 1,
+    "q": 1,
+    "m": 6,
+    "t": 8,
+    "n": 17,
+    "image": 44,
+    "median_full_fiber": 12,
+    "full_fiber_histogram": {
+      "1": 1,
+      "2": 8,
+      "4": 64,
+      "6": 66,
+      "12": 132,
+      "18": 18
+    },
+    "max_full_fiber": 18,
+    "max_F_line": null,
+    "F_line_population_histogram": {},
+    "projective_directions": null,
+    "tails": {
+      "1/4": {
+        "threshold_ceiling": 3,
+        "bad_pairs": 9
+      },
+      "1/2": {
+        "threshold_ceiling": 5,
+        "bad_pairs": 73
+      }
+    },
+    "zero_fiber": 1,
+    "encoded_orbit_points": 48,
+    "method": "Complete ordered-pair enumeration; exact cyclotomic integer coefficient equality; scalar set is3A",
+    "full_distribution_sha256": "e09c0da01b2becefe3186fdbd85d9a98461f13734379d0dc8417b7ba690d3ff8"
+  }
+}

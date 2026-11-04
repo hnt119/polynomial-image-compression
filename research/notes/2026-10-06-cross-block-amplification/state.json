@@ -1,0 +1,278 @@
+{
+  "track": "T03",
+  "date": "2026-10-06",
+  "version": 1,
+  "cycle": "Cross-Block Fiber Amplification Beyond Spreading",
+  "mode": "strictly offline",
+  "target": "Explicit growing same-set real A with polynomial full fibers outside a power-saving pair tail for Q=x^2+xy+y^2",
+  "construction_found": false,
+  "candidate_count": 2,
+  "finalist_count": 2,
+  "mutations": 0,
+  "team": {
+    "specialists": 3,
+    "nested_agents": 0
+  },
+  "product_rule": {
+    "formula": "c_(h,i)=h prod_(l=0)^(r-1)(2-xi^(i_l*7^l)), h1..8,i_l in\u22123..3,q7^r",
+    "amplitude_inventory": "PROVED:8q disjoint cosets",
+    "scalar_size": "PROVED:8q^2<=n<=48q^2",
+    "encoded_norm_values": "8*4^r",
+    "encoded_fiber": "6q*2^s, s nonzero digits",
+    "encoded_pair_weighted_histogram": "H_Gamma(6q*2^s)=48q*binom(r,s)*6^s, 0<=s<=r",
+    "certificate_status": "FAILED IN STATED SCOPE",
+    "certificate_scope": "All coordinatewise factor-switch equal-Q targets from all scalar representations; sign/swap; all equal-Q edges inside Gamma; arbitrary finite iteration",
+    "rich_certificate_source_upper_bound": "1536q^3*4^r+48q^2",
+    "low_certificate_population": "at least n^2/2 with R_cert<=4 for r>=8",
+    "full_fiber_tail": "OPEN",
+    "actual_image_rate": "OPEN"
+  },
+  "phase_sum_rule": {
+    "formula": "c_(h,j)=h sum_(a modq)xi^(a^2+ja)",
+    "identity": "G_j=xi^(\u2212j^2/4)G_0; |G_0|^2=q",
+    "status": "FAILED IN STATED SCOPE",
+    "failure": "exactly8cosets rather than8q forq>1",
+    "actual_scalar_bounds": "3q<=n<=48q",
+    "encoded_points": "48q",
+    "encoded_fiber": "6q",
+    "uncovered_sources": "at least n^2\u221248q; no full-fiber upper bound inferred",
+    "actual_image_rate": "OPEN for deduplicated completion"
+  },
+  "final_gate": {
+    "epsilon": null,
+    "delta": null,
+    "c": null,
+    "rectangular_eta": "inapplicable; same scalar set",
+    "support_implication": "PROVED inherited lemma; witness hypothesis not obtained"
+  },
+  "claims": [
+    {
+      "id": "AMP-D0",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Any finite actual complete orbit union with a common non-sign norm-one symmetry",
+      "result": "encoded count <= floor((3n^2+1)/4); valid8q inventory implies n>=8q",
+      "file": "audit.md",
+      "section": "2",
+      "version": 2,
+      "file_sha256": "0dac3200d89fd1cfdd72af5297d4f9664109941a2cd7f68e07707168f1e4e6b3",
+      "dependencies": [
+        "DC-M1"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-A1",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every r>=0, q=7^r; centered digits\u22123..3 and fixed scales1..8",
+      "result": "exact8q nonzero disjoint mu_(6q) amplitude cosets",
+      "file": "amplitudes.md",
+      "section": "1",
+      "version": 1,
+      "file_sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6",
+      "dependencies": [
+        "FG-A1 field relation"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-A2",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every r>=1 for product completion; r=0 seed n=17",
+      "result": "8q^2<=n<=48q^2; actual inputfactor49",
+      "file": "amplitudes.md",
+      "section": "2",
+      "version": 1,
+      "file_sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6",
+      "dependencies": [
+        "AMP-A1",
+        "omega not in Q(xi)"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-A3",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every r>=0; encoded union only",
+      "result": "8*4^r encodednormvalues; fiber6q*2^s for s nonzerodigits",
+      "file": "amplitudes.md",
+      "section": "3",
+      "version": 1,
+      "file_sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6",
+      "dependencies": [
+        "AMP-A1",
+        "seven-slot relation"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-A4",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every norm-one u and complex z,w",
+      "result": "exact assembly defect; not alone a norm-inequality theorem",
+      "file": "amplitudes.md",
+      "section": "4",
+      "version": 1,
+      "file_sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6",
+      "dependencies": [],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-R1",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fixed amplitude pair, independent factor-switch pair and first phase",
+      "result": "atmost4 secondphases yield equalQ outside simultaneous-sign target",
+      "file": "returns.md",
+      "section": "4",
+      "version": 1,
+      "file_sha256": "37f9b63119ba9591e31075164539068e638823c38eca73476cbc711912479096",
+      "dependencies": [
+        "AMP-A1"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-R2",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every r>=1; all representations of every actual scalar source",
+      "result": "|D|<=1536q^3*4^r",
+      "file": "returns.md",
+      "section": "5",
+      "version": 1,
+      "file_sha256": "37f9b63119ba9591e31075164539068e638823c38eca73476cbc711912479096",
+      "dependencies": [
+        "AMP-R1",
+        "AMP-A2"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-R3",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Product carrier; specified iterative certificate only; r>=8 for half-square bound",
+      "result": "atleastn^2/2 sources have R_cert<=4; fullfibers not bounded",
+      "file": "returns.md",
+      "section": "6",
+      "version": 1,
+      "file_sha256": "37f9b63119ba9591e31075164539068e638823c38eca73476cbc711912479096",
+      "dependencies": [
+        "AMP-R2",
+        "reversible sign-equivariant scalar relation"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    },
+    {
+      "id": "AMP-G1",
+      "track": "T03",
+      "branch": "ML-O1 cross-block amplification",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every q=7^r; inventory fails for q>1",
+      "result": "exactly8cosets;48q encodedpoints;3q<=n<=48q",
+      "file": "identities.md",
+      "section": "2-6",
+      "version": 1,
+      "file_sha256": "8413323a7e9a7e292650511f160ee0aabeccad42f8e8a2aaba3d921e2da14919",
+      "dependencies": [
+        "finite geometric sums"
+      ],
+      "evidence_type": "complete symbolic proof; no program premise",
+      "audit": "lead independent check and specialist C written-proof audit PASS",
+      "unresolved_gaps": "none within stated scope; see separate full-fiber status"
+    }
+  ],
+  "computation": {
+    "cycle": "Cross-Block Fiber Amplification Beyond Spreading",
+    "date": "2026-10-06",
+    "track": "T03",
+    "mode": "strictly offline",
+    "definition": "One charged evaluation per exact ordered Q-pair calculation, source/target equality-and-membership test, projective key/equality test, or independent validation of one such test; aborted runs count. Construction arithmetic is timed within the CPU cap, not separately charged as pair evaluations.",
+    "caps": {
+      "evaluations": 2000000,
+      "cpu_seconds": 600
+    },
+    "discovery_allowance": {
+      "evaluations": 1600000,
+      "cpu_seconds": 480
+    },
+    "verification_reserve": {
+      "evaluations": 400000,
+      "cpu_seconds": 120
+    },
+    "used": {
+      "discovery_evaluations": 0,
+      "verification_evaluations": 0,
+      "cpu_seconds": 0
+    },
+    "authority": "Lead only may execute mathematical programs; specialists have zero program budget. Every proposed run needs a counter, preflight estimate and process-CPU deadline.",
+    "candidate_limit": 2,
+    "finalist_limit": 2,
+    "mutations_per_finalist": 1,
+    "stop": "success, rigorous failure of both finalists, or shared cap",
+    "outcome": "Both proposed mechanisms fail analytically in their stated scopes; zero mathematical programs authorized or executed.",
+    "research_stopped": true
+  },
+  "full_histograms": "No finite full-square histogram computed; only proved symbolic encoded-subset histograms",
+  "research_stop": "Two rigorously scoped mechanism failures, not budget exhaustion",
+  "next_obligation": null,
+  "next_obligation_reason": "No amplification mechanism survives; no geometric proxy, rigidity classification, replacement conjecture or uncommissioned research task adopted",
+  "remaining_status": {
+    "T03": "OPEN",
+    "ML-O1": "OPEN",
+    "DC-O1": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG/TCRC": "OPEN",
+    "HR-N1": "FAILED / DISPROVED",
+    "FG-O1": "OPEN historical diagnostic; not pursued or selected here"
+  },
+  "historical_preservation": "frozen sources unchanged; any shared handoffs append-only",
+  "commit": "none"
+}

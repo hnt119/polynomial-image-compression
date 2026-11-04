@@ -1,0 +1,290 @@
+{
+  "date": "2026-09-16",
+  "version": 1,
+  "thread": "T03",
+  "result_id": "TP-CHAR-7-19",
+  "verdict": "LOCAL GO / GLOBAL FAIL",
+  "polynomial": "x^2+xy+y^2",
+  "network_policy": "strictly offline",
+  "scope": "One equal-quadratic-character carrier in F_7 x F_19; full split norm-one group; exact products; group-compatible real multiplier realization audit.",
+  "claims": [
+    {
+      "id": "TP-L1",
+      "status": "PROVED",
+      "proof": "local-count-proof.md, sections 1-5",
+      "quantifiers": "Fixed D of size 54; every ordered pair in D^2; all 108 actions",
+      "dependencies": [
+        "Eisenstein norm action",
+        "elementary split-field orbit and character counts"
+      ],
+      "evidence": "complete symbolic proof and exact exhaustive corroboration",
+      "audit": "lead inspection and separate internal cross-check passed"
+    },
+    {
+      "id": "TP-P1",
+      "status": "PROVED",
+      "proof": "product-realization.md, sections 1-3; README.md, sections 4-5",
+      "quantifiers": "Every integer d>=1; full D^d and G^d",
+      "dependencies": [
+        "TP-L1",
+        "HR-1"
+      ],
+      "evidence": "analytic product factorization and finite-moment counting",
+      "audit": "lead inspection and separate report consistency review passed"
+    },
+    {
+      "id": "TP-G1",
+      "alias": "TP-R1",
+      "status": "PROVED",
+      "proof": "product-realization.md, section 4; README.md, section 6.2",
+      "quantifiers": "Every d>=1; every homomorphism from G^d into real scalar norm-one multipliers; equivariant projection for all counted returns",
+      "conclusion": "At most 18 distinct realized scalar actions; duplicate loss at least M/18",
+      "dependencies": [
+        "exponent of C_6 x C_18",
+        "complex polynomial root bound"
+      ],
+      "evidence": "analytic proof",
+      "audit": "lead inspection and separate report consistency review passed"
+    },
+    {
+      "id": "TP-R2",
+      "status": "PROVED",
+      "proof": "product-realization.md, section 5",
+      "quantifiers": "Every d>=1; exact whole-square scalar norm factorization with output map sending 0 to 0",
+      "conclusion": "Scalar input map is identically zero",
+      "limitations": "Does not apply after allowing all zero-norm pairs as exceptions or dropping zero-preservation",
+      "dependencies": [
+        "isotropic square-root ratios",
+        "positive definiteness of real Q"
+      ],
+      "evidence": "analytic proof",
+      "audit": "lead inspection passed"
+    },
+    {
+      "id": "TP-C1",
+      "status": "PROVED",
+      "proof": "README.md, section 6.3",
+      "quantifiers": "Every d>=1 in formal normalized local density certificate",
+      "conclusion": "Normalized ratio (8645/1458)^d > 1; signed contribution negative",
+      "dependencies": [
+        "TP-L1",
+        "known correlated-CRT restriction"
+      ],
+      "evidence": "exact density calculation",
+      "audit": "lead and separate source/theory inspection"
+    },
+    {
+      "id": "TP-X1",
+      "status": "EXPERIMENTAL",
+      "proof": "examples/2026-09-16-two-prime-character.json",
+      "quantifiers": "All 2916 pairs and 108 actions in the single fixed block",
+      "evidence": "exhaustive exact modular arithmetic and independent split oracle",
+      "audit": "pre-execution code review and oracle agreement passed"
+    }
+  ],
+  "remaining_status": {
+    "quadratic_image_target": "OPEN",
+    "ARG": "OPEN",
+    "TCRC": "OPEN",
+    "RC15_4": "OPEN",
+    "HR_N1": "FAILED / DISPROVED; certificate CLOSED"
+  },
+  "one_next_obligation": "Existing T03-O4 / RC15/4 with actual-level in-field choices, large root class and full signed-root support bound; not started.",
+  "computation": {
+    "evaluation_cap": 2000000,
+    "cpu_seconds_cap": 600,
+    "exact_diagnostic_charges": 653787,
+    "regression_project_calls_conservatively_charged": 82570,
+    "total_charges": 736357,
+    "research_and_regression_cpu_seconds": 3.607404,
+    "research_cases": 1,
+    "diagnostic_reruns": 0,
+    "unit_tests_passed": 42,
+    "baseline_checks_passed": 159,
+    "failed_wrapper_import_attempts": 1,
+    "no_math_tests_ran_on_failed_attempt": true,
+    "python": "3.12.7"
+  },
+  "artifacts": [
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/README.md",
+      "sha256": "d5c2575ec3cf005d1184ea2b9f0f153e7ecfd36c8c9050f7a02607f25bc5269c",
+      "bytes": 28287
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/local-count-proof.md",
+      "sha256": "64aab89a6d618d42559207dd618d3370d251c5964459cb136d3e369e24d2dc16",
+      "bytes": 12737
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/product-realization.md",
+      "sha256": "d01a61738ddabfee5e8a5ac7ed62ee61fe8250cc6a69433c5e75d8e09054b7ba",
+      "bytes": 19313
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/verification.md",
+      "sha256": "10a12857c6f07d25eb123ac28b2a1f6c17e33fb9ef10339d162e9fd8a358a46b",
+      "bytes": 11960
+    },
+    {
+      "path": "experiments/two_prime_character.py",
+      "sha256": "76671503a828cf7bf76cd316266bec8adc4b14ca5c6cdfdea93196a939e1a7e3",
+      "bytes": 10868
+    },
+    {
+      "path": "examples/2026-09-16-two-prime-character.json",
+      "sha256": "e432f2254ad7557cb790c20afdbee84a635cc86e539ff2f25f66099bbf4dc5e4",
+      "bytes": 4860
+    }
+  ],
+  "public_dependencies": [
+    {
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e",
+      "bytes": 19551
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/README.md",
+      "sha256": "8461ef585241538ea53e57d792ddade1e0ec92677c6e716fe6fbc97d95ce0ed4",
+      "bytes": 39786
+    },
+    {
+      "path": "research/history-sources/Q_Correlated_CRT_Tensorization_Checkpoint.md",
+      "sha256": "5c1cc0b130ba50b2f76a1adede581ab2cc08417cedc1571e8feda39f7e56014c",
+      "bytes": 17907
+    }
+  ],
+  "append_only_current_state": [
+    {
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "sha256": "a5c812081ec3a2c482fd4fbbd4db3f47255b29f49e954fb90de503408d401968",
+      "bytes": 8025,
+      "identity_scope": "Recorded baseline concatenated with this cycle exact appended section; unrelated additions may occur between them",
+      "baseline_bytes": 6826,
+      "baseline_sha256": "5ad8f76845a8f83f898c0cd8183b5c49bc61c17de9cf171810c237f9d2145377",
+      "appendix_bytes": 1199,
+      "appendix_sha256": "dcf8153c253ff5ab5dd1d149cac547a3404c8730c665b9ec6ebd314e700d3d61",
+      "appendix_heading": "## 2026-09-16 later cycle — two-prime character correlation"
+    },
+    {
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "sha256": "35b511a1737d6c59e50be60c73aa3c9038c6a5d010ae0ecec5d8a67de60144fd",
+      "bytes": 16047,
+      "identity_scope": "Recorded baseline concatenated with this cycle exact appended section; unrelated additions may occur between them",
+      "baseline_bytes": 14388,
+      "baseline_sha256": "35eb2ee1f5c580080f51b6131912df448c64d78ca43df8a31dd3179c968fa74a",
+      "appendix_bytes": 1659,
+      "appendix_sha256": "14f7ec32cb135063329159d587fec2315936f65f8b3fdcc21a5c035e57ade814",
+      "appendix_heading": "## 2026-09-16 later cycle — exact character-correlated block and realization loss"
+    },
+    {
+      "path": "research/FAILURE_LIBRARY.md",
+      "sha256": "a846c97dd7a8d6590e20a042e3e3822b3833d1aaff9af62ea7aee5409a062132",
+      "bytes": 41374,
+      "identity_scope": "Recorded baseline concatenated with this cycle exact appended section; unrelated additions may occur between them",
+      "baseline_bytes": 39881,
+      "baseline_sha256": "344b180a76654ce68fdb23f8c5c3a757c7598bbdaf537ca8484448da903cd4b7",
+      "appendix_bytes": 1493,
+      "appendix_sha256": "e158f2e5c242425d44aa93550cace2c7b40200da58d32b4b89f90410d26fd3bb",
+      "appendix_heading": "## 2026-09-16 — T03-TPCHAR-F1, finite product with compatible real action"
+    },
+    {
+      "path": "research/OPEN_LEMMAS.md",
+      "sha256": "e6b1daf775544ad5a052568d5c3a3daad7d7fab6314e47b8e9c51ef2b3be5232",
+      "bytes": 13372,
+      "identity_scope": "Recorded baseline concatenated with this cycle exact appended section; unrelated additions may occur between them",
+      "baseline_bytes": 12465,
+      "baseline_sha256": "0041cfb0e6550acd0f7cc36e616cff69650e3dfbde5dd86f85ebc8ae63261b01",
+      "appendix_bytes": 907,
+      "appendix_sha256": "74036e036d6ac92a168f410cdbf7e4e05391f689a43ee905bc61c206d29483bd",
+      "appendix_heading": "## 2026-09-16 — character-correlated block cycle completed"
+    },
+    {
+      "path": "research/MECHANISM_LIBRARY.md",
+      "sha256": "da1b406e907b3540ca032cbaf42439c0333d6969153791b94e30ac2ce770c7d5",
+      "bytes": 12723,
+      "identity_scope": "Recorded baseline concatenated with this cycle exact appended section; unrelated additions may occur between them",
+      "baseline_bytes": 11171,
+      "baseline_sha256": "6e58a7894f445f9141689b58bf1c9dfa748338698cd70de254b85bc8f3ad30ab",
+      "appendix_bytes": 1552,
+      "appendix_sha256": "4562ffab75fc2d3e1803e8c2a8585179dcfcdb283603452d1acfb0fe912f2c46",
+      "appendix_heading": "## 2026-09-16 — TP-L1/TP-P1 and the scalar-action realization test"
+    }
+  ],
+  "local_raw_and_preservation_records": [
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/baseline.json",
+      "sha256": "1f815d2bac03998fb1b43c213b18f3690b7776709d76c4826b72ecda443bc268",
+      "bytes": 15741
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/inherited.patch",
+      "sha256": "74e7c3b7ab1e0e057aceb1d5c751f9163def4fe773837afc9d08532d3f7e1200",
+      "bytes": 70232
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/pairs.json",
+      "sha256": "895a248517d0a9f9e4e51db3d7a963713c577744dc2f835e011e53307f3e851e",
+      "bytes": 508444
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/preservation.json",
+      "sha256": "a459c86a915434c2a5c3d02c0a73f7aebc43b90cc0dc120f126b845b10dc7e88",
+      "bytes": 193
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-unittest-2.json",
+      "sha256": "f67c0dbbbc4d438b6af7c51afbfe4c1dd9dd3c9913c73f92459a14ef5e3e4bb5",
+      "bytes": 9522
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-unittest-2.txt",
+      "sha256": "579232a83f73923836abb63c43b8d946758266c83c310329eb59aa45f583ff96",
+      "bytes": 5101
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-unittest.json",
+      "sha256": "0f85ed3efa5d619012c38b1838312d581e55225fc66fc7842bccf99eb923582a",
+      "bytes": 566
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-unittest.txt",
+      "sha256": "2d411b128c76d4ad8578dfea60cc2eabf673a50825b509716fd254f21d7913df",
+      "bytes": 6418
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-verify.json",
+      "sha256": "5ffc0343f7c7508eb1d9e6d9ef9081336c1dce9b697e566713980d82ee5549a7",
+      "bytes": 1181
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression-verify.txt",
+      "sha256": "825d17a1344b8550e68c502f549111143ce2d15b63b92add938beedcee3ff70e",
+      "bytes": 23193
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression_guard.py",
+      "sha256": "445658c0753ae719d2222f736df39d4fc5fe7ffea30ae7646bbd1f502f538ad1",
+      "bytes": 3251
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-two-prime-character/regression_guard_first_attempt.py",
+      "sha256": "5e7279201334c64ca4da1e56cf6587866cbb29d9f5f6f71f95ca33948ab19702",
+      "bytes": 3102
+    }
+  ],
+  "preservation": {
+    "protected_source_hashes": 90,
+    "append_only_prefixes": 5,
+    "other_inherited_tracked_diff_blocks_unchanged": 8,
+    "committed": false
+  },
+  "novelty": "Not assessed; no external literature review",
+  "unresolved_gap": "No growing real carrier with a positive signed rate is constructed; finite-ring image bounds are not real scalar image bounds.",
+  "repository_check": {
+    "initial": "PASS: 39 source files and 66 Markdown link checks",
+    "intermediate": "Temporary missing verification.md in separate three-branch report; that file subsequently appeared without our edits",
+    "final": "PASS: 39 source files and 68 Markdown link checks",
+    "unrelated_report_modified_by_this_cycle": false
+  }
+}

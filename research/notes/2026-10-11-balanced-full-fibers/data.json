@@ -1,0 +1,128 @@
+{
+  "track": "T03",
+  "date": "2026-10-11",
+  "status": "EXPERIMENTAL",
+  "scope": "Complete exact full Cartesian squares at r=0,1 only; no asymptotic inference",
+  "normalization": "Inputs stored as3A; evaluated outputs are9Q(A,A), preserving all cardinalities and fibers",
+  "cases": [
+    {
+      "r": 0,
+      "n": 17,
+      "ordered_pairs": 289,
+      "image_size": 44,
+      "median_full_fiber": 12,
+      "strict_below_n_quarter": 9,
+      "pairs_exceeding_own_sign_swap_orbit": 216,
+      "pairs_equal_to_own_sign_swap_orbit": 73,
+      "max_full_fiber": 18,
+      "output_histogram": {
+        "1": 1,
+        "2": 4,
+        "4": 16,
+        "6": 11,
+        "12": 11,
+        "18": 1
+      },
+      "pair_weighted_histogram": {
+        "1": 1,
+        "2": 8,
+        "4": 64,
+        "6": 66,
+        "12": 132,
+        "18": 18
+      },
+      "symmetry_orbit_weight_counts": {
+        "2": 16,
+        "4": 64,
+        "1": 1
+      },
+      "full_distribution_sha256": "e09c0da01b2becefe3186fdbd85d9a98461f13734379d0dc8417b7ba690d3ff8",
+      "status": "EXPERIMENTAL; complete exact enumeration"
+    },
+    {
+      "r": 1,
+      "n": 1079,
+      "ordered_pairs": 1164241,
+      "image_size": 286664,
+      "median_full_fiber": 4,
+      "strict_below_n_quarter": 1135967,
+      "pairs_exceeding_own_sign_swap_orbit": 28274,
+      "pairs_equal_to_own_sign_swap_orbit": 1135967,
+      "max_full_fiber": 84,
+      "output_histogram": {
+        "1": 1,
+        "2": 261,
+        "4": 283861,
+        "6": 732,
+        "8": 69,
+        "12": 1625,
+        "14": 4,
+        "16": 6,
+        "18": 73,
+        "42": 7,
+        "54": 1,
+        "84": 24
+      },
+      "pair_weighted_histogram": {
+        "1": 1,
+        "2": 522,
+        "4": 1135444,
+        "6": 4392,
+        "8": 552,
+        "12": 19500,
+        "14": 56,
+        "16": 96,
+        "18": 1314,
+        "42": 294,
+        "54": 54,
+        "84": 2016
+      },
+      "symmetry_orbit_weight_counts": {
+        "2": 1078,
+        "4": 290521,
+        "1": 1
+      },
+      "full_distribution_sha256": "a1aaf770b3f618b80a5784a2e3dc314711a1d6232a3bb23b432d88f117d7555b",
+      "status": "EXPERIMENTAL; complete exact enumeration"
+    }
+  ],
+  "validation": [
+    {
+      "r": 0,
+      "n": 17,
+      "complete_distribution_match": "PASS",
+      "oracle": "complex norm, alternate complete symmetry traversal; integer raw square additionally at r=0"
+    },
+    {
+      "r": 1,
+      "n": 1079,
+      "complete_distribution_match": "PASS",
+      "oracle": "complex norm, alternate complete symmetry traversal; integer raw square additionally at r=0"
+    }
+  ],
+  "budget": {
+    "evaluations": 971843,
+    "program_cpu_seconds": 22.997157
+  },
+  "fiber_audit_subtotal": {
+    "exact_evaluation_check_charges": 598542,
+    "program_cpu_seconds": 22.089862
+  },
+  "required_regressions": {
+    "commands": [
+      {
+        "command": "python3 -m unittest discover -s tests -v",
+        "exit_code": 0
+      },
+      {
+        "command": "python3 -m experiments verify",
+        "exit_code": 0
+      }
+    ],
+    "conservative_line_charges": 373301,
+    "cpu_seconds": 0.907295,
+    "error_or_guard": null,
+    "scope": "Existing fixed repository regressions only; conservative line-level overcharge",
+    "source_sha256": "bc459fc17b79dcc16c3bcee924801b880cce1e6aa803bf9e8257e814cd5377b1"
+  }
+}

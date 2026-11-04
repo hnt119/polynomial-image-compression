@@ -1,5 +1,8 @@
 # Polynomial Image Compression
 
+> **5 November 2026 evidence snapshot.** Start with the [professor brief, technical report and proof register](research/exports/2026-11-05-evidence/README.md). The latest square-plus-linear theorem covers every fixed integer quadruple. The full-rank quadratic remains open. Earlier status descriptions below record the original archive.
+
+
 Research notes and reproducible experiments on small polynomial image sets, motivated by unit-distance constructions, sum-product methods, and the Elekes–Rónyai problem.
 
 The central question is whether a **fixed** polynomial $P\in\mathbb R[x,y]$, depending on both variables, admits a **fixed** $\varepsilon>0$ and arbitrarily large finite sets $A\subset\mathbb R$ such that

@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-30",
+  "version": 1,
+  "track": "T03",
+  "cycle": "7-power-modular-to-real-lift",
+  "polynomial": "x^2+xy+y^2",
+  "content": [
+    {
+      "path": "research/notes/2026-09-30-modular-lift/README.md",
+      "sha256": "de779dfd0b29a1dd82a7c5fbf48da27504a897ff680ec46f7c31c1582edcc35b",
+      "bytes": 8059
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/ledger.md",
+      "sha256": "6b43522fcaf9ae38594f1fccf14e0d8a8bdaa891b05fecc2bfd41a21cd457305",
+      "bytes": 8791
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/proofs.md",
+      "sha256": "2d020a9dd84d67179f4b190d393f3712ff34c05b4c823fb145417b7a1ed2b1fd",
+      "bytes": 19264
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/verification.md",
+      "sha256": "2cc93cbcaa29cf54a646e8b76e42692460a95138b3d7a789dcb70cb5e4671cfe",
+      "bytes": 9179
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/state.json",
+      "sha256": "d763e3b047ca72a7c1c2f146fe3c89130f141f709c4f399406ba1902f2e0a775",
+      "bytes": 5673
+    },
+    {
+      "path": "experiments/modular_lift.py",
+      "sha256": "0be8b14d111991ec4df96141702e9f4ef156088fc70c3517abd377240b0f6f14",
+      "bytes": 9263
+    },
+    {
+      "path": "tests/test_modular_lift.py",
+      "sha256": "b6f999267579be7850e8470b2d1a82f5fd6e1bc5e13af45a54b7492542dfe0d3",
+      "bytes": 865
+    },
+    {
+      "path": "examples/2026-09-30-modular-lift.json",
+      "sha256": "b358fc2bc3155a106d2d370ebfe93109977a471313c6ef555092e9f88ea3b185",
+      "bytes": 3346
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/addenda-prefixes.json",
+      "sha256": "b1152cb2d87ae45a6a995c1eabaafe720d037c8f7106eb4d662bfc4570a1948b",
+      "bytes": 1249
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/baseline.json",
+      "sha256": "9f2987ec3bad54543fffb66f6c29bbb67d3f78aeb6225bc1eabcda49d020b3a4",
+      "bytes": 30956
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/checks.json",
+      "sha256": "bd37a1bf35bcec714d5ae1ec7db6994d6f21bf8165a382eafbbb6d3e3d14ae6f",
+      "bytes": 1088
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/core-and-orbits.json",
+      "sha256": "27ab4a55cef1cdbf6219546650bb9a6d9e3adc122aba372fcfea725bedd65955",
+      "bytes": 90445
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/inherited-status.txt",
+      "sha256": "95136608c5adbd1b7e32270e9c974e01d3cb9b21027dbcd02149b43e2d1a5c47",
+      "bytes": 3279
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/inherited.patch",
+      "sha256": "7ae34ac43cb4d18db2145f3114a908cef3682db427262f648704f817e3cd73c4",
+      "bytes": 99145
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/integrity.json",
+      "sha256": "505a5488841c23b36db50f9355d772166a28bf515b1fb352c786abe2b00cc5d0",
+      "bytes": 591
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/unittest.txt",
+      "sha256": "f7f859573b088e3fbf6388710c056fdbfcc52ea4176ecc4951b4bb6480dd6f73",
+      "bytes": 11247
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-30-modular-lift/verify.txt",
+      "sha256": "825d17a1344b8550e68c502f549111143ce2d15b63b92add938beedcee3ff70e",
+      "bytes": 23193
+    }
+  ],
+  "proof_and_context_dependencies": [
+    {
+      "path": "research/notes/2026-09-21-return-tail/README.md",
+      "sha256": "8f788c1f175654bc0e2fabda32ea5100144c3ebfca9f140a59b288f2a37c0e2f",
+      "bytes": 11906
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/modular-gadget.md",
+      "sha256": "1631a325333ebfdece895f1823b563e49772dfbfe868112cac7daaa9f93adeec",
+      "bytes": 20800
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/block-rectangle.md",
+      "sha256": "68563f8b96b485b9e095c5d856f363e9cf1f8ec9482017ba157c30f59702f6c1",
+      "bytes": 20843
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/matrix-product.md",
+      "sha256": "5eb36fd94c17d2a960cd66a98efc53111dcd878792c7cbda22bc67ca8c35b382",
+      "bytes": 26780
+    },
+    {
+      "path": "local-only/migration/sources/00_MASTER_HANDOFF.md",
+      "sha256": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250",
+      "bytes": 14694
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850",
+      "bytes": 63057
+    },
+    {
+      "path": "research/templates/CONSTRUCTION_LEDGER.md",
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6",
+      "bytes": 2460
+    },
+    {
+      "path": "research/MIGRATION_CONFLICTS.md",
+      "sha256": "f1524d8415086650f8902eb2df8fb3c356517db6575ecbcf648b60ff4e9bd37a",
+      "bytes": 17888
+    }
+  ],
+  "handoff_snapshots": [
+    {
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "sha256": "13c55367797d1a1af4c4a74e53d85198365a6429c5d6d52807bc010969fe632e",
+      "bytes": 24145
+    },
+    {
+      "path": "research/MECHANISM_LIBRARY.md",
+      "sha256": "e4e507b5c278c0b2b4f693ac7fa1d9fff9f968aaceee28f5de9c4b3a6c09b17c",
+      "bytes": 27811
+    },
+    {
+      "path": "research/FAILURE_LIBRARY.md",
+      "sha256": "1f9832022df47d6cea1b88ae0a21a3ca4c40d7f3cfbe50ae2b080fb6a4326084",
+      "bytes": 57871
+    },
+    {
+      "path": "research/OPEN_LEMMAS.md",
+      "sha256": "2097e51ba75bdf090c36838ce17dbbef6c2d2650b37f69b1ec1fe15eccd08cce",
+      "bytes": 24923
+    },
+    {
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "sha256": "9abe09c3cede937c33073485082b2c1dc77dd98add61edec94f9f24de89a8cc9",
+      "bytes": 28747
+    }
+  ],
+  "notes": [
+    "Self excluded to avoid circular hashing.",
+    "File hashes establish identities; mathematical lead checks are separately documented. No independent review is claimed.",
+    "Historical sources are unchanged. The cycle’s five status/library edits are append-only.",
+    "Ignored raw records and private references require a separate local handoff.",
+    "Concurrent T01 artifacts are not attributed to this research cycle."
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-06",
+  "version": 1,
+  "track": "T03",
+  "cycle": "XB-O1 -> Cross-Block Fiber Growth",
+  "mode": "strictly offline",
+  "polynomial": "x^2+xy+y^2",
+  "parameter": "r=k-1, q=7^r, m=6q, t=8q",
+  "field": "K=Q(omega,xi), K+=K intersect R",
+  "index_two_subfield": "Unique F=Q(xi+xi^-1), K+=F(sqrt(21)), for q>=7",
+  "spreading_gate": {
+    "status": "PROVED",
+    "carrier": "c_(h,j)=h(1+omega*xi^j), h=1,...,8, j mod q",
+    "kappa": "1/2",
+    "prefactor": "64sqrt(2)",
+    "actual_input_bounds": [
+      "q^2/2",
+      "48q^2"
+    ],
+    "input_factor_per_depth": 49
+  },
+  "full_fiber_gate": {
+    "status": "FAILED IN STATED SCOPE",
+    "proved_cap": "48^2*32^4",
+    "source_lower_bound": "(q^4-3696q^3)/4",
+    "eventual_population": "n^2/18432",
+    "sufficient_q_threshold": 7392,
+    "actual_image": "Theta(n^2)",
+    "image_lower_bound": "n^2/(18432*48^2*32^4)",
+    "epsilon_delta": "Every fixed positive pair fails on this carrier",
+    "positive_c": null,
+    "eta": "inapplicable: same set in both coordinates"
+  },
+  "relative_norm_rule": {
+    "formula": "b prod_(a=0)^6 (2-xi^(j+a*q/7)) = b(128-xi^(7j))",
+    "status": "FAILED IN STATED SCOPE",
+    "failure": "at most 8q/7 distinct amplitude cosets, not required 8q",
+    "actual_image_status": "not established for deduplicated carrier"
+  },
+  "claims": [
+    {
+      "id": "FG-A1",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q=7^r,r>=1; unique F subset K+ with [K+:F]=2",
+      "file": "amplitudes.md",
+      "section": "1",
+      "dependencies": [
+        "accepted Eisenstein UFD",
+        "cyclotomic sparse relation"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "id": "FG-A2",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q=7^r,r>=0; 8q nonzero disjoint c_(h,j) mu_(6q) cosets",
+      "file": "amplitudes.md",
+      "section": "2",
+      "dependencies": [
+        "FG-A1"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "id": "FG-A3",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q>=7; q^2/2<=|A_q|<=48q^2 for actual scalar completion",
+      "file": "amplitudes.md",
+      "section": "3",
+      "dependencies": [
+        "FG-A1",
+        "FG-A2"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "id": "FG-A4",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q>=7 and every alpha nonzero; line population<=64sqrt(2)n^(1/2)",
+      "file": "amplitudes.md",
+      "section": "4",
+      "dependencies": [
+        "FG-A1",
+        "FG-A3"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "id": "FG-A5",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "48q^2 encoded pairs each have 6q distinct unit-orbit targets",
+      "file": "amplitudes.md",
+      "section": "5",
+      "dependencies": [
+        "FG-A2",
+        "FG-A3"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "id": "FG-F1",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q=7^r>=7392; at least n^2/18432 pairs have full fiber<=48^2*32^4",
+      "file": "fibers.md",
+      "section": "5-6",
+      "dependencies": [
+        "FG-A1",
+        "FG-A3",
+        "seven-slot coefficient relations"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "e04cce623dfbc1c1476895d7f1fd163903966a5ae7d0f12a9ca54a70c60a629b"
+    },
+    {
+      "id": "FG-N1",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_and_hypotheses": "Every q=7^r,r>=1; relative-norm rule has at most 8q/7 disjoint cosets",
+      "file": "fibers.md",
+      "section": "1-4",
+      "dependencies": [
+        "exact seventh-root product identity"
+      ],
+      "evidence_type": "complete symbolic proof",
+      "audit": "lead plus independent internal specialists",
+      "unresolved_gaps": "none within stated theorem scope",
+      "file_sha256": "e04cce623dfbc1c1476895d7f1fd163903966a5ae7d0f12a9ca54a70c60a629b"
+    },
+    {
+      "id": "FG-E1",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "EXPERIMENTAL",
+      "quantifiers_and_hypotheses": "Exact exhaustive k=1,2 only",
+      "file": "verification.md",
+      "section": "Exact arithmetic and reproducibility",
+      "dependencies": [
+        "inspected Field arithmetic"
+      ],
+      "evidence_type": "exact finite exhaustive computation",
+      "audit": "lead full exact oracle validation",
+      "unresolved_gaps": "no asymptotic inference",
+      "file_sha256": "774da02b4ad3ed143310ebf20e548b7a7c11c6862c90c36825c9ac3e50c06076"
+    },
+    {
+      "id": "FG-O1",
+      "track": "T03",
+      "branch": "ML-O1 / XB-O1",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-06",
+      "version": 1,
+      "status": "OPEN",
+      "quantifiers_and_hypotheses": "Classify all exact 33-slot matches for separated X,X sources",
+      "file": "README.md",
+      "section": "6",
+      "dependencies": [
+        "FG-F1"
+      ],
+      "evidence_type": "unresolved question; no conjecture adopted",
+      "audit": "none asserted",
+      "unresolved_gaps": "exact target classification remains unresolved",
+      "file_sha256": "344a26592bf14fc048b1820951be9c1443db6c5b889b5f7b34b7f38d75441d8f"
+    }
+  ],
+  "remaining_status": {
+    "T03": "OPEN",
+    "ML-O1": "OPEN",
+    "DC-O1": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG/TCRC": "OPEN",
+    "HR-N1": "FAILED / DISPROVED"
+  },
+  "next_obligation": "FG-O1 only: classify exact 33-slot target coefficient matches for separated X,X source pairs; no replacement construction adopted",
+  "team": {
+    "specialists": 3,
+    "nested_agents": 0,
+    "specialist_program_evaluations": 0
+  },
+  "candidate_rules": 2,
+  "finalists": 2,
+  "post_selection_mutations": 0,
+  "preselection_phase_choice": "at most one mutation if counted",
+  "program_budget": {
+    "definition": "Charge one exact Q evaluation per ordered pair, one norm-action/source membership test, one projective equality/canonical-key calculation per scalar, and one independent validation of any of these. Charge aborted and validation runs. Carrier arithmetic/time included in CPU but not separately counted as pair evaluations.",
+    "caps": {
+      "evaluations": 2000000,
+      "cpu_seconds": 600
+    },
+    "discovery": {
+      "evaluations": 1600000,
+      "cpu_seconds": 480
+    },
+    "verification_reserved": {
+      "evaluations": 400000,
+      "cpu_seconds": 120
+    },
+    "used": {
+      "discovery_evaluations": 1051938,
+      "verification_evaluations": 283932,
+      "total_evaluations": 1335870,
+      "cpu_seconds": 35.734223
+    },
+    "authority": "lead only; subagents no code execution",
+    "enforcement": "Policy defined before execution. Scout and validator enforce category counters and CPU deadlines; actual runs passed. Details and source hashes in verification.md and manifest.json.",
+    "stop_reason": "Two scoped analytic failures; no further research program authorized in this cycle."
+  },
+  "stop": "Both finalists rigorously fail in their stated scopes; no further search",
+  "historical_files": "preserved; five dated handoff suffixes only",
+  "commit": "none",
+  "worktree_preservation": {
+    "baseline_files": 304,
+    "our_handoff_appends": 5,
+    "concurrent_T01_appends_retained": 5,
+    "all_original_baseline_bytes_preserved": true
+  },
+  "output_factor_per_depth": 2401
+}

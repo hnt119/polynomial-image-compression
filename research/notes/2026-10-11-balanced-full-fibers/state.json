@@ -1,0 +1,211 @@
+{
+  "thread": "T03",
+  "result_id": "BFF",
+  "date": "2026-10-11",
+  "version": 1,
+  "mode": "strictly offline",
+  "carrier": "unchanged balanced factors",
+  "carrier_status": "OPEN",
+  "mechanism_status": "FAILED IN STATED SCOPE",
+  "mechanism": "phase-transposed independent factor switches; source phases mu_(6q), correction phases mu6 only",
+  "mechanism_count": 1,
+  "mutations": 0,
+  "amplitude_search": false,
+  "finite_depths": [
+    0,
+    1
+  ],
+  "full_fiber_asymptotic_status": "OPEN",
+  "actual_image_rate": "OPEN",
+  "epsilon": null,
+  "delta": null,
+  "c": null,
+  "carrier_retired": false,
+  "claims": [
+    {
+      "id": "BFF-A1",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "For every integer r>=0, the unchanged completed carrier has A=X(V), n=16q^2+|D| and16q^2+1<=n<=24q^2-7.",
+      "file": "algebra.md",
+      "section": "2",
+      "file_sha256": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0",
+      "dependencies": [
+        "AMP-A1",
+        "omega not in H"
+      ],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-A2",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "For allv,w inH, X(K(v,w))=3Q(Xv,Xw); all full fibers are exactly K-equality solution sets inV^2.",
+      "file": "algebra.md",
+      "section": "3",
+      "file_sha256": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0",
+      "dependencies": [
+        "BFF-A1"
+      ],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-A3",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "Exact two-component equality; forv inB union(-B),w inD, output liesinF iffw=bar(v)-v.",
+      "file": "algebra.md",
+      "section": "4",
+      "file_sha256": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0",
+      "dependencies": [
+        "BFF-A1",
+        "BFF-A2"
+      ],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-A4",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "Every finite symmetric A containing0 has(n+1)^2/4 sign/swap representatives with exact weights. ",
+      "file": "algebra.md",
+      "section": "5",
+      "file_sha256": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0",
+      "dependencies": [],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-P1",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "Every source representation and allowed independent masks and corrections inmu6: target belongs toA^2; whole norm equation has<=4 second phases outside precise baseline degeneracy.",
+      "file": "coupled.md",
+      "section": "2-3",
+      "file_sha256": "7d46f921aeea196270d970f1ddd700bf567c5e203cc7d8d413d0ea58671539e9",
+      "dependencies": [
+        "AMP-A1",
+        "omega not in H"
+      ],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-P2",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "PROVED",
+      "quantifiers_hypotheses_and_result": "At every depth, the iterated enlarged specified certificate has<=4 targets outside atmost56832q^3*4^r+48q^2 sources; asymptotically no fixedpositive return-tail exponents.",
+      "file": "coupled.md",
+      "section": "4-5",
+      "file_sha256": "7d46f921aeea196270d970f1ddd700bf567c5e203cc7d8d413d0ea58671539e9",
+      "dependencies": [
+        "BFF-P1",
+        "BFF-A1",
+        "AMP-R1-R3"
+      ],
+      "evidence_type": "Complete symbolic proof",
+      "audit_performed": "Lead and independent internal specialist C checked written argument; A reviewed arithmetic/design as recorded",
+      "unresolved_gaps": "No gap identified in stated scope; unrestricted fullfiber asymptotics not settled"
+    },
+    {
+      "id": "BFF-E1",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "EXPERIMENTAL",
+      "quantifiers_hypotheses_and_result": "Exhaustive exact fullfiber distributions only atr=0,1, withcomplete alternate complexnorm validation.",
+      "file": "data.json",
+      "section": "cases",
+      "file_sha256": "4ba1c72a7ab75cdd96fce364f861fd2998b03dcfd66325c75b491f16085228b9",
+      "dependencies": [
+        "BFF-A4",
+        "inspected experiments/modular_lift.py"
+      ],
+      "evidence_type": "Exact exhaustive finite arithmetic",
+      "audit_performed": "Primary and full independent norm-expression computations agree; code/data reviewed; shared field reduction",
+      "unresolved_gaps": "Only two depths; no asymptotic conclusion"
+    },
+    {
+      "id": "BFF-O1",
+      "track": "T03",
+      "branch": "fixed balanced-factor carrier",
+      "polynomial": "x^2+xy+y^2",
+      "date": "2026-10-11",
+      "version": 1,
+      "status": "OPEN",
+      "quantifiers_hypotheses_and_result": "There exist fixedC>=0,r0 suchthat forallr>=r0 at least32q^4 sources inB^2 have atmost(r+1)^C solutions in allV^2 to K-equality.",
+      "file": "README.md",
+      "section": "7",
+      "file_sha256": "458d9314e799c1e4a4818779bdbb9add08c414af2acabf12e62033ee483f3205",
+      "dependencies": [
+        "BFF-A1",
+        "BFF-A2"
+      ],
+      "evidence_type": "Unproved full-fiber statement; conditional consequence checked",
+      "audit_performed": "Only equivalence and n^2/[18(r+1)^C] consequence independently checked; premise not searched",
+      "unresolved_gaps": "The stated uniform solution-count bound is unproved"
+    }
+  ],
+  "research_stopped": true,
+  "stop_reason": "Decisive scoped failure of the one proposed coupled mechanism; finiteauditcomplete; no budgetexhaustion",
+  "computation": {
+    "evaluations": 971843,
+    "program_cpu_seconds": 22.997157,
+    "counter_note": "598542 exact fiber-audit evaluation/check charges plus373301 conservative source-line regression charges; no additional carrier cases."
+  },
+  "team": {
+    "specialists": 3,
+    "nested_agents": 0,
+    "mathematical_programs_executed_by": "lead only"
+  },
+  "next_obligation": "BFF-O1 only; README section7",
+  "does_not_imply": [
+    "positive-density bounded FULL fibers",
+    "near-quadratic actual image",
+    "failure of every coupled phase rule",
+    "failure of T03 target or RC15/4"
+  ],
+  "remaining_status": {
+    "balanced_carrier": "OPEN",
+    "T03": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG/TCRC": "OPEN",
+    "HR-N1": "FAILED / DISPROVED"
+  },
+  "historical_preservation": "prior sources unchanged; shared handoff suffixes only",
+  "commit": "none"
+}

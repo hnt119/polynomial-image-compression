@@ -1,0 +1,24 @@
+# Verification of the 5 November 2026 release
+
+## What was checked
+
+This is a documentary consolidation, not an independent audit of each historical theorem. The comparison used the final same-set statements, proof locators, correction chains and earlier review records. A later availability change is distinguished from a later theorem. In particular the recovered T04 avoidance proof was located and matched to its exact statement; its full argument was not re-refereed. Source recovery and selection are documented in the [proof origins](../../proofs/provenance.csv).
+
+The source-indexed CSV and JSON contain 75 individually scoped claims. For each claim the release distinguishes mathematical status, hypotheses, source version, proof location, dependencies, recorded review, and work actually performed here. A secondary review of the register was followed by lead integration checks against the public tree; references that existed only in the private workspace were replaced with actual public source extracts. The fixed-prime digital statement has a statement witness but no located complete proof companion.
+
+## Documents
+
+- Both PDFs were typeset from the shipped TeX using a populated local Tectonic cache in offline mode. The same Markdown narratives generated the TeX and the editable Word brief. Required Python packages are python-docx, lxml and ReportLab; local Poppler converts the generated figures. A local XeLaTeX installation is an alternative supported by the build script. No packages, fonts, or mathematical references were downloaded.
+- Every final page was rendered and visually inspected: professor brief **3/3**, technical report **9/9**, and editable brief **3/3** after LibreOffice rendering. Inspections included equation baselines, fractions, mathematical alphabets and subscripts, embedded figures, captions, footers, reference text, and page breaks. The glossary subscripts were corrected. The schematic uses four source dots per class, consistent with common negation; it labels no finite sample or additional theorem.
+- The DOCX archive was inspected as OOXML: **48 native Office Math objects**, one embedded illustration, eight source hyperlinks, no equation screenshots. The working report figure counts were read from retained finite distributions; no enumeration was performed. All 8 brief and 10 technical PDF font subsets were embedded. No standalone fonts are included.
+- The build rejects missing glyphs, overfull boxes and unresolved references. The 13 technical bibliography entries are cited. Internal source links resolve to repository files; the third-party paper is identified bibliographically. The already-frozen September PDF is retained with its original bytes and source checksum. Its 21 pages were rendered for release layout inspection; it is not a newly typeset report.
+- Fresh binary hashes are for the distributed artifacts only. A different TeX or Office environment can produce different bytes.
+
+## Repository and public-file checks
+
+- The 53 tests applicable to the publication checkout passed. The standard finite benchmark verification passed. These are regression checks, not proofs of asymptotic results; no archived research sweep was rerun.
+- The local-only setup check verified 50 original reference files, import identities, 43 T03 manifest members, duplicate states and C4 hashes. It is a source-workspace check; private reference bundles and their administrative manifest are not release requirements.
+- Source paths, state pointers, register dependencies and file hashes can be checked with the [release verifier](verify_snapshot.py) on a fresh copy. The repository's public archive/link checker is also applicable. The scope is the complete public distribution, not a mathematical re-evaluation.
+- Before staging, the selected files were reviewed for private paths, correspondence, live project links, secrets, mail addresses, unsafe file types, symlinks, font files and oversized raw outputs. The review included PDF text/link objects and Word XML/relationships. The public archive uses an explicit file list and an isolated branch based on the remote main commit. The prior checkout and index were not used as a staging area.
+- The public release verifier matched 267 SHA-256 entries, found identical contents in the two 75-claim registers, resolved 85 distinct claim-source paths and confirmed the 48 editable equations. The repository check verified the 39 original archive files and local links in 165 Markdown files.
+- The file-list safety check examined 268 public paths and 36 PDF link/file annotations. It found no personal absolute paths, private contacts, detected credential markers or live editing links. Nine historical source files or extracts retain a trailing space or terminal blank line. Their source spans and preserved formatting are recorded in the inventory. The new export directory passed the Git whitespace check.

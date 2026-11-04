@@ -1,0 +1,3165 @@
+{
+  "arithmetic": "exact integers/Fraction; statistics marked float are descriptive",
+  "cases": [
+    {
+      "H": 1,
+      "action_count": 5,
+      "action_matrices_sha256": "670e6ef88dbf15ba42d63838d902e262504bbf870335b1f136b10bb5d2a78eae",
+      "carrier_sha256": "03d2bf08bbab4af62a5b986787c3adc6738ab5d449f086df6f11be22d00d96c0",
+      "cleared_height": 49,
+      "common_denominator": 49,
+      "cpu_seconds": 0.00040899999999999964,
+      "depth": 2,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_count": 36,
+        "identity_only_fraction_exact": [
+          36,
+          36
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 36,
+        "sum": 36
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 5,
+        "polynomial": 36,
+        "return_action": 180
+      },
+      "family": "strata",
+      "full_image_size": 12,
+      "image_multiplicity_distribution": {
+        "2": 6,
+        "4": 6
+      },
+      "input_size": 6,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 6,
+        "return_upper_bound_HR2": 1
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 36,
+      "output_fibers_sha256": "8f1e14a94394c747d0b718c53e24e34218d3e5f170296ddac9a424803907766b",
+      "pair_returns_sha256": "f1993c9a653b557cf9bf383a4221100e464ec49548895e12f644c583b098e0dc",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_count": 36,
+        "identity_only_fraction_exact": [
+          36,
+          36
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 36,
+        "sum": 36
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_count": 36,
+        "identity_only_fraction_exact": [
+          36,
+          36
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 36,
+        "sum": 36
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            36,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            54,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            48,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            45,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            81,
+            2
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            153,
+            4
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 36,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            297,
+            8
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 36
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 1,
+      "action_count": 9,
+      "action_matrices_sha256": "19c6f587a6e9339af28af05fb665a4374bd1e5af9a6a04529ed3e4e8ce6d44b0",
+      "carrier_sha256": "ae33b62e4e65459fe7c5a107ec1d392948ce4e0eac3a7c17850dab1f42b3cc55",
+      "cleared_height": 2401,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.0008099999999999982,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 100
+        },
+        "identity_only_count": 100,
+        "identity_only_fraction_exact": [
+          100,
+          100
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 100,
+        "sum": 100
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 9,
+        "polynomial": 100,
+        "return_action": 900
+      },
+      "family": "strata",
+      "full_image_size": 30,
+      "image_multiplicity_distribution": {
+        "2": 10,
+        "4": 20
+      },
+      "input_size": 10,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 10,
+        "return_upper_bound_HR2": 1
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 100,
+      "output_fibers_sha256": "0318527871721b97f54337ea8853a378f6bf6fd7b2ffadb60065e3b10db1943c",
+      "pair_returns_sha256": "b58d486c912e8ed69281dae126e1011bbc1326a51f73e2058b803467d5f5e233",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 100
+        },
+        "identity_only_count": 100,
+        "identity_only_fraction_exact": [
+          100,
+          100
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 100,
+        "sum": 100
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 100
+        },
+        "identity_only_count": 100,
+        "identity_only_fraction_exact": [
+          100,
+          100
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 100,
+        "sum": 100
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            100,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            150,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            400,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            125,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            225,
+            2
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            425,
+            4
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 100,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            825,
+            8
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 100
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 1,
+      "action_count": 17,
+      "action_matrices_sha256": "d33ddba9ef978cb36e86db780b98556f3d3e7fc0fde8cab5d5a9a163bfd54732",
+      "carrier_sha256": "1e37e7b70d8ade11a26b2d022ca1c9b64423284219c033bfdbf25bc77a0981ff",
+      "cleared_height": 5764801,
+      "common_denominator": 5764801,
+      "cpu_seconds": 0.003361000000000003,
+      "depth": 8,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_count": 324,
+        "identity_only_fraction_exact": [
+          324,
+          324
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 324,
+        "sum": 324
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 17,
+        "polynomial": 324,
+        "return_action": 5508
+      },
+      "family": "strata",
+      "full_image_size": 90,
+      "image_multiplicity_distribution": {
+        "2": 18,
+        "4": 72
+      },
+      "input_size": 18,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 18,
+        "return_upper_bound_HR2": 1
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 324,
+      "output_fibers_sha256": "662deee95f49763b0c566b25df3fcb6a2a291246d1b4b42b6275e6a8c8d232de",
+      "pair_returns_sha256": "45e6f3b6f29c03ab4f2248363150c1b07b2e12637cf0e65bae1e1c5c8d9708b7",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_count": 324,
+        "identity_only_fraction_exact": [
+          324,
+          324
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 324,
+        "sum": 324
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_count": 324,
+        "identity_only_fraction_exact": [
+          324,
+          324
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 324,
+        "sum": 324
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            324,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            486,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            432,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            405,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            729,
+            2
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1377,
+            4
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 324,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            2673,
+            8
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 324
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 2,
+      "action_count": 5,
+      "action_matrices_sha256": "670e6ef88dbf15ba42d63838d902e262504bbf870335b1f136b10bb5d2a78eae",
+      "carrier_sha256": "7eabb8bd09259ad55b521690189bb4de4fea222e082227651c59c2ef697a4e61",
+      "cleared_height": 98,
+      "common_denominator": 49,
+      "cpu_seconds": 0.0007739999999999969,
+      "depth": 2,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 144
+        },
+        "identity_only_count": 144,
+        "identity_only_fraction_exact": [
+          144,
+          144
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 144,
+        "sum": 144
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 5,
+        "polynomial": 144,
+        "return_action": 720
+      },
+      "family": "strata",
+      "full_image_size": 39,
+      "image_multiplicity_distribution": {
+        "2": 9,
+        "4": 27,
+        "6": 3
+      },
+      "input_size": 12,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 12,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 144,
+      "output_fibers_sha256": "b5b07e7e1b12b12e9a7a2d40f12ad3dd66d2792bc93a8e7bc6701ad7bace9fe9",
+      "pair_returns_sha256": "d4501695778ee9500dccf64cbeaad10e9d386484133ae039616d30631f1a206f",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 144
+        },
+        "identity_only_count": 144,
+        "identity_only_fraction_exact": [
+          144,
+          144
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 144,
+        "sum": 144
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 144
+        },
+        "identity_only_count": 144,
+        "identity_only_fraction_exact": [
+          144,
+          144
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 144,
+        "sum": 144
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            144,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            216,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            192,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            180,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            162,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            153,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 144,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            297,
+            2
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 144
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 2,
+      "action_count": 9,
+      "action_matrices_sha256": "19c6f587a6e9339af28af05fb665a4374bd1e5af9a6a04529ed3e4e8ce6d44b0",
+      "carrier_sha256": "bc4aaa564f4ce6c24cd5286cd723496509f60b1ffd5f059294173f03cfea7411",
+      "cleared_height": 4802,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.0025270000000000015,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 400
+        },
+        "identity_only_count": 400,
+        "identity_only_fraction_exact": [
+          400,
+          400
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 400,
+        "sum": 400
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 9,
+        "polynomial": 400,
+        "return_action": 3600
+      },
+      "family": "strata",
+      "full_image_size": 105,
+      "image_multiplicity_distribution": {
+        "2": 15,
+        "4": 85,
+        "6": 5
+      },
+      "input_size": 20,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 20,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 400,
+      "output_fibers_sha256": "d6a9d22949575b3e5801678dc301d87112f80ebd2c3c1d2be909e67ac16d8c4d",
+      "pair_returns_sha256": "8cfd0ece0eaeb3703aff345c8bc1a2fe0d9ddd029f0a6742caedd8858e47c5c9",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 400
+        },
+        "identity_only_count": 400,
+        "identity_only_fraction_exact": [
+          400,
+          400
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 400,
+        "sum": 400
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 400
+        },
+        "identity_only_count": 400,
+        "identity_only_fraction_exact": [
+          400,
+          400
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 400,
+        "sum": 400
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            400,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            600,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1600,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            500,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            450,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            425,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 400,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            825,
+            2
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 400
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 2,
+      "action_count": 17,
+      "action_matrices_sha256": "d33ddba9ef978cb36e86db780b98556f3d3e7fc0fde8cab5d5a9a163bfd54732",
+      "carrier_sha256": "2e3dd00a6425a0dc34f1d20c1adaacc47aa61759ab2de16d1938be0a09742403",
+      "cleared_height": 11529602,
+      "common_denominator": 5764801,
+      "cpu_seconds": 0.012343999999999994,
+      "depth": 8,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 1296
+        },
+        "identity_only_count": 1296,
+        "identity_only_fraction_exact": [
+          1296,
+          1296
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1296,
+        "sum": 1296
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 17,
+        "polynomial": 1296,
+        "return_action": 22032
+      },
+      "family": "strata",
+      "full_image_size": 333,
+      "image_multiplicity_distribution": {
+        "2": 27,
+        "4": 297,
+        "6": 9
+      },
+      "input_size": 36,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 36,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 1296,
+      "output_fibers_sha256": "93349000e313b0cc699402bf29aa399fe5cace46113226f04fcf739e0b768920",
+      "pair_returns_sha256": "056cc5cb3f185debe5b0cb65ad32d075d6f4b92813f9d0470f86fe8a9380e434",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 1296
+        },
+        "identity_only_count": 1296,
+        "identity_only_fraction_exact": [
+          1296,
+          1296
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1296,
+        "sum": 1296
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 1296
+        },
+        "identity_only_count": 1296,
+        "identity_only_fraction_exact": [
+          1296,
+          1296
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1296,
+        "sum": 1296
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            1296,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1944,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1728,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1620,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1458,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1377,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 1296,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            2673,
+            2
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 1296
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 4,
+      "action_count": 5,
+      "action_matrices_sha256": "670e6ef88dbf15ba42d63838d902e262504bbf870335b1f136b10bb5d2a78eae",
+      "carrier_sha256": "3171185e38cdf762e7a86558897eed931f471bf2fb0fde28332a01c2e267d90e",
+      "cleared_height": 196,
+      "common_denominator": 49,
+      "cpu_seconds": 0.0025550000000000017,
+      "depth": 2,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0594630943592953,
+        "histogram": {
+          "1": 528,
+          "2": 48
+        },
+        "identity_only_count": 528,
+        "identity_only_fraction_exact": [
+          528,
+          576
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 576,
+        "sum": 624
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 5,
+        "polynomial": 576,
+        "return_action": 2880
+      },
+      "family": "strata",
+      "full_image_size": 134,
+      "image_multiplicity_distribution": {
+        "12": 8,
+        "2": 18,
+        "4": 102,
+        "6": 6
+      },
+      "input_size": 24,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 24,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 576,
+      "output_fibers_sha256": "53eb5a7a7d5641326af055d3f8c5aac9f6ce6c58e1a54d7ee7aa2aa50ee235d5",
+      "pair_returns_sha256": "971f3ea3bd9d68af7770169af5df2bae341705ee5c8b21b9e4203c984f898950",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0594630943592953,
+        "histogram": {
+          "1": 528,
+          "2": 48
+        },
+        "identity_only_count": 528,
+        "identity_only_fraction_exact": [
+          528,
+          576
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 576,
+        "sum": 624
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0594630943592953,
+        "histogram": {
+          "1": 528,
+          "2": 48
+        },
+        "identity_only_count": 528,
+        "identity_only_fraction_exact": [
+          528,
+          576
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 576,
+        "sum": 624
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            576,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 528,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            816,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 576,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            768,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 576,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            720,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 576,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            648,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 576,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            612,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 576,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            594,
+            1
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 576
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 4,
+      "action_count": 9,
+      "action_matrices_sha256": "19c6f587a6e9339af28af05fb665a4374bd1e5af9a6a04529ed3e4e8ce6d44b0",
+      "carrier_sha256": "c79bbbe1bbfcfa2355d09d918d05e317f0567a6ccae95aa14fb8dff5dc39bb16",
+      "cleared_height": 9604,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.009832000000000007,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0352649238413776,
+        "histogram": {
+          "1": 1520,
+          "2": 80
+        },
+        "identity_only_count": 1520,
+        "identity_only_fraction_exact": [
+          1520,
+          1600
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1600,
+        "sum": 1680
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 9,
+        "polynomial": 1600,
+        "return_action": 14400
+      },
+      "family": "strata",
+      "full_image_size": 382,
+      "image_multiplicity_distribution": {
+        "12": 14,
+        "2": 30,
+        "4": 328,
+        "6": 10
+      },
+      "input_size": 40,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 40,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 1600,
+      "output_fibers_sha256": "c8f63bc143229f0c0392121ebf0c3f584c435f4d9fd24ac882331b2f56262cf9",
+      "pair_returns_sha256": "d70f05d15e970168e698749b65b704482c0d6ab5fa8f3f181b4af922da8b20a2",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0352649238413776,
+        "histogram": {
+          "1": 1520,
+          "2": 80
+        },
+        "identity_only_count": 1520,
+        "identity_only_fraction_exact": [
+          1520,
+          1600
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1600,
+        "sum": 1680
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0352649238413776,
+        "histogram": {
+          "1": 1520,
+          "2": 80
+        },
+        "identity_only_count": 1520,
+        "identity_only_fraction_exact": [
+          1520,
+          1600
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1600,
+        "sum": 1680
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            1600,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 1520,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            2320,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 1600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            6400,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 1600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            2000,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 1600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1800,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 1600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1700,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 1600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1650,
+            1
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 1600
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 4,
+      "action_count": 17,
+      "action_matrices_sha256": "d33ddba9ef978cb36e86db780b98556f3d3e7fc0fde8cab5d5a9a163bfd54732",
+      "carrier_sha256": "4f05f82cf3ad496055956141deaba7c15b2c0c280b0e44638bee6988ba3b43d1",
+      "cleared_height": 23059204,
+      "common_denominator": 5764801,
+      "cpu_seconds": 0.049209,
+      "depth": 8,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0194406437021448,
+        "histogram": {
+          "1": 5040,
+          "2": 144
+        },
+        "identity_only_count": 5040,
+        "identity_only_fraction_exact": [
+          5040,
+          5184
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 5184,
+        "sum": 5328
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 17,
+        "polynomial": 5184,
+        "return_action": 88128
+      },
+      "family": "strata",
+      "full_image_size": 1262,
+      "image_multiplicity_distribution": {
+        "12": 26,
+        "2": 54,
+        "4": 1164,
+        "6": 18
+      },
+      "input_size": 72,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 72,
+        "return_upper_bound_HR2": 2
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 5184,
+      "output_fibers_sha256": "9c227174409dd99f421a90e7e936797f4cb6482684b7e0ae264da732dea1aa88",
+      "pair_returns_sha256": "f1b970e81a3b45ea2a18dc765629738ce7705bb871626fef8261fda8b9bed8ec",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0194406437021448,
+        "histogram": {
+          "1": 5040,
+          "2": 144
+        },
+        "identity_only_count": 5040,
+        "identity_only_fraction_exact": [
+          5040,
+          5184
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 5184,
+        "sum": 5328
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0194406437021448,
+        "histogram": {
+          "1": 5040,
+          "2": 144
+        },
+        "identity_only_count": 5040,
+        "identity_only_fraction_exact": [
+          5040,
+          5184
+        ],
+        "maximum": 2,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 5184,
+        "sum": 5328
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            5184,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 5040,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            7632,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 5184,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            6912,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 5184,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            6480,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 5184,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            5832,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 5184,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            5508,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 5184,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            5346,
+            1
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 5184
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 8,
+      "action_count": 9,
+      "action_matrices_sha256": "19c6f587a6e9339af28af05fb665a4374bd1e5af9a6a04529ed3e4e8ce6d44b0",
+      "carrier_sha256": "2ff6bf0e912ce5019d66df3d2b51c12e15eb9ebb6a044cb79bcff14e9ddcd31a",
+      "cleared_height": 19208,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.02878599999999998,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0407034290149701,
+        "histogram": {
+          "1": 4632,
+          "2": 244,
+          "3": 24
+        },
+        "identity_only_count": 4632,
+        "identity_only_fraction_exact": [
+          4632,
+          4900
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 4900,
+        "sum": 5192
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 9,
+        "polynomial": 4900,
+        "return_action": 44100
+      },
+      "family": "strata",
+      "full_image_size": 1116,
+      "image_multiplicity_distribution": {
+        "12": 56,
+        "14": 4,
+        "2": 46,
+        "4": 990,
+        "6": 20
+      },
+      "input_size": 70,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 70,
+        "return_upper_bound_HR2": 3
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 4900,
+      "output_fibers_sha256": "f72bf27d9d74030e45a09c6927aa33dfa82b660a8733f332bb8ce572914dd890",
+      "pair_returns_sha256": "25f97e4c44aa4fbb00b568cd18a808bc4dc2758d15a74bec9e6d32f5b5a00a27",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0407034290149701,
+        "histogram": {
+          "1": 4632,
+          "2": 244,
+          "3": 24
+        },
+        "identity_only_count": 4632,
+        "identity_only_fraction_exact": [
+          4632,
+          4900
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 4900,
+        "sum": 5192
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0407034290149701,
+        "histogram": {
+          "1": 4632,
+          "2": 244,
+          "3": 24
+        },
+        "identity_only_count": 4632,
+        "identity_only_fraction_exact": [
+          4632,
+          4900
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 4900,
+        "sum": 5192
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            4900,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 4632,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            7082,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 4876,
+          "minimum_outside_exception": 3,
+          "support_bound_exact": [
+            19528,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 4900,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            6125,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 4900,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            11025,
+            2
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 4900,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            20825,
+            4
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 4900,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            40425,
+            8
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 4900
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 16,
+      "action_count": 9,
+      "action_matrices_sha256": "19c6f587a6e9339af28af05fb665a4374bd1e5af9a6a04529ed3e4e8ce6d44b0",
+      "carrier_sha256": "44cfde1f49ced61ff0d48e1804a95eb27a50ba8a1a270c2c23347ecc713a85bc",
+      "cleared_height": 38416,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.11262700000000003,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.040042603886343,
+        "histogram": {
+          "1": 18560,
+          "2": 920,
+          "3": 120
+        },
+        "identity_only_count": 18560,
+        "identity_only_fraction_exact": [
+          18560,
+          19600
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 19600,
+        "sum": 20760
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 9,
+        "polynomial": 19600,
+        "return_action": 176400
+      },
+      "family": "strata",
+      "full_image_size": 4272,
+      "image_multiplicity_distribution": {
+        "12": 248,
+        "14": 12,
+        "16": 5,
+        "18": 4,
+        "2": 88,
+        "24": 10,
+        "4": 3820,
+        "6": 36,
+        "8": 49
+      },
+      "input_size": 140,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "expected_size": 140,
+        "return_upper_bound_HR2": 4
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 19600,
+      "output_fibers_sha256": "7b3beed28a3a31b59af95047bf03888cab817d6bc44a05ad63ca71e33ab9d5f3",
+      "pair_returns_sha256": "1cd3d2b7539b6828dc45dc93680028ed792339ef8585d6608873a914e666052d",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.040042603886343,
+        "histogram": {
+          "1": 18560,
+          "2": 920,
+          "3": 120
+        },
+        "identity_only_count": 18560,
+        "identity_only_fraction_exact": [
+          18560,
+          19600
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 19600,
+        "sum": 20760
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.040042603886343,
+        "histogram": {
+          "1": 18560,
+          "2": 920,
+          "3": 120
+        },
+        "identity_only_count": 18560,
+        "identity_only_fraction_exact": [
+          18560,
+          19600
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 19600,
+        "sum": 20760
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 0,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            19600,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 18560,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            28360,
+            1
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 19480,
+          "minimum_outside_exception": 3,
+          "support_bound_exact": [
+            78040,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 19600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            24500,
+            1
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 19600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            22050,
+            1
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 19600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            20825,
+            1
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 19600,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            40425,
+            2
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 19600
+      },
+      "zero_exception_count": 0
+    },
+    {
+      "H": 1,
+      "action_count": 7,
+      "action_matrices_sha256": "8bc26e5e5817e6b6dd99ee0e59d75beb4500605e3494088d9a7709c33190fc67",
+      "carrier_sha256": "a6ae60113206cb3b28a7f7774a36c2aea3fb84875b482c2006f2c792c510180d",
+      "cleared_height": 13,
+      "common_denominator": 7,
+      "cpu_seconds": 0.0010350000000000081,
+      "depth": 1,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.2078327611532884,
+        "histogram": {
+          "1": 137,
+          "2": 8,
+          "3": 24
+        },
+        "identity_only_count": 137,
+        "identity_only_fraction_exact": [
+          137,
+          169
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 169,
+        "sum": 225
+      },
+      "engineered_density_exact": [
+        25,
+        169
+      ],
+      "evaluations": {
+        "construction_action": 27,
+        "multiplier_norm": 7,
+        "polynomial": 169,
+        "return_action": 1183
+      },
+      "family": "orbit_box",
+      "full_image_size": 32,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 1,
+        "12": 3,
+        "18": 1,
+        "2": 5,
+        "4": 16,
+        "6": 5
+      },
+      "input_size": 13,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "engineered_pair_count": 25
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 169,
+      "output_fibers_sha256": "1ece7ffd1ae4f4fc28ca2f3ad14a7d137363ef54b7e12e6cbe0161026d730479",
+      "pair_returns_sha256": "cf7bafc979af7147b1d1f73825bb90ec539194ffe51a35460a705aed6393bb77",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.2218204374371622,
+        "histogram": {
+          "1": 136,
+          "2": 8,
+          "3": 24,
+          "7": 1
+        },
+        "identity_only_count": 136,
+        "identity_only_fraction_exact": [
+          136,
+          169
+        ],
+        "maximum": 7,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 169,
+        "sum": 231
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.2091910971064785,
+        "histogram": {
+          "1": 136,
+          "2": 8,
+          "3": 24
+        },
+        "identity_only_count": 136,
+        "identity_only_fraction_exact": [
+          136,
+          168
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 168,
+        "sum": 224
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            170,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 137,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            443,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 145,
+          "minimum_outside_exception": 3,
+          "support_bound_exact": [
+            604,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            845,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1521,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            2873,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            5577,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 168,
+        "7": 1
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 11,
+      "action_matrices_sha256": "8b94d8db0a4ab7ffccc79267f96d6b77d88014ebe1c3338ae32e48d25cb28f00",
+      "carrier_sha256": "c66285a81ecea873544164f694074024919e10d96cffb3b1673cd1064324587f",
+      "cleared_height": 94,
+      "common_denominator": 49,
+      "cpu_seconds": 0.003720000000000001,
+      "depth": 2,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.1413126022856008,
+        "histogram": {
+          "1": 481,
+          "2": 8,
+          "5": 40
+        },
+        "identity_only_count": 481,
+        "identity_only_fraction_exact": [
+          481,
+          529
+        ],
+        "maximum": 5,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 529,
+        "sum": 697
+      },
+      "engineered_density_exact": [
+        41,
+        529
+      ],
+      "evaluations": {
+        "construction_action": 45,
+        "multiplier_norm": 11,
+        "polynomial": 529,
+        "return_action": 5819
+      },
+      "family": "orbit_box",
+      "full_image_size": 112,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 2,
+        "12": 5,
+        "2": 10,
+        "30": 1,
+        "4": 82,
+        "6": 9,
+        "8": 2
+      },
+      "input_size": 23,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "engineered_pair_count": 41
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 529,
+      "output_fibers_sha256": "8c8c64234a06f00590e670f2577d457ec2021b912043518b4aa31f6238323f62",
+      "pair_returns_sha256": "7ae9ccd46979d23b8044da05cc43ee6af39bdcd77f0b8144dcbc886b8da2cde0",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.1464977821652376,
+        "histogram": {
+          "1": 480,
+          "11": 1,
+          "2": 8,
+          "5": 40
+        },
+        "identity_only_count": 480,
+        "identity_only_fraction_exact": [
+          480,
+          529
+        ],
+        "maximum": 11,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 529,
+        "sum": 707
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.1415983531362603,
+        "histogram": {
+          "1": 480,
+          "2": 8,
+          "5": 40
+        },
+        "identity_only_count": 480,
+        "identity_only_fraction_exact": [
+          480,
+          528
+        ],
+        "maximum": 5,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 528,
+        "sum": 696
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            530,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 481,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            1491,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 489,
+          "minimum_outside_exception": 5,
+          "support_bound_exact": [
+            1996,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 489,
+          "minimum_outside_exception": 5,
+          "support_bound_exact": [
+            2485,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 489,
+          "minimum_outside_exception": 5,
+          "support_bound_exact": [
+            2974,
+            5
+          ],
+          "threshold": 5
+        },
+        {
+          "exceptional_pair_count": 529,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            4761,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 529,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            8993,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 529,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            17457,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 528,
+        "11": 1
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 19,
+      "action_matrices_sha256": "ac2dbf62fa6d537a83c25a9150b13d4244e08b6a35bd9e73e95003476871f8a3",
+      "carrier_sha256": "6e5e3a8c040120309c057fd2d55cefa0a12df01aa42e3c1970563dad6dea5743",
+      "cleared_height": 4781,
+      "common_denominator": 2401,
+      "cpu_seconds": 0.018824000000000007,
+      "depth": 4,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0925985698576353,
+        "histogram": {
+          "1": 1769,
+          "2": 8,
+          "9": 72
+        },
+        "identity_only_count": 1769,
+        "identity_only_fraction_exact": [
+          1769,
+          1849
+        ],
+        "maximum": 9,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1849,
+        "sum": 2433
+      },
+      "engineered_density_exact": [
+        73,
+        1849
+      ],
+      "evaluations": {
+        "construction_action": 81,
+        "multiplier_norm": 19,
+        "polynomial": 1849,
+        "return_action": 35131
+      },
+      "family": "orbit_box",
+      "full_image_size": 422,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 1,
+        "12": 9,
+        "18": 1,
+        "2": 20,
+        "4": 364,
+        "54": 1,
+        "6": 19,
+        "8": 6
+      },
+      "input_size": 43,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "engineered_pair_count": 73
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 1849,
+      "output_fibers_sha256": "5bbf7793dc87d26c0b6c1990f29f8318d2389c24e1116c2ee63f225273862188",
+      "pair_returns_sha256": "644dfee317d6adf6f82fbe45a51451d90ed2ca5fe08a50d2d5c02bbcf0237ee3",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0943398639108102,
+        "histogram": {
+          "1": 1768,
+          "19": 1,
+          "2": 8,
+          "9": 72
+        },
+        "identity_only_count": 1768,
+        "identity_only_fraction_exact": [
+          1768,
+          1849
+        ],
+        "maximum": 19,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1849,
+        "sum": 2451
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0926509300367657,
+        "histogram": {
+          "1": 1768,
+          "2": 8,
+          "9": 72
+        },
+        "identity_only_count": 1768,
+        "identity_only_fraction_exact": [
+          1768,
+          1848
+        ],
+        "maximum": 9,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 1848,
+        "sum": 2432
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            1850,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 1769,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            5387,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 1777,
+          "minimum_outside_exception": 9,
+          "support_bound_exact": [
+            7180,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 1777,
+          "minimum_outside_exception": 9,
+          "support_bound_exact": [
+            8957,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 1777,
+          "minimum_outside_exception": 9,
+          "support_bound_exact": [
+            16065,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 1777,
+          "minimum_outside_exception": 9,
+          "support_bound_exact": [
+            17842,
+            9
+          ],
+          "threshold": 9
+        },
+        {
+          "exceptional_pair_count": 1849,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            31433,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 1849,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            61017,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 1848,
+        "19": 1
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 35,
+      "action_matrices_sha256": "9d61a4679713059d0d1a3f809cd6fa76e229620ea3036037d53fbd0940a100b1",
+      "carrier_sha256": "e26736dee04a278bebff0a4be50f560fcd1e168780a59facb1ff9d2e61530967",
+      "cleared_height": 11479181,
+      "common_denominator": 5764801,
+      "cpu_seconds": 0.12517700000000004,
+      "depth": 8,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0583775740428472,
+        "histogram": {
+          "1": 6745,
+          "17": 136,
+          "2": 8
+        },
+        "identity_only_count": 6745,
+        "identity_only_fraction_exact": [
+          6745,
+          6889
+        ],
+        "maximum": 17,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 6889,
+        "sum": 9073
+      },
+      "engineered_density_exact": [
+        137,
+        6889
+      ],
+      "evaluations": {
+        "construction_action": 153,
+        "multiplier_norm": 35,
+        "polynomial": 6889,
+        "return_action": 241115
+      },
+      "family": "orbit_box",
+      "full_image_size": 1642,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 1,
+        "102": 1,
+        "12": 17,
+        "2": 40,
+        "34": 1,
+        "4": 1528,
+        "6": 39,
+        "8": 14
+      },
+      "input_size": 83,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "engineered_pair_count": 137
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 6889,
+      "output_fibers_sha256": "58824f3192cf1693380616abff45f8c42524f4b3e6abc72ddd66706769833eda",
+      "pair_returns_sha256": "ac4b0f66218f7e08fcd0acd03363ef92c359eb79d6e5509776ee0e33a61651eb",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0589239337208942,
+        "histogram": {
+          "1": 6744,
+          "17": 136,
+          "2": 8,
+          "35": 1
+        },
+        "identity_only_count": 6744,
+        "identity_only_fraction_exact": [
+          6744,
+          6889
+        ],
+        "maximum": 35,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 6889,
+        "sum": 9107
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.058386292040706,
+        "histogram": {
+          "1": 6744,
+          "17": 136,
+          "2": 8
+        },
+        "identity_only_count": 6744,
+        "identity_only_fraction_exact": [
+          6744,
+          6888
+        ],
+        "maximum": 17,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 6888,
+        "sum": 9072
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            6890,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 6745,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            20379,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 6753,
+          "minimum_outside_exception": 17,
+          "support_bound_exact": [
+            27148,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 6753,
+          "minimum_outside_exception": 17,
+          "support_bound_exact": [
+            33901,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 6753,
+          "minimum_outside_exception": 17,
+          "support_bound_exact": [
+            60913,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 6753,
+          "minimum_outside_exception": 17,
+          "support_bound_exact": [
+            114937,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 6753,
+          "minimum_outside_exception": 17,
+          "support_bound_exact": [
+            121690,
+            17
+          ],
+          "threshold": 17
+        },
+        {
+          "exceptional_pair_count": 6889,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            227337,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 6888,
+        "35": 1
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 1,
+      "action_matrices_sha256": "0f995ac97d4e81be356f980800f23a0dc630e88ce86d52366bf492e9582f6beb",
+      "carrier_sha256": "4c71652903360b70f87ec311f53aa3cb8534c13114c5bb9bd47530ed6e439635",
+      "cleared_height": 1,
+      "common_denominator": 1,
+      "cpu_seconds": 0.00010900000000002574,
+      "depth": 0,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 9
+        },
+        "identity_only_count": 9,
+        "identity_only_fraction_exact": [
+          9,
+          9
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 9,
+        "sum": 9
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "multiplier_norm": 1,
+        "polynomial": 9,
+        "return_action": 9
+      },
+      "family": "repair",
+      "full_image_size": 3,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "2": 1,
+        "6": 1
+      },
+      "input_size": 3,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "previous_square_count": 0,
+        "stage_sizes": [
+          3
+        ]
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 9,
+      "output_fibers_sha256": "0a8ccdcab60d37baa6064ef1a8b3b402fa81d054713518edf9c53fbbfaed83ee",
+      "pair_returns_sha256": "bf2e36987750bfca29f514d61bead1fed775f06eaf899863403c5461429b8a10",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 9
+        },
+        "identity_only_count": 9,
+        "identity_only_fraction_exact": [
+          9,
+          9
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 9,
+        "sum": 9
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.0,
+        "histogram": {
+          "1": 8
+        },
+        "identity_only_count": 8,
+        "identity_only_fraction_exact": [
+          8,
+          8
+        ],
+        "maximum": 1,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 8,
+        "sum": 8
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            10,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            27,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            12,
+            1
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            45,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            81,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            153,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 9,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            297,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 9
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 7,
+      "action_matrices_sha256": "8bc26e5e5817e6b6dd99ee0e59d75beb4500605e3494088d9a7709c33190fc67",
+      "carrier_sha256": "a6ae60113206cb3b28a7f7774a36c2aea3fb84875b482c2006f2c792c510180d",
+      "cleared_height": 13,
+      "common_denominator": 7,
+      "cpu_seconds": 0.0010849999999999471,
+      "depth": 1,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.2078327611532884,
+        "histogram": {
+          "1": 137,
+          "2": 8,
+          "3": 24
+        },
+        "identity_only_count": 137,
+        "identity_only_fraction_exact": [
+          137,
+          169
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 169,
+        "sum": 225
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "construction_action": 18,
+        "multiplier_norm": 7,
+        "polynomial": 169,
+        "return_action": 1183
+      },
+      "family": "repair",
+      "full_image_size": 32,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 1,
+        "12": 3,
+        "18": 1,
+        "2": 5,
+        "4": 16,
+        "6": 5
+      },
+      "input_size": 13,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "previous_square_count": 9,
+        "stage_sizes": [
+          3,
+          13
+        ]
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 169,
+      "output_fibers_sha256": "1ece7ffd1ae4f4fc28ca2f3ad14a7d137363ef54b7e12e6cbe0161026d730479",
+      "pair_returns_sha256": "cf7bafc979af7147b1d1f73825bb90ec539194ffe51a35460a705aed6393bb77",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.2218204374371622,
+        "histogram": {
+          "1": 136,
+          "2": 8,
+          "3": 24,
+          "7": 1
+        },
+        "identity_only_count": 136,
+        "identity_only_fraction_exact": [
+          136,
+          169
+        ],
+        "maximum": 7,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 169,
+        "sum": 231
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.2091910971064785,
+        "histogram": {
+          "1": 136,
+          "2": 8,
+          "3": 24
+        },
+        "identity_only_count": 136,
+        "identity_only_fraction_exact": [
+          136,
+          168
+        ],
+        "maximum": 3,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 168,
+        "sum": 224
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            170,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 137,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            443,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 145,
+          "minimum_outside_exception": 3,
+          "support_bound_exact": [
+            604,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            845,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            1521,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            2873,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 169,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            5577,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 168,
+        "7": 1
+      },
+      "zero_exception_count": 1
+    },
+    {
+      "H": 1,
+      "action_count": 11,
+      "action_matrices_sha256": "8b94d8db0a4ab7ffccc79267f96d6b77d88014ebe1c3338ae32e48d25cb28f00",
+      "carrier_sha256": "cf519f874879da4b8432c430d58c262a71b0111448f035fa922a04b20b377fca",
+      "cleared_height": 169,
+      "common_denominator": 49,
+      "cpu_seconds": 0.09358099999999997,
+      "depth": 2,
+      "distinct_returned_pair_distribution": {
+        "geometric_mean_float": 1.14075242435304,
+        "histogram": {
+          "1": 12181,
+          "2": 1972,
+          "3": 432,
+          "4": 16,
+          "5": 40
+        },
+        "identity_only_count": 12181,
+        "identity_only_fraction_exact": [
+          12181,
+          14641
+        ],
+        "maximum": 5,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 14641,
+        "sum": 17685
+      },
+      "engineered_density_exact": null,
+      "evaluations": {
+        "construction_action": 356,
+        "multiplier_norm": 11,
+        "polynomial": 14641,
+        "return_action": 161051
+      },
+      "family": "repair",
+      "full_image_size": 2129,
+      "image_multiplicity_distribution": {
+        "1": 1,
+        "10": 7,
+        "12": 313,
+        "14": 1,
+        "16": 76,
+        "18": 12,
+        "2": 43,
+        "20": 3,
+        "24": 56,
+        "28": 2,
+        "30": 1,
+        "32": 2,
+        "36": 4,
+        "4": 1328,
+        "40": 2,
+        "46": 1,
+        "48": 1,
+        "6": 55,
+        "8": 221
+      },
+      "input_size": 121,
+      "metadata": {
+        "all_nonzero_cyclic_returns_covered": true,
+        "previous_square_count": 169,
+        "stage_sizes": [
+          3,
+          13,
+          121
+        ]
+      },
+      "minimum_returns_outside_zero": 1,
+      "ordered_pairs": 14641,
+      "output_fibers_sha256": "ca39c7024b602a2afd53e4cfc410857cbb10c9b9d1e521f195e0f12dbcd50e28",
+      "pair_returns_sha256": "1715235df348207c6b6ccbe1a2a2e9d948eb0fe06a7df05217a592cd8554b098",
+      "raw_return_distribution_all_pairs": {
+        "geometric_mean_float": 1.1409392714850393,
+        "histogram": {
+          "1": 12180,
+          "11": 1,
+          "2": 1972,
+          "3": 432,
+          "4": 16,
+          "5": 40
+        },
+        "identity_only_count": 12180,
+        "identity_only_fraction_exact": [
+          12180,
+          14641
+        ],
+        "maximum": 11,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 14641,
+        "sum": 17695
+      },
+      "return_distribution_nonzero": {
+        "geometric_mean_float": 1.140762685565898,
+        "histogram": {
+          "1": 12180,
+          "2": 1972,
+          "3": 432,
+          "4": 16,
+          "5": 40
+        },
+        "identity_only_count": 12180,
+        "identity_only_fraction_exact": [
+          12180,
+          14640
+        ],
+        "maximum": 5,
+        "median_exact": [
+          1,
+          1
+        ],
+        "minimum": 1,
+        "population": 14640,
+        "sum": 17684
+      },
+      "return_tail": [
+        {
+          "exceptional_pair_count": 1,
+          "minimum_outside_exception": 1,
+          "support_bound_exact": [
+            14642,
+            1
+          ],
+          "threshold": 1
+        },
+        {
+          "exceptional_pair_count": 12181,
+          "minimum_outside_exception": 2,
+          "support_bound_exact": [
+            39003,
+            2
+          ],
+          "threshold": 2
+        },
+        {
+          "exceptional_pair_count": 14153,
+          "minimum_outside_exception": 3,
+          "support_bound_exact": [
+            57100,
+            3
+          ],
+          "threshold": 3
+        },
+        {
+          "exceptional_pair_count": 14585,
+          "minimum_outside_exception": 4,
+          "support_bound_exact": [
+            72981,
+            4
+          ],
+          "threshold": 4
+        },
+        {
+          "exceptional_pair_count": 14601,
+          "minimum_outside_exception": 5,
+          "support_bound_exact": [
+            87646,
+            5
+          ],
+          "threshold": 5
+        },
+        {
+          "exceptional_pair_count": 14641,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            131769,
+            8
+          ],
+          "threshold": 8
+        },
+        {
+          "exceptional_pair_count": 14641,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            248897,
+            16
+          ],
+          "threshold": 16
+        },
+        {
+          "exceptional_pair_count": 14641,
+          "minimum_outside_exception": null,
+          "support_bound_exact": [
+            483153,
+            32
+          ],
+          "threshold": 32
+        }
+      ],
+      "stabilizer_distribution_all_pairs": {
+        "1": 14640,
+        "11": 1
+      },
+      "zero_exception_count": 1
+    }
+  ],
+  "code_sha256": "4825c1ad9e6062fedae646630ffac4423767542860913fad02b119b22ed32231",
+  "command": [
+    "experiments/cartesian_returns.py",
+    "--output",
+    "local-only/runs/T03/2026-09-16-high-return/results.json"
+  ],
+  "cpu_cap": 600.0,
+  "cpu_guard": "sampled every 256 evaluations and at case/final completion",
+  "cpu_seconds": 0.46842500000000004,
+  "date_utc": "2026-09-16T00:52:20.971437+00:00",
+  "errors": [],
+  "evaluation_cap": 2000000,
+  "evaluations": {
+    "construction_action": 680,
+    "multiplier_norm": 202,
+    "polynomial": 58415,
+    "return_action": 804339
+  },
+  "python": "3.12.7",
+  "raw_results_path": "local-only/runs/T03/2026-09-16-high-return/results.json",
+  "schedule": [
+    [
+      "strata",
+      1,
+      2
+    ],
+    [
+      "strata",
+      1,
+      4
+    ],
+    [
+      "strata",
+      1,
+      8
+    ],
+    [
+      "strata",
+      2,
+      2
+    ],
+    [
+      "strata",
+      2,
+      4
+    ],
+    [
+      "strata",
+      2,
+      8
+    ],
+    [
+      "strata",
+      4,
+      2
+    ],
+    [
+      "strata",
+      4,
+      4
+    ],
+    [
+      "strata",
+      4,
+      8
+    ],
+    [
+      "strata",
+      8,
+      4
+    ],
+    [
+      "strata",
+      16,
+      4
+    ],
+    [
+      "orbit_box",
+      1,
+      1
+    ],
+    [
+      "orbit_box",
+      1,
+      2
+    ],
+    [
+      "orbit_box",
+      1,
+      4
+    ],
+    [
+      "orbit_box",
+      1,
+      8
+    ],
+    [
+      "repair",
+      1,
+      0
+    ],
+    [
+      "repair",
+      1,
+      1
+    ],
+    [
+      "repair",
+      1,
+      2
+    ]
+  ],
+  "seed": null,
+  "status": "EXPERIMENTAL",
+  "total_evaluations": 863636
+}

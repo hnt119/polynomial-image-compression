@@ -1,0 +1,40 @@
+{
+  "scope": "new 2026-10-06 cross-block companions only; excludes this manifest",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6672,
+      "sha256": "9b6eb3c050a5cce0fb4c67f6056ba30bc1d4f481ac6163a34cbe4572553edb72"
+    },
+    {
+      "path": "actions.md",
+      "bytes": 13840,
+      "sha256": "232fb3a475668247fe278a6c236e220c1d35bd5e6514be22649dbcf2de5e4ac8"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 12905,
+      "sha256": "a9f31edee3fdb046f29530199b9f8bda7451960a75aefd18b3140afa3680bb58"
+    },
+    {
+      "path": "composition.md",
+      "bytes": 12018,
+      "sha256": "31556a9bb41dc23e852e6a4e190d7d9cffa28927bb6aa649290ccf57fd57a377"
+    },
+    {
+      "path": "ledger.md",
+      "bytes": 7481,
+      "sha256": "41996ac38b6738a33813e69d7c92acb23ecae682d088d08d0c85f1d2de98f43f"
+    },
+    {
+      "path": "state.json",
+      "bytes": 4645,
+      "sha256": "a13bf36e5fe345ed3e9ff8572d87e61ec86d867f11d2760e719ea1791e4dd241"
+    },
+    {
+      "path": "verification.md",
+      "bytes": 6559,
+      "sha256": "f5c4f6d3686d5100e42079c22d0644bc6d355b7f0631c49bd54c8fffe849d2a9"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "certificate_disposition": "CLOSED",
+  "completed_primary_sources": [
+    {
+      "bytes": 18523,
+      "path": "research/notes/2026-09-16-hr-n1-offline/README.md",
+      "sha256": "ffc7a74e1ede61672dafbc4b10c7b391bfe2586bf7cfe49e917a3b773cf54a30"
+    },
+    {
+      "bytes": 12976,
+      "path": "research/notes/2026-09-16-hr-n1-offline/independent-audit.md",
+      "sha256": "508bbdae68b5ebf2d38cbd48aca8a3a90e69d809aefdc12c83d20731c272f0b8"
+    },
+    {
+      "bytes": 17947,
+      "path": "research/notes/2026-09-16-hr-n1-offline/local-action.md",
+      "sha256": "3f1dbc726a31dcb6da2ff3a18e4551789f9e8fe19cae9a3af91d110854495450"
+    },
+    {
+      "bytes": 5127,
+      "path": "research/notes/2026-09-16-hr-n1-offline/manifest.json",
+      "sha256": "043bbd72d08f98645f0f78a8e3aea3e14aeb6d4f59200caccff429b36104e34b"
+    },
+    {
+      "bytes": 7852,
+      "path": "research/notes/2026-09-16-hr-n1-offline/verification.md",
+      "sha256": "a2bc22526e94d92c9014b7edb57604e9f074cfb2bac0d589669d6c13bcc16f22"
+    }
+  ],
+  "computation": {
+    "charged_evaluations": 0,
+    "enumeration_performed": false,
+    "research_program_cpu_seconds": 0
+  },
+  "date": "2026-09-16",
+  "files": [
+    {
+      "bytes": 39786,
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/README.md",
+      "sha256": "8461ef585241538ea53e57d792ddade1e0ec92677c6e716fe6fbc97d95ce0ed4"
+    },
+    {
+      "bytes": 1315,
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/final-state.yaml",
+      "sha256": "bdf366f41cd2f2d208216a955fd90e6b666ea4ebbbe91a49b48d9f6ab70c4d14"
+    },
+    {
+      "bytes": 7196,
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/verification.md",
+      "sha256": "30860f2959e237a187b136947842353c9efb235e0b04b2614ee9704e4f817e8c"
+    }
+  ],
+  "local_checks": [
+    {
+      "argv": [
+        "python3",
+        "scripts/check_repository.py"
+      ],
+      "elapsed_seconds": 0.09147508299793117,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Verified 39 archived source files and local links in 60 Markdown files.\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "scripts/check_codex_setup.py"
+      ],
+      "elapsed_seconds": 0.14589441599673592,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Verified 42 local reference files, original import identities, 43 T03 manifest members, duplicate states and C4 hashes. No research code executed.\n"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "elapsed_seconds": 0.036640417005401105,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": ""
+    }
+  ],
+  "manifest_self_hash": "Excluded to avoid self-reference.",
+  "mathematical_status": "DISPROVED",
+  "navigation_append_targets": [
+    {
+      "bytes": 6826,
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "sha256": "5ad8f76845a8f83f898c0cd8183b5c49bc61c17de9cf171810c237f9d2145377"
+    },
+    {
+      "bytes": 14388,
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "sha256": "35eb2ee1f5c580080f51b6131912df448c64d78ca43df8a31dd3179c968fa74a"
+    },
+    {
+      "bytes": 39881,
+      "path": "research/FAILURE_LIBRARY.md",
+      "sha256": "344b180a76654ce68fdb23f8c5c3a757c7598bbdaf537ca8484448da903cd4b7"
+    },
+    {
+      "bytes": 12465,
+      "path": "research/OPEN_LEMMAS.md",
+      "sha256": "0041cfb0e6550acd0f7cc36e616cff69650e3dfbde5dd86f85ebc8ae63261b01"
+    },
+    {
+      "bytes": 11171,
+      "path": "research/MECHANISM_LIBRARY.md",
+      "sha256": "6e58a7894f445f9141689b58bf1c9dfa748338698cd70de254b85bc8f3ad30ab"
+    }
+  ],
+  "offline": {
+    "literature_search_performed": false,
+    "network_access_attempted": false
+  },
+  "preservation": {
+    "navigation_original_prefixes_unchanged": 5,
+    "other_inherited_tracked_diff_blocks_unchanged": 8,
+    "protected_files_unchanged": 71
+  },
+  "proof_audit": {
+    "completed_cycle_internal_reviews_passed": 2,
+    "external_peer_review_claimed": false,
+    "freeze_T03_source_fidelity_review": "PASS",
+    "freeze_obstruction_fidelity_review": "PASS",
+    "new_proof_search": false
+  },
+  "python_version": "3.12.7",
+  "record_id": "HR-N1-FINAL-1",
+  "remaining_status": {
+    "ARG": "OPEN",
+    "RC15_4": "OPEN",
+    "TCRC": "OPEN",
+    "quadratic_target": "OPEN",
+    "rational_carrier_actual_image": "OPEN"
+  },
+  "result_id": "HR-N1",
+  "state_source_note": "Private migration source identities were checked locally against their original manifests; no source contents are copied here.",
+  "status": "FAILED",
+  "support_implication_source": {
+    "bytes": 19551,
+    "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+    "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e"
+  },
+  "task_kind": "Final freeze, proof audit, documentation and handoff; no new research",
+  "text_checks": {
+    "markdown_table_columns_consistent": true,
+    "report_sections_A_to_O_present": true,
+    "yaml_matches_report_exactly": true
+  },
+  "theorem_unchanged": true,
+  "track": "T03",
+  "verification_scripts": [
+    {
+      "bytes": 3097,
+      "path": "scripts/check_repository.py",
+      "sha256": "0f10bbd4fb3130690834435d97d0c984db7c22e11c288611fc9ada58d1a54d96"
+    },
+    {
+      "bytes": 3867,
+      "path": "scripts/check_codex_setup.py",
+      "sha256": "6536d93ea619081ed8e64941350c0a5dbcbfe315c9aa3c02bcea0b01e24b8b11"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,3564 @@
+{
+  "date": "2026-09-16",
+  "status": "EXPERIMENTAL; exact finite sets, not asymptotic proof",
+  "norm_trace": [
+    {
+      "family": "unit_times_additive_box",
+      "field": "cyclic_cubic",
+      "minimal_polynomial_low_first": [
+        1,
+        -3,
+        0,
+        1
+      ],
+      "depth": 0,
+      "parameter_count": 8,
+      "distinct_inputs": 8,
+      "scalar_norm_size": 8,
+      "results": {
+        "q": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 36,
+          "fiber_histogram": {
+            "1": 8,
+            "2": 28
+          },
+          "input_sha256": "b243f0048324270fa6bc1c210b27363dc00bf705b2c8bf10252b0686df04864f",
+          "output_sha256": "358f729aeb13df2a6c56011abd13086c3a0a670e6f087641ee819ec112cdc716",
+          "largest_coefficient": 5
+        },
+        "q_plus_x": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 58,
+          "fiber_histogram": {
+            "1": 52,
+            "2": 6
+          },
+          "input_sha256": "b243f0048324270fa6bc1c210b27363dc00bf705b2c8bf10252b0686df04864f",
+          "output_sha256": "1fd354474ba214322f4b45e90664ef6458384226e4f04023d50afad591f442a0",
+          "largest_coefficient": 5
+        },
+        "sum_size": 27,
+        "product_size": 36
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "cyclic_cubic",
+      "depth": 0,
+      "parameter_count": 8,
+      "pretrace_inputs": 8,
+      "distinct_inputs": 4,
+      "results": {
+        "q": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 10,
+          "fiber_histogram": {
+            "1": 4,
+            "2": 6
+          },
+          "input_sha256": "e208e7b2d317b2fc8ce43de08aec0bf522e94edb523f69947fa8ab55f773801d",
+          "output_sha256": "a8d59442b99ac82381ccb3a0d2fc746ea699b553d21643abb53f947f51fe86ad",
+          "largest_coefficient": 21
+        },
+        "q_plus_x": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 16,
+          "fiber_histogram": {
+            "1": 16
+          },
+          "input_sha256": "e208e7b2d317b2fc8ce43de08aec0bf522e94edb523f69947fa8ab55f773801d",
+          "output_sha256": "1b25450de636a19797da29f5152c5a24990d686027a07fc7c2300ca1ca86fe2b",
+          "largest_coefficient": 21
+        },
+        "sum_size": 7,
+        "product_size": 10
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "cyclic_cubic",
+      "minimal_polynomial_low_first": [
+        1,
+        -3,
+        0,
+        1
+      ],
+      "depth": 1,
+      "parameter_count": 24,
+      "distinct_inputs": 24,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 24,
+          "ordered_pairs": 576,
+          "image_size": 300,
+          "fiber_histogram": {
+            "1": 24,
+            "2": 276
+          },
+          "input_sha256": "e7393daed26cb57bf44511cfd9d7318c037feeb0259d58b7d21803f75de51734",
+          "output_sha256": "ec7dc9b1b2dd74d34a6524bb42b5e19b84dc279fda79f435389db883244743fb",
+          "largest_coefficient": 16
+        },
+        "q_plus_x": {
+          "n": 24,
+          "ordered_pairs": 576,
+          "image_size": 548,
+          "fiber_histogram": {
+            "1": 520,
+            "2": 28
+          },
+          "input_sha256": "e7393daed26cb57bf44511cfd9d7318c037feeb0259d58b7d21803f75de51734",
+          "output_sha256": "af702386e51c7bda12c4da7c2b35baa5d0b982f7afdaf8de529908e33578d834",
+          "largest_coefficient": 16
+        },
+        "sum_size": 201,
+        "product_size": 180
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "cyclic_cubic",
+      "depth": 1,
+      "parameter_count": 24,
+      "pretrace_inputs": 24,
+      "distinct_inputs": 8,
+      "results": {
+        "q": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 29,
+          "fiber_histogram": {
+            "1": 6,
+            "2": 18,
+            "4": 4,
+            "6": 1
+          },
+          "input_sha256": "75a1e5be5c78e896399a77663ce5f731e58bef570d5a24ab8a653629826efa3d",
+          "output_sha256": "540900b52d661b2c964b80468c79598ffb5c62fe8c111c8738f342386f730a0d",
+          "largest_coefficient": 21
+        },
+        "q_plus_x": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 59,
+          "fiber_histogram": {
+            "1": 54,
+            "2": 5
+          },
+          "input_sha256": "75a1e5be5c78e896399a77663ce5f731e58bef570d5a24ab8a653629826efa3d",
+          "output_sha256": "8bf2a91e6542c2e79f9b7cc868c254a6a25274bd6f7a0a6ceeae21d30307fc8e",
+          "largest_coefficient": 21
+        },
+        "sum_size": 17,
+        "product_size": 27
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "cyclic_cubic",
+      "minimal_polynomial_low_first": [
+        1,
+        -3,
+        0,
+        1
+      ],
+      "depth": 2,
+      "parameter_count": 40,
+      "distinct_inputs": 40,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 40,
+          "ordered_pairs": 1600,
+          "image_size": 820,
+          "fiber_histogram": {
+            "1": 40,
+            "2": 780
+          },
+          "input_sha256": "bab775e1a1e0e943937d9d2af9036880ccad4811f9de6d75352a0a9b2f13daf9",
+          "output_sha256": "fcf29bb086f2609dbe5fd5d0210ed7f765f965cfcd48121f35affdbbdf4a5fa3",
+          "largest_coefficient": 49
+        },
+        "q_plus_x": {
+          "n": 40,
+          "ordered_pairs": 1600,
+          "image_size": 1534,
+          "fiber_histogram": {
+            "1": 1468,
+            "2": 66
+          },
+          "input_sha256": "bab775e1a1e0e943937d9d2af9036880ccad4811f9de6d75352a0a9b2f13daf9",
+          "output_sha256": "c73dc991590951bab1c128a7dc14e04826411eea31c8870eecd4ea3074732304",
+          "largest_coefficient": 49
+        },
+        "sum_size": 615,
+        "product_size": 324
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "cyclic_cubic",
+      "depth": 2,
+      "parameter_count": 40,
+      "pretrace_inputs": 40,
+      "distinct_inputs": 17,
+      "results": {
+        "q": {
+          "n": 17,
+          "ordered_pairs": 289,
+          "image_size": 132,
+          "fiber_histogram": {
+            "1": 15,
+            "2": 99,
+            "4": 16,
+            "6": 2
+          },
+          "input_sha256": "47ac9c393ca1dd5fdd77a5c30fb90e8067edd7d62d912c736b285c6dcf81b0ef",
+          "output_sha256": "f205104d1891da914333bc0c04c0bdec934f8834605c5d41e6a1bd53aff7a6a4",
+          "largest_coefficient": 51
+        },
+        "q_plus_x": {
+          "n": 17,
+          "ordered_pairs": 289,
+          "image_size": 274,
+          "fiber_histogram": {
+            "1": 259,
+            "2": 15
+          },
+          "input_sha256": "47ac9c393ca1dd5fdd77a5c30fb90e8067edd7d62d912c736b285c6dcf81b0ef",
+          "output_sha256": "2993ed16fc974750506fa0e0cb56bb0e751fe42d7a88e3cf4d9cf1a72997981e",
+          "largest_coefficient": 51
+        },
+        "sum_size": 37,
+        "product_size": 108
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "cyclic_cubic",
+      "minimal_polynomial_low_first": [
+        1,
+        -3,
+        0,
+        1
+      ],
+      "depth": 4,
+      "parameter_count": 72,
+      "distinct_inputs": 72,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 72,
+          "ordered_pairs": 5184,
+          "image_size": 2628,
+          "fiber_histogram": {
+            "1": 72,
+            "2": 2556
+          },
+          "input_sha256": "467c790ca48745ef278db143bc572a5cb2fd8e478473281dc34e3af941168cd5",
+          "output_sha256": "012f59583e1847ddde73f6e022cc9c900aa9b9160f2e085a6fa4986a5cd4bfb7",
+          "largest_coefficient": 410
+        },
+        "q_plus_x": {
+          "n": 72,
+          "ordered_pairs": 5184,
+          "image_size": 5118,
+          "fiber_histogram": {
+            "1": 5052,
+            "2": 66
+          },
+          "input_sha256": "467c790ca48745ef278db143bc572a5cb2fd8e478473281dc34e3af941168cd5",
+          "output_sha256": "41688a5194ca103421aa380319f49037616865a84fa34dbd7f43dd9ab9e3dea6",
+          "largest_coefficient": 410
+        },
+        "sum_size": 2211,
+        "product_size": 612
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "cyclic_cubic",
+      "depth": 4,
+      "parameter_count": 72,
+      "pretrace_inputs": 72,
+      "distinct_inputs": 44,
+      "results": {
+        "q": {
+          "n": 44,
+          "ordered_pairs": 1936,
+          "image_size": 812,
+          "fiber_histogram": {
+            "1": 32,
+            "2": 662,
+            "3": 2,
+            "4": 83,
+            "6": 19,
+            "8": 10,
+            "10": 1,
+            "12": 2,
+            "14": 1
+          },
+          "input_sha256": "a72915dacde5c55fffebcd767f9ec5b3e29f4f01d7b669656c438d11c6b58b9f",
+          "output_sha256": "37360bd5d8ac9bbee39bb45aa71e29134117d47def82c3f159da46a6f4094a05",
+          "largest_coefficient": 378
+        },
+        "q_plus_x": {
+          "n": 44,
+          "ordered_pairs": 1936,
+          "image_size": 1764,
+          "fiber_histogram": {
+            "1": 1623,
+            "2": 116,
+            "3": 21,
+            "4": 2,
+            "5": 2
+          },
+          "input_sha256": "a72915dacde5c55fffebcd767f9ec5b3e29f4f01d7b669656c438d11c6b58b9f",
+          "output_sha256": "0222219f9cf2e5a9feb72acbf68969bca9405b5be0d16a27d5ce950de988c17f",
+          "largest_coefficient": 378
+        },
+        "sum_size": 214,
+        "product_size": 719
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "s3_real_cubic",
+      "minimal_polynomial_low_first": [
+        -2,
+        0,
+        0,
+        1
+      ],
+      "depth": 0,
+      "parameter_count": 8,
+      "distinct_inputs": 8,
+      "scalar_norm_size": 8,
+      "results": {
+        "q": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 36,
+          "fiber_histogram": {
+            "1": 8,
+            "2": 28
+          },
+          "input_sha256": "b243f0048324270fa6bc1c210b27363dc00bf705b2c8bf10252b0686df04864f",
+          "output_sha256": "e02c4a60bcfc4011d9cee94944f44364a747ef7cd8f9d6460c0778cd8af01b6e",
+          "largest_coefficient": 5
+        },
+        "q_plus_x": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 58,
+          "fiber_histogram": {
+            "1": 52,
+            "2": 6
+          },
+          "input_sha256": "b243f0048324270fa6bc1c210b27363dc00bf705b2c8bf10252b0686df04864f",
+          "output_sha256": "bb53a83fd8a9e50aef5b9a1b88cb4c05df559712967f14a934b20ec37224ae8f",
+          "largest_coefficient": 5
+        },
+        "sum_size": 27,
+        "product_size": 36
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "s3_real_cubic",
+      "depth": 0,
+      "parameter_count": 8,
+      "pretrace_inputs": 8,
+      "distinct_inputs": 2,
+      "results": {
+        "q": {
+          "n": 2,
+          "ordered_pairs": 4,
+          "image_size": 3,
+          "fiber_histogram": {
+            "1": 2,
+            "2": 1
+          },
+          "input_sha256": "0be4b25652648b57ab6f47c4938ba5374f5a85426331e9be55651368f5e1b462",
+          "output_sha256": "b3938090a75a37ded1b6d77f29054f77ecea3876ad9e334b606ecff94c0bba76",
+          "largest_coefficient": 15
+        },
+        "q_plus_x": {
+          "n": 2,
+          "ordered_pairs": 4,
+          "image_size": 4,
+          "fiber_histogram": {
+            "1": 4
+          },
+          "input_sha256": "0be4b25652648b57ab6f47c4938ba5374f5a85426331e9be55651368f5e1b462",
+          "output_sha256": "a3e3c4ae33d71c7f8f30f28e9aa82f4bee14af5ea6c98615b480a3f8ae7ea995",
+          "largest_coefficient": 15
+        },
+        "sum_size": 3,
+        "product_size": 3
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "s3_real_cubic",
+      "minimal_polynomial_low_first": [
+        -2,
+        0,
+        0,
+        1
+      ],
+      "depth": 1,
+      "parameter_count": 24,
+      "distinct_inputs": 24,
+      "scalar_norm_size": 8,
+      "results": {
+        "q": {
+          "n": 24,
+          "ordered_pairs": 576,
+          "image_size": 298,
+          "fiber_histogram": {
+            "1": 24,
+            "2": 272,
+            "4": 2
+          },
+          "input_sha256": "6b0558026c4dca4e9b4131be486514b061bf25470fbe059cf0a81e58eb4ef9ca",
+          "output_sha256": "72ce5e4f44b573ebd1af9d2cef25a9580c1a347670d1f2786d303d451833f9c1",
+          "largest_coefficient": 9
+        },
+        "q_plus_x": {
+          "n": 24,
+          "ordered_pairs": 576,
+          "image_size": 555,
+          "fiber_histogram": {
+            "1": 534,
+            "2": 21
+          },
+          "input_sha256": "6b0558026c4dca4e9b4131be486514b061bf25470fbe059cf0a81e58eb4ef9ca",
+          "output_sha256": "497200dcd578f64f61d5a7357480f2d20687038c8fdd64d784c0d3ce268009fc",
+          "largest_coefficient": 9
+        },
+        "sum_size": 231,
+        "product_size": 180
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "s3_real_cubic",
+      "depth": 1,
+      "parameter_count": 24,
+      "pretrace_inputs": 24,
+      "distinct_inputs": 10,
+      "results": {
+        "q": {
+          "n": 10,
+          "ordered_pairs": 100,
+          "image_size": 36,
+          "fiber_histogram": {
+            "1": 4,
+            "2": 22,
+            "3": 2,
+            "4": 2,
+            "6": 5,
+            "8": 1
+          },
+          "input_sha256": "55958199d771c98b6d571fe25b752825dc5e6cbf48a73ee8952c3459f84ba53a",
+          "output_sha256": "b68bc7dcf53ce44dad90e67b9ed7e6f0187b85ba731e23cbafcca943147fe60b",
+          "largest_coefficient": 27
+        },
+        "q_plus_x": {
+          "n": 10,
+          "ordered_pairs": 100,
+          "image_size": 78,
+          "fiber_histogram": {
+            "1": 57,
+            "2": 20,
+            "3": 1
+          },
+          "input_sha256": "55958199d771c98b6d571fe25b752825dc5e6cbf48a73ee8952c3459f84ba53a",
+          "output_sha256": "283fc4c722505ec92b00165b4db961310ce15de9c232fa0cd793104067860b59",
+          "largest_coefficient": 27
+        },
+        "sum_size": 27,
+        "product_size": 46
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "s3_real_cubic",
+      "minimal_polynomial_low_first": [
+        -2,
+        0,
+        0,
+        1
+      ],
+      "depth": 2,
+      "parameter_count": 40,
+      "distinct_inputs": 40,
+      "scalar_norm_size": 8,
+      "results": {
+        "q": {
+          "n": 40,
+          "ordered_pairs": 1600,
+          "image_size": 816,
+          "fiber_histogram": {
+            "1": 40,
+            "2": 772,
+            "4": 4
+          },
+          "input_sha256": "d7872b1151e125e1ef640d441c8cc974ca123541aa2bdd4fd8f528b572b7d326",
+          "output_sha256": "407d85a89abf28e00543115f51e4f94bfcd3d44252111d6896393a6fbcc9b8d7",
+          "largest_coefficient": 39
+        },
+        "q_plus_x": {
+          "n": 40,
+          "ordered_pairs": 1600,
+          "image_size": 1579,
+          "fiber_histogram": {
+            "1": 1558,
+            "2": 21
+          },
+          "input_sha256": "d7872b1151e125e1ef640d441c8cc974ca123541aa2bdd4fd8f528b572b7d326",
+          "output_sha256": "8b0d38fb0aaaccf0da77247c400776512a5fd163217c5f8a3dbcc272040a3e8e",
+          "largest_coefficient": 39
+        },
+        "sum_size": 689,
+        "product_size": 324
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "s3_real_cubic",
+      "depth": 2,
+      "parameter_count": 40,
+      "pretrace_inputs": 40,
+      "distinct_inputs": 22,
+      "results": {
+        "q": {
+          "n": 22,
+          "ordered_pairs": 484,
+          "image_size": 192,
+          "fiber_histogram": {
+            "1": 13,
+            "2": 148,
+            "3": 1,
+            "4": 16,
+            "6": 5,
+            "8": 7,
+            "10": 1,
+            "12": 1
+          },
+          "input_sha256": "f5d89d788366a64857e9dc2571eec13db026d6d466677ce0bd57c0054bfb2a1e",
+          "output_sha256": "94c5ffed84641ad128564d7ef7bbfd49098fcf890e5b93a4f51fb91d0d65abc8",
+          "largest_coefficient": 117
+        },
+        "q_plus_x": {
+          "n": 22,
+          "ordered_pairs": 484,
+          "image_size": 418,
+          "fiber_histogram": {
+            "1": 366,
+            "2": 42,
+            "3": 6,
+            "4": 4
+          },
+          "input_sha256": "f5d89d788366a64857e9dc2571eec13db026d6d466677ce0bd57c0054bfb2a1e",
+          "output_sha256": "162c78cd6eda1b96b0e034a1946080bdf79d6c0df6624e25c2e5fce4e4accb29",
+          "largest_coefficient": 117
+        },
+        "sum_size": 79,
+        "product_size": 189
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "s3_real_cubic",
+      "minimal_polynomial_low_first": [
+        -2,
+        0,
+        0,
+        1
+      ],
+      "depth": 4,
+      "parameter_count": 72,
+      "distinct_inputs": 72,
+      "scalar_norm_size": 8,
+      "results": {
+        "q": {
+          "n": 72,
+          "ordered_pairs": 5184,
+          "image_size": 2620,
+          "fiber_histogram": {
+            "1": 72,
+            "2": 2540,
+            "4": 8
+          },
+          "input_sha256": "8f854718216c2e2b8d63005be260f81ed669e305a5d1275bd29aa0c75673824b",
+          "output_sha256": "25d02af43c77c47d1ea59caf9824c7d5535b2dade150c1a1504d9e5bd13422fa",
+          "largest_coefficient": 573
+        },
+        "q_plus_x": {
+          "n": 72,
+          "ordered_pairs": 5184,
+          "image_size": 5163,
+          "fiber_histogram": {
+            "1": 5142,
+            "2": 21
+          },
+          "input_sha256": "8f854718216c2e2b8d63005be260f81ed669e305a5d1275bd29aa0c75673824b",
+          "output_sha256": "700f6336919d2c155ed3c074a2a3ebdcf1c48ed7dfc620f598395929ec06ee18",
+          "largest_coefficient": 573
+        },
+        "sum_size": 2373,
+        "product_size": 612
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "s3_real_cubic",
+      "depth": 4,
+      "parameter_count": 72,
+      "pretrace_inputs": 72,
+      "distinct_inputs": 49,
+      "results": {
+        "q": {
+          "n": 49,
+          "ordered_pairs": 2401,
+          "image_size": 986,
+          "fiber_histogram": {
+            "1": 30,
+            "2": 824,
+            "3": 3,
+            "4": 66,
+            "6": 36,
+            "8": 22,
+            "10": 1,
+            "12": 4
+          },
+          "input_sha256": "f42e64046c9e275872aad079eaf2c255f260519b6bac6332f115cc326cb1ff42",
+          "output_sha256": "3ec9cbaa62066a18841ae487972be807ca107425960d9924715e580f3d2b376a",
+          "largest_coefficient": 1719
+        },
+        "q_plus_x": {
+          "n": 49,
+          "ordered_pairs": 2401,
+          "image_size": 2132,
+          "fiber_histogram": {
+            "1": 1907,
+            "2": 192,
+            "3": 22,
+            "4": 11
+          },
+          "input_sha256": "f42e64046c9e275872aad079eaf2c255f260519b6bac6332f115cc326cb1ff42",
+          "output_sha256": "69fca500a65f51eedf4f2936e99065015ac3d0397b6b62557218aafde49609f3",
+          "largest_coefficient": 1719
+        },
+        "sum_size": 508,
+        "product_size": 968
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "biquadratic",
+      "minimal_polynomial_low_first": [
+        1,
+        0,
+        -10,
+        0,
+        1
+      ],
+      "depth": 0,
+      "parameter_count": 16,
+      "distinct_inputs": 16,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 16,
+          "ordered_pairs": 256,
+          "image_size": 136,
+          "fiber_histogram": {
+            "1": 16,
+            "2": 120
+          },
+          "input_sha256": "e2c6bb39c522467ff028129ece859857f2f13d5107acca98f10581681b39f7af",
+          "output_sha256": "3c1054528a3f1b7b2c76b9b5c548829ffc0cb8e742fc16aa2f21c128a0116134",
+          "largest_coefficient": 5
+        },
+        "q_plus_x": {
+          "n": 16,
+          "ordered_pairs": 256,
+          "image_size": 228,
+          "fiber_histogram": {
+            "1": 200,
+            "2": 28
+          },
+          "input_sha256": "e2c6bb39c522467ff028129ece859857f2f13d5107acca98f10581681b39f7af",
+          "output_sha256": "06e131b403c21acf2b9f74b6edc7876368ab7004095b131b593f13c2574327d4",
+          "largest_coefficient": 5
+        },
+        "sum_size": 81,
+        "product_size": 136
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "biquadratic",
+      "depth": 0,
+      "parameter_count": 16,
+      "pretrace_inputs": 16,
+      "distinct_inputs": 4,
+      "results": {
+        "q": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 10,
+          "fiber_histogram": {
+            "1": 4,
+            "2": 6
+          },
+          "input_sha256": "0660ec9eca631f4e3370721289c7cfd8bbcb3af9d72290d8a6d9484002b7a9f5",
+          "output_sha256": "b7e694ad78af3bcb4972b4ec333ee4b58f5bc8e432f0e12732a8860633e895c2",
+          "largest_coefficient": 40
+        },
+        "q_plus_x": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 16,
+          "fiber_histogram": {
+            "1": 16
+          },
+          "input_sha256": "0660ec9eca631f4e3370721289c7cfd8bbcb3af9d72290d8a6d9484002b7a9f5",
+          "output_sha256": "301751006480075319469936880fef030b5812ed5d8def771c8c4ba6f676e6ed",
+          "largest_coefficient": 40
+        },
+        "sum_size": 9,
+        "product_size": 10
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "biquadratic",
+      "minimal_polynomial_low_first": [
+        1,
+        0,
+        -10,
+        0,
+        1
+      ],
+      "depth": 1,
+      "parameter_count": 48,
+      "distinct_inputs": 48,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 48,
+          "ordered_pairs": 2304,
+          "image_size": 1176,
+          "fiber_histogram": {
+            "1": 48,
+            "2": 1128
+          },
+          "input_sha256": "b7ab9b2d5ae21a5a7304c7b1d1813ca184875bd9c16b6a4dad2c4161c99ace15",
+          "output_sha256": "c21733f339a087f8674ef4c524b242dd5e8f4d6d5689d84ead5b6257b864413e",
+          "largest_coefficient": 51
+        },
+        "q_plus_x": {
+          "n": 48,
+          "ordered_pairs": 2304,
+          "image_size": 2184,
+          "fiber_histogram": {
+            "1": 2064,
+            "2": 120
+          },
+          "input_sha256": "b7ab9b2d5ae21a5a7304c7b1d1813ca184875bd9c16b6a4dad2c4161c99ace15",
+          "output_sha256": "9534bda7e4e45ff6fd30eb8807b01372c4116d0b923ba11f540b2cf10eb8f197",
+          "largest_coefficient": 51
+        },
+        "sum_size": 603,
+        "product_size": 680
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "biquadratic",
+      "depth": 1,
+      "parameter_count": 48,
+      "pretrace_inputs": 48,
+      "distinct_inputs": 9,
+      "results": {
+        "q": {
+          "n": 9,
+          "ordered_pairs": 81,
+          "image_size": 44,
+          "fiber_histogram": {
+            "1": 9,
+            "2": 34,
+            "4": 1
+          },
+          "input_sha256": "22aec00f6ed36d5ce1b5cc30b8304130ff561900be7a6afdb33910c12808f9bd",
+          "output_sha256": "92d172eeff046203c6d27cf91f0efaefe86be9e966c6b69c94780499a94279ab",
+          "largest_coefficient": 216
+        },
+        "q_plus_x": {
+          "n": 9,
+          "ordered_pairs": 81,
+          "image_size": 81,
+          "fiber_histogram": {
+            "1": 81
+          },
+          "input_sha256": "22aec00f6ed36d5ce1b5cc30b8304130ff561900be7a6afdb33910c12808f9bd",
+          "output_sha256": "ff761e6a37b91808ae66081dac4ffc006f5e60f5698c2093ccd23c8e818b9230",
+          "largest_coefficient": 216
+        },
+        "sum_size": 32,
+        "product_size": 35
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "biquadratic",
+      "minimal_polynomial_low_first": [
+        1,
+        0,
+        -10,
+        0,
+        1
+      ],
+      "depth": 2,
+      "parameter_count": 80,
+      "distinct_inputs": 80,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 80,
+          "ordered_pairs": 6400,
+          "image_size": 3240,
+          "fiber_histogram": {
+            "1": 80,
+            "2": 3160
+          },
+          "input_sha256": "87655cec2fa886a229c9684692d2b491cfd57d5b853ffb8b571d2dc3eb23effb",
+          "output_sha256": "a2460e8d997ffc98a639e00875d8d219561dd63f5aec9fdf1f97392fde0f35dd",
+          "largest_coefficient": 51
+        },
+        "q_plus_x": {
+          "n": 80,
+          "ordered_pairs": 6400,
+          "image_size": 6124,
+          "fiber_histogram": {
+            "1": 5848,
+            "2": 276
+          },
+          "input_sha256": "87655cec2fa886a229c9684692d2b491cfd57d5b853ffb8b571d2dc3eb23effb",
+          "output_sha256": "7c187f467e76033601546d9f71c4433831e32fd7c04dbee7f1ec3e0dc84529d8",
+          "largest_coefficient": 51
+        },
+        "sum_size": 1909,
+        "product_size": 1224
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "biquadratic",
+      "depth": 2,
+      "parameter_count": 80,
+      "pretrace_inputs": 80,
+      "distinct_inputs": 15,
+      "results": {
+        "q": {
+          "n": 15,
+          "ordered_pairs": 225,
+          "image_size": 118,
+          "fiber_histogram": {
+            "1": 15,
+            "2": 101,
+            "4": 2
+          },
+          "input_sha256": "faa8f77be6af7a7db1ea96e2453370ee578abf88c82cd56b222e76c84a3f6f69",
+          "output_sha256": "7c89168de79f62a55fdedcd1d33c5d8485c84a6e0d8aa11c308793144aa6fc06",
+          "largest_coefficient": 296
+        },
+        "q_plus_x": {
+          "n": 15,
+          "ordered_pairs": 225,
+          "image_size": 225,
+          "fiber_histogram": {
+            "1": 225
+          },
+          "input_sha256": "faa8f77be6af7a7db1ea96e2453370ee578abf88c82cd56b222e76c84a3f6f69",
+          "output_sha256": "591353ec87562a41f441cea94f4dbf6ca688dd11bfd94b900ccd5abfa9a996cc",
+          "largest_coefficient": 296
+        },
+        "sum_size": 75,
+        "product_size": 99
+      }
+    },
+    {
+      "family": "unit_times_additive_box",
+      "field": "biquadratic",
+      "minimal_polynomial_low_first": [
+        1,
+        0,
+        -10,
+        0,
+        1
+      ],
+      "depth": 4,
+      "parameter_count": 144,
+      "distinct_inputs": 144,
+      "scalar_norm_size": 16,
+      "results": {
+        "q": {
+          "n": 144,
+          "ordered_pairs": 20736,
+          "image_size": 10440,
+          "fiber_histogram": {
+            "1": 144,
+            "2": 10296
+          },
+          "input_sha256": "81e55a992ea70294e88229188d0452d0639b7e0e5811af5e1fd37f162296f765",
+          "output_sha256": "91b3764af1b67a3a4ec6d43926d1f5ba56233084d62272c450d569b9923b8863",
+          "largest_coefficient": 505
+        },
+        "q_plus_x": {
+          "n": 144,
+          "ordered_pairs": 20736,
+          "image_size": 20240,
+          "fiber_histogram": {
+            "1": 19744,
+            "2": 496
+          },
+          "input_sha256": "81e55a992ea70294e88229188d0452d0639b7e0e5811af5e1fd37f162296f765",
+          "output_sha256": "23ab7c0eb99ca79db378d5035f514ce5e622b41b2f04d8f4289b9959b491f655",
+          "largest_coefficient": 505
+        },
+        "sum_size": 7593,
+        "product_size": 2312
+      }
+    },
+    {
+      "family": "trace_of_unit_times_box",
+      "field": "biquadratic",
+      "depth": 4,
+      "parameter_count": 144,
+      "pretrace_inputs": 144,
+      "distinct_inputs": 23,
+      "results": {
+        "q": {
+          "n": 23,
+          "ordered_pairs": 529,
+          "image_size": 274,
+          "fiber_histogram": {
+            "1": 23,
+            "2": 249,
+            "4": 2
+          },
+          "input_sha256": "3377f7e2b4870004568c199ce67b90eae968603794ad6de8766ccf6a2019fd7b",
+          "output_sha256": "c33e2a630ca97ca6c3a92421d24c1b800b872d0b99a672ecdd0f6462391b2a06",
+          "largest_coefficient": 2920
+        },
+        "q_plus_x": {
+          "n": 23,
+          "ordered_pairs": 529,
+          "image_size": 529,
+          "fiber_histogram": {
+            "1": 529
+          },
+          "input_sha256": "3377f7e2b4870004568c199ce67b90eae968603794ad6de8766ccf6a2019fd7b",
+          "output_sha256": "36a58af9b91664458116a894219e1cd127958d6442d25424384c61681200f5a6",
+          "largest_coefficient": 2920
+        },
+        "sum_size": 187,
+        "product_size": 240
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 1,
+      "primes": [
+        2
+      ],
+      "field_degree": 2,
+      "results": {
+        "q": {
+          "n": 2,
+          "ordered_pairs": 4,
+          "image_size": 2,
+          "fiber_histogram": {
+            "2": 2
+          },
+          "input_sha256": "6b4f736644c88e3ac5be60dc582d6dd902458f192357cb90b7fe0544f441a273",
+          "output_sha256": "73b43283618743f04701b7285c3546eb151867b80c0e8b48c3d717892c977cd7",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 2,
+          "ordered_pairs": 4,
+          "image_size": 4,
+          "fiber_histogram": {
+            "1": 4
+          },
+          "input_sha256": "6b4f736644c88e3ac5be60dc582d6dd902458f192357cb90b7fe0544f441a273",
+          "output_sha256": "d34c70e9ca75c0011cf09f1d73a52ee778d421e7f4bf19d4d76f0d74e29ef703",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 2,
+      "primes": [
+        2,
+        3
+      ],
+      "field_degree": 4,
+      "results": {
+        "q": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 6,
+          "fiber_histogram": {
+            "2": 4,
+            "4": 2
+          },
+          "input_sha256": "5a344602308fd283e8ea372ffea90fa2c22e8acf1c8f21450326a8a21d3d3db1",
+          "output_sha256": "267a5752fe6bcb556255c1848cf2dfcd7e09136d5d9fb77d7285236fad813bf2",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 4,
+          "ordered_pairs": 16,
+          "image_size": 16,
+          "fiber_histogram": {
+            "1": 16
+          },
+          "input_sha256": "5a344602308fd283e8ea372ffea90fa2c22e8acf1c8f21450326a8a21d3d3db1",
+          "output_sha256": "655275e51f378d6f92837bb36a791193f4d2cb65f7a16944ec0f164499315408",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 3,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "field_degree": 8,
+      "results": {
+        "q": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 20,
+          "fiber_histogram": {
+            "2": 8,
+            "4": 12
+          },
+          "input_sha256": "677f53c493dfb907fc4ee7a1d7d78e3639b96258e5d9e4a9444fe5a7dc5c8e6c",
+          "output_sha256": "3424b574e6151f7829245fde0444d61c9e59533cb2afa38a5f984162f1dff883",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 8,
+          "ordered_pairs": 64,
+          "image_size": 64,
+          "fiber_histogram": {
+            "1": 64
+          },
+          "input_sha256": "677f53c493dfb907fc4ee7a1d7d78e3639b96258e5d9e4a9444fe5a7dc5c8e6c",
+          "output_sha256": "f3db40a0dacd7021b2f400eeb65a3e7f8d3a48c0b6a6d1404e7215534c63b439",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 4,
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "field_degree": 16,
+      "results": {
+        "q": {
+          "n": 16,
+          "ordered_pairs": 256,
+          "image_size": 72,
+          "fiber_histogram": {
+            "2": 16,
+            "4": 56
+          },
+          "input_sha256": "ed8e1eff0bfeb9e366baaf60d077d82a174654a40b2d1650f2937fe2ca4d10bb",
+          "output_sha256": "639fcff515cd95ab125e085416849a7a86eb73d11fdd583c9269b49c16baf3e6",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 16,
+          "ordered_pairs": 256,
+          "image_size": 256,
+          "fiber_histogram": {
+            "1": 256
+          },
+          "input_sha256": "ed8e1eff0bfeb9e366baaf60d077d82a174654a40b2d1650f2937fe2ca4d10bb",
+          "output_sha256": "f3848deeff685d44ad3ef7348a3d62111b14b8f04c2a0b41bd23af74e508db13",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 5,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "field_degree": 32,
+      "results": {
+        "q": {
+          "n": 32,
+          "ordered_pairs": 1024,
+          "image_size": 272,
+          "fiber_histogram": {
+            "2": 32,
+            "4": 240
+          },
+          "input_sha256": "d09c2857b7e9adf79f2a8e9f936be95e0d4e909b6861111574ddab501cdc36b1",
+          "output_sha256": "418f2979b8d4faefe0c37af506ed6ccb558b771f0c042fe345c6a9cde7ceb235",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 32,
+          "ordered_pairs": 1024,
+          "image_size": 1024,
+          "fiber_histogram": {
+            "1": 1024
+          },
+          "input_sha256": "d09c2857b7e9adf79f2a8e9f936be95e0d4e909b6861111574ddab501cdc36b1",
+          "output_sha256": "4062f352f63f7d6d6f60a26b008dae3f15675e5fe1b175ea3619ac8e1663f710",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 6,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "field_degree": 64,
+      "results": {
+        "q": {
+          "n": 64,
+          "ordered_pairs": 4096,
+          "image_size": 1056,
+          "fiber_histogram": {
+            "2": 64,
+            "4": 992
+          },
+          "input_sha256": "9aadb83f0a7cb29cce0a4a5dd545fd2c49fcad149642648bceda6185f84a9693",
+          "output_sha256": "085138bacbd8b86b06cb56fec44032e83b634a4f2e5368b5a998e3c109afb8e2",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 64,
+          "ordered_pairs": 4096,
+          "image_size": 4096,
+          "fiber_histogram": {
+            "1": 4096
+          },
+          "input_sha256": "9aadb83f0a7cb29cce0a4a5dd545fd2c49fcad149642648bceda6185f84a9693",
+          "output_sha256": "28626e8089aeb3c031ba92673fbfcb835de854385cdf457b5d1d41189ebaa20d",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 7,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "field_degree": 128,
+      "results": {
+        "q": {
+          "n": 128,
+          "ordered_pairs": 16384,
+          "image_size": 4160,
+          "fiber_histogram": {
+            "2": 128,
+            "4": 4032
+          },
+          "input_sha256": "3b4fa00fe7aeda440e98435c950954f3e002bc576f5f0f2da2da6b0c4ab9b7a5",
+          "output_sha256": "3323bf9f390d9c8ad295bf625d8c84878497c2cf120b106d8ff448ec91058324",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 128,
+          "ordered_pairs": 16384,
+          "image_size": 16384,
+          "fiber_histogram": {
+            "1": 16384
+          },
+          "input_sha256": "3b4fa00fe7aeda440e98435c950954f3e002bc576f5f0f2da2da6b0c4ab9b7a5",
+          "output_sha256": "fe66bc98fe18477062dc6cad7dc7428120f6932d2694fd6a14bcc45eff411c91",
+          "largest_coefficient": 1
+        }
+      }
+    },
+    {
+      "family": "multiquadratic_sign_cube",
+      "m": 8,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "field_degree": 256,
+      "results": {
+        "q": {
+          "n": 256,
+          "ordered_pairs": 65536,
+          "image_size": 16512,
+          "fiber_histogram": {
+            "2": 256,
+            "4": 16256
+          },
+          "input_sha256": "cbacc3231fd8730e1bf5e7f0162cdecc29bd1027491924823725b5c131595d4c",
+          "output_sha256": "4eda5ed83cfba09bac1c93b3849626c7bab6daf0ce9881b509d9e27d84cc8d0e",
+          "largest_coefficient": 1
+        },
+        "q_plus_x": {
+          "n": 256,
+          "ordered_pairs": 65536,
+          "image_size": 65536,
+          "fiber_histogram": {
+            "1": 65536
+          },
+          "input_sha256": "cbacc3231fd8730e1bf5e7f0162cdecc29bd1027491924823725b5c131595d4c",
+          "output_sha256": "699dc1a7851183263dc5ec483d03d97c82669f5cacc418643d3f1e7a4561d8b9",
+          "largest_coefficient": 1
+        }
+      }
+    }
+  ],
+  "eisenstein": [
+    {
+      "action_pair_tests": 240,
+      "cpu_seconds": 0.0022739999999999982,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "9783eb6950233afe180c2a9d20d550eb29325ad4bce04318132fca6f7dc7d858",
+      "engineered_pairs": 3,
+      "family": "F1",
+      "field_degree": 2,
+      "full_image_size": 18,
+      "input_common_denominator": 7,
+      "input_sha256": "ef0e140b6caf6a8bc98cb3fd70fd22a1b40f43f408bc0379b0997f5cfc899423",
+      "input_size": 9,
+      "m": 1,
+      "max_abs_scaled_coefficient": 7,
+      "max_abs_scaled_output_coefficient": 153,
+      "ordered_pairs": 81,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 4,
+        "4": 9,
+        "6": 3,
+        "18": 1
+      },
+      "output_sha256": "abada56dbe489be864d6cc7634a4db877f7b1da371b20bebf583069b719223a9",
+      "pair_output_evaluations": 85,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 82
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 63,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 207
+          },
+          {
+            "M": 3,
+            "exceptional_pairs": 75,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 102
+          }
+        ],
+        "multiplier_common_denominator": 7,
+        "multiplier_hash": "d2d219be678c16ddc74829d56fbc54558ae51e8aaa26065446248f26334e7d16",
+        "multipliers": 3,
+        "nonzero_pairs_by_return_count": {
+          "1": 62,
+          "2": 12,
+          "3": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 78,
+      "word_labels_before_deduplication": 3
+    },
+    {
+      "action_pair_tests": 6552,
+      "cpu_seconds": 0.06224600000000001,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "9a515e761d4659f2cdb2a3a6ca7d8dc7ea8872cc2bf9fccbbfd0ddec3227110f",
+      "engineered_pairs": 9,
+      "family": "F1",
+      "field_degree": 4,
+      "full_image_size": 171,
+      "input_common_denominator": 91,
+      "input_sha256": "ad1cabf0a9d6b6e1d3290c0b7e51bc9af23f71ce2b576023d41c90942812b5c1",
+      "input_size": 27,
+      "m": 2,
+      "max_abs_scaled_coefficient": 91,
+      "max_abs_scaled_output_coefficient": 25857,
+      "ordered_pairs": 729,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 13,
+        "4": 144,
+        "6": 12,
+        "54": 1
+      },
+      "output_sha256": "793f3095ca682e935e2f614b53e4082cc7c5d4c84067ca3e5b8444879b6fc7a6",
+      "pair_output_evaluations": 740,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 730
+          },
+          {
+            "M": 4,
+            "exceptional_pairs": 675,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 3429
+          },
+          {
+            "M": 6,
+            "exceptional_pairs": 699,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 1641
+          },
+          {
+            "M": 9,
+            "exceptional_pairs": 723,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 804
+          }
+        ],
+        "multiplier_common_denominator": 91,
+        "multiplier_hash": "77554042849475726a49c96eb52e8e3310b505d032da201641f8e6bec0fdf42b",
+        "multipliers": 9,
+        "nonzero_pairs_by_return_count": {
+          "1": 674,
+          "4": 24,
+          "6": 24,
+          "9": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 720,
+      "word_labels_before_deduplication": 9
+    },
+    {
+      "action_pair_tests": 177120,
+      "cpu_seconds": 2.679815,
+      "engineered_norms": 1,
+      "engineered_norms_sha256": "802ba2b7f07639da15b38d3779a5f9305d5554a6760bb6195f2df30f200fb6c5",
+      "engineered_pairs": 27,
+      "family": "F1",
+      "field_degree": 8,
+      "full_image_size": 1602,
+      "input_common_denominator": 2821,
+      "input_sha256": "a4b38b339c59444e6312855ca249d56841c312d1a35e9e8a379ec7d5459b87a8",
+      "input_size": 81,
+      "m": 3,
+      "max_abs_scaled_coefficient": 2821,
+      "max_abs_scaled_output_coefficient": 24848577,
+      "ordered_pairs": 6561,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 40,
+        "4": 1521,
+        "6": 39,
+        "162": 1
+      },
+      "output_sha256": "1a4032d92640219c22714a367eb9e2d7d8cd1bd8b662b0f3b818619f9fd53808",
+      "pair_output_evaluations": 6591,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 6562
+          },
+          {
+            "M": 8,
+            "exceptional_pairs": 6399,
+            "support_bound_denominator": 8,
+            "support_bound_numerator": 57753
+          },
+          {
+            "M": 12,
+            "exceptional_pairs": 6447,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 27975
+          },
+          {
+            "M": 18,
+            "exceptional_pairs": 6519,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 13767
+          },
+          {
+            "M": 27,
+            "exceptional_pairs": 6555,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 6798
+          }
+        ],
+        "multiplier_common_denominator": 2821,
+        "multiplier_hash": "9bf2a00197793d51e4681d4b6daa7c64d52cf631a17092b18260dbee5975731d",
+        "multipliers": 27,
+        "nonzero_pairs_by_return_count": {
+          "1": 6398,
+          "8": 48,
+          "12": 72,
+          "18": 36,
+          "27": 6
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 6534,
+      "word_labels_before_deduplication": 27
+    },
+    {
+      "action_pair_tests": 864,
+      "cpu_seconds": 0.006616000000000177,
+      "engineered_norms": 2,
+      "engineered_norms_sha256": "9aa7fcf1dd250d810a5c63a37944aca65613853df880ddf05fa9f290ade4b9eb",
+      "engineered_pairs": 6,
+      "family": "F2",
+      "field_degree": 2,
+      "full_image_size": 59,
+      "input_common_denominator": 7,
+      "input_sha256": "0bfd8910bb7cd4cc1e840b2868c4625bb9f194b0ef08417d38db7e30623d2085",
+      "input_size": 17,
+      "m": 1,
+      "max_abs_scaled_coefficient": 10,
+      "max_abs_scaled_output_coefficient": 516,
+      "ordered_pairs": 289,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 7,
+        "4": 39,
+        "6": 5,
+        "8": 1,
+        "10": 2,
+        "12": 2,
+        "18": 2
+      },
+      "output_sha256": "bd7dffb67ea4bae01cda5a69734d7c3bc5f7ac2c97488a6ca03aa805a8f7846e",
+      "pair_output_evaluations": 296,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 290
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 233,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 755
+          },
+          {
+            "M": 3,
+            "exceptional_pairs": 277,
+            "support_bound_denominator": 3,
+            "support_bound_numerator": 1120
+          }
+        ],
+        "multiplier_common_denominator": 7,
+        "multiplier_hash": "d2d219be678c16ddc74829d56fbc54558ae51e8aaa26065446248f26334e7d16",
+        "multipliers": 3,
+        "nonzero_pairs_by_return_count": {
+          "1": 232,
+          "2": 44,
+          "3": 12
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 283,
+      "word_labels_before_deduplication": 6
+    },
+    {
+      "action_pair_tests": 99216,
+      "cpu_seconds": 1.0021619999999998,
+      "engineered_norms": 4,
+      "engineered_norms_sha256": "a8b089c819e608ddfc64128ca5d90aa4ee6c5debe9ed3fa7ba485d5eb379f154",
+      "engineered_pairs": 36,
+      "family": "F2",
+      "field_degree": 4,
+      "full_image_size": 2690,
+      "input_common_denominator": 91,
+      "input_sha256": "1b54b2d1abadbc473ea039ad3d03c45691ac4cd7fa5738be164bd4176692c449",
+      "input_size": 105,
+      "m": 2,
+      "max_abs_scaled_coefficient": 147,
+      "max_abs_scaled_output_coefficient": 155664,
+      "ordered_pairs": 11025,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 51,
+        "4": 2573,
+        "6": 47,
+        "8": 8,
+        "10": 2,
+        "12": 4,
+        "54": 4
+      },
+      "output_sha256": "55180bed39444da9e0669ebf05858b3255b055574f761ce43269f55c72db8fc4",
+      "pair_output_evaluations": 11063,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "fiber_tail_bounds": [
+          {
+            "M": 1,
+            "exceptional_pairs": 1,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 11026
+          },
+          {
+            "M": 2,
+            "exceptional_pairs": 10697,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 32419
+          },
+          {
+            "M": 4,
+            "exceptional_pairs": 10809,
+            "support_bound_denominator": 4,
+            "support_bound_numerator": 54261
+          },
+          {
+            "M": 6,
+            "exceptional_pairs": 10905,
+            "support_bound_denominator": 2,
+            "support_bound_numerator": 25485
+          },
+          {
+            "M": 9,
+            "exceptional_pairs": 11001,
+            "support_bound_denominator": 1,
+            "support_bound_numerator": 12226
+          }
+        ],
+        "multiplier_common_denominator": 91,
+        "multiplier_hash": "77554042849475726a49c96eb52e8e3310b505d032da201641f8e6bec0fdf42b",
+        "multipliers": 9,
+        "nonzero_pairs_by_return_count": {
+          "1": 10696,
+          "2": 112,
+          "4": 96,
+          "6": 96,
+          "9": 24
+        },
+        "tested_all_multipliers": true,
+        "zero_pairs_charged_as_exception": 1
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 10989,
+      "word_labels_before_deduplication": 36
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.000380000000000269,
+      "engineered_norms": 3,
+      "engineered_norms_sha256": "927bd307e2c972417027241985ecc510b6548ea360815ef542ca4ba05777ac81",
+      "engineered_pairs": 4,
+      "family": "F3",
+      "field_degree": 2,
+      "full_image_size": 11,
+      "input_common_denominator": 1,
+      "input_sha256": "6707f3c458c9cf69238ba585272d3614d99df57bda19b23d7fe4589398cfa77e",
+      "input_size": 7,
+      "m": 1,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 9,
+      "ordered_pairs": 49,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 3,
+        "4": 3,
+        "6": 3,
+        "12": 1
+      },
+      "output_sha256": "5d617ddb5396ca38fca0930ae4b366a54fef68316e5df2d4dcd01c7d389e97c0",
+      "pair_output_evaluations": 54,
+      "primes": [
+        2
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 45,
+      "word_labels_before_deduplication": 4
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.0031689999999997553,
+      "engineered_norms": 9,
+      "engineered_norms_sha256": "5c1638e27bc74f9e890bd6338eba0400619b19662c4118966f8672df9a5db04c",
+      "engineered_pairs": 16,
+      "family": "F3",
+      "field_degree": 4,
+      "full_image_size": 163,
+      "input_common_denominator": 1,
+      "input_sha256": "5293f955de00411e932f8e851d02ec0ae5d58ff2f59aacffde953f277bd6ea29",
+      "input_size": 29,
+      "m": 2,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 33,
+      "ordered_pairs": 841,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 10,
+        "4": 115,
+        "6": 12,
+        "8": 6,
+        "12": 18,
+        "24": 1
+      },
+      "output_sha256": "f04b3bbb19f3afbea232a5445e556ebdb7bf14667f4bbe244f3962af512075ef",
+      "pair_output_evaluations": 859,
+      "primes": [
+        2,
+        3
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 825,
+      "word_labels_before_deduplication": 16
+    },
+    {
+      "action_pair_tests": 0,
+      "cpu_seconds": 0.07468399999999997,
+      "engineered_norms": 27,
+      "engineered_norms_sha256": "9462d6a8980313a92f0631024930bf40aaeaec8a73ec62767d0adb9bd1f918b8",
+      "engineered_pairs": 64,
+      "family": "F3",
+      "field_degree": 8,
+      "full_image_size": 4289,
+      "input_common_denominator": 1,
+      "input_sha256": "3dcec9881e3606cb9eece1a8e2104399debe81e22f6632372432a157b078ac05",
+      "input_size": 137,
+      "m": 3,
+      "max_abs_scaled_coefficient": 1,
+      "max_abs_scaled_output_coefficient": 186,
+      "ordered_pairs": 18769,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 52,
+        "4": 3978,
+        "6": 55,
+        "8": 32,
+        "12": 163,
+        "18": 1,
+        "24": 6,
+        "48": 1
+      },
+      "output_sha256": "b6cc848e0ca2f8d70afca10531cd7c3f4fbec833f8f8478daa0ab2e237e1712a",
+      "pair_output_evaluations": 18836,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "return_tail": {
+        "reason": "not in requested tail schedule",
+        "tested": false
+      },
+      "status": "EXPERIMENTAL; exhaustive exact finite same-set enumeration",
+      "unengineered_ordered_pairs": 18705,
+      "word_labels_before_deduplication": 64
+    }
+  ],
+  "rephase": [
+    {
+      "candidate_generations": 12,
+      "candidate_options_per_word": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "candidate_score_evaluations": 12,
+      "carrier_scaled_integer_coefficients": [
+        [
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "correspondence_sha256": "24239d2995f2cb356867b4c07a10bfb6a9756673711f15b32b91f7ac37d13fdd",
+      "cpu_seconds": 0.0010710000000000025,
+      "engineered_norms": 3,
+      "engineered_pairs": 4,
+      "family": "F4",
+      "field_degree": 2,
+      "full_image_size": 11,
+      "global_optimum_claimed": false,
+      "initial_input_size": 7,
+      "input_common_denominator": 1,
+      "input_sha256": "6707f3c458c9cf69238ba585272d3614d99df57bda19b23d7fe4589398cfa77e",
+      "input_size": 7,
+      "m": 1,
+      "max_abs_scaled_coefficient": 1,
+      "multiplier_candidate_count": 3,
+      "ordered_pairs": 49,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 3,
+        "4": 3,
+        "6": 3,
+        "12": 1
+      },
+      "output_sha256": "5d617ddb5396ca38fca0930ae4b366a54fef68316e5df2d4dcd01c7d389e97c0",
+      "pair_output_evaluations": 62,
+      "primes": [
+        2
+      ],
+      "single_word_local_optimum": true,
+      "source_family": "F3",
+      "trace": [
+        {
+          "accepted_moves": 0,
+          "input_size_after": 7,
+          "input_size_before": 7,
+          "sweep": 1
+        }
+      ],
+      "unengineered_ordered_pairs": 45
+    },
+    {
+      "candidate_generations": 144,
+      "candidate_options_per_word": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "candidate_score_evaluations": 144,
+      "carrier_scaled_integer_coefficients": [
+        [
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "correspondence_sha256": "6a87d7fc4d6c9295d32eca3854d5a673ba03496ca9567dcb76d7b6fcdd0f2240",
+      "cpu_seconds": 0.012232999999999994,
+      "engineered_norms": 9,
+      "engineered_pairs": 16,
+      "family": "F4",
+      "field_degree": 4,
+      "full_image_size": 163,
+      "global_optimum_claimed": false,
+      "initial_input_size": 29,
+      "input_common_denominator": 1,
+      "input_sha256": "5293f955de00411e932f8e851d02ec0ae5d58ff2f59aacffde953f277bd6ea29",
+      "input_size": 29,
+      "m": 2,
+      "max_abs_scaled_coefficient": 1,
+      "multiplier_candidate_count": 9,
+      "ordered_pairs": 841,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 10,
+        "4": 115,
+        "6": 12,
+        "8": 6,
+        "12": 18,
+        "24": 1
+      },
+      "output_sha256": "f04b3bbb19f3afbea232a5445e556ebdb7bf14667f4bbe244f3962af512075ef",
+      "pair_output_evaluations": 891,
+      "primes": [
+        2,
+        3
+      ],
+      "single_word_local_optimum": true,
+      "source_family": "F3",
+      "trace": [
+        {
+          "accepted_moves": 0,
+          "input_size_after": 29,
+          "input_size_before": 29,
+          "sweep": 1
+        }
+      ],
+      "unengineered_ordered_pairs": 825
+    },
+    {
+      "candidate_generations": 1728,
+      "candidate_options_per_word": [
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "candidate_score_evaluations": 1728,
+      "carrier_scaled_integer_coefficients": [
+        [
+          -1,
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1,
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          -1,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          1,
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0,
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          -1,
+          0,
+          -1,
+          -1
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          -1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          -1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          -1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          -1
+        ]
+      ],
+      "correspondence_sha256": "eb3b636cb7fcf1bef8def8374a3897b70e9923ccdd303cbc137934b61d323310",
+      "cpu_seconds": 0.309207,
+      "engineered_norms": 27,
+      "engineered_pairs": 64,
+      "family": "F4",
+      "field_degree": 8,
+      "full_image_size": 4289,
+      "global_optimum_claimed": false,
+      "initial_input_size": 137,
+      "input_common_denominator": 1,
+      "input_sha256": "3dcec9881e3606cb9eece1a8e2104399debe81e22f6632372432a157b078ac05",
+      "input_size": 137,
+      "m": 3,
+      "max_abs_scaled_coefficient": 1,
+      "multiplier_candidate_count": 27,
+      "ordered_pairs": 18769,
+      "output_fibers_by_multiplicity": {
+        "1": 1,
+        "2": 52,
+        "4": 3978,
+        "6": 55,
+        "8": 32,
+        "12": 163,
+        "18": 1,
+        "24": 6,
+        "48": 1
+      },
+      "output_sha256": "b6cc848e0ca2f8d70afca10531cd7c3f4fbec833f8f8478daa0ab2e237e1712a",
+      "pair_output_evaluations": 18964,
+      "primes": [
+        2,
+        3,
+        5
+      ],
+      "single_word_local_optimum": true,
+      "source_family": "F3",
+      "trace": [
+        {
+          "accepted_moves": 0,
+          "input_size_after": 137,
+          "input_size_before": 137,
+          "sweep": 1
+        }
+      ],
+      "unengineered_ordered_pairs": 18705
+    }
+  ]
+}

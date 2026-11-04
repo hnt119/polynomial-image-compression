@@ -1,0 +1,14 @@
+# Proof sources recovered for the 5 November 2026 snapshot
+
+These files are project evidence, separate from the new expository reports. Text excerpts end on section boundaries and retain their original labels. They are not new proofs.
+
+| Public source | Identity and scope |
+|---|---|
+| [3 November C0 Theorem 1 and proof](c0-v5/theorem-and-proof.tex) | Verbatim §3 of the revised 3 November report source, from the section heading through the paragraph before §4. The claim covers **all** fixed integer quadruples. The section is an excerpt, not a standalone TeX document. The section references to the introduction and §2.3 explain “nonspecial” and rate conversion; the displayed argument here contains the full counting proof. Its citation ref1 is *Planar Point Sets with Many Unit Distances*, Prop. 3.8 (field supply); ref10 is the September corrected C0 proof below. |
+| [4 November claim audit](c0-v5/audit-2026-11-04.txt) | MP-01–MP-07, excerpted from the dated internal mathematical audit. “Here” and “independently checked” in the excerpt refer to the November 4 audit, not the publication checks. |
+| [3 September C0.1](c0-2026-09-03/Phase_C0_Corrected.md) and [correction log](c0-2026-09-03/C0_CORRECTION_LOG.md) | Original native documents, unchanged. Their narrower statement is historically correct. The [candidate ledger](phase_c0/CANDIDATE_LEDGER.md), [referee report](phase_c0/REFEREE_REPORT.md) and [claim ledger](phase_c0/CLAIM_LEDGER.md) were located in the original T02 migration package. |
+| [Algebra audit and transfer, §§2.1–2.3](norm-context/norm-transfer.md) and [mixed-signature seed, TFQ §G.4](norm-context/cubic-seed.md) | Verbatim extracts from the September norm–trace checkpoint and TFQ direct-construction report. The separate T01 quadratic [exact program](norm-context/Norm_Trace_Exact_Experiments.py) and [output](norm-context/Norm_Trace_Exact_Experiments.json) are the recovered originals; they were not rerun. |
+| [Adaptive root state, §§2–7](adaptive-root/state-sections-2-to-7.md) | Dated T03 state excerpt giving the exact RC15/4 obligation in §7. The adjacent TCRC reports, exact scripts and result tables are selected native members of the 10 September T03 archive; their bytes were checked against its member manifest, without running the programs. The separate obligation remains open. |
+| [T04 rich-fiber checkpoint, §§B–C, Theorem 3](source-recovery/rich_fiber_results_checkpoint.md) | The original T04 archive contains the avoidance proof for the image of size $4N^2-N+1$. Recovery supersedes the earlier **availability** limitation only. No fresh all-steps proof review is claimed. |
+
+The mathematical sources use the original notation. The [technical report](../exports/2026-11-05-evidence/research_report.md) defines the notation used in this export. Third-party papers are cited, not redistributed.

@@ -1,0 +1,1152 @@
+{
+  "field": "Q(sqrt(2),sqrt(3),sqrt(5),sqrt(7),sqrt(13),sqrt(4+sqrt(3)))",
+  "field_degree": 64,
+  "A_labels": [
+    "1",
+    "-1",
+    "sqrt(3)",
+    "-sqrt(3)",
+    "sqrt(5)",
+    "-sqrt(5)",
+    "sqrt(7)",
+    "-sqrt(7)",
+    "sqrt(4+sqrt(3))",
+    "-sqrt(4+sqrt(3))",
+    "sqrt(4-sqrt(3))",
+    "-sqrt(4-sqrt(3))",
+    "sqrt(4+sqrt(7))",
+    "-sqrt(4+sqrt(7))",
+    "sqrt(4-sqrt(7))",
+    "-sqrt(4-sqrt(7))"
+  ],
+  "A_coefficients": [
+    "1",
+    "-1",
+    "1*sqrt(3)",
+    "-1*sqrt(3)",
+    "1*sqrt(5)",
+    "-1*sqrt(5)",
+    "1*sqrt(7)",
+    "-1*sqrt(7)",
+    "1*alpha",
+    "-1*alpha",
+    "4/13*sqrt(13)*alpha + -1/13*sqrt(39)*alpha",
+    "-4/13*sqrt(13)*alpha + 1/13*sqrt(39)*alpha",
+    "1/2*sqrt(2) + 1/2*sqrt(14)",
+    "-1/2*sqrt(2) + -1/2*sqrt(14)",
+    "-1/2*sqrt(2) + 1/2*sqrt(14)",
+    "1/2*sqrt(2) + -1/2*sqrt(14)"
+  ],
+  "classes": [
+    [
+      "1",
+      "-1",
+      "sqrt(5)",
+      "-sqrt(5)"
+    ],
+    [
+      "sqrt(3)",
+      "-sqrt(3)"
+    ],
+    [
+      "sqrt(7)",
+      "-sqrt(7)"
+    ],
+    [
+      "sqrt(4+sqrt(3))"
+    ],
+    [
+      "-sqrt(4+sqrt(3))"
+    ],
+    [
+      "sqrt(4-sqrt(3))"
+    ],
+    [
+      "-sqrt(4-sqrt(3))"
+    ],
+    [
+      "sqrt(4+sqrt(7))"
+    ],
+    [
+      "-sqrt(4+sqrt(7))"
+    ],
+    [
+      "sqrt(4-sqrt(7))"
+    ],
+    [
+      "-sqrt(4-sqrt(7))"
+    ]
+  ],
+  "class_indices": [
+    [
+      0,
+      1,
+      4,
+      5
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      8
+    ],
+    [
+      9
+    ],
+    [
+      10
+    ],
+    [
+      11
+    ],
+    [
+      12
+    ],
+    [
+      13
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ]
+  ],
+  "class_sizes": [
+    4,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "sum_class_size_squares": 32,
+  "largest_class_fraction": "1/4",
+  "inside_branch_occurrences": 48,
+  "inside_distinct_outputs": 45,
+  "outside_distinct_outputs": 224,
+  "total_outputs": 269,
+  "cross_non_square_tests": 112,
+  "representative_tests": [
+    {
+      "i": 1,
+      "j": 0,
+      "is_square": true,
+      "root": "2*sqrt(2)"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "is_square": true,
+      "root": "1*sqrt(6)"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "is_square": true,
+      "root": "1*sqrt(2) + 1*sqrt(10)"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "is_square": true,
+      "root": "-1*sqrt(2) + 1*sqrt(10)"
+    },
+    {
+      "i": 6,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 6,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 7,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 7,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "is_square": true,
+      "root": "1*sqrt(2)"
+    },
+    {
+      "i": 8,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 8,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 8,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 9,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 9,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 9,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 9,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 10,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 10,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 10,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 10,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 10,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 11,
+      "j": 10,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 10,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 12,
+      "j": 11,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 10,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 11,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 13,
+      "j": 12,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 10,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 11,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 12,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 14,
+      "j": 13,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 0,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 2,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 6,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 8,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 9,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 10,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 11,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 12,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 13,
+      "is_square": false,
+      "root": null
+    },
+    {
+      "i": 15,
+      "j": 14,
+      "is_square": false,
+      "root": null
+    }
+  ],
+  "within_class_square_witnesses": [
+    {
+      "i": 0,
+      "j": 0,
+      "positive_root": "4"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "positive_root": "2*sqrt(2)"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "positive_root": "1*sqrt(2) + 1*sqrt(10)"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "positive_root": "-1*sqrt(2) + 1*sqrt(10)"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "positive_root": "2"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "positive_root": "1 + 1*sqrt(5)"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "positive_root": "-1 + 1*sqrt(5)"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "positive_root": "3 + 1*sqrt(5)"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "positive_root": "2"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "positive_root": "3 + -1*sqrt(5)"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "positive_root": "3 + 1*sqrt(3)"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "positive_root": "1*sqrt(6)"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "positive_root": "3 + -1*sqrt(3)"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "positive_root": "3 + 1*sqrt(7)"
+    },
+    {
+      "i": 6,
+      "j": 7,
+      "positive_root": "1*sqrt(2)"
+    },
+    {
+      "i": 7,
+      "j": 7,
+      "positive_root": "3 + -1*sqrt(7)"
+    },
+    {
+      "i": 8,
+      "j": 8,
+      "positive_root": "3 + 1*alpha"
+    },
+    {
+      "i": 9,
+      "j": 9,
+      "positive_root": "3 + -1*alpha"
+    },
+    {
+      "i": 10,
+      "j": 10,
+      "positive_root": "3 + 4/13*sqrt(13)*alpha + -1/13*sqrt(39)*alpha"
+    },
+    {
+      "i": 11,
+      "j": 11,
+      "positive_root": "3 + -4/13*sqrt(13)*alpha + 1/13*sqrt(39)*alpha"
+    },
+    {
+      "i": 12,
+      "j": 12,
+      "positive_root": "3 + 1/2*sqrt(2) + 1/2*sqrt(14)"
+    },
+    {
+      "i": 13,
+      "j": 13,
+      "positive_root": "3 + -1/2*sqrt(2) + -1/2*sqrt(14)"
+    },
+    {
+      "i": 14,
+      "j": 14,
+      "positive_root": "3 + -1/2*sqrt(2) + 1/2*sqrt(14)"
+    },
+    {
+      "i": 15,
+      "j": 15,
+      "positive_root": "3 + 1/2*sqrt(2) + -1/2*sqrt(14)"
+    }
+  ],
+  "inside_outputs": [
+    {
+      "value": "4",
+      "representations": [
+        [
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          4,
+          -1
+        ],
+        [
+          1,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "12",
+      "representations": [
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "6 + -2*sqrt(2)",
+      "representations": [
+        [
+          0,
+          1,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "6 + 2*sqrt(2)",
+      "representations": [
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "7 + -1*sqrt(2) + 1*sqrt(5) + -1*sqrt(10)",
+      "representations": [
+        [
+          0,
+          4,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "7 + 1*sqrt(2) + 1*sqrt(5) + 1*sqrt(10)",
+      "representations": [
+        [
+          0,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "7 + 1*sqrt(2) + -1*sqrt(5) + -1*sqrt(10)",
+      "representations": [
+        [
+          0,
+          5,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "7 + -1*sqrt(2) + -1*sqrt(5) + 1*sqrt(10)",
+      "representations": [
+        [
+          0,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "2",
+      "representations": [
+        [
+          1,
+          1,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "6",
+      "representations": [
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "6 + 2*sqrt(5)",
+      "representations": [
+        [
+          1,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "6 + -2*sqrt(5)",
+      "representations": [
+        [
+          1,
+          5,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1*sqrt(5)",
+      "representations": [
+        [
+          4,
+          4,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3*sqrt(5)",
+      "representations": [
+        [
+          4,
+          4,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "8",
+      "representations": [
+        [
+          4,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1*sqrt(5)",
+      "representations": [
+        [
+          5,
+          5,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3*sqrt(5)",
+      "representations": [
+        [
+          5,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1*sqrt(3)",
+      "representations": [
+        [
+          2,
+          2,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3*sqrt(3)",
+      "representations": [
+        [
+          2,
+          2,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "6 + -1*sqrt(6)",
+      "representations": [
+        [
+          2,
+          3,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "6 + 1*sqrt(6)",
+      "representations": [
+        [
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1*sqrt(3)",
+      "representations": [
+        [
+          3,
+          3,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3*sqrt(3)",
+      "representations": [
+        [
+          3,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1*sqrt(7)",
+      "representations": [
+        [
+          6,
+          6,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3*sqrt(7)",
+      "representations": [
+        [
+          6,
+          6,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "6 + -1*sqrt(2)",
+      "representations": [
+        [
+          6,
+          7,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "6 + 1*sqrt(2)",
+      "representations": [
+        [
+          6,
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1*sqrt(7)",
+      "representations": [
+        [
+          7,
+          7,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3*sqrt(7)",
+      "representations": [
+        [
+          7,
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1*alpha",
+      "representations": [
+        [
+          8,
+          8,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3*alpha",
+      "representations": [
+        [
+          8,
+          8,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1*alpha",
+      "representations": [
+        [
+          9,
+          9,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3*alpha",
+      "representations": [
+        [
+          9,
+          9,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 4/13*sqrt(13)*alpha + -1/13*sqrt(39)*alpha",
+      "representations": [
+        [
+          10,
+          10,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 12/13*sqrt(13)*alpha + -3/13*sqrt(39)*alpha",
+      "representations": [
+        [
+          10,
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -4/13*sqrt(13)*alpha + 1/13*sqrt(39)*alpha",
+      "representations": [
+        [
+          11,
+          11,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -12/13*sqrt(13)*alpha + 3/13*sqrt(39)*alpha",
+      "representations": [
+        [
+          11,
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1/2*sqrt(2) + 1/2*sqrt(14)",
+      "representations": [
+        [
+          12,
+          12,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3/2*sqrt(2) + 3/2*sqrt(14)",
+      "representations": [
+        [
+          12,
+          12,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1/2*sqrt(2) + -1/2*sqrt(14)",
+      "representations": [
+        [
+          13,
+          13,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3/2*sqrt(2) + -3/2*sqrt(14)",
+      "representations": [
+        [
+          13,
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + -1/2*sqrt(2) + 1/2*sqrt(14)",
+      "representations": [
+        [
+          14,
+          14,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + -3/2*sqrt(2) + 3/2*sqrt(14)",
+      "representations": [
+        [
+          14,
+          14,
+          1
+        ]
+      ]
+    },
+    {
+      "value": "3 + 1/2*sqrt(2) + -1/2*sqrt(14)",
+      "representations": [
+        [
+          15,
+          15,
+          -1
+        ]
+      ]
+    },
+    {
+      "value": "9 + 3/2*sqrt(2) + -3/2*sqrt(14)",
+      "representations": [
+        [
+          15,
+          15,
+          1
+        ]
+      ]
+    }
+  ],
+  "square_class_span": {
+    "basis": [
+      "P3",
+      "P7",
+      "gamma+",
+      "delta+",
+      "alpha+",
+      "alpha-",
+      "beta+",
+      "beta-"
+    ],
+    "rank": 8,
+    "relations": [
+      {
+        "dependent": "gamma-",
+        "basis_product": [
+          "P7",
+          "gamma+"
+        ],
+        "square_root": "1 + 1*sqrt(7)"
+      },
+      {
+        "dependent": "delta-",
+        "basis_product": [
+          "P7",
+          "delta+"
+        ],
+        "square_root": "2*sqrt(2) + 1*sqrt(14)"
+      }
+    ],
+    "negative_basis_tests": 255,
+    "other_negative_tests": 16,
+    "positive_dependency_tests": 2,
+    "degree_over_K3": 256,
+    "absolute_degree": 16384
+  },
+  "memoized_square_tests": {
+    "hits": 3145,
+    "misses": 9496,
+    "maxsize": null,
+    "currsize": 9496
+  },
+  "elapsed_seconds": 0.44216489791870117
+}

@@ -1,0 +1,72 @@
+{
+  "computation": {
+    "charged_evaluations_with_conservative_regressions": 1628328,
+    "measured_cpu_seconds": 62.694817,
+    "network_attempted": false,
+    "scout_cases": 6
+  },
+  "cycle_verdict": "RECTANGULAR WITNESS FAIL",
+  "date": "2026-09-21",
+  "files": [
+    {
+      "bytes": 17771,
+      "path": "research/notes/2026-09-21-dc-o1/README.md",
+      "sha256": "5ba33d865d3095620dc555c3f86da4f0dd57e3e2d5b4f37f18ca3e315f3a32c2"
+    },
+    {
+      "bytes": 14607,
+      "path": "research/notes/2026-09-21-dc-o1/core-fringe.md",
+      "sha256": "27e0bebdfaf1038cb73b03c60dead590b7b593586de23870d737a65dd25fa58b"
+    },
+    {
+      "bytes": 7944,
+      "path": "research/notes/2026-09-21-dc-o1/moving-poles.md",
+      "sha256": "f457295fd07fbbcc78fa68d8cd5d512e12b001f55dacfb94968b6ac215b82fac"
+    },
+    {
+      "bytes": 18946,
+      "path": "research/notes/2026-09-21-dc-o1/tensor-compatibility.md",
+      "sha256": "3acd30d1a5eccc5863f96d15d746aab832f6f6455923180407addfa06fa25014"
+    },
+    {
+      "bytes": 18304,
+      "path": "research/notes/2026-09-21-dc-o1/type-balance.md",
+      "sha256": "7fb20df53494e9f9f12be1d13d4749a29dd3e731353ecbbb5e5b58caa391516d"
+    },
+    {
+      "bytes": 9184,
+      "path": "research/notes/2026-09-21-dc-o1/verification.md",
+      "sha256": "af9d4cfcd0c5d6b5a07550055a487541283f35e19a0bd8008818404a4f49851c"
+    },
+    {
+      "bytes": 10076,
+      "path": "experiments/rectangular_returns.py",
+      "sha256": "09e3fcd5db3e59a75b8ce795cda793c60a200a78af2fce551701fbf351fc5bfd"
+    },
+    {
+      "bytes": 1222,
+      "path": "tests/test_rectangular_returns.py",
+      "sha256": "947c98428c828251da1d092d8bc1b73f116242541310ac44c79ab669f210141c"
+    },
+    {
+      "bytes": 16027,
+      "path": "examples/2026-09-21-dc-o1.json",
+      "sha256": "c73ebd54c116b2f05832daa2e5a8116bece7faa03a205376f00fec498f0bdb3a"
+    },
+    {
+      "bytes": 2231476,
+      "path": "local-only/runs/T03/2026-09-21-dc-o1/pairs.json",
+      "sha256": "58a73f4feac8f887b9a7e3f8e00d3d1e4937558a945f3bec269020d45ed470a9"
+    },
+    {
+      "bytes": 3237,
+      "path": "local-only/runs/T03/2026-09-21-dc-o1/regression_guard.py",
+      "sha256": "8195e46620dbdb86b86d213120188ed5364ac10fff8ed783c13542e4874e71dd"
+    }
+  ],
+  "next_obligation": "DC-O1 correlated partial-return domains preserving scalar norm cross terms",
+  "obligation": "DC-O1",
+  "scope": "Four examined mechanisms; no disproof of DC-O1 or the quadratic target",
+  "status": "OPEN",
+  "track": "T03"
+}

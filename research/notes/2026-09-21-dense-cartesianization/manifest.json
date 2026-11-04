@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-21",
+  "track": "T03",
+  "branch": "dense-cartesianization",
+  "verdict": "CARTESIANIZATION FAIL",
+  "scope": "Five defined mechanisms; not a universal impossibility theorem",
+  "files": [
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/README.md",
+      "bytes": 33295,
+      "sha256": "72062036343b8c5db9ea91b2f94b58a60b56576833a27bc33ca12a73c93dc245"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/additive-thickening.md",
+      "bytes": 7193,
+      "sha256": "3bfeb81f3fe7e732192e4ac8e5e9f040acc2277e3a553f69898c41d783a0f9b0"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/block-rectangle.md",
+      "bytes": 20843,
+      "sha256": "68563f8b96b485b9e095c5d856f363e9cf1f8ec9482017ba157c30f59702f6c1"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/matrix-product.md",
+      "bytes": 26780,
+      "sha256": "5eb36fd94c17d2a960cd66a98efc53111dcd878792c7cbda22bc67ca8c35b382"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/split-index.md",
+      "bytes": 18367,
+      "sha256": "9167560645deabc90537a710c3774fb8c29b1029d8f3336b2c58224d25d046cf"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/verification.md",
+      "bytes": 7825,
+      "sha256": "ecfba02058002043a96b6f05f594deb855c0bb0328a380ede56d7bb799161221"
+    },
+    {
+      "path": "experiments/dense_cartesianization.py",
+      "bytes": 8223,
+      "sha256": "eadd78fb859258e1ad09a786e81fe1e32863652a07a385c258d30ca7efee9f62"
+    },
+    {
+      "path": "tests/test_dense_cartesianization.py",
+      "bytes": 1377,
+      "sha256": "e649b9337744fb6e9954549adb31eaba5521422680fc3eafe3a95bf913f03563"
+    },
+    {
+      "path": "examples/2026-09-21-dense-cartesianization.json",
+      "bytes": 10601,
+      "sha256": "3df2848f5b53ebefa7ef4ebca2e5acb4909f2372ba69a3b93ef102503972de49"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-dense-cartesianization/pairs.json",
+      "bytes": 1513403,
+      "sha256": "6873a243d2063fa2916945441bfc7a484715a59886b1616aa9d6654d94d25f61"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-dense-cartesianization/regression_guard.py",
+      "bytes": 3254,
+      "sha256": "1049e83008e1124aac03063c70977fd4ddddb0543f475ebbf9412a8506aaa3fb"
+    }
+  ],
+  "computation": {
+    "charged_evaluations_including_conservative_regressions": 295979,
+    "cpu_seconds": 5.48047,
+    "scout_cases": 4,
+    "network_attempted": false
+  },
+  "next_obligation": "DC-O1 high-overlap rectangular return witness"
+}

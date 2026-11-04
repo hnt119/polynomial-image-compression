@@ -1,0 +1,72 @@
+{
+  "track": "T03",
+  "cycle": "correlated-dc-o1",
+  "date": "2026-09-21",
+  "polynomial": "x^2+xy+y^2",
+  "network": "strictly offline; none used",
+  "verdict": "CORRELATED GO / TAIL FAIL",
+  "mechanisms": [
+    {
+      "id": "FS-1\u2013FS-3",
+      "scalar_identity": "PROVED",
+      "overlap": "X=Y",
+      "status": "FAILED certificate",
+      "scope": "specified separated factor-code coverage",
+      "actual_full_tail": "OPEN"
+    },
+    {
+      "id": "CR-L1\u2013CR-L4",
+      "scalar_identity": "PROVED",
+      "overlap": "X=Y in the concrete realization",
+      "status": "FAILED certificates",
+      "scope": "bounded target levels / affine libraries below stated incidence cost",
+      "actual_full_tail": "not bounded for globally collected ratios"
+    },
+    {
+      "id": "CD-1\u2013CD-3",
+      "scalar_identity": "PROVED",
+      "overlap": "X=Y",
+      "status": "FAILED witness",
+      "n": "3^d",
+      "action_count": "3^d",
+      "bad_pair_lower_bound": "n^2/48",
+      "action_window": "{-1,0,1}^d",
+      "parameter_range": "every d>=1",
+      "actual_image_rate": "OPEN"
+    }
+  ],
+  "remaining_status": {
+    "DC-O1": "OPEN",
+    "quadratic_target": "OPEN",
+    "ARG": "OPEN",
+    "TCRC": "OPEN",
+    "RC15/4": "OPEN",
+    "HR-N1": "DISPROVED"
+  },
+  "does_not_imply": [
+    "actual quadratic image has quadratic size",
+    "all integer-power returns fail",
+    "all correlated constructions fail",
+    "quadratic target or RC15/4 is false"
+  ],
+  "next_obligation": "Construct the correlated DC-O1 witness with fixed positive epsilon, eta, delta and an almost-full genuine Cartesian return tail.",
+  "computation": {
+    "scout_runs": 1,
+    "depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "scout_charged_evaluations": 1670646,
+    "scout_cpu_seconds": 13.777365,
+    "total_including_conservative_validation_charges": 1763139,
+    "total_measured_cpu_seconds": 16.884153,
+    "query_cap": 2000000,
+    "cpu_cap_seconds": 600,
+    "tests_passed": 64,
+    "verification_checks_passed": 159
+  },
+  "uncommitted": true,
+  "historical_files_modified": false
+}
