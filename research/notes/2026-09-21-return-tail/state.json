@@ -1,0 +1,108 @@
+{
+  "track": "T03",
+  "cycle": "offline-correlated-return-tail",
+  "date": "2026-09-21",
+  "version": 1,
+  "polynomial": "x^2+xy+y^2",
+  "network": "strictly offline; none used",
+  "verdict": "RETURN-TAIL FAIL",
+  "structural_claims": {
+    "ids": ["RT-G1", "RT-G2", "RT-G3"],
+    "status": "PROVED",
+    "scope": "Exact real return-domain geometry, ordered second moments, a sufficient lower-tail variance criterion, and sign-return identity-only classification",
+    "proof": "geometry.md, sections 1-3",
+    "unproved_premise": "No candidate is asserted to satisfy the sufficient asymptotic variance estimates"
+  },
+  "mechanisms": [
+    {
+      "name": "Cyclotomic traces",
+      "claim_ids": ["CY-1", "CY-2", "CY-3"],
+      "proof": "cyclotomic-domains.md, sections 1-6",
+      "status": "FAILED return-tail witness; exact domain theorem PROVED",
+      "parameter_range": "primes p>=11 with p=2 mod 3",
+      "carrier": "A=X=Y={v+v^(-1): v in mu_6 times <exp(2*pi*i/p)>}",
+      "n": "3p+1",
+      "actions": "U=mu_6 times <exp(2*pi*i/p)>, |U|=6p",
+      "identity_only_pairs": 0,
+      "domains": "D_1=D_(-1)=A^2; every other D_u equals the same E of size 6p",
+      "exact_returns": "R=2 on n^2-6p pairs; R=6p on 6p pairs",
+      "bad_tail": "For every fixed 0<epsilon<=1, B_epsilon=n^2-2n+2 eventually; for epsilon>1, B_epsilon=n^2 eventually",
+      "action_scope": "Full selected finite group; no assertion about other infinite-order norm actions",
+      "actual_image_rate": "OPEN; finite image counts are not an asymptotic theorem"
+    },
+    {
+      "name": "Full-residue modular gadget and canonical real lift",
+      "claim_ids": ["MG-1", "MG-2", "MG-3", "MG-4"],
+      "proof": "modular-gadget.md, sections 1-4",
+      "status": "Modular tail PROVED; proposed real lift FAILED",
+      "parameter_range": "integers k>=1",
+      "modular_carrier": "X=Y=Z/(7^k); n=7^k",
+      "modular_actions": "Split norm torus of size 6*7^(k-1)",
+      "modular_histogram": "R=1 at origin; R=6*7^(j-1) on 48*7^(2j-2) pairs for 1<=j<=k",
+      "modular_bad_tail": "B_epsilon <= (49/36)*n^(2*epsilon), 0<epsilon<1",
+      "real_carrier": "X=Y={-(n-1)/2,...,(n-1)/2} in Z",
+      "explicit_real_actions": "mu_6",
+      "real_identity_only_pairs": 1,
+      "real_bad_tail": "Every actual norm action family has B_epsilon=n^2 eventually for every fixed epsilon>0, by retained HR-4A/B",
+      "lift_scope": "Canonical representative action fails real norm equality; a finite-group homomorphic rational lift has at most six distinct actions"
+    },
+    {
+      "name": "Rational denominator states",
+      "claim_ids": ["RT-D1", "RT-D2", "RT-D3"],
+      "proof": "denominator-domains.md, sections 2-4",
+      "status": "FAILED all-action return-tail witness; full-fiber and image obstruction PROVED",
+      "parameter_range": "H=12L, integer L>=10000",
+      "carrier": "A=X=Y={a/b reduced: |a|<=H, 1<=b<=H}",
+      "input_bounds": "H^2/288 <= n <= 3H^2",
+      "explicit_actions": "Distinct +/- conjugate(beta)/beta for beta=m+k*omega nonzero with |m|,|k|<=H",
+      "identity_only_pairs": 1,
+      "bad_pair_lower_bound": "n^2/400000",
+      "bad_tail": "Every fixed positive polynomial return threshold fails on at least n^2/400000 pairs eventually, uniformly over all actual action families",
+      "full_fiber_bound": "6*sum_(t=1)^3 tau(tK)^2*tau(t^2*N)=H^o(1) on the specified positive-density source set",
+      "actual_image_lower_bound": "For every rho>0, |Q(A,A)|>=n^(2-rho) eventually along H=12L",
+      "image_evidence": "Independent consequence of complete fiber bound, not of return failure alone"
+    }
+  ],
+  "remaining_status": {
+    "DC-O1": "OPEN",
+    "quadratic_target": "OPEN",
+    "ARG": "OPEN",
+    "TCRC": "OPEN",
+    "RC15/4": "OPEN",
+    "HR-N1": "DISPROVED"
+  },
+  "does_not_imply": [
+    "All correlated return-domain constructions fail",
+    "The cyclotomic carrier has an asymptotically quadratic image",
+    "The main real quadratic target or RC15/4 is false"
+  ],
+  "next_obligation": "Construct explicit real X_d,Y_d and actual norm-one U_d with n_d=|X_d union Y_d| tending to infinity, |X_d symmetric_difference Y_d|=O(n_d^(1-eta)), and at least n_d^epsilon distinct genuine returns on all but O(n_d^(2-delta)) ordered pairs, for fixed epsilon,eta,delta>0; then apply existing DC-R1.",
+  "computation": {
+    "mechanisms_considered": 3,
+    "scout_runs": 1,
+    "exact_cases": [11, 17],
+    "scout_charged_evaluations": 712264,
+    "scout_cpu_seconds": 9.963013,
+    "total_including_conservative_validation_charges": 814969,
+    "total_measured_cpu_seconds": 13.569114,
+    "query_cap": 2000000,
+    "cpu_cap_seconds": 600,
+    "runtime": "Python 3.12.7",
+    "tests_passed": 81,
+    "verification_checks_passed": 159
+  },
+  "checks": {
+    "internal_proof_reviews": "PASS; details and pre-final corrections in verification.md",
+    "exact_data_and_executed_source_hash_review": "PASS",
+    "repository_final": "PASS: 39 archived sources, 133 Markdown files",
+    "repository_initial": "Missing verification-note link in concurrent T01 work; resolved before final check without editing that work",
+    "setup": "PASS",
+    "diff_whitespace": "PASS",
+    "original_prefixes_of_five_handoff_files": "PASS",
+    "unrelated_final_baseline_change": "research/tracks/01-cubic-digital/STATUS.md, concurrent T01 work"
+  },
+  "uncommitted": true,
+  "historical_files_modified_by_this_task": false,
+  "new_external_results_imported": false,
+  "novelty_claimed": false
+}

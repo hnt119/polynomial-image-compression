@@ -1,0 +1,11 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.pdf binary
+# Preserve source snapshots byte-for-byte, including original line endings.
+research/prompts/** -text
+research/notes/** -text
+research/conjectures/** -text
+research/history-sources/** -text

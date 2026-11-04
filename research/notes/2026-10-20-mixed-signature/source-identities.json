@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "date": "2026-10-20",
+  "files": [
+    {
+      "path_from_repository_root": "local-only/migration/research_supplement/shared/Phase_C0_Corrected.md",
+      "bytes": 28002,
+      "sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be",
+      "use": "Theorem C0.1; section 5.1; lattice counting discipline"
+    },
+    {
+      "path_from_repository_root": "local-only/migration/research_supplement/shared/C0_CORRECTION_LOG.md",
+      "bytes": 6459,
+      "sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480",
+      "use": "corrected input and normalization scope"
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/TFQ_Direct_Construction_and_Adaptive_Radical_Report.md",
+      "bytes": 33577,
+      "sha256": "40f63e62d1a8054266536d697eac67119e44fe0d89c59223c0965cbd96f6953b",
+      "use": "section G.4 inherited cubic seed and non-torsion proof"
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850",
+      "use": "sections 5.2, 5.3, 6, 10; frozen scope and accepted facts"
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/T01_Norm_Trace_Quadratic_Research_Checkpoint.md",
+      "bytes": 23468,
+      "sha256": "a9de1edb1ebc43465de7e12cd2e815e8647b4199a0c303afff2e4a8815abc0db",
+      "use": "scoped Phase-A regulator hypothesis; no transfer adopted"
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/00_MASTER_HANDOFF.md",
+      "bytes": 14694,
+      "sha256": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250",
+      "use": "source hierarchy and target orientation"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "bytes": 19551,
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e",
+      "use": "full-support implication with distinct returns and exceptions"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-bff-o1/README.md",
+      "bytes": 9066,
+      "sha256": "c4f022e8b261537e790b03b8cabfa480e38e41765f94a93bb83b4b996efcda94",
+      "use": "latest carrier retirement; retained, not rerun"
+    },
+    {
+      "path_from_repository_root": "research/tracks/03-eisenstein-cartesianization/SPEC.md",
+      "bytes": 2192,
+      "sha256": "1a303c4f53e8f6bfebed68be3128c5a874d21c9b60b78d8e416fb418497c3ef3",
+      "use": "fixed target identity; historical route proposals"
+    },
+    {
+      "path_from_repository_root": "research/templates/CONSTRUCTION_LEDGER.md",
+      "bytes": 2460,
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6",
+      "use": "required arithmetic and full-support accounting"
+    },
+    {
+      "path_from_repository_root": "docs/CODEX_SETUP.md",
+      "bytes": 3537,
+      "sha256": "7e9c84d4f10667909b734607ea14f8e885be3c8a194a0578d6919c85ca2c82df",
+      "use": "local repository workflow"
+    },
+    {
+      "path_from_repository_root": "research/CODEX_MIGRATION_AUDIT.md",
+      "bytes": 8816,
+      "sha256": "186c1eb66565c57cbfe8bfbd9873025d6aac5de78ec7c6eba0e8da50fd8848db",
+      "use": "reference availability and setup boundary"
+    },
+    {
+      "path_from_repository_root": "research/MIGRATION_CONFLICTS.md",
+      "bytes": 17888,
+      "sha256": "f1524d8415086650f8902eb2df8fb3c356517db6575ecbcf648b60ff4e9bd37a",
+      "use": "source gaps, including missing historical originals"
+    }
+  ]
+}

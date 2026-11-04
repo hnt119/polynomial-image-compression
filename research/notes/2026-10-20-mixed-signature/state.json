@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-20",
+  "version": 1,
+  "track": "T03",
+  "branch": "C0 mixed-signature lattice symmetry",
+  "polynomial": "x^2+xy+y^2",
+  "mode": "strictly offline",
+  "carrier": "A_j(T)=sigma_0({x in O_Kj: |sigma(x)|<=T for every embedding sigma})",
+  "fields": "K_j=F_j(s), E_j=K_j(omega), s^3+s+1=0 at the real root",
+  "fixed_radius": "T0=2*sqrt(Dstar), Dstar=D0*31^(1/3)",
+  "status": "OPEN",
+  "proved_claims": [
+    "MS-F1 degrees signatures and root-discriminant bounds",
+    "MS-F2 conductor and relative order-unit index at most 3^(3d)",
+    "MS-F3 relative unit rank d and torsion at most 8d^2",
+    "MS-F4 exact relative logarithmic covolume and height accounting",
+    "MS-F5 integral whole-scalar norm-preserving action",
+    "MS-F6 exhaustive finite unit height window and centered counts",
+    "MS-W1 exact complex return domains and norm cutoff",
+    "MS-W2 continuous overlap upper bounds with fixed-field-only lattice limit",
+    "MS-W3 O(log n) returns from all powers of the fixed seed",
+    "MS-C1 injective centrally symmetric scalar carrier and exponential size",
+    "MS-C2 full-support implication and conditional signed rate",
+    "MS-C3 O((log n)^3) returns from all seed powers times all torsion"
+  ],
+  "input_bounds": "(4*pi)^d <= n <= (4*sqrt(Dstar)+1)^(3d) at T0",
+  "actions": {
+    "matrix": "[[a,b],[-b,a-b]] for u=a+b*omega in O_K[omega]^times with N_E/K(u)=1",
+    "finite_inventory": "||ell_j(u)||_1 <= d_j*L(T), L(T)=0.5*log(48*T^6)",
+    "absolute_logarithmic_height": "h(u)<=L(T)/3",
+    "nonzero_target_multiplicity": 1,
+    "origin_distinct_targets": 1
+  },
+  "failed_scope": {
+    "family": "(mu(E_j) intersection O_Kj[omega]) * <s^2+s*omega>",
+    "status": "FAILED IN STATED SCOPE",
+    "bound": "O((log n_j)^3) distinct returns at every pair, uniformly T_j>=T0",
+    "bad_pair_count_for_fixed_positive_return_power": "n_j^2 eventually",
+    "actual_image_obstruction": false
+  },
+  "unproved": {
+    "uniform_exponential_population_of_finite_inventory": true,
+    "relative_regulator_growth": true,
+    "useful_unit_basis_shape": true,
+    "full_rank_unit_return_tail": true,
+    "epsilon": null,
+    "delta": null,
+    "c": null,
+    "actual_image_rate": "OPEN",
+    "unrestricted_quadratic_target": "OPEN",
+    "RC15_4": "OPEN"
+  },
+  "next_obligation": {
+    "id": "MS-O1",
+    "status": "OPEN",
+    "statement": "There exist fixed T>=T0, alpha>0 and j0 with |U_j(T)|>=exp(alpha*d_j) for every j>=j0.",
+    "scope": "Necessary for a uniform eventual return tail on this fixed tower; insufficient for compression; refutation does not alone exclude subsequences."
+  },
+  "window_mutations": 0,
+  "historical_scouts_rerun": 0,
+  "computation": {
+    "charged_exact_evaluations": 0,
+    "research_program_cpu_seconds": 0,
+    "cap_exact_evaluations": 2000000,
+    "cap_cpu_seconds": 600,
+    "verification_reserve_fraction": 0.2,
+    "administrative_checks": "See verification.md and private run budget.json"
+  },
+  "history": {
+    "balanced_factor_carrier": "RETIRED by BFF-O1, unchanged",
+    "totally_real_full_input_sieve_certificates": "remain CLOSED in their recorded scopes",
+    "sources_modified": false,
+    "committed": false
+  }
+}

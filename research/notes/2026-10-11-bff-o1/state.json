@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-11",
+  "version": 1,
+  "thread": "T03",
+  "result_id": "BFF-O1",
+  "status": "PROVED",
+  "carrier_status": "RETIRED_FOR_FIXED_POWER_SAVING",
+  "polynomial": "x^2+xy+y^2",
+  "carrier": "unchanged balanced factor h*prod_l(2-xi^(i_l*7^l)), scales1..8, centered digits",
+  "theorem": {
+    "parameter": "q=7^r, every sufficiently large integer r",
+    "ordered_source_lower_bound": "32q^4 in B_r^2",
+    "full_target_domain": "all V_r^2, equivalently all A_r^2",
+    "full_fiber_bound": "fixed M independent of r",
+    "requested_exponent_C": 1,
+    "requested_starting_depth": "fixed r0 >= max(r_star,M-1)",
+    "actual_image_lower_bound": "n^2/(18M)",
+    "actual_image_rate": "Theta(n^2)",
+    "numerical_M_and_r0": "not calculated"
+  },
+  "proof": {
+    "approaches_considered": 2,
+    "accepted": "last degree-seven layer, finite-family projection and monic localization, uniform predecessor polynomial zero-set bound",
+    "stopped": "2-adic word reconstruction screen",
+    "local_source_types": 2401,
+    "proved_rank_four_source_types_at_least": 1344,
+    "target_spaces": 49,
+    "target_map_list_size": 2401,
+    "scope": "all completed targets, all sufficiently large depths",
+    "internal_audit": "PASS, complete written proof",
+    "lead_independent_check": "PASS"
+  },
+  "does_not_imply": [
+    "unrestricted quadratic target false",
+    "RC15/4 false",
+    "ARG/TCRC false",
+    "all ML-O1 amplitude carriers fail",
+    "every full fiber is bounded"
+  ],
+  "remaining_status": {
+    "unrestricted_quadratic_target": "OPEN",
+    "RC15_4": "OPEN",
+    "ARG_TCRC": "OPEN"
+  },
+  "research_decision": [
+    "retire unchanged balanced-factor carrier",
+    "stop; no exact constant-fiber classification",
+    "no successor construction or conjecture adopted"
+  ],
+  "computation": {
+    "charged_exact_evaluations": 0,
+    "research_program_cpu_seconds": 0,
+    "r0_r1_scouts_rerun": false,
+    "new_finite_experiments": false,
+    "cap_exact_evaluations": 2000000,
+    "cap_cpu_seconds": 600,
+    "validation_reserve_fraction": 0.2,
+    "measured_administrative_validation_cpu_seconds": 0.22517500000000001,
+    "measured_administrative_total_including_initial_baseline": 0.277446
+  },
+  "claims": [
+    {
+      "id": "BFO-L1",
+      "file": "elimination.md",
+      "sections": "E1-E4"
+    },
+    {
+      "id": "BFO-T1",
+      "file": "tower.md",
+      "sections": "1-2"
+    },
+    {
+      "id": "BFO-T2",
+      "file": "tower.md",
+      "sections": "3"
+    },
+    {
+      "id": "BFO-T3",
+      "file": "tower.md",
+      "sections": "4"
+    },
+    {
+      "id": "BFO-T4",
+      "file": "tower.md",
+      "sections": "5"
+    },
+    {
+      "id": "BFF-O1",
+      "file": "README.md",
+      "sections": "1-5"
+    },
+    {
+      "id": "BFO-F1",
+      "file": "README.md",
+      "sections": "5"
+    }
+  ],
+  "repository_checks": {
+    "all_passed": true,
+    "archived_sources": 39,
+    "markdown_files": 232,
+    "local_references": 50,
+    "T03_manifest_members": 43,
+    "baseline_files_unchanged": 367,
+    "baseline_files_append_only": 6,
+    "other_baseline_changes": 0
+  }
+}

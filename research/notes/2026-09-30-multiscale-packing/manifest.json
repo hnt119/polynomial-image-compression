@@ -1,0 +1,40 @@
+{
+  "scope": "new multiscale-packing companions only; excludes this manifest",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7360,
+      "sha256": "96b1ecea10cc3c7de9abcab68277d55f5cb2d456c3f9679037da81f68f6a9d26"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 23069,
+      "sha256": "a2615cdf995ef2d071fd2042ba041ebfcbc5a29c6148057469b77834bbe3ce0a"
+    },
+    {
+      "path": "composition.md",
+      "bytes": 22862,
+      "sha256": "2b5d044beaac8a01eacd1442fd2733be6efc433baf0e22e2eae72173c7c9fa08"
+    },
+    {
+      "path": "ledger.md",
+      "bytes": 7782,
+      "sha256": "5813ea7055eb365c3a78085e4bf4769b33a6eeb8a778a5f8a97c5a39a718218a"
+    },
+    {
+      "path": "local-gadgets.md",
+      "bytes": 13287,
+      "sha256": "1b87aa4f67bffac9d036b2a7f3b729cf4f92ccb6edb92d147ebaea073564da14"
+    },
+    {
+      "path": "state.json",
+      "bytes": 3555,
+      "sha256": "11b48f51d504fc48207b7ac09dbd00477335ae0c57ecf3b5cb4900bd2ff025cc"
+    },
+    {
+      "path": "verification.md",
+      "bytes": 7070,
+      "sha256": "8e90c32c4bf3cbeb390ef12952fdb3339bd7dc0ab37db62ecab14135bfca02ab"
+    }
+  ]
+}

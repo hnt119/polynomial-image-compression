@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-21",
+  "version": 1,
+  "track": "T03",
+  "polynomial": "x^2+xy+y^2",
+  "result_id": "MS-O2",
+  "status": "OPEN",
+  "frozen_MS_O1": "PROVED, used without reproof",
+  "construction_changed": false,
+  "radius_changed": false,
+  "new_claims": {
+    "MS2-W1": "PROVED: exact complex and real source-dependent phase conditions",
+    "MS2-W2": "PROVED: exact global unit torsion-fiber return formula and conditional robust boxes",
+    "MS2-W3": "PROVED: precise finite log-cover window counts with offsets and inflation/erosion",
+    "MTR-L1": "PROVED: actual discrete unit-domain lower bound",
+    "MTR-L2": "PROVED: optimized guaranteed rate of that lower certificate is negative",
+    "MSR-I1": "PROVED: exhaustive returns equal full-group orbit-intersection sizes",
+    "MSR-I2": "PROVED: inverse-return support and bad-tail implications",
+    "MSR-I3": "PROVED: exact principal-order-ideal and relative-norm label classification",
+    "MSR-I4": "PROVED: uniform divisor estimate and non-saving ambient label certificate",
+    "MTR-A1-A2": "PROVED: independent support and rate audit"
+  },
+  "actual_mean": {
+    "proved_lower_bound": "mu_j >= 2",
+    "exponential_growth": "OPEN",
+    "lower_certificate_rate": "log(P_star/(2*K_R)) < 0",
+    "P_star": "(3*sqrt(3)*pi^3/512)/(D_star^3*(2+1/T_star)^6)",
+    "negative_rate_scope": "Insufficient lower certificate only, not an upper bound on the actual mean"
+  },
+  "inverse_return_identity": {
+    "Z_j": "{x-omega*y:(x,y) in C_j^2 minus origin}",
+    "nu_j": "number of occupied labels (z*R_j,z*tau(z)), z in Z_j",
+    "identity": "N_j * E[1/R_j] = nu_j",
+    "support": "|Q(A_j,A_j)| <= 1+nu_j"
+  },
+  "remaining": {
+    "MS_O2_concentration": "OPEN",
+    "direct_return_tail": "OPEN",
+    "inverse_moment_decay": "OPEN",
+    "positive_c": "NOT_ESTABLISHED",
+    "mixed_signature_carrier": "OPEN, NOT_RETIRED",
+    "actual_image_rate": "OPEN",
+    "T03_target": "OPEN",
+    "RC15_4": "OPEN, NOT_PURSUED",
+    "retired_families": "UNCHANGED"
+  },
+  "next_lemma": {
+    "id": "MS-O2-I",
+    "status": "OPEN",
+    "statement": "There exist fixed gamma>0,C1<infinity,j0 such that nu_j <= C1*(n_j^2-1)*exp(-gamma*d_j) for every j>=j0",
+    "scope": "Exact inverse-return endpoint for occupied order-ideal/exact-norm labels on the unchanged complete carrier",
+    "conditional_c": "Every 0<c<gamma/[3*log(2*T_star+1)] eventually",
+    "not_claimed": "No assertion that the reformulation is true, easier, or necessary for actual-image saving",
+    "new_cycle_started": false
+  },
+  "computation": {
+    "charged_exact_evaluations": 0,
+    "research_program_cpu_seconds": 0,
+    "cap_exact_evaluations": 2000000,
+    "cap_program_cpu_seconds": 600,
+    "verification_reserve_fraction": 0.2,
+    "mathematical_programs": [],
+    "administrative_details": "ledger-verification.md and private run budget.json"
+  },
+  "provenance": {
+    "mode": "strictly offline",
+    "network_used": false,
+    "historical_sources_modified": false,
+    "commit_created": false,
+    "novelty_claim": false,
+    "independent_written_companion_audits": "PASS",
+    "external_peer_review": false
+  }
+}

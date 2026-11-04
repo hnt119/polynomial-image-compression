@@ -1,0 +1,1429 @@
+{
+  "status": "EXPERIMENTAL \u2014 exact predetermined finite continuations only",
+  "polynomial": "(x-y)^3+x+y",
+  "initial_input": [
+    "0",
+    "1/3",
+    "2/3",
+    "1",
+    "4/3",
+    "5/3"
+  ],
+  "initial_s": 22,
+  "rules": [
+    "intact_near_gap",
+    "intact_wide_gap",
+    "half_near_gap",
+    "intact_third_shift",
+    "half_third_shift",
+    "alternating_scale",
+    "stage_shrink",
+    "diameter_reset",
+    "exact_third_translations"
+  ],
+  "levels_per_rule": 3,
+  "all_counts": [
+    {
+      "rule": "intact_near_gap",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 282,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "28/15"
+        ],
+        [
+          "1",
+          "56/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "141/11",
+      "normalized_ratio": "47/33",
+      "image_density": "47/54",
+      "template_savings": 42,
+      "extra_savings": 0,
+      "total_savings": 42,
+      "template_covered_pair_count": 84,
+      "fiber_classification_counts": {
+        "singleton": 240,
+        "template_only": 42
+      },
+      "sum_block_sizes": 282,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "27/5",
+        "diameter": "27/5",
+        "common_denominator": "15",
+        "maximum_reduced_numerator": "76",
+        "maximum_reduced_denominator": "15"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_near_gap-level-1.json",
+      "raw_sha256": "57699d117ef0972de08975cb0feb1e072335c3378d1fef3ed10defa13e14559f"
+    },
+    {
+      "rule": "intact_near_gap",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 282,
+      "n": 54,
+      "s": 2790,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "194/35"
+        ],
+        [
+          "1",
+          "388/35"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "465/47",
+      "normalized_ratio": "155/141",
+      "image_density": "155/162",
+      "template_savings": 126,
+      "extra_savings": 0,
+      "total_savings": 126,
+      "template_covered_pair_count": 252,
+      "fiber_classification_counts": {
+        "singleton": 2664,
+        "template_only": 126
+      },
+      "sum_block_sizes": 2790,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "577/35",
+        "diameter": "577/35",
+        "common_denominator": "105",
+        "maximum_reduced_numerator": "1696",
+        "maximum_reduced_denominator": "105"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_near_gap-level-2.json",
+      "raw_sha256": "9374848d8d04d2613c1a0309629c9dfb6397fdd0d5911fde61d903949b6af970"
+    },
+    {
+      "rule": "intact_near_gap",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2790,
+      "n": 162,
+      "s": 25866,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "6382/385"
+        ],
+        [
+          "1",
+          "12764/385"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "1437/155",
+      "normalized_ratio": "479/465",
+      "image_density": "479/486",
+      "template_savings": 378,
+      "extra_savings": 0,
+      "total_savings": 378,
+      "template_covered_pair_count": 756,
+      "fiber_classification_counts": {
+        "singleton": 25488,
+        "template_only": 378
+      },
+      "sum_block_sizes": 25866,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "19111/385",
+        "diameter": "19111/385",
+        "common_denominator": "1155",
+        "maximum_reduced_numerator": "56948",
+        "maximum_reduced_denominator": "1155"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_near_gap-level-3.json",
+      "raw_sha256": "741c61700aad94d9732de5e68639a4b786358428eafada22fa15ad78a787b92b"
+    },
+    {
+      "rule": "intact_wide_gap",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 282,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "43/15"
+        ],
+        [
+          "1",
+          "86/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "141/11",
+      "normalized_ratio": "47/33",
+      "image_density": "47/54",
+      "template_savings": 42,
+      "extra_savings": 0,
+      "total_savings": 42,
+      "template_covered_pair_count": 84,
+      "fiber_classification_counts": {
+        "singleton": 240,
+        "template_only": 42
+      },
+      "sum_block_sizes": 282,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "37/5",
+        "diameter": "37/5",
+        "common_denominator": "15",
+        "maximum_reduced_numerator": "106",
+        "maximum_reduced_denominator": "15"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_wide_gap-level-1.json",
+      "raw_sha256": "b2d945ddb95b728b31b3ddbd072394a89b95b6f9262bc2bd11ea4074acf6fffc"
+    },
+    {
+      "rule": "intact_wide_gap",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 282,
+      "n": 54,
+      "s": 2790,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "299/35"
+        ],
+        [
+          "1",
+          "598/35"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "465/47",
+      "normalized_ratio": "155/141",
+      "image_density": "155/162",
+      "template_savings": 126,
+      "extra_savings": 0,
+      "total_savings": 126,
+      "template_covered_pair_count": 252,
+      "fiber_classification_counts": {
+        "singleton": 2664,
+        "template_only": 126
+      },
+      "sum_block_sizes": 2790,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "857/35",
+        "diameter": "857/35",
+        "common_denominator": "105",
+        "maximum_reduced_numerator": "2536",
+        "maximum_reduced_denominator": "105"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_wide_gap-level-2.json",
+      "raw_sha256": "b732c0f3f55b1030905e630ee4ac37fac1c4011f6a5665feea47efb6ac8dc99f"
+    },
+    {
+      "rule": "intact_wide_gap",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2790,
+      "n": 162,
+      "s": 25866,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "9847/385"
+        ],
+        [
+          "1",
+          "19694/385"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "1437/155",
+      "normalized_ratio": "479/465",
+      "image_density": "479/486",
+      "template_savings": 378,
+      "extra_savings": 0,
+      "total_savings": 378,
+      "template_covered_pair_count": 756,
+      "fiber_classification_counts": {
+        "singleton": 25488,
+        "template_only": 378
+      },
+      "sum_block_sizes": 25866,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "29121/385",
+        "diameter": "29121/385",
+        "common_denominator": "1155",
+        "maximum_reduced_numerator": "86978",
+        "maximum_reduced_denominator": "1155"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_wide_gap-level-3.json",
+      "raw_sha256": "413c3ec0923c85fb8e4873d82417037a24790246a70fbdc83c2ee0c92ae31792"
+    },
+    {
+      "rule": "half_near_gap",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 312,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "31/30"
+        ],
+        [
+          "1/2",
+          "31/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "156/11",
+      "normalized_ratio": "52/33",
+      "image_density": "26/27",
+      "template_savings": 12,
+      "extra_savings": 0,
+      "total_savings": 12,
+      "template_covered_pair_count": 24,
+      "fiber_classification_counts": {
+        "singleton": 300,
+        "template_only": 12
+      },
+      "sum_block_sizes": 312,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "29/10",
+        "diameter": "29/10",
+        "common_denominator": "30",
+        "maximum_reduced_numerator": "77",
+        "maximum_reduced_denominator": "30"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_near_gap-level-1.json",
+      "raw_sha256": "7b7e3e403ed1ec56fc12fe661400c391d45e3bbb1c30619d96fd00ae1e7223d7"
+    },
+    {
+      "rule": "half_near_gap",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 312,
+      "n": 54,
+      "s": 2916,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "223/140"
+        ],
+        [
+          "1/2",
+          "223/70"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "243/26",
+      "normalized_ratio": "27/26",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 2916
+      },
+      "sum_block_sizes": 2916,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "649/140",
+        "diameter": "649/140",
+        "common_denominator": "420",
+        "maximum_reduced_numerator": "1877",
+        "maximum_reduced_denominator": "420"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_near_gap-level-2.json",
+      "raw_sha256": "e1cb62d5b0ebc1907105b8903d2db2d6f90b6721bcba3b3ab23b8343156fd75e"
+    },
+    {
+      "rule": "half_near_gap",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2916,
+      "n": 162,
+      "s": 26244,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "7419/3080"
+        ],
+        [
+          "1/2",
+          "7419/1540"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "9",
+      "normalized_ratio": "1",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 26244
+      },
+      "sum_block_sizes": 26244,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "21977/3080",
+        "diameter": "21977/3080",
+        "common_denominator": "9240",
+        "maximum_reduced_numerator": "65161",
+        "maximum_reduced_denominator": "9240"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_near_gap-level-3.json",
+      "raw_sha256": "a2ac6f3a1321a0f76ac9017cf48e917e7efe2378a1889caf5cd6964d61b6ac1f"
+    },
+    {
+      "rule": "intact_third_shift",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 282,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "8/15"
+        ],
+        [
+          "1",
+          "16/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "141/11",
+      "normalized_ratio": "47/33",
+      "image_density": "47/54",
+      "template_savings": 42,
+      "extra_savings": 0,
+      "total_savings": 42,
+      "template_covered_pair_count": 84,
+      "fiber_classification_counts": {
+        "singleton": 240,
+        "template_only": 42
+      },
+      "sum_block_sizes": 282,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "41/15",
+        "diameter": "41/15",
+        "common_denominator": "15",
+        "maximum_reduced_numerator": "41",
+        "maximum_reduced_denominator": "15"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_third_shift-level-1.json",
+      "raw_sha256": "7447fa7ecfb355cfa4686f4ea4f18bf0720ef54129c16ec388029526e2281781"
+    },
+    {
+      "rule": "intact_third_shift",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 282,
+      "n": 54,
+      "s": 2790,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "10/21"
+        ],
+        [
+          "1",
+          "20/21"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "465/47",
+      "normalized_ratio": "155/141",
+      "image_density": "155/162",
+      "template_savings": 126,
+      "extra_savings": 0,
+      "total_savings": 126,
+      "template_covered_pair_count": 252,
+      "fiber_classification_counts": {
+        "singleton": 2664,
+        "template_only": 126
+      },
+      "sum_block_sizes": 2790,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "129/35",
+        "diameter": "129/35",
+        "common_denominator": "105",
+        "maximum_reduced_numerator": "352",
+        "maximum_reduced_denominator": "105"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_third_shift-level-2.json",
+      "raw_sha256": "9d76b8f0ec1f6c931c78dbc5f1671f033b9c2cc15b8e2b1718c94e791dfc9bc2"
+    },
+    {
+      "rule": "intact_third_shift",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2790,
+      "n": 162,
+      "s": 25866,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "14/33"
+        ],
+        [
+          "1",
+          "28/33"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "1437/155",
+      "normalized_ratio": "479/465",
+      "image_density": "479/486",
+      "template_savings": 378,
+      "extra_savings": 0,
+      "total_savings": 378,
+      "template_covered_pair_count": 756,
+      "fiber_classification_counts": {
+        "singleton": 25488,
+        "template_only": 378
+      },
+      "sum_block_sizes": 25866,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "5237/1155",
+        "diameter": "5237/1155",
+        "common_denominator": "1155",
+        "maximum_reduced_numerator": "5237",
+        "maximum_reduced_denominator": "1155"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/intact_third_shift-level-3.json",
+      "raw_sha256": "5e24fb63ee64f499866a8aedddf72b0b54b23cbf03a315fb03da2d4619e8f6b4"
+    },
+    {
+      "rule": "half_third_shift",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 312,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "8/15"
+        ],
+        [
+          "1/2",
+          "16/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "156/11",
+      "normalized_ratio": "52/33",
+      "image_density": "26/27",
+      "template_savings": 12,
+      "extra_savings": 0,
+      "total_savings": 12,
+      "template_covered_pair_count": 24,
+      "fiber_classification_counts": {
+        "singleton": 300,
+        "template_only": 12
+      },
+      "sum_block_sizes": 312,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "19/10",
+        "diameter": "19/10",
+        "common_denominator": "30",
+        "maximum_reduced_numerator": "47",
+        "maximum_reduced_denominator": "30"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_third_shift-level-1.json",
+      "raw_sha256": "78a3dfd678c76901a465e4c6541c320c878b537cdf23c43ed6727f639ffdd131"
+    },
+    {
+      "rule": "half_third_shift",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 312,
+      "n": 54,
+      "s": 2916,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "10/21"
+        ],
+        [
+          "1/2",
+          "20/21"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "243/26",
+      "normalized_ratio": "27/26",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 2916
+      },
+      "sum_block_sizes": 2916,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "799/420",
+        "diameter": "799/420",
+        "common_denominator": "420",
+        "maximum_reduced_numerator": "799",
+        "maximum_reduced_denominator": "420"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_third_shift-level-2.json",
+      "raw_sha256": "a2eddedaa304810e72df38bad2af4a186e1b634d9e42ff7d6d2f0c2550e1d2da"
+    },
+    {
+      "rule": "half_third_shift",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2916,
+      "n": 162,
+      "s": 26244,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "14/33"
+        ],
+        [
+          "1/2",
+          "28/33"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "9",
+      "normalized_ratio": "1",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 26244
+      },
+      "sum_block_sizes": 26244,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "5543/3080",
+        "diameter": "5543/3080",
+        "common_denominator": "9240",
+        "maximum_reduced_numerator": "15859",
+        "maximum_reduced_denominator": "9240"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/half_third_shift-level-3.json",
+      "raw_sha256": "5c5cd7b2802bb245ca0c8f64f268ee23a80284fc5a3fe9745143c03f6b01b1da"
+    },
+    {
+      "rule": "alternating_scale",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 324,
+      "maps": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "2",
+          "8/15"
+        ],
+        [
+          "2",
+          "16/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "162/11",
+      "normalized_ratio": "18/11",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 324
+      },
+      "sum_block_sizes": 324,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "22/5",
+        "diameter": "22/5",
+        "common_denominator": "15",
+        "maximum_reduced_numerator": "58",
+        "maximum_reduced_denominator": "15"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/alternating_scale-level-1.json",
+      "raw_sha256": "f57a044e2f5e3ea7b4a5236a1ce43595a8b56b82a329cb1a2bdfa71c55ef14df"
+    },
+    {
+      "rule": "alternating_scale",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 324,
+      "n": 54,
+      "s": 2790,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "10/21"
+        ],
+        [
+          "1/2",
+          "20/21"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "155/18",
+      "normalized_ratio": "155/162",
+      "image_density": "155/162",
+      "template_savings": 126,
+      "extra_savings": 0,
+      "total_savings": 126,
+      "template_covered_pair_count": 252,
+      "fiber_classification_counts": {
+        "singleton": 2664,
+        "template_only": 126
+      },
+      "sum_block_sizes": 2790,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "331/105",
+        "diameter": "331/105",
+        "common_denominator": "105",
+        "maximum_reduced_numerator": "331",
+        "maximum_reduced_denominator": "105"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/alternating_scale-level-2.json",
+      "raw_sha256": "773e354b2b9a56268deba4bbcc9ec5204ffe77d914dd4e5490e5d9262e1506ea"
+    },
+    {
+      "rule": "alternating_scale",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2790,
+      "n": 162,
+      "s": 26226,
+      "maps": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "2",
+          "14/33"
+        ],
+        [
+          "2",
+          "28/33"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "47/5",
+      "normalized_ratio": "47/45",
+      "image_density": "1457/1458",
+      "template_savings": 0,
+      "extra_savings": 18,
+      "total_savings": 18,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 26208,
+        "extra_only": 18
+      },
+      "sum_block_sizes": 26226,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "2754/385",
+        "diameter": "2754/385",
+        "common_denominator": "1155",
+        "maximum_reduced_numerator": "7772",
+        "maximum_reduced_denominator": "1155"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/alternating_scale-level-3.json",
+      "raw_sha256": "1f5149f2f99f1613d63d20cd03f40c9af2165235530f692c77c2638ff016860a"
+    },
+    {
+      "rule": "stage_shrink",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 312,
+      "maps": [
+        [
+          "1/2",
+          "0"
+        ],
+        [
+          "1/2",
+          "8/15"
+        ],
+        [
+          "1/2",
+          "16/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "156/11",
+      "normalized_ratio": "52/33",
+      "image_density": "26/27",
+      "template_savings": 12,
+      "extra_savings": 0,
+      "total_savings": 12,
+      "template_covered_pair_count": 24,
+      "fiber_classification_counts": {
+        "singleton": 300,
+        "template_only": 12
+      },
+      "sum_block_sizes": 312,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "19/10",
+        "diameter": "19/10",
+        "common_denominator": "30",
+        "maximum_reduced_numerator": "47",
+        "maximum_reduced_denominator": "30"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/stage_shrink-level-1.json",
+      "raw_sha256": "ece6af7025fedcd529b23e212b8c9ae34ef4446afb184eb2da07bc67d50563a9"
+    },
+    {
+      "rule": "stage_shrink",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 312,
+      "n": 54,
+      "s": 2916,
+      "maps": [
+        [
+          "1/3",
+          "0"
+        ],
+        [
+          "1/3",
+          "10/21"
+        ],
+        [
+          "1/3",
+          "20/21"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "243/26",
+      "normalized_ratio": "27/26",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 2916
+      },
+      "sum_block_sizes": 2916,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "111/70",
+        "diameter": "111/70",
+        "common_denominator": "630",
+        "maximum_reduced_numerator": "929",
+        "maximum_reduced_denominator": "630"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/stage_shrink-level-2.json",
+      "raw_sha256": "207d63cc0289b02b097c362ec9dd2e4c889b1ef7fa7036053626f808f6d3aaee"
+    },
+    {
+      "rule": "stage_shrink",
+      "stage": 3,
+      "fresh_prime": 11,
+      "old_n": 54,
+      "old_s": 2916,
+      "n": 162,
+      "s": 26244,
+      "maps": [
+        [
+          "1/4",
+          "0"
+        ],
+        [
+          "1/4",
+          "14/33"
+        ],
+        [
+          "1/4",
+          "28/33"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "9",
+      "normalized_ratio": "1",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 26244
+      },
+      "sum_block_sizes": 26244,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "11503/9240",
+        "diameter": "11503/9240",
+        "common_denominator": "27720",
+        "maximum_reduced_numerator": "33739",
+        "maximum_reduced_denominator": "27720"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/stage_shrink-level-3.json",
+      "raw_sha256": "a46c020195adbd80a104d5ffd2385c51b7f6a9f238111e31f45edd94965ec3de"
+    },
+    {
+      "rule": "diameter_reset",
+      "stage": 1,
+      "fresh_prime": 5,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 282,
+      "maps": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "8/15"
+        ],
+        [
+          "1",
+          "16/15"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "141/11",
+      "normalized_ratio": "47/33",
+      "image_density": "47/54",
+      "template_savings": 42,
+      "extra_savings": 0,
+      "total_savings": 42,
+      "template_covered_pair_count": 84,
+      "fiber_classification_counts": {
+        "singleton": 240,
+        "template_only": 42
+      },
+      "sum_block_sizes": 282,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "41/15",
+        "diameter": "41/15",
+        "common_denominator": "15",
+        "maximum_reduced_numerator": "41",
+        "maximum_reduced_denominator": "15"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/diameter_reset-level-1.json",
+      "raw_sha256": "de17261bcc0e0ef655820b27f68571d76cd9708811b3e038033e01998fd521eb"
+    },
+    {
+      "rule": "diameter_reset",
+      "stage": 2,
+      "fresh_prime": 7,
+      "old_n": 18,
+      "old_s": 282,
+      "n": 54,
+      "s": 2916,
+      "maps": [
+        [
+          "25/41",
+          "0"
+        ],
+        [
+          "25/41",
+          "10/21"
+        ],
+        [
+          "25/41",
+          "20/21"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "486/47",
+      "normalized_ratio": "54/47",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 2916
+      },
+      "sum_block_sizes": 2916,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "55/21",
+        "diameter": "55/21",
+        "common_denominator": "861",
+        "maximum_reduced_numerator": "2080",
+        "maximum_reduced_denominator": "861"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/diameter_reset-level-2.json",
+      "raw_sha256": "6182a621d42511b8b61c4f85726301cb8613dbb1d4bab8e4f35fd84eed32a3f7"
+    },
+    {
+      "rule": "diameter_reset",
+      "stage": 3,
+      "fresh_prime": 13,
+      "old_n": 54,
+      "old_s": 2916,
+      "n": 162,
+      "s": 26244,
+      "maps": [
+        [
+          "7/11",
+          "0"
+        ],
+        [
+          "7/11",
+          "16/39"
+        ],
+        [
+          "7/11",
+          "32/39"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "9",
+      "normalized_ratio": "1",
+      "image_density": "1",
+      "template_savings": 0,
+      "extra_savings": 0,
+      "total_savings": 0,
+      "template_covered_pair_count": 0,
+      "fiber_classification_counts": {
+        "singleton": 26244
+      },
+      "sum_block_sizes": 26244,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "97/39",
+        "diameter": "97/39",
+        "common_denominator": "17589",
+        "maximum_reduced_numerator": "39197",
+        "maximum_reduced_denominator": "17589"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/diameter_reset-level-3.json",
+      "raw_sha256": "01cc1459c8ef87586778d584288f2175335f80d42f4694271798122a29cabf7a"
+    },
+    {
+      "rule": "exact_third_translations",
+      "stage": 1,
+      "fresh_prime": 7,
+      "old_n": 6,
+      "old_s": 22,
+      "n": 18,
+      "s": 288,
+      "maps": [
+        [
+          "1/7",
+          "0"
+        ],
+        [
+          "1/7",
+          "1/3"
+        ],
+        [
+          "1/7",
+          "2/3"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "144/11",
+      "normalized_ratio": "16/11",
+      "image_density": "8/9",
+      "template_savings": 12,
+      "extra_savings": 24,
+      "total_savings": 36,
+      "template_covered_pair_count": 24,
+      "fiber_classification_counts": {
+        "singleton": 254,
+        "extra_only": 22,
+        "template_only": 12
+      },
+      "sum_block_sizes": 324,
+      "polynomial_evaluations": 324,
+      "unique_pair_count": 324,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "19/21",
+        "diameter": "19/21",
+        "common_denominator": "21",
+        "maximum_reduced_numerator": "19",
+        "maximum_reduced_denominator": "21"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/exact_third_translations-level-1.json",
+      "raw_sha256": "1196627cea85389d724a964019521508b5054f8fdf213b57c3302cea63f422bb"
+    },
+    {
+      "rule": "exact_third_translations",
+      "stage": 2,
+      "fresh_prime": 11,
+      "old_n": 18,
+      "old_s": 288,
+      "n": 54,
+      "s": 2880,
+      "maps": [
+        [
+          "1/11",
+          "0"
+        ],
+        [
+          "1/11",
+          "1/3"
+        ],
+        [
+          "1/11",
+          "2/3"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "10",
+      "normalized_ratio": "10/9",
+      "image_density": "80/81",
+      "template_savings": 36,
+      "extra_savings": 0,
+      "total_savings": 36,
+      "template_covered_pair_count": 72,
+      "fiber_classification_counts": {
+        "singleton": 2844,
+        "template_only": 36
+      },
+      "sum_block_sizes": 2916,
+      "polynomial_evaluations": 2916,
+      "unique_pair_count": 2916,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "173/231",
+        "diameter": "173/231",
+        "common_denominator": "231",
+        "maximum_reduced_numerator": "173",
+        "maximum_reduced_denominator": "231"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/exact_third_translations-level-2.json",
+      "raw_sha256": "d83227feb72b5750e9703c69fa195d30d4fb9b06f08f6859eb1939ce4d90ee24"
+    },
+    {
+      "rule": "exact_third_translations",
+      "stage": 3,
+      "fresh_prime": 13,
+      "old_n": 54,
+      "old_s": 2880,
+      "n": 162,
+      "s": 26136,
+      "maps": [
+        [
+          "1/13",
+          "0"
+        ],
+        [
+          "1/13",
+          "1/3"
+        ],
+        [
+          "1/13",
+          "2/3"
+        ]
+      ],
+      "branches_pairwise_disjoint": true,
+      "lambda": "3",
+      "rho": "363/40",
+      "normalized_ratio": "121/120",
+      "image_density": "242/243",
+      "template_savings": 108,
+      "extra_savings": 0,
+      "total_savings": 108,
+      "template_covered_pair_count": 216,
+      "fiber_classification_counts": {
+        "singleton": 26028,
+        "template_only": 108
+      },
+      "sum_block_sizes": 26244,
+      "polynomial_evaluations": 26244,
+      "unique_pair_count": 26244,
+      "repeated_branch_pair_evaluations": 0,
+      "arithmetic_profile": {
+        "minimum": "0",
+        "maximum": "725/1001",
+        "diameter": "725/1001",
+        "common_denominator": "3003",
+        "maximum_reduced_numerator": "2174",
+        "maximum_reduced_denominator": "3003"
+      },
+      "raw_path": "local-only/runs/T01/2026-09-16-three-branch-continuation/exact_third_translations-level-3.json",
+      "raw_sha256": "170db141dddfd99c8a3bdb5ac5163f4f6cece4cf86cbc4d18937fe3842dc88f1"
+    }
+  ],
+  "stops": [
+    {
+      "rule": "intact_near_gap",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "intact_wide_gap",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "half_near_gap",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "intact_third_shift",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "half_third_shift",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "alternating_scale",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "stage_shrink",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "diameter_reset",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    },
+    {
+      "rule": "exact_third_translations",
+      "last_completed_stage": 3,
+      "reason": "Prespecified three-level diagnostic completed; no asymptotic inference"
+    }
+  ],
+  "errors": [],
+  "exclusions_without_enumeration": [
+    {
+      "rule": "literal x/2+r/3 repetition",
+      "reason": "Root analytical classification; no rerun"
+    },
+    {
+      "rule": "fixed-spacing progression tripling",
+      "reason": "TB-P1 from previous report gives s/n^2 tending to1; stopped before enumeration"
+    }
+  ],
+  "theorem_scope": "All nine evaluated rules introduce a fresh denominator prime at every level, so the fixed-prime-support hypothesis of reported T01.6 does not hold. This gives no positive support bound.",
+  "template_convention": "Only P(t,t)=P(t,t\u00b11) and P(t\u00b11/3,t)=P(t,t\u00b12/3) generate the union-find equivalence. Extra savings are not explained by those templates, and are not asserted accidental."
+}

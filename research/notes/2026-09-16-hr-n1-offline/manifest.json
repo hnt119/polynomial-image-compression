@@ -1,0 +1,155 @@
+{
+  "cycle": "HR-N1 fixed two-prime Cartesian return-tail assertion",
+  "date": "2026-09-16",
+  "disposition": "FAILED assertion; PROVED HN1-1, HN1-2, HN1-3; actual image and RC15/4 remain OPEN",
+  "files": [
+    {
+      "bytes": 18523,
+      "path": "research/notes/2026-09-16-hr-n1-offline/README.md",
+      "sha256": "ffc7a74e1ede61672dafbc4b10c7b391bfe2586bf7cfe49e917a3b773cf54a30"
+    },
+    {
+      "bytes": 12976,
+      "path": "research/notes/2026-09-16-hr-n1-offline/independent-audit.md",
+      "sha256": "508bbdae68b5ebf2d38cbd48aca8a3a90e69d809aefdc12c83d20731c272f0b8"
+    },
+    {
+      "bytes": 17947,
+      "path": "research/notes/2026-09-16-hr-n1-offline/local-action.md",
+      "sha256": "3f1dbc726a31dcb6da2ff3a18e4551789f9e8fe19cae9a3af91d110854495450"
+    },
+    {
+      "bytes": 7852,
+      "path": "research/notes/2026-09-16-hr-n1-offline/verification.md",
+      "sha256": "a2bc22526e94d92c9014b7edb57604e9f074cfb2bac0d589669d6c13bcc16f22"
+    }
+  ],
+  "local_checks": [
+    {
+      "argv": [
+        "python3",
+        "scripts/check_repository.py"
+      ],
+      "elapsed_seconds": 0.08204866699816193,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Verified 39 archived source files and local links in 58 Markdown files.\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "scripts/check_codex_setup.py"
+      ],
+      "elapsed_seconds": 0.09505250000074739,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "Verified 42 local reference files, original import identities, 43 T03 manifest members, duplicate states and C4 hashes. No research code executed.\n"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "elapsed_seconds": 0.02462866699352162,
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": ""
+    }
+  ],
+  "local_source_dependencies": [
+    {
+      "bytes": 18059,
+      "path": "research/notes/2026-09-16-high-return/carrier-screen.md",
+      "sha256": "911639903102a7d57d27110cf546a54fb2083339689c85139320f64e6b2c89eb"
+    },
+    {
+      "bytes": 6539,
+      "path": "research/notes/2026-09-16-high-return/experiments.md",
+      "sha256": "7fdc3728d13b2930ffcf0c8e8a0a331e47e835d531df81c7cbdad22b4ceb142d"
+    },
+    {
+      "bytes": 5968,
+      "path": "research/notes/2026-09-16-high-return/validation.md",
+      "sha256": "9954922662104bbce02c34f1f28549c7da0f241ef3dfa288818110a2db0c99ef"
+    },
+    {
+      "bytes": 28388,
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d"
+    },
+    {
+      "bytes": 19551,
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e"
+    },
+    {
+      "bytes": 22489,
+      "path": "research/notes/2026-09-16-high-return/README.md",
+      "sha256": "15d8405cdd2d3b2b41bc503dacc8af0c25d3dfe340a5a4252666de39d540d067"
+    },
+    {
+      "bytes": 2491,
+      "path": "research/notes/2026-09-16-high-return/manifest.json",
+      "sha256": "91e73a07d3d773c4ee78d8d1319709af35b233e2de24695975af796e59968e03"
+    }
+  ],
+  "manifest_self_hash": "Not included; avoids self-reference.",
+  "navigation_append_targets": [
+    {
+      "bytes": 6122,
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "sha256": "33e805a3e57a611b0138201a8e356ce57db9ed2757af9ea74cab2e3873098473"
+    },
+    {
+      "bytes": 13115,
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "sha256": "4966ca68424126d55585e1358b9210912e829f4e2539e67403522f97badc18fe"
+    },
+    {
+      "bytes": 10538,
+      "path": "research/MECHANISM_LIBRARY.md",
+      "sha256": "606cfab5ee2f97578904c97be7c3778dad5e4b92fe8d2dc2643b866aa0373cf6"
+    },
+    {
+      "bytes": 38993,
+      "path": "research/FAILURE_LIBRARY.md",
+      "sha256": "73a5a176c952abfc2e35373d7684f3f071c4a9d70fd745a580ac07b062a28c90"
+    },
+    {
+      "bytes": 11637,
+      "path": "research/OPEN_LEMMAS.md",
+      "sha256": "51eae5bbf7e7be67f16a8c67d8077a5cc4209b2f33b88aef7ec5c68ad94184f8"
+    }
+  ],
+  "network_attempted": false,
+  "offline": true,
+  "preservation": {
+    "original_navigation_prefixes_preserved": 5,
+    "other_inherited_tracked_diffs_unchanged": 8,
+    "protected_hashes_unchanged": 55
+  },
+  "python_version": "3.12.7",
+  "research_budget": {
+    "cpu_seconds_cap": 600,
+    "evaluation_cap": 2000000,
+    "evaluations_used": 0,
+    "finite_cases_run": [],
+    "research_program_cpu_seconds_used": 0
+  },
+  "review_scope": "Complete written proofs internally inspected by lead; two independent internal reviews of HN1-2/3; no external review or novelty claim.",
+  "track": "T03 / separate multiplier branch",
+  "verification_scripts": [
+    {
+      "bytes": 3097,
+      "path": "scripts/check_repository.py",
+      "sha256": "0f10bbd4fb3130690834435d97d0c984db7c22e11c288611fc9ada58d1a54d96"
+    },
+    {
+      "bytes": 3867,
+      "path": "scripts/check_codex_setup.py",
+      "sha256": "6536d93ea619081ed8e64941350c0a5dbcbfe315c9aa3c02bcea0b01e24b8b11"
+    }
+  ],
+  "version": 1
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-20",
+  "version": 1,
+  "sources": [
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-varying-output-frames/README.md",
+      "role": "imported checkpoint",
+      "sha256": "aca44ca8fd26f32389ed96f535d7c5957f7d21a2fd8c32fb07b9867bdf572038",
+      "bytes": 10011
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-varying-output-frames/compatibility.md",
+      "role": "imported checkpoint",
+      "sha256": "885cfb686b97849391c8337720b15053d7b0357a72fbf972ce393a14381b6658",
+      "bytes": 13794
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-vo-o1-freeze/README.md",
+      "role": "frozen exclusion inspected for scope",
+      "sha256": "9d03be0492c03765db40963573a54587689d463b66784a04052ab778255aaaf2",
+      "bytes": 6453
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-vo-o1-freeze/referee-audit.md",
+      "role": "frozen exclusion inspected for scope",
+      "sha256": "7fe609ca7fb4c395802260d3b1d7ca885532a7e5e2b87087efb2db9fd2720559",
+      "bytes": 8163
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-11-vo-o1-freeze/verification.md",
+      "role": "frozen exclusion inspected for scope",
+      "sha256": "58d9d3d7e960328c67813d9afa61f17787a723e8b6934922058d690e753ffc53",
+      "bytes": 7784
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/catalogue.md",
+      "role": "current new claim source",
+      "sha256": "be0ce3ef32e6ae26d2f45fcdcd04be209afe05881175346595921578ec63deb1",
+      "bytes": 3332
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/README.md",
+      "role": "current new claim source",
+      "sha256": "5e34f799e9d6749a5c3369e9e9aca07a7a02dbc8c7ac3c4fe3170624e3ecec7d",
+      "bytes": 8900
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/compatibility.md",
+      "role": "current new claim source",
+      "sha256": "01dd084226f890b69f642529563cb5562fbb504282e52a7b15ea2ade6a03625c",
+      "bytes": 10867
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/referee-audit.md",
+      "role": "current new claim source",
+      "sha256": "3f901f7e1bf8ac15a57f88eefbb55c996995f7eeb0c675eb6aa07cca17c41da5",
+      "bytes": 11948
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/00_MASTER_HANDOFF.md",
+      "role": "orientation only",
+      "sha256": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250",
+      "bytes": 14694
+    },
+    {
+      "path_from_repository_root": "local-only/migration/sources/T01_CURRENT_STATE.md",
+      "role": "orientation only",
+      "sha256": "2095cb7b4a5f7d848dea1356956ad36f5303e4037b13b2efe7fa32b0c08f2624",
+      "bytes": 42403
+    },
+    {
+      "path_from_repository_root": "research/tracks/01-cubic-digital/SPEC.md",
+      "role": "orientation only",
+      "sha256": "0ac273663de274005cc79472dd536a793f2c37d4c16a570c3c4ed04b4bc71f8a",
+      "bytes": 1957
+    },
+    {
+      "path_from_repository_root": "docs/CODEX_SETUP.md",
+      "role": "orientation only",
+      "sha256": "7e9c84d4f10667909b734607ea14f8e885be3c8a194a0578d6919c85ca2c82df",
+      "bytes": 3537
+    },
+    {
+      "path_from_repository_root": "research/CODEX_MIGRATION_AUDIT.md",
+      "role": "orientation only",
+      "sha256": "186c1eb66565c57cbfe8bfbd9873025d6aac5de78ec7c6eba0e8da50fd8848db",
+      "bytes": 8816
+    },
+    {
+      "path_from_repository_root": "research/MIGRATION_CONFLICTS.md",
+      "role": "orientation only",
+      "sha256": "f1524d8415086650f8902eb2df8fb3c356517db6575ecbcf648b60ff4e9bd37a",
+      "bytes": 17888
+    },
+    {
+      "path_from_repository_root": "research/templates/CONSTRUCTION_LEDGER.md",
+      "role": "orientation only",
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6",
+      "bytes": 2460
+    }
+  ]
+}

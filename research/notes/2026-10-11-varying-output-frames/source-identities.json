@@ -1,0 +1,40 @@
+{
+  "scope": "Source versions read for this cycle; source inspection is not a claim to have independently audited every theorem in each file.",
+  "files": [
+    {
+      "path": "research/notes/2026-10-11-torsion-frame-freeze/README.md",
+      "bytes": 1739,
+      "sha256": "1466490cecae5e20c2d2cd898f984f5194a886999b82c8233f81adc87b55cbac"
+    },
+    {
+      "path": "research/notes/2026-10-11-torsion-frame-freeze/main-report.md",
+      "bytes": 11600,
+      "sha256": "934ba81e507ed66cab9e5af1610db90174c603bf48a9bc369e86675cbb577540"
+    },
+    {
+      "path": "research/notes/2026-10-11-torsion-frame-freeze/source-status-ledger.md",
+      "bytes": 7283,
+      "sha256": "761a065adeffca9309bd512ff1cfe6f7036d18219627a0d4738cf762d679cc53"
+    },
+    {
+      "path": "research/notes/2026-10-11-torsion-compatible-sharing/geometry.md",
+      "bytes": 20850,
+      "sha256": "713c2372740eb9b3f54dcb4242192b170436b98002f2ceacdfcc075903cb2d58"
+    },
+    {
+      "path": "research/notes/2026-10-06-changed-collision-pattern/construction.md",
+      "bytes": 16377,
+      "sha256": "a534dee8246cc2c71a580e1c136ef169df35511142bddd131a65d30df41ad30b"
+    },
+    {
+      "path": "research/notes/2026-09-21-growing-step-cubic/progression-laboratory.md",
+      "bytes": 15202,
+      "sha256": "c41ca0b492d1a9b9a594037a5a26abeb5c3dc8a4bf9e826268a565dc9185ccd0"
+    },
+    {
+      "path": "research/notes/2026-09-21-growing-step-cubic/structure-and-reuse.md",
+      "bytes": 13443,
+      "sha256": "59616330f32c3b54fd0950e303927a14855f075996f4568d5a88638af8f97370"
+    }
+  ]
+}

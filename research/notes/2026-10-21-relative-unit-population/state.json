@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-21",
+  "version": 1,
+  "track": "T03",
+  "polynomial": "x^2+xy+y^2",
+  "result_id": "MS-O1",
+  "status": "PROVED",
+  "scope": "Unchanged mixed-signature C0 tower, relative order units, original all-conjugate scalar window",
+  "quantifiers": "One explicit fixed T_star>=T0 gives |U_j(T_star)|>=2^d_j at every tower level",
+  "constants": {
+    "D_star": "D0*31^(1/3)",
+    "D_E": "sqrt(3)*D_star",
+    "B0": "2*sqrt(D_E)",
+    "J0": "64*B0^12*(2*B0^2+1)^3",
+    "K_E": "6*e*log(B0)*J0",
+    "K_R": "27*K_E",
+    "C_R": "log(K_R)",
+    "T_star": "max(2*sqrt(D_star),exp(2*K_R/3))",
+    "alpha": "log(2)"
+  },
+  "proved": [
+    "R_R,j <= K_R^d_j for the relative Euclidean log covolume",
+    "|U_j(T_star)| >= 2^d_j",
+    "Exact weight-height comparisons and fixed-field weighted summability",
+    "Discrete overlap upper bound with explicit cell inflation and density prefactor",
+    "MS-O2 would imply the stated full-support exponent range"
+  ],
+  "proof_mechanisms": [
+    "Minkowski product disks approximate every relative log vector",
+    "Bounded integral ideal and exact relative-norm element labels",
+    "Same labels give a genuine relative unit ratio",
+    "Covering the relative logarithmic torus bounds its covolume",
+    "Order-unit subgroup index charged once",
+    "Centered logarithmic lattice count"
+  ],
+  "not_proved": [
+    "Favorable uniform log-shell or coordinate distribution",
+    "Positive lower mean of actual Cartesian returns",
+    "Small exceptional-pair tail",
+    "Fixed positive compression exponent",
+    "Actual-image obstruction for this carrier"
+  ],
+  "remaining_status": {
+    "mixed_signature_carrier": "OPEN",
+    "full_rank_cartesian_return_tail": "OPEN",
+    "actual_quadratic_image_rate": "OPEN",
+    "T03_target": "OPEN",
+    "RC15_4": "OPEN",
+    "seed_plus_torsion_certificate": "CLOSED_IN_PREVIOUS_SCOPE",
+    "balanced_factor_carrier": "RETIRED_IN_PREVIOUS_SCOPE"
+  },
+  "next_lemma": {
+    "id": "MS-O2",
+    "status": "OPEN",
+    "type": "Stronger sufficient incidence-concentration condition, not claimed necessary",
+    "objects": "At fixed T_star: Omega=A_j^2 minus origin; N=n_j^2-1; D_u={p in Omega:M_u p in A_j^2}; S1=sum_u |D_u|; S2=sum_u,v |D_u intersect D_v|; mu=S1/N",
+    "statement": "There exist fixed kappa,eta>0 such that eventually mu>=exp(kappa*d_j) and S2/N-mu^2<=exp(-eta*d_j)*mu^2",
+    "conditional_output": "|Q(A_j,A_j)| <= 2*n_j^2*exp(-kappa*d_j)+4*(n_j^2-1)*exp(-eta*d_j)+1",
+    "conditional_c": "Every 0<c<min(kappa,eta)/(3*log(2*T_star+1)) eventually",
+    "refutation_scope": "Refutation alone would not retire the carrier",
+    "new_search_started": false
+  },
+  "computation": {
+    "charged_exact_evaluations": 0,
+    "research_program_cpu_seconds": 0,
+    "cap_exact_evaluations": 2000000,
+    "cap_program_cpu_seconds": 600,
+    "verification_reserve_fraction": 0.2,
+    "mathematical_programs": [],
+    "administrative_accounting": "verification.md and private run budget.json"
+  },
+  "provenance": {
+    "network_used": false,
+    "historical_sources_modified": false,
+    "commit_created": false,
+    "novelty_claim": false,
+    "internal_written_arithmetic_review": "PASS",
+    "lead_arithmetic_and_geometry_verification": "PASS",
+    "external_peer_review": false
+  }
+}

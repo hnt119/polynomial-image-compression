@@ -1,0 +1,190 @@
+{
+  "scope": "New fixed-carrier full-fiber cycle only; excludes this manifest. Historical sources and manifests unchanged.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 12000,
+      "sha256": "458d9314e799c1e4a4818779bdbb9add08c414af2acabf12e62033ee483f3205"
+    },
+    {
+      "path": "algebra.md",
+      "bytes": 17501,
+      "sha256": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 24409,
+      "sha256": "a36728c584cf4b24308e76f556e882e9ae164c5626f032f3ec697d8f5b400519"
+    },
+    {
+      "path": "coupled.md",
+      "bytes": 16731,
+      "sha256": "7d46f921aeea196270d970f1ddd700bf567c5e203cc7d8d413d0ea58671539e9"
+    },
+    {
+      "path": "data.json",
+      "bytes": 3364,
+      "sha256": "4ba1c72a7ab75cdd96fce364f861fd2998b03dcfd66325c75b491f16085228b9"
+    },
+    {
+      "path": "ledger.md",
+      "bytes": 7634,
+      "sha256": "b33307bfc0952c8a4fa457d4da80e781f7588f21cfdee63a44cc01959521890c"
+    },
+    {
+      "path": "state.json",
+      "bytes": 8703,
+      "sha256": "0f410dd267bda98363cddb9c23e65d22b18081e8727b842766d5e4e956936bba"
+    },
+    {
+      "path": "verification.md",
+      "bytes": 12387,
+      "sha256": "d9b6d393479fc1ee69484bb7f2a6ac073e993ef3607e702311c153c2b80f2f18"
+    }
+  ],
+  "sources": [
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/README.md",
+      "bytes": 9813,
+      "sha256": "0398af69d9f679ca06713d5d541b4a594aba92b311a422e1a9140b6756feea72"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/amplitudes.md",
+      "bytes": 20337,
+      "sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/returns.md",
+      "bytes": 9499,
+      "sha256": "37f9b63119ba9591e31075164539068e638823c38eca73476cbc711912479096"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/identities.md",
+      "bytes": 10751,
+      "sha256": "8413323a7e9a7e292650511f160ee0aabeccad42f8e8a2aaba3d921e2da14919"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/ledger.md",
+      "bytes": 7822,
+      "sha256": "25f6b276ace6a56daf5f949bf4ee2f8696f829b50eef627a6f04bf10344446b1"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/audit.md",
+      "bytes": 25402,
+      "sha256": "0dac3200d89fd1cfdd72af5297d4f9664109941a2cd7f68e07707168f1e4e6b3"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/verification.md",
+      "bytes": 8708,
+      "sha256": "ce0734b5c8a2aa57e6d1b25723c56118b9cebaa5d33d399a1e9e7002fde02c21"
+    },
+    {
+      "path": "research/notes/2026-10-06-cross-block-amplification/manifest.json",
+      "bytes": 4046,
+      "sha256": "badb24662a14f3ffcd444ee5e047c76ac649c3f657975b7d337e14e00adcbc02"
+    },
+    {
+      "path": "experiments/modular_lift.py",
+      "bytes": 9263,
+      "sha256": "0be8b14d111991ec4df96141702e9f4ef156088fc70c3517abd377240b0f6f14"
+    },
+    {
+      "path": "research/templates/CONSTRUCTION_LEDGER.md",
+      "bytes": 2460,
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6"
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850"
+    }
+  ],
+  "local_reproducibility_files": [
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/baseline.json",
+      "bytes": 47650,
+      "sha256": "8706ddfccc8ab38665c23e4d825d0740880b47fc54bd2250fcb9735aac62e4e5"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/budget-initial.json",
+      "bytes": 1544,
+      "sha256": "6c998550633065747a84e372e15ab8e7f9709c301af251bc663ab550da0fe1d8"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/budget.json",
+      "bytes": 4962,
+      "sha256": "3c510f39b27c4eda8d635c21834f0943b600b7778268e79e100213aff96be83a"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/case-r0.json",
+      "bytes": 536,
+      "sha256": "90a383cc4b0b8a0edb33eff150dfc2aa7e8fb3c705ab0b0337abaa8d0ae61e66"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/case-r1.json",
+      "bytes": 40961,
+      "sha256": "760c490f97ad8cf59b15ecd1116227fc2c42abaecbf9de63e92138a0fa4c9ee6"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/check_regressions.py",
+      "bytes": 3117,
+      "sha256": "bc459fc17b79dcc16c3bcee924801b880cce1e6aa803bf9e8257e814cd5377b1"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/concurrent-work-record.json",
+      "bytes": 641,
+      "sha256": "4769107f6d702b24314272487459b43e3fb51c7e7cb464a618c407f6787cb5ba"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/distribution-r0.json",
+      "bytes": 541,
+      "sha256": "56ee996eb9da56e593153a822f47b3a4ff75b2d38cffa11eec059862dd3702dc"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/distribution-r1.json",
+      "bytes": 16360479,
+      "sha256": "354bbb0629021324998a60497a4e72bd1a2fef18b1ba8fb79b1fc4895583c2ce"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/handoff-appends.json",
+      "bytes": 1619,
+      "sha256": "d3f69b619929c9783e223a1864bcfb8f7b1b60e9af9d32691721ab13e0137237"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/preservation-check.json",
+      "bytes": 375,
+      "sha256": "8dee7dbf01e2a3da1aa6ec4c0d2d1501cfc0cdb381fa1be794523bc42523bdd3"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/regression-results.json",
+      "bytes": 474,
+      "sha256": "bcb0728fe6a99a95c6dabc03b48e83737d6ee292b2e47c0a13689ef991fa4d08"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/regressions.log",
+      "bytes": 36297,
+      "sha256": "02a5f7d9b132f113bc504f07feb5f6b6927488626a736695925b1fafabb7db0d"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/scout-executed.py",
+      "bytes": 10965,
+      "sha256": "5e6adfbfad4e7e5ab04786c8d1c4a91f0057c925aa156332f45ba28ce42fbdff"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/scout-results.json",
+      "bytes": 1764,
+      "sha256": "26af21bfb86e74ea3900ce165274c08514527b54d13705cddebc5bb945f8c309"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/scout.py",
+      "bytes": 11028,
+      "sha256": "2d39ec1d787e6772d45fc5fd67304952219aaed8888a90115f73cabc6765418b"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-11-balanced-full-fibers/verification-results.json",
+      "bytes": 375,
+      "sha256": "d37ddc5277e51b8c7b3cc8019ac38772cc410ee4d70a40b180305a616f3d2792"
+    }
+  ],
+  "note": "Raw exact inputs/distributions, both source versions and budget records are ignored local files and must accompany local transfer. No network or external dependencies."
+}

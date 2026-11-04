@@ -1,0 +1,73 @@
+{
+  "cycle": "C0 mixed-signature lattice symmetry",
+  "cap_exact_evaluations": 2000000,
+  "cap_program_cpu_seconds": 600,
+  "discovery_allocation": {
+    "exact_evaluations": 1600000,
+    "cpu_seconds": 480
+  },
+  "verification_reserve": {
+    "exact_evaluations": 400000,
+    "cpu_seconds": 120
+  },
+  "charged_exact_evaluations": 0,
+  "research_program_cpu_seconds": 0,
+  "administrative_cpu_seconds": 0.6401209999999999,
+  "counter": "Each executed exact mathematical arithmetic operation or equality/comparison is one charged evaluation, including validation. All mathematical programs require a recorded preflight. Subagents have no mathematical program allocation unless expressly reassigned by lead. File integrity and document checks are administrative, measured separately and included in CPU cap.",
+  "events": [
+    {
+      "operation": "initial handoff preflight detected concurrent map change and stopped before edits",
+      "charged_exact_evaluations": 0,
+      "cpu_accounting": "1 second conservative administrative allowance; no mathematical program"
+    },
+    {
+      "operation": "snapshot current prefixes preserving concurrent additions",
+      "administrative_cpu_seconds": 0.0019480000000000053,
+      "charged_exact_evaluations": 0
+    },
+    {
+      "operation": "six append-only handoff checks and source identity capture",
+      "administrative_cpu_seconds": 0.0032440000000000004,
+      "charged_exact_evaluations": 0
+    },
+    {
+      "operation": "parallel repository setup whitespace and source checks",
+      "administrative_cpu_seconds": 0.3337399999999999,
+      "charged_exact_evaluations": 0,
+      "results_path": "local-only/runs/T03/2026-10-20-mixed-signature/validation.json"
+    },
+    {
+      "operation": "final note and baseline preservation review",
+      "administrative_cpu_seconds": 0.039545,
+      "charged_exact_evaluations": 0
+    },
+    {
+      "operation": "classify concurrent T01 status as exact append to initial bytes",
+      "administrative_cpu_seconds": 0.0012840000000000004,
+      "charged_exact_evaluations": 0
+    },
+    {
+      "operation": "final added-link validation and immutable-source/prefix confirmation",
+      "administrative_cpu_seconds": 0.211697,
+      "charged_exact_evaluations": 0,
+      "stdout": "Verified 39 archived source files and local links in 243 Markdown files."
+    }
+  ],
+  "preflight_verification": {
+    "operations": [
+      "source and note SHA-256 identities",
+      "six append-only handoff prefix checks",
+      "python3 scripts/check_repository.py",
+      "python3 scripts/check_codex_setup.py",
+      "git diff --check",
+      "new-note whitespace and local-link checks"
+    ],
+    "mathematical_exact_evaluations": 0,
+    "administrative_cpu_cap_seconds": 120,
+    "no_research_code_execution": true,
+    "no_network": true,
+    "python": "3.12.7 (v3.12.7:0b05ead877f, Sep 30 2024, 23:18:00) [Clang 13.0.0 (clang-1300.0.29.30)]"
+  },
+  "administrative_unmeasured_allowance_seconds": 5,
+  "allowance_note": "Conservative allowance for the stopped prefix preflight and short metadata/git bookkeeping without retained CPU samples; separate from measured CPU and mathematical program usage."
+}

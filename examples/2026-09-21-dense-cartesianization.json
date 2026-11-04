@@ -1,0 +1,425 @@
+{
+  "cases": [
+    {
+      "A_size": 12,
+      "R_action": {
+        "arithmetic_mean": "79/72",
+        "geometric_mean_approx": 1.0633198339590002,
+        "geometric_mean_exact": "(1^133 * 2^8 * 3^3)^(1/144)",
+        "histogram": {
+          "1": 133,
+          "2": 8,
+          "3": 3
+        },
+        "identity_only_fraction": "133/144",
+        "maximum": 3,
+        "median": "1",
+        "minimum": 1,
+        "population": 144,
+        "strict_threshold_fractions": {
+          "2": "133/144",
+          "3": "47/48"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "13/12",
+        "geometric_mean_approx": 1.0552383659609343,
+        "geometric_mean_exact": "(1^134 * 2^8 * 3^2)^(1/144)",
+        "histogram": {
+          "1": 134,
+          "2": 8,
+          "3": 2
+        },
+        "identity_only_fraction": "67/72",
+        "maximum": 3,
+        "median": "1",
+        "minimum": 1,
+        "population": 144,
+        "strict_threshold_fractions": {
+          "2": "67/72",
+          "3": "71/72"
+        }
+      },
+      "action_size": 3,
+      "bad_B": 134,
+      "controlled_G": 10,
+      "d": 1,
+      "definition": {
+        "T": [
+          0,
+          2
+        ],
+        "engineered_pair_count": 9,
+        "seed_orbit_size": 3
+      },
+      "engineered_R_pair": {
+        "arithmetic_mean": "5/3",
+        "geometric_mean_approx": 1.5374626775757694,
+        "geometric_mean_exact": "(1^4 * 2^4 * 3^1)^(1/9)",
+        "histogram": {
+          "1": 4,
+          "2": 4,
+          "3": 1
+        },
+        "identity_only_fraction": "4/9",
+        "maximum": 3,
+        "median": "2",
+        "minimum": 1,
+        "population": 9,
+        "strict_threshold_fractions": {
+          "2": "4/9",
+          "3": "8/9"
+        }
+      },
+      "engineered_complement": 135,
+      "engineered_density": "1/16",
+      "engineered_pair_count": 9,
+      "family": "one_axis_thickening",
+      "full_Q_image_size": 71,
+      "image_fiber_histogram": {
+        "1": 10,
+        "2": 57,
+        "4": 2,
+        "6": 2
+      },
+      "min_return_outside_bad_set": 2,
+      "ordered_pairs": 144,
+      "reciprocal_HR1_bound": "416/3",
+      "return_threshold": 2,
+      "stabilizer_histogram": {
+        "1": 143,
+        "3": 1
+      }
+    },
+    {
+      "A_size": 90,
+      "R_action": {
+        "arithmetic_mean": "821/810",
+        "geometric_mean_approx": 1.0058522855531218,
+        "geometric_mean_exact": "(1^8059 * 2^22 * 4^8 * 6^8 * 9^3)^(1/8100)",
+        "histogram": {
+          "1": 8059,
+          "2": 22,
+          "4": 8,
+          "6": 8,
+          "9": 3
+        },
+        "identity_only_fraction": "8059/8100",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 8100,
+        "strict_threshold_fractions": {
+          "4": "8081/8100",
+          "9": "2699/2700"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1367/1350",
+        "geometric_mean_approx": 1.0055794727588072,
+        "geometric_mean_exact": "(1^8060 * 2^22 * 4^8 * 6^8 * 9^2)^(1/8100)",
+        "histogram": {
+          "1": 8060,
+          "2": 22,
+          "4": 8,
+          "6": 8,
+          "9": 2
+        },
+        "identity_only_fraction": "403/405",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 8100,
+        "strict_threshold_fractions": {
+          "4": "449/450",
+          "9": "4049/4050"
+        }
+      },
+      "action_size": 9,
+      "bad_B": 8082,
+      "controlled_G": 18,
+      "d": 2,
+      "definition": {
+        "T": [
+          0,
+          8
+        ],
+        "engineered_pair_count": 81,
+        "seed_orbit_size": 9
+      },
+      "engineered_R_pair": {
+        "arithmetic_mean": "43/27",
+        "geometric_mean_approx": 1.287273145085989,
+        "geometric_mean_exact": "(1^64 * 2^8 * 4^4 * 6^4 * 9^1)^(1/81)",
+        "histogram": {
+          "1": 64,
+          "2": 8,
+          "4": 4,
+          "6": 4,
+          "9": 1
+        },
+        "identity_only_fraction": "64/81",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 81,
+        "strict_threshold_fractions": {
+          "4": "8/9",
+          "9": "80/81"
+        }
+      },
+      "engineered_complement": 8019,
+      "engineered_density": "1/100",
+      "engineered_pair_count": 81,
+      "family": "one_axis_thickening",
+      "full_Q_image_size": 4024,
+      "image_fiber_histogram": {
+        "1": 82,
+        "2": 3886,
+        "4": 51,
+        "6": 4,
+        "18": 1
+      },
+      "min_return_outside_bad_set": 4,
+      "ordered_pairs": 8100,
+      "reciprocal_HR1_bound": "72671/9",
+      "return_threshold": 4,
+      "stabilizer_histogram": {
+        "1": 8099,
+        "9": 1
+      }
+    },
+    {
+      "A_size": 9,
+      "R_action": {
+        "arithmetic_mean": "89/81",
+        "geometric_mean_approx": 1.0274974949185744,
+        "geometric_mean_exact": "(1^80 * 9^1)^(1/81)",
+        "histogram": {
+          "1": 80,
+          "9": 1
+        },
+        "identity_only_fraction": "80/81",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 81,
+        "strict_threshold_fractions": {
+          "4": "80/81",
+          "9": "80/81"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^81)^(1/81)",
+        "histogram": {
+          "1": 81
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 81,
+        "strict_threshold_fractions": {
+          "4": "1",
+          "9": "1"
+        }
+      },
+      "action_size": 9,
+      "bad_B": 81,
+      "controlled_G": 0,
+      "d": 2,
+      "definition": {
+        "base": "56482234900",
+        "digits": [
+          -1,
+          0,
+          1
+        ],
+        "engineered_pair_count": 81,
+        "weight_exponents": [
+          1,
+          3
+        ]
+      },
+      "engineered_R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^81)^(1/81)",
+        "histogram": {
+          "1": 81
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 81,
+        "strict_threshold_fractions": {
+          "4": "1",
+          "9": "1"
+        }
+      },
+      "engineered_complement": 0,
+      "engineered_density": "1",
+      "engineered_pair_count": 81,
+      "family": "faithful_ternary_gap",
+      "full_Q_image_size": 17,
+      "image_fiber_histogram": {
+        "1": 1,
+        "2": 4,
+        "4": 6,
+        "6": 4,
+        "12": 2
+      },
+      "min_return_outside_bad_set": null,
+      "ordered_pairs": 81,
+      "reciprocal_HR1_bound": "81",
+      "return_threshold": 4,
+      "stabilizer_histogram": {
+        "1": 80,
+        "9": 1
+      }
+    },
+    {
+      "A_size": 27,
+      "R_action": {
+        "arithmetic_mean": "755/729",
+        "geometric_mean_approx": 1.0045312735372203,
+        "geometric_mean_exact": "(1^728 * 27^1)^(1/729)",
+        "histogram": {
+          "1": 728,
+          "27": 1
+        },
+        "identity_only_fraction": "728/729",
+        "maximum": 27,
+        "median": "1",
+        "minimum": 1,
+        "population": 729,
+        "strict_threshold_fractions": {
+          "27": "728/729",
+          "8": "728/729"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^729)^(1/729)",
+        "histogram": {
+          "1": 729
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 729,
+        "strict_threshold_fractions": {
+          "27": "1",
+          "8": "1"
+        }
+      },
+      "action_size": 27,
+      "bad_B": 729,
+      "controlled_G": 0,
+      "d": 3,
+      "definition": {
+        "base": "16505383435935230962179251601606632513626864357847575290103969300",
+        "digits": [
+          -1,
+          0,
+          1
+        ],
+        "engineered_pair_count": 729,
+        "weight_exponents": [
+          1,
+          3,
+          9
+        ]
+      },
+      "engineered_R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^729)^(1/729)",
+        "histogram": {
+          "1": 729
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 729,
+        "strict_threshold_fractions": {
+          "27": "1",
+          "8": "1"
+        }
+      },
+      "engineered_complement": 0,
+      "engineered_density": "1",
+      "engineered_pair_count": 729,
+      "family": "faithful_ternary_gap",
+      "full_Q_image_size": 139,
+      "image_fiber_histogram": {
+        "1": 1,
+        "2": 13,
+        "4": 90,
+        "6": 13,
+        "12": 22
+      },
+      "min_return_outside_bad_set": null,
+      "ordered_pairs": 729,
+      "reciprocal_HR1_bound": "729",
+      "return_threshold": 8,
+      "stabilizer_histogram": {
+        "1": 728,
+        "27": 1
+      }
+    }
+  ],
+  "error": null,
+  "reproducibility": {
+    "arithmetic_source_sha256": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a",
+    "cases_fixed_before_run": [
+      [
+        "one_axis_thickening",
+        1
+      ],
+      [
+        "one_axis_thickening",
+        2
+      ],
+      [
+        "faithful_ternary_gap",
+        2
+      ],
+      [
+        "faithful_ternary_gap",
+        3
+      ]
+    ],
+    "categories": {
+      "Q_query": 9054,
+      "action_query": 93744,
+      "constructed_action_norm_checks": 48,
+      "independent_Q_query": 9054,
+      "independent_action_query": 93744
+    },
+    "charged_evaluations": 205644,
+    "command_argv": [
+      "experiments/dense_cartesianization.py",
+      "--output",
+      "examples/2026-09-21-dense-cartesianization.json",
+      "--pairs-output",
+      "local-only/runs/T03/2026-09-21-dense-cartesianization/pairs.json"
+    ],
+    "cpu_cap_seconds": 600,
+    "cpu_seconds": 2.5119529999999997,
+    "evaluation_cap": 2000000,
+    "exact_equalities": true,
+    "geometric_mean_display_only": "floating point",
+    "network_attempted": false,
+    "python": "3.12.7",
+    "seed": null,
+    "source_sha256": "eadd78fb859258e1ad09a786e81fe1e32863652a07a385c258d30ca7efee9f62",
+    "wall_seconds": 2.5144814999657683
+  }
+}
