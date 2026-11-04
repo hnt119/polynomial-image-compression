@@ -201,3 +201,8 @@ and additional addenda named by the manifest were not received. The two
 documents are preserved under `local-only/migration/recovery_2026-09-20/T04/`;
 MC-02, MC-04, MC-05 and MC-06 record the remaining boundaries. The fixed cubic
 target and full-output gap remain **OPEN**.
+
+
+## 2026-11-05 — archival cross-reference
+
+The [public evidence index](../../EVIDENCE_INDEX.md) and [dated export](../../reports/2026-11-05-evidence-export/README.md) organize the source claims above. The publication pass checked locators, data packaging and archive integrity; it introduced no new proof, experiment or change to this track’s OPEN target.

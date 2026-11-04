@@ -285,3 +285,10 @@ checks. Zero mathematical evaluations and zero research-program CPU
 seconds were used; administrative verification is recorded separately.
 Historical text was preserved by dated append-only handoffs. No
 network, carrier mutation, expanded scout or commit occurred.
+
+
+## 2026-11-05 — public evidence edition (documentation only)
+
+The [chronological index and claim ledger](EVIDENCE_INDEX.md) link the four fixed targets to their preserved proofs, finite evidence, and audit dates. The T01 chronology covers elliptic sharing, network compatibility, fixed-width restrictions, the infinite-order marked shift, the VO/TJ exclusions, and exact multiscale branching. The T03 directory includes the later MS-O2 unresolved return problem. No supersession of a mathematical result occurred in preparing this edition. All four fixed targets remain **OPEN**. The new [readable report and technical appendix](reports/2026-11-05-evidence-export/README.md) and [retention record](../docs/release/2026-11-05/README.md) explain what a public checkout can verify.
+
+The [shared all-coefficient quadratic digest](../docs/release/2026-11-05/shared-quadratic.md) records the distinct November theorem and its prior audit. The older nonspecial C0 scope remains recorded historically; its nonvanishing condition is not needed for the later compression theorem.

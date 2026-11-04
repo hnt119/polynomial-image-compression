@@ -10,6 +10,16 @@ $$
 
 The same set occurs in both inputs. The exponent may depend on the fixed polynomial, but cannot change with the size of the set.
 
+## Evidence release · 5 November 2026
+
+**All four fixed targets remain OPEN.** Read the [evidence index](research/EVIDENCE_INDEX.md) for statements, proof locations, data, and their verification boundaries. The [claim ledger](research/evidence/2026-11-05/claim-ledger.json) separates results proved in the original reports from conditional implications, finite observations, and failed constructions. This release organized those records; it did not run a new research cycle.
+
+The [4 November shared quadratic audit](docs/release/2026-11-05/shared-quadratic.md) supports compression for every fixed integer square-plus-linear quadruple within its cited theorem system. This includes degenerate coefficients; it does not extend to a general full-rank quadratic.
+
+For the plus-sign cubic, the progression from elliptic sharing through the frame and marked-shift restrictions ends at a necessary condition on exact fibers: a power saving would force almost all pairs to branch at logarithmically many scales. No set achieving that saving is known in these records. For the Eisenstein quadratic, the balanced-factor family has a quadratic-order image; the later relative-unit supply does not settle the Cartesian return bound. The distinct quartic and minus-sign cubic keep the open obligations recorded in their track files.
+
+[Professor summary (one page)](research/reports/2026-11-05-evidence-export/summary.pdf) · [Progress report and evidence appendix (PDF)](research/reports/2026-11-05-evidence-export/report.pdf) · [Editable LaTeX, build instructions and bibliography](research/reports/2026-11-05-evidence-export/README.md) · [Publication and retention record](docs/release/2026-11-05/README.md)
+
 ## Start here
 
 - [Codex local setup](docs/CODEX_SETUP.md): instructions, checks, and local reference transfer.
@@ -22,9 +32,9 @@ The same set occurs in both inputs. The exponent may depend on the fixed polynom
 - [Historical roadmap](docs/roadmap.md): earlier proposed steps; use the reconciled open-lemma registry for current obligations.
 - [Historical source record](docs/sources.md): the original archive inventory; current availability is recorded in the migration audit.
 - [Reproduce the experiments](docs/reproducibility.md): exact finite computations and their limits.
-- [Publish to GitHub](docs/publishing.md): remaining setup for this prepared local repository.
+- [Publication guide](docs/publishing.md): existing repository, branch policy, release review, and local-only materials.
 
-## Research status
+## Historical reconciliation · September 2026
 
 Reconciled **11 September 2026** against the latest final records and current-state
 exports, with research cutoff **10 September 2026**. This is documentation
@@ -95,9 +105,7 @@ python3 -m experiments carriers --polynomial mixed-cubic --carrier geometric --s
 
 Outputs are JSON with exact rational quantities. Finite enumeration verifies the listed finite cases; it does not prove an asymptotic theorem or construct a number-field tower. Collision energy gives a **lower** bound on image size and is used only as a diagnostic.
 
-The initial experiment suite implements five benchmark polynomials. The two
-distinct cubic targets T01 and T04 are specified in the history but are not yet
-implemented in that suite.
+The original CLI provides five benchmark polynomial identifiers. The later standalone exact modules listed in the evidence index include T01-specific cubic experiments. Running the baseline verifier does not rerun those exploratory searches.
 
 ## Repository layout
 

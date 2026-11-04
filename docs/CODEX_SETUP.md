@@ -1,5 +1,7 @@
 # Local Codex setup
 
+**Publication update · 5 November 2026.** This is the historical local migration record. The [existing GitHub repository and release process](publishing.md) supersede its no-remote description for new checkouts. The private migration bundle is still not distributed. The [evidence index](../research/EVIDENCE_INDEX.md) covers the later native results.
+
 Prepared 2026-09-14; mathematical research cutoff remains 2026-09-10.
 Open **this repository directory** (`polynomial-image-compression`) as a local
 project in Codex. The parent folder is a ChatGPT mirror, not the Git root.

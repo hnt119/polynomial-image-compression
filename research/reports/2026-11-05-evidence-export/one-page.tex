@@ -1,0 +1,24 @@
+{\small\sffamily\bfseries\color{water}PROFESSOR'S SUMMARY\enspace /\enspace FOUR FIXED TARGETS\par}
+\vspace{2pt}{\huge\bfseries\color{ink}Polynomial images on a Cartesian square\par}
+\smallskip
+Can a fixed polynomial take substantially fewer values than there are input pairs? For each polynomial below we seek a constant $c_P>0$ and arbitrarily large finite $A\subset\R$ such that
+\[
+   N=|A|,\qquad |P(A,A)|\le N^{2-c_P}.
+\]
+The same $A$ supplies both coordinates. Every one of its $N^2$ ordered pairs contributes to the image. A constant-factor saving at one size cannot establish a uniform exponent.
+
+\subhead{Where the plus-sign cubic stands}
+\tagword{T01\enspace OPEN.} For $P(x,y)=(x-y)^3+x+y$, fixing an output identifies its \emph{fiber}, the ordered pairs with that exact value. Algebraic curves produced finite sets with repeated outputs. On one six-point set, two outputs each occur four times, while the other 28 pairs all give different outputs. The full image has 30 values. The associated marked elliptic point has infinite order. Its orbit cannot stay within the finite set of compatible frame points. \src{E3--E4}
+
+The October branching theorem gives a test that any successful family must pass. Divide each scalar interval into four at each generation, stopping once its points are separated. A pair branches when another child square in the same parent contains its exact output. If the target bound holds, then for $0<\gamma<c_P$ all but $N^{2-\gamma}$ ordered pairs must branch more than $\lfloor(c_P-\gamma)\log_8 N\rfloor$ times. The theorem leaves open how to construct such sets. \src{E6}
+
+\subhead{Three other fixed targets}
+\begin{tabular}{@{}p{0.09\linewidth}p{0.29\linewidth}p{0.55\linewidth}@{}}
+\toprule
+\textbf{Track}&\textbf{Polynomial}&\textbf{Result and remaining gap}\\\midrule
+T02 & $(x+2y)^4+3x-y$ & Exact support in a ramified local quotient. The resulting real packing estimate has no positive gap. \src{E7}\\[4pt]
+T03 & $x^2+xy+y^2$ & Many norm-preserving units are available. A bound on typical returns of actual input pairs remains open. \src{E8}\\[4pt]
+T04 & $(x-y)^3-3(x+y)$ & Exponential growth of distinct real inputs is proved for one affine recursion. Its full output growth is unknown. \src{E9}\\\bottomrule
+\end{tabular}
+
+\smallskip\tagword{Evidence boundary.} All four targets remain open. The report reproduces the elementary branching argument and summarizes identified project proofs elsewhere. Finite counts are inherited exact checks. The export adds no research or external review. Source keys refer to the full report's evidence appendix.

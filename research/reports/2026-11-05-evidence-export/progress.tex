@@ -1,0 +1,85 @@
+\chapterpage{T01\enspace /\enspace SEPTEMBER}{From a small image to a shared scalar}
+\subhead{The cost of a partially controlled square}
+Suppose a construction prescribes outputs on $E\subseteq A^2$. Write $Q=|E|$, $Z=|P(E)|$, $B=N^2-Q$. Even with no information about the complement, one has
+\[
+ |P(A,A)|\le Z+B.
+\]
+The $B$ uncontrolled pairs can each cost a new value. A large fiber alone only shows a saving on its own pairs. Collision energy $\sum_z |F_z|^2$, where $F_z=\{(x,y)\in A^2:P(x,y)=z\}$, gives the \emph{lower} bound $N^4/\sum_z |F_z|^2$ for image size. It cannot replace the upper bound above.
+
+\subhead{16--21 September\enspace /\enspace A finite gain and its limit}
+Start at $A=\{0,2\}$. The three branches $x\mapsto x/2+j/3$ for $j=0,1,2$ give six distinct scalars. Exact enumeration of their square gives 22 outputs versus four on the seed. The nine new ordered blocks therefore cost $22/(9\cdot4)=11/18$ of independent ninefold growth. Some entire difference slices overlap. At the next iteration two branches give the same input, $F_0(2/3)=F_1(0)$. Subsequent continuation and return studies kept track of coincident scalars and the complete image. The one-step saving did not yield a uniform recursion. \src{E1}
+
+\subhead{30 September\enspace /\enspace A curve for coordinate reuse}
+For the fixed plus-sign cubic, put $u=x-y$. Solving $P(x,y)=z$ gives all the coordinates of the fiber:
+\[
+ x=c_+(z,u),\quad y=c_-(z,u),\qquad
+ c_\pm(z,u)=\tfrac12(z-u^3\pm u).
+\]
+Thus freely choosing $u$ gives many pairs of a given value, but also introduces scalar inputs. To reuse one coordinate across two fibers, impose $c_s(z,u)=c_t(w,v)$ with $s,t\in\{+1,-1\}$. Equivalently
+\[
+ u^3-v^3-su+tv=z-w.
+\]
+When the projective cubic is nonsingular, it has genus one. Singular specializations are classified separately. Genus counts the handles of a connected smooth compact complex curve. With an origin, a smooth genus-one curve has an elliptic group law. Its multiples can supply infinitely many solutions of a scalar-sharing equation. Each such solution still needs to be converted back to actual ordered pairs. \src{E2}
+
+One archived rational example has $s=t=1$, $z-w=6$ and an infinite-order point on its Weierstrass model. A prefix of eight multiples gave 23 distinct scalars and 16 selected pairs; its full 529-pair square had 515 outputs. This finite calculation shows why the number of group points and the number of repeated pair values must be counted separately. \src{E2}
+
+\chapterpage{T01\enspace /\enspace 6--11 OCTOBER}{Which sharing patterns can be joined?}
+\subhead{Gluing triangles}
+A directed triangle of scalar vertices prescribes $(a,b),(b,c),(c,a)$. If triangles share an edge, its two endpoints must agree \emph{as real numbers} across the two prescriptions. For one fixed-gap family all triangles are translates. At most $2N-3$ distinct pairs are controlled, and a translated strip attains this bound. \src{E3}
+
+The variable-gap construction organizes triangle pairs in a band $1\le |x-y|\le k$ on $N=k^3$ integers, $k\ge3$. It controls $2kN-k(k+1)$ pairs distributed among $2k^3-k$ outputs. This gives order $N^{4/3}$ selected pairs, hence a vanishing fraction of the square. An increasing real deformation preserving all the designated output equalities in its 27-point example, with the first scalar fixed at zero, is forced to be the original unit-spaced set. \src{E3}
+
+\subhead{A four-pair frame}
+Place rows at $q\pm h$ and columns at $q\pm s$, where $h,s>0$ and $h\ne s$. Subtract the outputs in the two columns of a fixed row. Each row gives one repeated output precisely when
+\[
+ 3h^2+s^2=1.
+\]
+The two output values then have midpoint $2q$ and difference $C(h)=8h(1-2h^2)$. Two frames can therefore share scalars and outputs only under simultaneous restrictions on centers, row widths and column widths.
+
+\begin{center}
+\begin{tabular}{@{}lrrrrrl@{}}
+\toprule
+\textbf{Construction} & $N$ & $Q$ & $Z$ & $B$ & $Z+B$ & \textbf{Actual image}\\\midrule
+Different-center bridge & 6 & 8 & 3 & 28 & 31 & 29\\
+Same-center two-width bridge & 6 & 8 & 2 & 28 & 30 & 30\\\bottomrule
+\end{tabular}
+\end{center}
+The table uses distinct scalars and ordered pairs. The first bridge has one common output on four pairs; the same-width translated ladder built from it contains an arithmetic progression whose subsquare already has at least $N^2/4$ outputs. The second bridge has two four-pair fibers and 28 singleton fibers in the full square. Its stronger local repeat is compatible with a larger actual image because the complement differs. \src{E3--E4}
+
+\subhead{Two different geometric obstructions}
+Fix ordered outputs $z>w$, $c=z-w$, and require two columns to complete the \emph{same two rows}. The admissible positive widths solve $C(h)=c$ with $0<h<1/\sqrt3$ and $h\ne s$. At most two widths and four real marked sharing points survive. The fixed-output elliptic curve may still contain infinitely many other real points. \src{E4}
+
+\chapterpage{T01\enspace /\enspace 11--21 OCTOBER}{Completing frames and testing their rigidity}
+\subhead{A second column and the genus-four cover}
+For general one-column sharing of two distinct outputs with the same second coordinate, the curve $u^3-v^3+u-v=c$ has the model
+\[
+ E_c:\quad Y^2=X^3-48X-128-432c^2.
+\]
+Completing \emph{one row} to another column requires a choice $u'=(-u\pm W)/2$, $W^2=4-3u^2$. Adjoining $W$ gives a cover, meaning that generic sharing points have two completion choices. Six simple branch points (where the choices coincide) give a smooth normalization of genus four. An isogeny is a nonconstant algebraic group map between elliptic curves. Pulling this cover back under a translated isogeny of degree $e$ gives genus $1+3e$. The genus formula excludes a rational choice of completion over the whole elliptic parameter curve. Individual frames are still possible. This is a different condition from fixing the same two complete rows. \src{E4}
+
+\subhead{One marked difference has infinite order}
+The same-center six-scalar bridge singles out two positive-$Y$ points $R_1,R_2$. Its marked shift is $T=R_2-R_1$. Finite checks for orders $2,3,4$ left arbitrary order unresolved. The subsequent proof works in a field of degree eight. Its involution $\sigma$ fixes $R_2$ and negates $R_1$, giving $T+\sigma T=2R_2$. At a specified embedding into $\Q_{23}$ of the subfield defining $R_2$, the $x$-coordinate of $4R_2$ has valuation $-2$. The formal logarithm sends this point to a nonzero additive value, proving infinite order. Torsion of $T$ would imply torsion of $2R_2$, a contradiction. This resolves the order of that one shift. Its iterates need not be compatible frames. \src{E4}
+
+\subhead{Three outputs, then four}
+When the output labels vary, a three-output junction can reuse more slots: its eight actual scalars control ten pairs with three values. Along the proposed extension $N=4m$, $Q=6m-2$ and $Z=m+1$; one fixed-step progression gives $|P(A,A)|\ge N^2/16$. The changed single-role three-output junction was subsequently excluded by incompatible width inequalities. \src{E5}
+
+A four-output junction uses the six edges of a tetrahedron as output pairs. For reflection-symmetric gaps $(a,b,a)$, four registered role assignments contradict the real conic and output-gap equations. A fifth, separately specified assignment also fails: its hypotheses force the same signed quantity to be both below and above one. These are exact obstructions for the recorded assignments. No admissible instance exists there to which one could assign an image count. The unrestricted four-output problem remains open. \src{E5}
+
+\chapterpage{T01\enspace /\enspace 21 OCTOBER}{A necessary pattern on exact fibers}
+Choose a half-open interval containing $A$. At each generation divide each scalar interval into four equal children, giving sixteen child squares per parent. Stop at $L$ once the scalar intervals separate the points of $A$. For $\xi\in A^2$, let $b_L(\xi)$ count generations where its own exact output $P(\xi)$ occurs in at least two child squares of its parent.
+
+\tagword{PROVED\enspace MC-S1/S2.}\quad For every integer $b\ge0$,
+\[
+   \#\{\xi\in A^2:b_L(\xi)\le b\}\le |P(A,A)|\,8^b.
+\]
+\textbf{Proof (complete).} At fixed $y$, $P_x=1+3(x-y)^2\ge1$ and $P(x,y)$ tends to opposite infinities as $x\to\pm\infty$. Every real output thus has a unique graph $x=f_z(y)$. For $d=f_z(y)-y$, implicit differentiation gives
+\[
+    f'_z(y)=\frac{3d^2-1}{3d^2+1},\qquad |f'_z(y)|\le1.
+\]
+Within a half-open child $y$-interval the finite occupied $y$-values span less than the child width. The occupied $x$-values have no larger span and hence meet at most two child intervals. There are four $y$-children, so at most eight occupied child squares per exact output.
+
+\begin{center}\input{figures/branching}\par{\footnotesize\itshape Schematic occupancy bound. Shading illustrates a capacity, not recorded observations.}\end{center}
+
+Suppress the unbranched vertices of each output's occupied tree. Its leaves correspond to actual pairs, their depths equal $b_L$, and each internal vertex has at most eight children. Label edges to siblings by different symbols from an eight-letter alphabet. The leaf words are prefix-free. The extensions to length $b$ of all leaves of depth at most $b$ are nonempty and disjoint, so there are at most $8^b$ such leaves. Summing over the actual outputs proves the inequality. If $|P(A,A)|\le N^{2-c}$, substituting $b=\lfloor(c-\gamma)\log_8 N\rfloor$, $0<\gamma<c$, gives at most $N^{2-\gamma}$ exceptional pairs.\hfill$\square$
+
+\textbf{Scope.} The theorem leaves the separation between branching levels and the balance of the splits uncontrolled. The local version charges the number of pairs in a cell and reuse of equal values across cells. Metric compression, in contrast, only covers outputs by short intervals: on one frozen 12-point nonuniform set, 19 intervals of length one suffice for its 136 distinct outputs. Finite counts and metric covers do not imply an exponent. \src{E6}

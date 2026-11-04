@@ -712,3 +712,8 @@ matched on all 533 ordered-pair outputs. The requested Raz–Zahl text is
 **MISSING SOURCE**; no theorem exponent is applied. **OPEN — MC-O1:** the
 specific two-map collision-rectangle bound in report §6, not yet tested.
 TJ-C6 remains frozen and the unrestricted T01 target remains **OPEN**.
+
+
+## 2026-11-05 — archival cross-reference
+
+The [public evidence index](../../EVIDENCE_INDEX.md) and [dated export](../../reports/2026-11-05-evidence-export/README.md) organize the source claims above. The publication pass checked locators, data packaging and archive integrity; it introduced no new proof, experiment or change to this track’s OPEN target.

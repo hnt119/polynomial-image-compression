@@ -207,3 +207,8 @@ Their item-level roles and hashes are preserved under
 documents retain the 10 September C4 handoff as the final mathematical state:
 the fixed quartic target remains **OPEN**, and the scoped C2/C3/C4 failures are
 unchanged.
+
+
+## 2026-11-05 — archival cross-reference
+
+The [public evidence index](../../EVIDENCE_INDEX.md) and [dated export](../../reports/2026-11-05-evidence-export/README.md) organize the source claims above. The publication pass checked locators, data packaging and archive integrity; it introduced no new proof, experiment or change to this track’s OPEN target.

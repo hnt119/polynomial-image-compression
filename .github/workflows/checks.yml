@@ -25,3 +25,5 @@ jobs:
         run: python -m experiments verify
       - name: Verify source integrity and local documentation links
         run: python scripts/check_repository.py
+      - name: Check published evidence locators and export hashes
+        run: python scripts/check_evidence_release.py
