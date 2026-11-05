@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Verify the v6 bibliography, reference index and published source copies offline."""
+import argparse
 import csv
 import hashlib
 import io
@@ -11,6 +12,7 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 PACKAGE = 'research/exports/2026-11-05-report-references'
+PUBLISHED_BIBLIOGRAPHY = PACKAGE + '/bibliography-github.tex'
 INDEX = PACKAGE + '/README.md'
 PROVENANCE = PACKAGE + '/source-provenance.csv'
 SUPPORT_REVISION = 'bd1f2d663262821575eebdfa559b7c25f76b46ab'
@@ -88,9 +90,9 @@ def check_provenance(read, original_records):
     return len(records)
 
 
-def check(root=ROOT):
+def check(root=ROOT, bibliography=PUBLISHED_BIBLIOGRAPHY):
     root = root.resolve()
-    bib = read_local(root, PACKAGE+'/bibliography-github.tex').decode()
+    bib = read_local(root, bibliography).decode()
     entries = re.split(r'(?m)^\\bibitem\{([^}]+)\}', bib)
     require(entries[1::2] == ALL_KEYS, 'Wrong bibliography keys or order')
     revisions = set()
@@ -118,11 +120,15 @@ def check(root=ROOT):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--bibliography', default=PUBLISHED_BIBLIOGRAPHY,
+                        help='repository-relative TeX file (default: the published bibliography)')
+    args = parser.parse_args()
     try:
-        current, historical = check()
+        current, historical = check(bibliography=args.bibliography)
     except (OSError, ValueError, KeyError) as error:
         raise SystemExit(str(error))
-    print('21 bibliography keys, 13 pinned citations. (Index file links, provenance records)')
+    print(f'{args.bibliography}: 21 bibliography keys, 13 pinned citations. (Index file links, provenance records)')
     print('Working checkout:', current)
     for pin, counts in historical.items():
         print(pin, counts)

@@ -46,6 +46,14 @@ class ReferenceAuditTests(unittest.TestCase):
         root, _, pin = self.make_repo()
         self.assertEqual(refs.check(root), ((13, 1), {pin: (13, 1)}))
 
+    def test_selected_bibliography_is_checked_independently(self):
+        root, published, _ = self.make_repo()
+        editor = root / 'editor.tex'
+        editor.write_text(published.read_text().replace('#ref14}', '#ref15}'))
+        with self.assertRaisesRegex(ValueError, 'Wrong commit pin, index path or anchor: ref14'):
+            refs.check(root, bibliography='editor.tex')
+        refs.check(root)
+
     def test_later_file_cannot_fill_a_historical_gap(self):
         root, _, _ = self.make_repo(target='later.md')
         (root / refs.PACKAGE / 'later.md').write_text('Present only in this checkout')

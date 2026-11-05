@@ -1,5 +1,7 @@
 # Research evidence index · 5 November 2026
 
+The combined MA2288 v6 audits provide a [21-entry bibliography and three editor corrections](exports/2026-11-05-report-audit/integration/README.md).
+
 **All four fixed-polynomial targets remain OPEN.** A solution requires a fixed positive exponent and arbitrarily large finite sets of real scalars, with the **same set in both inputs** and **every ordered pair** counted. The most recent T01 theorem gives a necessary pattern of repeated *exact* collisions; it does not exhibit sets with a small full image. T03 has proved a large population of eligible units; proving that enough of them return typical input pairs is a separate, unresolved matter.
 
 For a specific result, start with the [claim ledger](evidence/2026-11-05/claim-ledger.json). For the full native evidence behind a cycle, use the [checkpoint catalogue](evidence/2026-11-05/checkpoints.json): statement and proof sections, the source's claim/audit registers, native programs and portable results. The [ledger guide](evidence/2026-11-05/README.md) explains identifiers, overlapping branches and availability. The [immutable archive manifest](manifest.json) identifies the older 39-file snapshot; it is not the modern claim ledger.
@@ -40,8 +42,12 @@ On the adaptive-radical route, exact branch accounting is available, but a signe
 
 For the different [mixed-signature carrier](notes/2026-10-20-mixed-signature/README.md), [MSU-A1–A3](notes/2026-10-21-relative-unit-population/arithmetic.md) resolve the population question MS-O1 affirmatively at a fixed radius \(T_*\). Membership in that inventory is not membership in a translated source window. The [return-window proof](notes/2026-10-21-typical-unit-returns/source-windows.md) retains the missing phases. For nonzero input pairs, the [orbit-incidence proof](notes/2026-10-21-typical-unit-returns/incidences.md) gives \(N_j\mathbb E(1/R_j)=\nu_j\), where \(N_j\) counts those pairs, \(R_j\) is their genuine return count and \(\nu_j\) counts occupied arithmetic labels. The full quadratic support is at most \(1+\nu_j\). An exponentially improved bound on those **occupied** labels remains the [MS-O2-I obligation](notes/2026-10-21-typical-unit-returns/README.md); it was not established by the failed ambient count.
 
+The [MA2288 v6 quadratic and quartic claim audit](exports/2026-11-05-report-audit/quadratic/README.md) compares the report with the historical proofs and records the proposed editor changes.
+
 ## Reading and availability
 
 The structured records below use **PROVED** for a proof identified in the source system, **CONDITIONAL** for a conclusion with a missing premise, **OPEN** for a question, **FAILED** for a named construction/certificate, and **EXPERIMENTAL** for bounded evidence. A source-reported proof may have been checked in its own cycle; *this archival pass* checked locators and status statements, not mathematical correctness. A complete located proof, evidence that such a proof was previously reviewed, and an unavailable original are different things.
 
 Use the [availability and correction register](MIGRATION_CONFLICTS.md) for migration gaps, the [earlier mechanism library](MECHANISM_LIBRARY.md), [failure library](FAILURE_LIBRARY.md) and [open-lemma registry](OPEN_LEMMAS.md) for detailed historical claims, and the [reproduction guide](../docs/reproducibility.md) for validation commands. Superseded proposals remain readable: their age is not evidence that a missing premise was solved. Restricted reference material, private correspondence, academic/administrative notes and ignored raw files are not supplied by this index.
+
+**5 November 2026, cubic citation addendum.** For archive row `T04/migration/T04-Q8-SPLIT`, the damaged product in the complementary transfer proof is documented in the **T04 rendering** row of [Resolved supersessions and notation issues](MIGRATION_CONFLICTS.md#resolved-supersessions-and-notation-issues). The row's historical “MC-02” pointer refers instead to product-tree attribution. Equations (F.1) and (F.2) give the intended strict bound. See the [v6 cubic proof checks](exports/2026-11-05-report-audit/cubic/proof-checks.md).
