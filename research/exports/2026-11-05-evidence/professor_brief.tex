@@ -1,0 +1,126 @@
+% Generated from the adjacent canonical Markdown with build.py.
+% Compile with XeLaTeX or Tectonic. No network access or fonts shipped.
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{newtxtext,newtxmath}
+\DeclareMathSizes{9.1}{10}{7}{7}
+\DeclareMathSizes{8.6}{10}{7}{7}
+\usepackage[left=22mm,right=22mm,top=21mm,bottom=24mm]{geometry}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+\hypersetup{pdfauthor={Polynomial Image Compression Project},pdfcreator={Offline evidence export}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\setlength{\emergencystretch}{2em}
+\raggedbottom
+\newcommand{\teal}[1]{{\special{color push rgb .08 .38 .38}#1\special{color pop}}}
+\newcommand{\kicker}[1]{{\small\teal{\textbf{#1}}\par}}
+\newcommand{\headone}[1]{\vspace{6pt}{\raggedright\hyphenpenalty=10000\fontsize{22}{25}\selectfont\bfseries #1\par}\vspace{3pt}}
+\newcommand{\headtwo}[1]{\vspace{3pt}{\large\bfseries #1\par}}
+\newcommand{\sourceitem}[3]{\par{\fontsize{9.1}{11.3}\selectfont\textbf{#1}\quad\href{#2}{\nolinkurl{#3}}\par}}
+\newcommand{\localfigure}[1]{\par\noindent\hbox to \linewidth{\hfil\XeTeXpicfile "#1" width .98\linewidth\hfil}\par}
+\makeatletter
+\def\ps@evidence{\def\@oddhead{}\let\@evenhead\@oddhead
+\def\@oddfoot{\footnotesize Polynomial Image Compression\hfil 5 November 2026\quad/\quad\thepage}
+\let\@evenfoot\@oddfoot}
+\makeatother
+\pagestyle{evidence}
+\begin{document}
+
+
+\hypersetup{pdftitle={Power savings for quadratic images}}
+
+\kicker{MATHEMATICS \quad / \quad EVIDENCE SNAPSHOT}
+
+{\raggedright\hyphenpenalty=10000\fontsize{27}{30}\selectfont\bfseries Power savings for quadratic images\par}
+
+{\small Professor brief \textperiodcentered{} Research evidence through 5 November 2026\par}
+
+\phantomsection\label{sec:one-theorem-and-one-open-problem}\headone{One theorem and one open problem}
+
+A set of $n$ real numbers gives $n^2$ ordered pairs. How few distinct numbers can a fixed polynomial produce from those pairs? A \textbf{power saving} means a bound of $n^{2-c}$ for a fixed $c>0$, on sets of unbounded size. The same set must fill both input positions. Saving a constant fraction of the square does not meet this target.\par
+
+\textbf{Proved for C0.} Fix any four integers $a,b,c,e$. There are arbitrarily large finite real sets $A$ and an exponent $\epsilon_P>0$, depending only on the fixed polynomial, for which\par
+
+\begin{equation*}\tag*{}\label{eq:one-theorem-and-one-open-problem-1}
+P(x,y)=(ax+by)^2+cx+ey,\qquad |P(A,A)|\le |A|^{2-\epsilon_P}.
+\end{equation*}
+
+The theorem includes zero coefficients and nonprimitive pairs. When the squared form is nonzero, its quadratic part has rank one: all quadratic variation comes from a single linear expression. The extra condition $ab(ae-bc)\ne0$ identifies a nonspecial subfamily; it is not a compression hypothesis.\par
+
+\textbf{Why the proof works.} Replace the linear term temporarily by a fixed multiple. At many selected primes the multiple disappears, leaving a square. Roughly half of the local residues are excluded at each split coordinate. A lattice bound caps the population of every permitted class. A single common scaling then returns to the original polynomial and preserves every cardinality. The output estimate covers even the least frequent outputs.\par
+
+\textbf{Open benchmark.} The quadratic part of the following form has determinant $3/4$ and rank two:\par
+
+\begin{equation*}\tag*{}\label{eq:one-theorem-and-one-open-problem-2}
+Q(x,y)=x^2+xy+y^2.
+\end{equation*}
+
+It has a different useful identity. If $\omega$ is a primitive cube root of unity, then $Q(x,y)=(x-\omega y)(x-\omega^2y)$. Multiplication by an element of relative norm one preserves this value. To use that symmetry for compression, the resulting pair must still have both coordinates in $A$.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{C0 v5, Theorem 1 and its proof}{../../proofs/c0-v5/theorem-and-proof.tex}{research/proofs/c0-v5/theorem-and-proof.tex}
+
+\sourceitem{T03, fixed benchmark and scope}{../../tracks/03-eisenstein-cartesianization/STATUS.md}{research/tracks/03-eisenstein-cartesianization/STATUS.md}
+
+\clearpage\kicker{PROFESSOR BRIEF\quad / \quad 02}
+
+\phantomsection\label{sec:when-many-symmetries-are-too-few}\headone{When many symmetries are too few}
+
+\textbf{A rich orbit can miss the square.} One construction has an orbit of $3^d$ points with at least $2^d$ norm-preserving returns at every point. Projecting to the coordinates produces $n=2\cdot3^d$ distinct scalars. But its engineered pairs occupy just $3^d$ of the $n^2$ positions. Pairing a coordinate from one point with a coordinate from another creates inputs for which the original return count says nothing.\par
+
+\textbf{What the retirements establish.} Two later multiscale packings reuse coordinates by exact trigonometric identities. Even after allowing all equal-value targets, their images remain of quadratic size. A separate balanced-factor construction also has a fixed $M$ such that, at every sufficiently large depth,\par
+
+\begin{equation*}\tag*{}\label{eq:when-many-symmetries-are-too-few-1}
+\frac{n^2}{18M}\le |Q(A,A)|\le n^2.
+\end{equation*}
+
+This last statement counts complete fibers, meaning all pairs with the same output. It rules out every positive saving exponent on that specific family. The earlier observation that certain rotations failed would not have established this lower bound.\par
+
+\textbf{A different carrier.} Start instead with all algebraic integers in a field whose conjugates fit one fixed window: intervals at real places, disks at complex places. Use one real embedding to read the integers as a finite set $A$. For a growing sequence of degrees, its size grows exponentially. There is no discarded coordinate or privileged list of source pairs.\par
+
+At tower level $j$, write $d_j$ for the degree of the initial totally real field. An arithmetic covering argument (MS-O1) gives at least $2^{d_j}$ distinct integral norm-one actions in one fixed logarithmic cutoff. Every possible nonzero order-unit return is included. What is not known is how many of these actions return a given pair to the window: a multiplier that expands one complex direction may send a coordinate outside its disk. Its phases at different places belong to one global algebraic number.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{Exponent construction, UE-P2--P3}{../../notes/2026-09-16-unit-exponent/primary-proof.md}{research/notes/2026-09-16-unit-exponent/primary-proof.md}
+
+\sourceitem{Multiscale full fibers, XB-F1--F2}{../../notes/2026-10-06-cross-block-returns/README.md}{research/notes/2026-10-06-cross-block-returns/README.md}
+
+\sourceitem{Balanced retirement, BFF-O1 §§1--4}{../../notes/2026-10-11-bff-o1/README.md}{research/notes/2026-10-11-bff-o1/README.md}
+
+\sourceitem{Order-unit population, MSU-A1--A3}{../../notes/2026-10-21-relative-unit-population/arithmetic.md}{research/notes/2026-10-21-relative-unit-population/arithmetic.md}
+
+\clearpage\kicker{PROFESSOR BRIEF\quad / \quad 03}
+
+\phantomsection\label{sec:the-count-that-would-settle-this-route}\headone{The count that would settle this route}
+
+For a nonzero source pair $p=(x,y)$ write $z=x-\omega y$. Its label consists of two arithmetic objects: the actual principal ideal $z\mathcal{R}_j$ in the chosen order, and the exact relative norm $z\tau(z)=Q(x,y)$. Here $\tau$ fixes the coefficient field and interchanges $\omega$ and $\omega^2$. Two sources have the same label precisely when one is obtained from the other by an order unit of relative norm one.\par
+
+\localfigure{figures/orbit-labels.png}
+
+Let $n_j=|A_j|$, let $N_j=n_j^2-1$, and choose $p$ uniformly from the nonzero pairs. Write $r_j(p)$ for its number of distinct returning targets, and $\nu_j$ for the number of occupied labels. In a class of size $m$, each of the $m$ sources contributes $1/m$. Each class counts once:\par
+
+\begin{equation*}\tag*{}\label{eq:the-count-that-would-settle-this-route-1}
+N_j\,\mathbb{E}[1/r_j]=\nu_j,\qquad |Q(A_j,A_j)|\le 1+\nu_j .
+\end{equation*}
+
+The extra output is zero. Different occupied labels may have the same norm, so replacing the inequality by an equality would lose the distinction between an orbit and a complete output fiber.\par
+
+\textbf{Open estimate (MS-O2-I).} Find constants $\gamma>0$ and $C_1<\infty$ such that, at every sufficiently large tower level,\par
+
+\begin{equation*}\tag*{}\label{eq:the-count-that-would-settle-this-route-2}
+\nu_j\le C_1 N_j e^{-\gamma d_j}.
+\end{equation*}
+
+\textbf{Conditional consequence.} The input bound is $\log n_j\le B_*d_j$ for a fixed $B_*>0$. Substitution would give an eventual same-set saving for every fixed $0<c<\gamma/B_*$. The strict inequality absorbs the constant and the zero output. No positive $\gamma$ is currently proved. A negative answer about these labels alone would still leave open savings from collisions between different labels.\par
+
+\vspace{2pt}\kicker{PROOF AND EVIDENCE}
+
+\sourceitem{Orbit partition and labels, MSR-I1--I3}{../../notes/2026-10-21-typical-unit-returns/incidences.md}{research/notes/2026-10-21-typical-unit-returns/incidences.md}
+
+\sourceitem{Open estimate and conditional exponent, §§5--6}{../../notes/2026-10-21-typical-unit-returns/README.md}{research/notes/2026-10-21-typical-unit-returns/README.md}
+
+\end{document}

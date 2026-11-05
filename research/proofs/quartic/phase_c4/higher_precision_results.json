@@ -1,0 +1,1300 @@
+{
+  "schema_version": 1,
+  "ring_model": "(Z/7^m Z)[pi]/(pi^3-7u)",
+  "twists": [
+    1,
+    2,
+    4
+  ],
+  "critical_residues": [
+    3,
+    5,
+    6
+  ],
+  "formula": {
+    "N_1": 4,
+    "N_m_for_m_ge_2": "22*7^(3*m-4)",
+    "N_2": 1078,
+    "N_3": 369754,
+    "higher_to_neutral_scale_ratio": [
+      11,
+      14
+    ],
+    "input_costed_local_factor_m_ge_2": [
+      22,
+      49
+    ]
+  },
+  "scope": "m1 exhaustive ordered input pairs; m2 exhaustive L coordinate plus full pi4-ideal saturation; m3 explicit actual output construction plus analytic upper bound, not exhaustive pairs",
+  "models": [
+    {
+      "u": 1,
+      "critical_residue_a": 3,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          2,
+          0,
+          6
+        ],
+        [
+          9,
+          0,
+          3
+        ],
+        [
+          9,
+          0,
+          5
+        ],
+        [
+          9,
+          0,
+          6
+        ],
+        [
+          16,
+          0,
+          3
+        ],
+        [
+          16,
+          0,
+          5
+        ],
+        [
+          16,
+          0,
+          6
+        ],
+        [
+          23,
+          0,
+          3
+        ],
+        [
+          23,
+          0,
+          5
+        ],
+        [
+          23,
+          0,
+          6
+        ],
+        [
+          30,
+          0,
+          3
+        ],
+        [
+          30,
+          0,
+          5
+        ],
+        [
+          30,
+          0,
+          6
+        ],
+        [
+          37,
+          0,
+          3
+        ],
+        [
+          37,
+          0,
+          5
+        ],
+        [
+          37,
+          0,
+          6
+        ],
+        [
+          44,
+          0,
+          3
+        ],
+        [
+          44,
+          0,
+          5
+        ],
+        [
+          44,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "8b4e08ef13c0de536524adfb60c202265704da92be72514443185765c9d89e62",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 1,
+      "critical_residue_a": 5,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          0,
+          5
+        ],
+        [
+          8,
+          0,
+          6
+        ],
+        [
+          15,
+          0,
+          3
+        ],
+        [
+          15,
+          0,
+          5
+        ],
+        [
+          15,
+          0,
+          6
+        ],
+        [
+          22,
+          0,
+          3
+        ],
+        [
+          22,
+          0,
+          5
+        ],
+        [
+          22,
+          0,
+          6
+        ],
+        [
+          29,
+          0,
+          3
+        ],
+        [
+          29,
+          0,
+          5
+        ],
+        [
+          29,
+          0,
+          6
+        ],
+        [
+          36,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          3
+        ],
+        [
+          36,
+          0,
+          5
+        ],
+        [
+          36,
+          0,
+          6
+        ],
+        [
+          43,
+          0,
+          3
+        ],
+        [
+          43,
+          0,
+          5
+        ],
+        [
+          43,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "6692e3f20cb147ae2117443fa4a10580dddb7347a6e601f6a775e62ac77aa870",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 1,
+      "critical_residue_a": 6,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          3
+        ],
+        [
+          11,
+          0,
+          5
+        ],
+        [
+          11,
+          0,
+          6
+        ],
+        [
+          18,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          5
+        ],
+        [
+          18,
+          0,
+          6
+        ],
+        [
+          25,
+          0,
+          3
+        ],
+        [
+          25,
+          0,
+          5
+        ],
+        [
+          25,
+          0,
+          6
+        ],
+        [
+          32,
+          0,
+          3
+        ],
+        [
+          32,
+          0,
+          5
+        ],
+        [
+          32,
+          0,
+          6
+        ],
+        [
+          39,
+          0,
+          3
+        ],
+        [
+          39,
+          0,
+          5
+        ],
+        [
+          39,
+          0,
+          6
+        ],
+        [
+          46,
+          0,
+          3
+        ],
+        [
+          46,
+          0,
+          5
+        ],
+        [
+          46,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "5b92687961d60d4003d6657439f2bfc3c9aa8d0e092d29ecd3752e5d40c22a25",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 2,
+      "critical_residue_a": 3,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          2,
+          0,
+          6
+        ],
+        [
+          9,
+          0,
+          3
+        ],
+        [
+          9,
+          0,
+          5
+        ],
+        [
+          9,
+          0,
+          6
+        ],
+        [
+          16,
+          0,
+          3
+        ],
+        [
+          16,
+          0,
+          5
+        ],
+        [
+          16,
+          0,
+          6
+        ],
+        [
+          23,
+          0,
+          3
+        ],
+        [
+          23,
+          0,
+          5
+        ],
+        [
+          23,
+          0,
+          6
+        ],
+        [
+          30,
+          0,
+          3
+        ],
+        [
+          30,
+          0,
+          5
+        ],
+        [
+          30,
+          0,
+          6
+        ],
+        [
+          37,
+          0,
+          3
+        ],
+        [
+          37,
+          0,
+          5
+        ],
+        [
+          37,
+          0,
+          6
+        ],
+        [
+          44,
+          0,
+          3
+        ],
+        [
+          44,
+          0,
+          5
+        ],
+        [
+          44,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "8b4e08ef13c0de536524adfb60c202265704da92be72514443185765c9d89e62",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 2,
+      "critical_residue_a": 5,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          0,
+          5
+        ],
+        [
+          8,
+          0,
+          6
+        ],
+        [
+          15,
+          0,
+          3
+        ],
+        [
+          15,
+          0,
+          5
+        ],
+        [
+          15,
+          0,
+          6
+        ],
+        [
+          22,
+          0,
+          3
+        ],
+        [
+          22,
+          0,
+          5
+        ],
+        [
+          22,
+          0,
+          6
+        ],
+        [
+          29,
+          0,
+          3
+        ],
+        [
+          29,
+          0,
+          5
+        ],
+        [
+          29,
+          0,
+          6
+        ],
+        [
+          36,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          3
+        ],
+        [
+          36,
+          0,
+          5
+        ],
+        [
+          36,
+          0,
+          6
+        ],
+        [
+          43,
+          0,
+          3
+        ],
+        [
+          43,
+          0,
+          5
+        ],
+        [
+          43,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "6692e3f20cb147ae2117443fa4a10580dddb7347a6e601f6a775e62ac77aa870",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 2,
+      "critical_residue_a": 6,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          3
+        ],
+        [
+          11,
+          0,
+          5
+        ],
+        [
+          11,
+          0,
+          6
+        ],
+        [
+          18,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          5
+        ],
+        [
+          18,
+          0,
+          6
+        ],
+        [
+          25,
+          0,
+          3
+        ],
+        [
+          25,
+          0,
+          5
+        ],
+        [
+          25,
+          0,
+          6
+        ],
+        [
+          32,
+          0,
+          3
+        ],
+        [
+          32,
+          0,
+          5
+        ],
+        [
+          32,
+          0,
+          6
+        ],
+        [
+          39,
+          0,
+          3
+        ],
+        [
+          39,
+          0,
+          5
+        ],
+        [
+          39,
+          0,
+          6
+        ],
+        [
+          46,
+          0,
+          3
+        ],
+        [
+          46,
+          0,
+          5
+        ],
+        [
+          46,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "5b92687961d60d4003d6657439f2bfc3c9aa8d0e092d29ecd3752e5d40c22a25",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 4,
+      "critical_residue_a": 3,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          5
+        ],
+        [
+          2,
+          0,
+          6
+        ],
+        [
+          9,
+          0,
+          3
+        ],
+        [
+          9,
+          0,
+          5
+        ],
+        [
+          9,
+          0,
+          6
+        ],
+        [
+          16,
+          0,
+          3
+        ],
+        [
+          16,
+          0,
+          5
+        ],
+        [
+          16,
+          0,
+          6
+        ],
+        [
+          23,
+          0,
+          3
+        ],
+        [
+          23,
+          0,
+          5
+        ],
+        [
+          23,
+          0,
+          6
+        ],
+        [
+          30,
+          0,
+          3
+        ],
+        [
+          30,
+          0,
+          5
+        ],
+        [
+          30,
+          0,
+          6
+        ],
+        [
+          37,
+          0,
+          3
+        ],
+        [
+          37,
+          0,
+          5
+        ],
+        [
+          37,
+          0,
+          6
+        ],
+        [
+          44,
+          0,
+          3
+        ],
+        [
+          44,
+          0,
+          5
+        ],
+        [
+          44,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "8b4e08ef13c0de536524adfb60c202265704da92be72514443185765c9d89e62",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 4,
+      "critical_residue_a": 5,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          0,
+          5
+        ],
+        [
+          1,
+          0,
+          6
+        ],
+        [
+          8,
+          0,
+          3
+        ],
+        [
+          8,
+          0,
+          5
+        ],
+        [
+          8,
+          0,
+          6
+        ],
+        [
+          15,
+          0,
+          3
+        ],
+        [
+          15,
+          0,
+          5
+        ],
+        [
+          15,
+          0,
+          6
+        ],
+        [
+          22,
+          0,
+          3
+        ],
+        [
+          22,
+          0,
+          5
+        ],
+        [
+          22,
+          0,
+          6
+        ],
+        [
+          29,
+          0,
+          3
+        ],
+        [
+          29,
+          0,
+          5
+        ],
+        [
+          29,
+          0,
+          6
+        ],
+        [
+          36,
+          0,
+          0
+        ],
+        [
+          36,
+          0,
+          3
+        ],
+        [
+          36,
+          0,
+          5
+        ],
+        [
+          36,
+          0,
+          6
+        ],
+        [
+          43,
+          0,
+          3
+        ],
+        [
+          43,
+          0,
+          5
+        ],
+        [
+          43,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "6692e3f20cb147ae2117443fa4a10580dddb7347a6e601f6a775e62ac77aa870",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    },
+    {
+      "u": 4,
+      "critical_residue_a": 6,
+      "m1_ordered_pairs_checked": 2401,
+      "m1_exact_image_count": 4,
+      "m2_admissible_L_values_enumerated": 16807,
+      "original_polynomial_coordinate_identity_checks": 133,
+      "pi4_image_classes_for_twice_P": [
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          4,
+          0,
+          5
+        ],
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          11,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          3
+        ],
+        [
+          11,
+          0,
+          5
+        ],
+        [
+          11,
+          0,
+          6
+        ],
+        [
+          18,
+          0,
+          3
+        ],
+        [
+          18,
+          0,
+          5
+        ],
+        [
+          18,
+          0,
+          6
+        ],
+        [
+          25,
+          0,
+          3
+        ],
+        [
+          25,
+          0,
+          5
+        ],
+        [
+          25,
+          0,
+          6
+        ],
+        [
+          32,
+          0,
+          3
+        ],
+        [
+          32,
+          0,
+          5
+        ],
+        [
+          32,
+          0,
+          6
+        ],
+        [
+          39,
+          0,
+          3
+        ],
+        [
+          39,
+          0,
+          5
+        ],
+        [
+          39,
+          0,
+          6
+        ],
+        [
+          46,
+          0,
+          3
+        ],
+        [
+          46,
+          0,
+          5
+        ],
+        [
+          46,
+          0,
+          6
+        ]
+      ],
+      "pi4_classes_sha256": "5b92687961d60d4003d6657439f2bfc3c9aa8d0e092d29ecd3752e5d40c22a25",
+      "higher_precision": [
+        {
+          "m": 2,
+          "constructed_distinct_actual_outputs": 1078,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 49,
+          "N_m": 1078,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        },
+        {
+          "m": 3,
+          "constructed_distinct_actual_outputs": 369754,
+          "number_of_full_pi4_classes": 22,
+          "size_per_pi4_class": 16807,
+          "N_m": 369754,
+          "upper_bound_basis": "all admissible L enumerated modulo 49; pi4 class invariance and saturation proved analytically",
+          "cartesian_input_square_enumerated": false
+        }
+      ]
+    }
+  ]
+}

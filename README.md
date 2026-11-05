@@ -20,6 +20,8 @@ For the plus-sign cubic, the progression from elliptic sharing through the frame
 
 [Professor summary (one page)](research/reports/2026-11-05-evidence-export/summary.pdf) · [Progress report and evidence appendix (PDF)](research/reports/2026-11-05-evidence-export/report.pdf) · [Editable LaTeX, build instructions and bibliography](research/reports/2026-11-05-evidence-export/README.md) · [Publication and retention record](docs/release/2026-11-05/README.md)
 
+The [three-page brief, editable Word version and technical report](research/exports/2026-11-05-evidence/README.md) provide the C0-to-mixed-signature account. For MA2288 v6, use the [reference index and linked LaTeX bibliography](research/exports/2026-11-05-report-references/README.md). Its source links are fixed to a commit.
+
 ## Start here
 
 - [Codex local setup](docs/CODEX_SETUP.md): instructions, checks, and local reference transfer.

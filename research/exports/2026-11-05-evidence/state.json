@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-11-05",
+  "purpose": "Public mathematical state for the C0 and T03 norm-carrier consolidation. Fixed targets and branch results have separate records.",
+  "register": "evidence_register.json",
+  "evidence_policy": {
+    "acceptance": "PROVED records a located proof in the supplied source system unless explicitly qualified as a source-reported proof with MISSING SOURCE. None is presented as external peer review or a novelty claim.",
+    "work_this_snapshot": "Located original and corrected texts, compared statements, statuses, scope and finite data. No new research, independent proof audit or mathematical rerun. Repository and rendering checks are separate operational evidence.",
+    "chronology": "The November C0 theorem controls its family. The later same-day 11 October BFF-O1 theorem controls the balanced-factor family. The later 21 October typical-unit-return checkpoint controls the mixed-signature frontier."
+  },
+  "polynomials": {
+    "shared_C0": "(ax+by)²+cx+ey for fixed integer a,b,c,e, including zero coefficients",
+    "T01": "(x−y)³+x+y",
+    "T02": "(x+2y)⁴+3x−y",
+    "T03": "x²+xy+y²",
+    "T04": "(x−y)³−3(x+y)",
+    "affine_benchmark": "x²+xy+y²+x, separate from T01's cubic"
+  },
+  "objectives": [
+    {
+      "key": "C0",
+      "status": "PROVED",
+      "scope": "All fixed integer quadruples. The leading homogeneous part has rank one if (a,b)≠(0,0) and rank zero otherwise. For each P some ε_P>0 works along an unbounded sequence of same-set full Cartesian squares.",
+      "claims": [
+        "C0-EXT",
+        "C0-BOX",
+        "C0-LOCAL",
+        "C0-FULL",
+        "C0-NONSPECIAL"
+      ],
+      "source": "research/proofs/c0-v5/theorem-and-proof.tex"
+    },
+    {
+      "key": "T01",
+      "status": "OPEN",
+      "scope": "Fixed plus cubic. Positive-entropy fixed-prime digital obstruction has a retained accepted statement. The November source recovery concerns T04, not a solution of T01.",
+      "source": "research/proofs/source-recovery/T01-state-digital-theorems.md",
+      "claims": [
+        "T01-DIGITAL"
+      ]
+    },
+    {
+      "key": "T02",
+      "status": "OPEN",
+      "scope": "Fixed quartic. C4 local counts and failures for specified full-interval packing certificates do not determine its full image on all possible common carriers.",
+      "source": "research/proofs/source-recovery/cross-track-status-extracts.md",
+      "claims": []
+    },
+    {
+      "key": "T03",
+      "status": "OPEN",
+      "scope": "For the fixed real full-rank Eisenstein quadratic, exhibit arbitrarily large common finite A⊂ℝ and fixed c>0 with |Q(A,A)|≤|A|^(2−c). The selected mixed-signature carrier also remains OPEN. The independent adaptive sequence retains its own RC15/4 obligation.",
+      "source": "research/notes/2026-10-21-typical-unit-returns/README.md",
+      "claims": [
+        "MS-O2-I",
+        "T03-RC15/4"
+      ]
+    },
+    {
+      "key": "T04",
+      "status": "OPEN",
+      "scope": "Fixed minus cubic. Complementary-unit affine input growth is proved, full-output gap open. The recovered exact rich-fiber theorem concerns one different explicit family.",
+      "source": "research/proofs/source-recovery/cross-track-status-extracts.md",
+      "claims": [
+        "T04-RICH"
+      ]
+    },
+    {
+      "key": "P0",
+      "status": "OPEN",
+      "scope": "The same-set transfer implication is proved for Q+x. No homogeneous witness satisfying both its Q-image and difference-set assumptions has been established in the cited source.",
+      "source": "research/proofs/norm-context/norm-transfer.md",
+      "claims": [
+        "NT-COMPLETE",
+        "NT-TRANSFER"
+      ]
+    }
+  ],
+  "current_milestones": [
+    {
+      "result": "C0 full real support and a positive exponent",
+      "status": "PROVED",
+      "claims": [
+        "C0-FULL"
+      ]
+    },
+    {
+      "result": "Balanced-factor full-image retirement",
+      "status": "PROVED",
+      "claims": [
+        "BFF-O1",
+        "BFO-F1"
+      ],
+      "scope": "For every sufficiently large r on this single family, n²/(18M)≤|Q(A,A)|≤n², for fixed finite M. This excludes every unbounded subsequence of these depths as a witness."
+    },
+    {
+      "result": "Mixed-signature fields, integral actions and exponential real scalar population",
+      "status": "PROVED",
+      "claims": [
+        "MS-F1",
+        "MS-F2",
+        "MS-F3",
+        "MS-F5",
+        "MS-C1",
+        "MS-F6"
+      ]
+    },
+    {
+      "result": "Exponential relative order-unit population at fixed T*",
+      "status": "PROVED",
+      "claims": [
+        "MSU-A1",
+        "MSU-A2",
+        "MS-O1"
+      ],
+      "scope": "At each layer the relative order-log covolume is ≤K_R^d and the complete bounded-log inventory contains at least 2^d genuine actions; nonzero source membership remains separate."
+    },
+    {
+      "result": "Exact return geometry, joint labels, and support inequality",
+      "status": "PROVED",
+      "claims": [
+        "MS2-W1",
+        "MS2-W2",
+        "MSR-I1",
+        "MSR-I2",
+        "MSR-I3"
+      ],
+      "scope": "For the full nonzero domain of size N=n²−1, N·E[1/R]=ν and |Q(A,A)|≤1+ν. One full Q-fiber may contain many order-unit orbits."
+    }
+  ],
+  "frontier": {
+    "id": "MS-O2-I",
+    "status": "OPEN",
+    "definition": "d_j=[F_j:ℚ]; K_j=F_j(s), E_j=K_j(ω), ℛ_j=O_Kj[ω], τ fixes K_j. C_j is the entire integral box of fixed radius T* at all places; n_j=|C_j|. Z_j=(C_j−ωC_j)\\{0}. ν_j=#{(zℛ_j,zτ(z)):z∈Z_j}.",
+    "quantified_obligation": "There exist constants γ>0, C₁<∞ and j₀, independent of j, such that for every j≥j₀ one has ν_j≤C₁(n_j²−1)e^(−γd_j).",
+    "conditional_consequence": "If this holds, then for every fixed 0<c<γ/[3log(2T*+1)], the complete real square has |Q(A_j,A_j)|≤n_j^{2−c} eventually. The origin contributes at most one output.",
+    "other_open": [
+      "MS-O2: exponential mean plus exponentially small relative variance is an alternative sufficient condition.",
+      "Actual mixed-carrier image rate and unrestricted real T03 target.",
+      "T03-RC15/4 on the separately defined adaptive radical sequence."
+    ],
+    "not_required": "No claim that the unit-label criterion is necessary for actual-image saving. More than one occupied label may represent one nonzero norm."
+  },
+  "scope_of_failures": {
+    "actual_full_image": [
+      "NT-SIGN",
+      "HR-4",
+      "UE-VAL",
+      "RT-FAREY",
+      "ML-TAG",
+      "XB-F1",
+      "XB-F2",
+      "FG-F1",
+      "BFO-F1",
+      "T04-RICH"
+    ],
+    "restricted_actions_or_certificates": [
+      "HR-N1",
+      "TP-LIFT",
+      "CD-CRT",
+      "DC-BALANCED",
+      "PACK-PURE",
+      "PACK-MIX",
+      "AMP-SWITCH",
+      "BFF-SWITCH",
+      "MS-C3",
+      "UE-ORBIT"
+    ],
+    "label_inventory_only": [
+      "FG-N1",
+      "AMP-GAUSS"
+    ],
+    "insufficient_estimate_only": [
+      "MTR-L2",
+      "MSR-I4"
+    ]
+  },
+  "corrections_and_availability": [
+    {
+      "date": "2026-09-03",
+      "sources": [
+        "research/proofs/c0-2026-09-03/C0_CORRECTION_LOG.md",
+        "research/proofs/phase_c0/REFEREE_REPORT.md"
+      ],
+      "change": "Use totally real F_j, a containing radius and the stated scope of the quartic failure."
+    },
+    {
+      "date": "2026-11-03",
+      "sources": [
+        "research/proofs/c0-v5/theorem-and-proof.tex",
+        "research/proofs/c0-v5/audit-2026-11-04.txt"
+      ],
+      "change": "Current all-integer C0 theorem needs neither gcd(a,b)=1 nor ab(ae−bc)≠0. The latter is a sufficient nonspecialness condition."
+    },
+    {
+      "date": "2026-10-11",
+      "sources": [
+        "research/notes/2026-10-11-balanced-full-fibers/README.md",
+        "research/notes/2026-10-11-bff-o1/tower.md"
+      ],
+      "change": "Earlier OPEN full-fiber status superseded for the balanced-factor family by a later all-large-depth proof; earlier certificate failures and finite counts retain their narrower meanings."
+    },
+    {
+      "date": "2026-10-21",
+      "sources": [
+        "research/notes/2026-10-20-mixed-signature/state.json",
+        "research/notes/2026-10-21-relative-unit-population/arithmetic.md",
+        "research/notes/2026-10-21-typical-unit-returns/state.json"
+      ],
+      "change": "MS-O1 moved from OPEN to PROVED; the proof establishes the unit population only. The concentration and occupied-label decay remain OPEN."
+    },
+    {
+      "date": "2026-11-05",
+      "sources": [
+        "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+        "research/proofs/phase_c0/CANDIDATE_LEDGER.md",
+        "research/proofs/phase_c0/REFEREE_REPORT.md",
+        "research/proofs/norm-context/norm-transfer.md",
+        "research/proofs/norm-context/Norm_Trace_Exact_Experiments.json",
+        "research/proofs/source-recovery/v5-audit-source-limits.txt"
+      ],
+      "change": "Original project source recovery supplied previously unlocated checkpoints or audit context. The earlier Oct24–Nov4 T04 rich-fiber proof-availability limitation no longer applies. No new proof audit or cubic theorem."
+    },
+    {
+      "date": "2026-11-05",
+      "sources": [
+        "research/proofs/source-recovery/T01-state-digital-theorems.md",
+        "research/proofs/source-recovery/v5-audit-source-limits.txt"
+      ],
+      "change": "MISSING SOURCE: original Regular_Digital_Carry_Collapse_Universal_NoGo_Checkpoint.md for the fixed-prime digital proof. Retain reported theorem and actual scope; local summary is not a substitute for a proof."
+    }
+  ],
+  "presentation_boundaries": [
+    "Original project proofs, exact finite evidence, conditional implications and unresolved obligations have separate records.",
+    "A finite histogram, an encoded orbit, mean energy, a residue model or a continuous overlap does not establish the asymptotic same-set target.",
+    "Third-party works are cited rather than reproduced; private manuscript workflow and raw session files are outside the public evidence."
+  ]
+}

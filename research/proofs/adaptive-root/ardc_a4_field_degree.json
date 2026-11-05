@@ -1,0 +1,33 @@
+{
+  "basis": [
+    "P3",
+    "P7",
+    "gamma+",
+    "delta+",
+    "alpha+",
+    "alpha-",
+    "beta+",
+    "beta-"
+  ],
+  "rank": 8,
+  "relations": [
+    {
+      "dependent": "gamma-",
+      "basis_product": [
+        "P7",
+        "gamma+"
+      ],
+      "square_root": "1 + 1*sqrt(7)"
+    },
+    {
+      "dependent": "delta-",
+      "basis_product": [
+        "P7",
+        "delta+"
+      ],
+      "square_root": "2*sqrt(2) + 1*sqrt(14)"
+    }
+  ],
+  "degree_over_K3": 256,
+  "absolute_degree": 16384
+}
