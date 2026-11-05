@@ -4,6 +4,10 @@
 
 The full-rank quadratic target and MS-O2-I remain **OPEN**. C0, selected carrier obstructions and the relative-unit population theorem retain their individual hypotheses. The [75-claim evidence register](../2026-11-05-evidence/evidence_register.csv) records the wider research context. The [additional source provenance](source-provenance.csv) records original hashes and any excerpt boundaries for this citation supplement.
 
+## Using these references
+
+The [replacement bibliography](bibliography-github.tex) preserves all 21 keys and supplies commit-pinned GitHub links for [5]–[17]. Paste its entries inside the existing `thebibliography` environment in the v6 source. It requires the existing `hyperref` package. Reference [15] now cites Sections 1–5. The public index replaces the private source-index references in [6] and [10]. The T01 proof-availability qualification in [17] is retained. The citation URLs pin the source-support commit, so later edits on main do not move the cited evidence.
+
 ## ref5
 
 **Phase A, final frozen reproduction.** The [frozen manuscript](../../history-sources/Phase_A_Sum_Product_Reproduction_FINAL_FROZEN.pdf), Sections 4–11, and its [final change log](../../history-sources/Phase_A_FINAL_FROZEN_Change_Log.pdf) supply the project reconstruction cited in [5]. Its upstream source is the sum–product paper cited as [3].
