@@ -22,6 +22,7 @@ For the plus-sign cubic, the progression from elliptic sharing through the frame
 
 ## Start here
 
+- [Report bibliography with permanent GitHub citations](docs/report-references/2026-11-05/README.md): references 5–17, native source supplements, and ready-to-paste LaTeX entries.
 - [Codex local setup](docs/CODEX_SETUP.md): instructions, checks, and local reference transfer.
 - [Concise current project map](research/CURRENT_PROJECT_MAP.md) and [2026-09-14 setup audit](research/CODEX_MIGRATION_AUDIT.md).
 - [Reconciled project history](research/PROJECT_HISTORY.md): current four-track state, shared progress, and retained chronology.

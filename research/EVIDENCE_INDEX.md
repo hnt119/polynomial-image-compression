@@ -1,5 +1,7 @@
 # Research evidence index · 5 November 2026
 
+The [report citation guide](../docs/report-references/2026-11-05/README.md) maps the supplied v6 bibliography to permanent GitHub links. The [native source supplement](report-source-supplement/README.md) adds the earlier C0/C2/C4 arguments, norm–trace excerpt, adaptive certificates and recovered rich-fiber proof without changing their mathematical status. The standalone T01 digital proof remains unavailable.
+
 **All four fixed-polynomial targets remain OPEN.** A solution requires a fixed positive exponent and arbitrarily large finite sets of real scalars, with the **same set in both inputs** and **every ordered pair** counted. The most recent T01 theorem gives a necessary pattern of repeated *exact* collisions; it does not exhibit sets with a small full image. T03 has proved a large population of eligible units; proving that enough of them return typical input pairs is a separate, unresolved matter.
 
 For a specific result, start with the [claim ledger](evidence/2026-11-05/claim-ledger.json). For the full native evidence behind a cycle, use the [checkpoint catalogue](evidence/2026-11-05/checkpoints.json): statement and proof sections, the source's claim/audit registers, native programs and portable results. The [ledger guide](evidence/2026-11-05/README.md) explains identifiers, overlapping branches and availability. The [immutable archive manifest](manifest.json) identifies the older 39-file snapshot; it is not the modern claim ledger.

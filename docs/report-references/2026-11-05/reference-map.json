@@ -1,0 +1,340 @@
+{
+  "edition": "2026-11-05",
+  "source_commit": "145d0e5a6ff725ab13cbb5c696bf335352e6f4a1",
+  "source_report_sha256": "9d5ad8f21b86df90f3ff29cd24074bc7925d20f401fdee5a96dcf1ae966066cd",
+  "verification": "Documentary source and link check, not new proof review or research execution. External bibliography entries retained as supplied; no new literature search.",
+  "references": [
+    {
+      "key": "ref5",
+      "title": "Phase A: frozen sum-product reconstruction",
+      "locator": "Sections 4–11; change log.",
+      "evidence_and_limit": "PROVED in the supplied source system, using external arithmetic inputs. A reconstruction of ref3, not a novelty claim.",
+      "sources": [
+        {
+          "path": "research/history-sources/Phase_A_Sum_Product_Reproduction_FINAL_FROZEN.pdf",
+          "label": "Frozen reconstruction",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/Phase_A_Sum_Product_Reproduction_FINAL_FROZEN.pdf",
+          "sha256": "55741837f06336e072b390560dadc3ab7e087a946da69599c292c671db64f514"
+        },
+        {
+          "path": "research/history-sources/Phase_A_FINAL_FROZEN_Change_Log.pdf",
+          "label": "Final correction log",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/Phase_A_FINAL_FROZEN_Change_Log.pdf",
+          "sha256": "edfead13a44af821a9d320e6dca989179972444959bca5578b5c3984b24bded1"
+        }
+      ]
+    },
+    {
+      "key": "ref6",
+      "title": "Phase B state and mechanism library",
+      "locator": "Validated abstraction principles; uniform residue-class packing and split-prime amplification.",
+      "evidence_and_limit": "Project summaries and mechanism records. Collision energy gives an image lower bound; a complete-support estimate is needed for compression.",
+      "sources": [
+        {
+          "path": "research/history-sources/PHASE_B_STATE.md",
+          "label": "Phase B state",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/PHASE_B_STATE.md",
+          "sha256": "ec695630f89fdc587045710f560324ee6904a8169fcf5e7e261490349414ea6b"
+        },
+        {
+          "path": "research/history-sources/POLYNOMIAL_MECHANISM_LIBRARY.md",
+          "label": "Mechanism library",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/POLYNOMIAL_MECHANISM_LIBRARY.md",
+          "sha256": "992104e39421cc6bd5c5eed4617ab4727ca6a210436354731e3ade0050afd277"
+        }
+      ]
+    },
+    {
+      "key": "ref7",
+      "title": "Phase C0 prompt",
+      "locator": "Sections 1–3 and 6–9.",
+      "evidence_and_limit": "HISTORICAL workflow evidence. An assignment is not a proof or a current instruction.",
+      "sources": [
+        {
+          "path": "research/prompts/Phase_C0_Conjecture_Proof_Search_Prompt.md",
+          "label": "Archived C0 prompt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/prompts/Phase_C0_Conjecture_Proof_Search_Prompt.md",
+          "sha256": "6fc128ee740900418f63e2cf6f57318a356834c0b1fbd6bff6e721c545e40325"
+        }
+      ]
+    },
+    {
+      "key": "ref8",
+      "title": "Phase C1 prompt",
+      "locator": "Sections 1 and 4–6.",
+      "evidence_and_limit": "HISTORICAL requested corrections. Their accepted mathematical outcome belongs to the corrected C0 report and later quartic records.",
+      "sources": [
+        {
+          "path": "research/prompts/Phase_C1_Corrections_and_Higher_Degree_Proof_Search_Prompt.md",
+          "label": "Archived C1 prompt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/prompts/Phase_C1_Corrections_and_Higher_Degree_Proof_Search_Prompt.md",
+          "sha256": "f058aae1c47de78519924d6e395b955aa03c5565053606d1d7e7cd1f19a6ee02"
+        }
+      ]
+    },
+    {
+      "key": "ref9",
+      "title": "Phase C2 hybrid-carrier record",
+      "locator": "Prompt sections 1, 3–7; report sections 4.1, 5.1–5.2 and 8, read with the corrections.",
+      "evidence_and_limit": "PROVED identities and scoped failed certificates; the full correlated-support estimate remains OPEN. Prompt and resulting argument are different sources.",
+      "sources": [
+        {
+          "path": "research/prompts/Phase_C2_Hybrid_Carrier_Structural_Lemma_Prompt.md",
+          "label": "Archived C2 prompt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/prompts/Phase_C2_Hybrid_Carrier_Structural_Lemma_Prompt.md",
+          "sha256": "f7d4d5193a97b1d3ea5d88b416fbef172b2fad7387d69244f3840c36eb8eb621"
+        },
+        {
+          "path": "research/report-source-supplement/c2/Phase_C2_Hybrid_Carrier_Structural_Lemma.md",
+          "label": "Completed C2 record",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c2/Phase_C2_Hybrid_Carrier_Structural_Lemma.md",
+          "sha256": "3d2171e450c691f64cc6f25778e53ebb40a8b829e9b470552043aa67fe5264d9"
+        },
+        {
+          "path": "research/report-source-supplement/c2/C2_PRECISION_ADDENDUM.md",
+          "label": "Precision addendum",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c2/C2_PRECISION_ADDENDUM.md",
+          "sha256": "c747922830646d3311cb106ac2b11b7ee80e30e3a8c99696df71bfa0d378d032"
+        },
+        {
+          "path": "research/report-source-supplement/c2/C2_C3_REVIEW_CHANGE_LOG.md",
+          "label": "C2–C3 correction log",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c2/C2_C3_REVIEW_CHANGE_LOG.md",
+          "sha256": "016afcd90e64b0d22f5267e3f1f05960465baacf19cf080687bfeebd0a0dc901"
+        }
+      ]
+    },
+    {
+      "key": "ref10",
+      "title": "Corrected C0 proof and later scope extension",
+      "locator": "September Theorem C0.1, Lemmas 4.2–4.4 and sections 5–6; November mathematical excerpt and MP-01–MP-07.",
+      "evidence_and_limit": "PROVED within the supplied source system. September assumes primitivity and transversality; the separate November argument covers all fixed integer quadruples in (ax+by)^2+cx+ey. Do not attribute the broader statement to the narrower original. The excerpt is dated 3 November, not a transcription of the v6 PDF.",
+      "sources": [
+        {
+          "path": "research/report-source-supplement/c0/Phase_C0_Corrected.md",
+          "label": "September corrected C0 proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c0/Phase_C0_Corrected.md",
+          "sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be"
+        },
+        {
+          "path": "research/report-source-supplement/c0/C0_CORRECTION_LOG.md",
+          "label": "C0 correction log",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c0/C0_CORRECTION_LOG.md",
+          "sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480"
+        },
+        {
+          "path": "research/report-source-supplement/c0/theorem-and-proof.tex",
+          "label": "3 November theorem and proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c0/theorem-and-proof.tex",
+          "sha256": "928cbe5fe7beba56d12607b877762a6b7084408426c829d8539a85db5bcd68c4"
+        },
+        {
+          "path": "research/report-source-supplement/c0/audit-2026-11-04.txt",
+          "label": "4 November internal audit",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c0/audit-2026-11-04.txt",
+          "sha256": "791b06bde2b353a6b2593bd434f186d65c15c23894deda6c3f3bc462e8aa1fc5"
+        }
+      ]
+    },
+    {
+      "key": "ref11",
+      "title": "Norm–trace reduction and transfer",
+      "locator": "Sections 2.1–2.3, including equation (2.6) and its proof.",
+      "evidence_and_limit": "PROVED implication, CONDITIONAL application: both a small homogeneous image and small differences are required. No growing witness is supplied. The publication is an explicit section excerpt.",
+      "sources": [
+        {
+          "path": "research/report-source-supplement/norm-transfer/norm-transfer.md",
+          "label": "Checkpoint proof excerpt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/norm-transfer/norm-transfer.md",
+          "sha256": "43184647844c46a703d1511cdd52c06b37578e182fa3a663c47212a592942588"
+        }
+      ]
+    },
+    {
+      "key": "ref12",
+      "title": "MS-O1 relative-unit population",
+      "locator": "Arithmetic sections 3–5; field-units section 7, MS-F6, equations (20)–(23); window-returns section 2.",
+      "evidence_and_limit": "PROVED population and cutoff within the supplied source system. Population does not prove the required typical-pair returns or a small entire image.",
+      "sources": [
+        {
+          "path": "research/notes/2026-10-21-relative-unit-population/README.md",
+          "label": "MS-O1 checkpoint",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-relative-unit-population/README.md",
+          "sha256": "4f97def17ecface90910c90e9bd396d888cac736aa0af5e2728ab8a489a3b74a"
+        },
+        {
+          "path": "research/notes/2026-10-21-relative-unit-population/arithmetic.md",
+          "label": "Arithmetic proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-relative-unit-population/arithmetic.md",
+          "sha256": "0d5657f7846e58dc700cab62951b44158d92d1888b8d6c09443eba94bc693f46"
+        },
+        {
+          "path": "research/notes/2026-10-21-relative-unit-population/geometry-audit.md",
+          "label": "Geometry and internal audit",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-relative-unit-population/geometry-audit.md",
+          "sha256": "a9e9d4cd3ba8c3cfde01eb6b37420f4286868e2b1a3eef6cb6cfde2b73c384b0"
+        },
+        {
+          "path": "research/notes/2026-10-21-relative-unit-population/ledger.md",
+          "label": "Quantitative ledger",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-relative-unit-population/ledger.md",
+          "sha256": "666aa6e896b96b998908d237a6b7392fefe04099ddcc1941e523f67e1060ffcf"
+        },
+        {
+          "path": "research/notes/2026-10-20-mixed-signature/field-units.md",
+          "label": "Mixed-signature prerequisite",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-20-mixed-signature/field-units.md",
+          "sha256": "b8b7c74b1a8924137207556e17c601df60f7d3530268f7ecc7a5d88803d48f70"
+        },
+        {
+          "path": "research/notes/2026-10-20-mixed-signature/window-returns.md",
+          "label": "Window and cutoff",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-20-mixed-signature/window-returns.md",
+          "sha256": "12ea4e7c362c9cf7bfa42212959abb152053afb92c018870ad6e1dcfe437a1fd"
+        }
+      ]
+    },
+    {
+      "key": "ref13",
+      "title": "MS-O2 typical-pair returns",
+      "locator": "Main sections 2, 5–6; incidences sections 2–4.",
+      "evidence_and_limit": "PROVED orbit identities. The required decay of occupied arithmetic labels and corresponding return exponent remain OPEN; the gap is a mathematical premise, not a missing source.",
+      "sources": [
+        {
+          "path": "research/notes/2026-10-21-typical-unit-returns/README.md",
+          "label": "MS-O2 checkpoint",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-typical-unit-returns/README.md",
+          "sha256": "148e70baaf37e296108ac4715777036dd6da444f4aec7d4152223786b21e6d34"
+        },
+        {
+          "path": "research/notes/2026-10-21-typical-unit-returns/incidences.md",
+          "label": "Orbit and incidence proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-typical-unit-returns/incidences.md",
+          "sha256": "26b6ee8bbfcaff364f0b305e5d04730e37a5e99e288008a9cd0bad163822c82e"
+        },
+        {
+          "path": "research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "label": "Internal proof audit",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "sha256": "c6b6ab6b2c16d2d4101ac807c1a1fb122d0b4e49f4575658b73d3095984e8e4a"
+        }
+      ]
+    },
+    {
+      "key": "ref14",
+      "title": "Adaptive radical state and exact certificates",
+      "locator": "State sections 3–4 and 7; exact certificates listed in the supplement manifest.",
+      "evidence_and_limit": "EXPERIMENTAL exact finite counts (2,2), (4,5), (8,17), (16,68), (32,269); the uniform RC15/4 premise remains OPEN. A3-to-A4 is certified by ardc_a3_exact_certificate.py/results.json; a field-degree file alone does not certify the image count. Programs were preserved, not rerun for this citation edition.",
+      "sources": [
+        {
+          "path": "research/report-source-supplement/adaptive-root/state-sections-2-to-7.md",
+          "label": "T03 state excerpt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/adaptive-root/state-sections-2-to-7.md",
+          "sha256": "af8ab8403af308b39a6de4dfb6789e63a34dad47c87a06adf5372d4d232d20d9"
+        }
+      ]
+    },
+    {
+      "key": "ref15",
+      "title": "BFF-O1 carrier retirement",
+      "locator": "Main sections 1–5; tower BFO-T1–T4; elimination E1–E4.",
+      "evidence_and_limit": "PROVED actual-image lower bound for this specified balanced-factor family, at sufficiently large depths. Other carriers and the fixed T03 target remain OPEN.",
+      "sources": [
+        {
+          "path": "research/notes/2026-10-11-bff-o1/README.md",
+          "label": "BFF-O1 checkpoint",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-11-bff-o1/README.md",
+          "sha256": "c4f022e8b261537e790b03b8cabfa480e38e41765f94a93bb83b4b996efcda94"
+        },
+        {
+          "path": "research/notes/2026-10-11-bff-o1/tower.md",
+          "label": "Tower argument",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-11-bff-o1/tower.md",
+          "sha256": "e32682b1c594b0787556f509fa7439e2e13a558586975801a46c5e317d60f265"
+        },
+        {
+          "path": "research/notes/2026-10-11-bff-o1/elimination.md",
+          "label": "Elimination proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-11-bff-o1/elimination.md",
+          "sha256": "5b01814892fa351cde2971c6b21b97010fcb0f7b8b9d26cda6153f8f49de8906"
+        },
+        {
+          "path": "research/notes/2026-10-11-bff-o1/audit.md",
+          "label": "Internal audit",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/notes/2026-10-11-bff-o1/audit.md",
+          "sha256": "fcc2feabeaab614396f07d696de78fae65f645a6d442b3de9f175a3494c204fe"
+        }
+      ]
+    },
+    {
+      "key": "ref16",
+      "title": "C4 higher ramified precision",
+      "locator": "Main sections 1–6, with the signed-rate and review scopes.",
+      "evidence_and_limit": "PROVED local counts and FAILED specified full-support, full-interval packing certificate. The negative certificate is not an actual-image lower bound or a disproof of T02.",
+      "sources": [
+        {
+          "path": "research/report-source-supplement/c4/Phase_C4_Higher_Ramified_Precision.md",
+          "label": "C4 analytic proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c4/Phase_C4_Higher_Ramified_Precision.md",
+          "sha256": "0c438ad31f11c48ff8a74bff5454bf1eda8dd7cc3b5f8b2cd05e7dd6b582a91c"
+        },
+        {
+          "path": "research/report-source-supplement/c4/C4_SIGNED_RATE_LEDGER.md",
+          "label": "Signed-rate ledger",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c4/C4_SIGNED_RATE_LEDGER.md",
+          "sha256": "76afd88f997cdf5385dda7463654e3a164ef8044ed86cd066ef8e0fd52b4fbd8"
+        },
+        {
+          "path": "research/report-source-supplement/c4/REFEREE_REPORT_C4.md",
+          "label": "Internal referee report",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c4/REFEREE_REPORT_C4.md",
+          "sha256": "03f241fde0e23332f0f7fa54ed02fd906e32c9c6f089dc1d606807de74eab169"
+        },
+        {
+          "path": "research/report-source-supplement/c4/T02_C4_REVIEW_ACCEPTANCE_AND_HANDOFF.md",
+          "label": "Accepted handoff",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/c4/T02_C4_REVIEW_ACCEPTANCE_AND_HANDOFF.md",
+          "sha256": "8d093d4111e04dfd42d6bf13117305809beffceb44f1e8d81f16b64d4ef7c714"
+        }
+      ]
+    },
+    {
+      "key": "ref17",
+      "title": "Two separate cubic obstruction records",
+      "locator": "T01 section 4.3 (T01.6); T04 sections 4.5 and 4.7; transfer D.3; complementary B–F; rich-fiber B–C, Theorem 3.",
+      "evidence_and_limit": "T04 concerns (x-y)^3-3(x+y): the rich-fiber family has 2N scalars and 4N^2-N+1 outputs. Its full retained proof is now available. T01 concerns (x-y)^3+x+y: the digital theorem is source-reported PROVED, but its complete standalone proof is MISSING SOURCE / PROVENANCE FILE. Do not transfer the T04 proof to T01.",
+      "sources": [
+        {
+          "path": "research/report-source-supplement/cubic-obstructions/T01-state-digital-theorems.md",
+          "label": "T01 digital statement excerpt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/cubic-obstructions/T01-state-digital-theorems.md",
+          "sha256": "80a3faebb937412980227e4703b568bb50f837f652b64c2bfe30847e5c33c693"
+        },
+        {
+          "path": "research/report-source-supplement/cubic-obstructions/T04-state-sections-4.5-and-4.7.md",
+          "label": "T04 state excerpt",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/cubic-obstructions/T04-state-sections-4.5-and-4.7.md",
+          "sha256": "e7e0c104648c35cdaea3aef8764bc78d0f92c6dbb18b2636bf0c86dc1df2e652"
+        },
+        {
+          "path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+          "label": "Quadratic-to-cubic transfer proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+          "sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+        },
+        {
+          "path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "label": "Complementary-prime proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/history-sources/complementary_prime_transfer_obstruction.md",
+          "sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        },
+        {
+          "path": "research/report-source-supplement/cubic-obstructions/rich_fiber_results_checkpoint.md",
+          "label": "Rich-fiber proof",
+          "url": "https://github.com/hnt119/polynomial-image-compression/blob/145d0e5a6ff725ab13cbb5c696bf335352e6f4a1/research/report-source-supplement/cubic-obstructions/rich_fiber_results_checkpoint.md",
+          "sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+        }
+      ]
+    }
+  ]
+}

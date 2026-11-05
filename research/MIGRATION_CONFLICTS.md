@@ -236,3 +236,10 @@ The T03 archive has SHA-256
 The curated supplement manifest records provenance and hashes for additional
 companions. Existing `research/manifest.json` continues to describe only the
 original 39 archived files; it was not rewritten or expanded by this migration.
+
+
+## 2026-11-05 — public bibliography evidence availability
+
+This dated addendum narrows earlier availability statements without rewriting them. The [source supplement](report-source-supplement/README.md) now publishes the retained original `rich_fiber_results_checkpoint.md` (SHA-256 `d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237`), matched independently to its retained T04 archive member. Sections B–C and Theorem 3 contain the avoidance argument and exact full-image count for the minus-sign cubic. This resolves that document's availability for citation, not the T04 target or the entire MC-06 missing-package list.
+
+The same supplement publishes identified corrected C0, C2/C4, norm–trace and adaptive-root source copies or excerpts. Its manifest specifies which original and which sections each public file preserves. Copy/excerpt checks are not a new proof audit. The T01 §4.3 digital statement is available as an excerpt; its complete standalone proof remains **MISSING SOURCE / PROVENANCE FILE**. No T04 proof supplies the missing T01 argument. [Permanent citation links and scope ledger](../docs/report-references/2026-11-05/README.md) distinguish these sources.

@@ -292,3 +292,10 @@ network, carrier mutation, expanded scout or commit occurred.
 The [chronological index and claim ledger](EVIDENCE_INDEX.md) link the four fixed targets to their preserved proofs, finite evidence, and audit dates. The T01 chronology covers elliptic sharing, network compatibility, fixed-width restrictions, the infinite-order marked shift, the VO/TJ exclusions, and exact multiscale branching. The T03 directory includes the later MS-O2 unresolved return problem. No supersession of a mathematical result occurred in preparing this edition. All four fixed targets remain **OPEN**. The new [readable report and technical appendix](reports/2026-11-05-evidence-export/README.md) and [retention record](../docs/release/2026-11-05/README.md) explain what a public checkout can verify.
 
 The [shared all-coefficient quadratic digest](../docs/release/2026-11-05/shared-quadratic.md) records the distinct November theorem and its prior audit. The older nonspecial C0 scope remains recorded historically; its nonvanishing condition is not needed for the later compression theorem.
+
+
+## 2026-11-05 — report-reference source supplement
+
+After the evidence archive was merged, the [bibliography citation guide](../docs/report-references/2026-11-05/README.md) linked the supplied report's project references 5–17 to a fixed Git commit. The [source supplement](report-source-supplement/README.md) contains 24 native documents, exact data files or explicit section excerpts, with original and public hashes. Source identity and scope were checked independently; no mathematical proof search or imported research program was run. The separate older C0 statement and November all-integer argument are both retained.
+
+The complete T04 rich-fiber checkpoint is now publicly available. This updates availability only: it concerns the minus-sign cubic and has quadratic full-image growth. The standalone plus-sign T01 digital proof remains MISSING SOURCE / PROVENANCE FILE. All four targets stay OPEN. The personal report and restricted external papers were not uploaded.
