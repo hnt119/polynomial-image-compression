@@ -1,0 +1,213 @@
+{
+  "date": "2026-09-16",
+  "purpose": "New cycle provenance; canonical archive manifests are unchanged",
+  "source_proof_audit_boundary": "New NT-1/2/3 proofs internally audited; C0 arithmetic source theorem not independently recertified; older formal tail lemma inspected with zero-safe correction in README NT-5",
+  "claims": {
+    "NT-20260916-1": "algebra.md: degree of one norm plus trace",
+    "NT-20260916-2": "algebra.md: exact intermediate-field rigidity",
+    "NT-20260916-3": "sign-cube.md: all-m exact counts",
+    "NT-20260916-4": "README.md section 3: finite norm/trace carriers",
+    "NT-20260916-5": "README.md section 4: zero-safe multiplier criterion",
+    "NT-20260916-6": "README.md section 5: F1-F3 finite diagnostics",
+    "NT-20260916-7": "run-summary.md: finite single-word rephasing"
+  },
+  "files": [
+    {
+      "path": "examples/2026-09-16-solvable-norm-trace.json",
+      "role": "new_cycle_artifact",
+      "bytes": 76599,
+      "sha256": "108e2c8709f1c65b5af7d62893746813b539285d9eee9ef491662eaa8fc5e276"
+    },
+    {
+      "path": "experiments/eisenstein_rephase.py",
+      "role": "new_cycle_artifact",
+      "bytes": 12836,
+      "sha256": "3794d5e70fe40f7fc6c48eea4b551312432b363f515efc673e542e69d24fbb56"
+    },
+    {
+      "path": "experiments/eisenstein_solvable.py",
+      "role": "new_cycle_artifact",
+      "bytes": 16981,
+      "sha256": "cb3de0a0a616b6df4e5a4e0a6d7f55476b71a9a2b9654d86e81c1e86a9929b17"
+    },
+    {
+      "path": "experiments/solvable_norm_trace.py",
+      "role": "new_cycle_artifact",
+      "bytes": 8307,
+      "sha256": "f245759bc57b0e75e20e3a85c6d4ab54c0306ed5a0eeed712629207c6b70e0f7"
+    },
+    {
+      "path": "research/notes/2026-09-16-solvable-norm-trace/README.md",
+      "role": "new_cycle_artifact",
+      "bytes": 17861,
+      "sha256": "ec86f8e206ee7809a96350f71edcf834172f255ecd6e0bb088988da29cdd6a29"
+    },
+    {
+      "path": "research/notes/2026-09-16-solvable-norm-trace/algebra.md",
+      "role": "new_cycle_artifact",
+      "bytes": 12859,
+      "sha256": "fa97f817e238f05a809f0f200bd6a0b865f0ada5a7c633a1e4e7a7e0aad12a5e"
+    },
+    {
+      "path": "research/notes/2026-09-16-solvable-norm-trace/run-summary.md",
+      "role": "new_cycle_artifact",
+      "bytes": 8639,
+      "sha256": "6b2108a0802deb9979bb037c310fcdd83f328f59401d90654fe0801855a926ba"
+    },
+    {
+      "path": "research/notes/2026-09-16-solvable-norm-trace/sign-cube.md",
+      "role": "new_cycle_artifact",
+      "bytes": 12636,
+      "sha256": "195582ca56ee4644e2cf68df93ca290e0550314ab28d6cf99d0f31e7aa48e72f"
+    },
+    {
+      "path": "tests/test_eisenstein_rephase.py",
+      "role": "new_cycle_artifact",
+      "bytes": 1689,
+      "sha256": "e9cc374dff74ca8142e8075999747a0f93b3e5f71b2dd072f355d700c8f9eb0d"
+    },
+    {
+      "path": "tests/test_eisenstein_solvable.py",
+      "role": "new_cycle_artifact",
+      "bytes": 3872,
+      "sha256": "427c78c4e3c18d76877dd10372f85a1230e9857530f9f396a642db2c511693fd"
+    },
+    {
+      "path": "tests/test_solvable_norm_trace.py",
+      "role": "new_cycle_artifact",
+      "bytes": 2915,
+      "sha256": "56eabf37dec7c3329f591e456187eedc27e20aace0f78bc3185cc6b8ddd3d6c5"
+    },
+    {
+      "path": "local-only/migration/research_supplement/shared/C0_CORRECTION_LOG.md",
+      "role": "inspected_source",
+      "bytes": 6459,
+      "sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480"
+    },
+    {
+      "path": "local-only/migration/research_supplement/shared/Phase_C0_Corrected.md",
+      "role": "inspected_source",
+      "bytes": 28002,
+      "sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be"
+    },
+    {
+      "path": "local-only/migration/sources/00_MASTER_HANDOFF.md",
+      "role": "inspected_source",
+      "bytes": 14694,
+      "sha256": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250"
+    },
+    {
+      "path": "local-only/migration/sources/T01_CURRENT_STATE.md",
+      "role": "inspected_source",
+      "bytes": 42403,
+      "sha256": "2095cb7b4a5f7d848dea1356956ad36f5303e4037b13b2efe7fa32b0c08f2624"
+    },
+    {
+      "path": "local-only/migration/sources/T01_Norm_Trace_Quadratic_Research_Checkpoint.md",
+      "role": "inspected_source",
+      "bytes": 23468,
+      "sha256": "a9de1edb1ebc43465de7e12cd2e815e8647b4199a0c303afff2e4a8815abc0db"
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "role": "inspected_source",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850"
+    },
+    {
+      "path": "research/notes/2026-09-14-study-notes/03-eisenstein.md",
+      "role": "inspected_source",
+      "bytes": 9025,
+      "sha256": "5bb95d6f716254743cd4ee2acc3c0a99c7ee22cf436af07d4d495f65ee844800"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-solvable-multipliers/eisenstein-v2.json",
+      "role": "raw_exact_run",
+      "bytes": 17078,
+      "sha256": "b93c6e745a338dffd3d13daa5bc5868568fa1d4b81e9de83bd9fc586083b1e0e"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-solvable-multipliers/eisenstein.json",
+      "role": "raw_exact_run",
+      "bytes": 17075,
+      "sha256": "d796b7dd5e164600902a8949ef78973b86a1e6976930042e7a032153fd197501"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-solvable-multipliers/rephase-v2.json",
+      "role": "raw_exact_run",
+      "bytes": 229589,
+      "sha256": "7c514983f4633d6fb66842f33512b14685aa22621bb5b9433e5879dee027de14"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-solvable-multipliers/rephase.json",
+      "role": "raw_exact_run",
+      "bytes": 229609,
+      "sha256": "88e6593a5028d7295f3fe94012c195e4632a8f92abc2321c3fe95e15c95f26cc"
+    },
+    {
+      "path": "local-only/runs/shared/2026-09-16-solvable-norm-trace/norm-results-v2.json",
+      "role": "raw_exact_run",
+      "bytes": 37209,
+      "sha256": "d9dcfc73d52eca2767a7ec2650a44ecab49a7e0399425186a6975017ed2494cf"
+    },
+    {
+      "path": "local-only/runs/shared/2026-09-16-solvable-norm-trace/norm-results.json",
+      "role": "raw_exact_run",
+      "bytes": 35574,
+      "sha256": "7018f2639355a231c0aa8d1e0b35ca6d4b18ef4cbb88d966fa08f337a2e0e134"
+    },
+    {
+      "path": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "role": "inspected_source_archive",
+      "sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/TCRC_History_Parameters.md",
+      "role": "inspected_source_member",
+      "bytes": 10731,
+      "sha256": "e39299e1c43335bf26e1c28549b3f6eab20edf69fb4ea0aef91cfd7953bf825a",
+      "inspection_scope": "Read complete written report; no old certificate rerun"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/TCRC_Root_Algebra_Pair_Maps.md",
+      "role": "inspected_source_member",
+      "bytes": 12166,
+      "sha256": "483a232f4344c9c354e02fd21e8f7ab78cc44557ff48ad02306600c079ac05f0",
+      "inspection_scope": "Read complete written report; no old certificate rerun"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/TCRC_Triangle_Closure.md",
+      "role": "inspected_source_member",
+      "bytes": 13160,
+      "sha256": "f6586783e413a57cebc4651cd32a48fe5a0e4a50615ef86af5ef6c23b08f6537",
+      "inspection_scope": "Read complete written report; no old certificate rerun"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/TCRC_Finite_Covers_m1_m2.md",
+      "role": "inspected_source_member",
+      "bytes": 11129,
+      "sha256": "40d6446b9b4f8bc4bb2ee2c6cc3491b7f6f3beca15ddddab3979f13671a4280f",
+      "inspection_scope": "Read complete written report; no old certificate rerun"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/TCRC_Finite_Covers_m3_m4.md",
+      "role": "inspected_source_member",
+      "bytes": 15067,
+      "sha256": "b828d2ee5a2a101dae285627f42bcfa7bec23d5b564054565c6c3e2d319ee65c",
+      "inspection_scope": "Read complete written report; no old certificate rerun"
+    },
+    {
+      "archive": "local-only/migration/research_supplement/T03/T03_RESEARCH_RECORD_20260910.zip",
+      "member": "output/Quadratic_Norm_Form_Focused_Offline_Report.md",
+      "role": "inspected_source_member",
+      "bytes": 19176,
+      "sha256": "87dac74cdcf1b841b18480e6c300d39ed5fb289ed97991b13fe20a02fd72a6dc",
+      "inspection_scope": "Sections 2-6"
+    }
+  ]
+}

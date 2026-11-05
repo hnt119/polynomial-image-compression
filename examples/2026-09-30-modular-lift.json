@@ -1,0 +1,126 @@
+{
+  "cases": [
+    {
+      "k": 1,
+      "modular_input_size": 7,
+      "primitive_modular_pairs": 48,
+      "orbit_count": 8,
+      "angular_scalar_size": 3,
+      "lifted_real_input_size": 17,
+      "surviving_actions": 6,
+      "median_genuine_returns": 2,
+      "identity_only_pairs": 1,
+      "epsilon": "1/4",
+      "threshold_ceiling": 3,
+      "bad_pairs": 241,
+      "mixed_shell_pairs": 224,
+      "projection_fibers_on_encoded_pairs": 1,
+      "engineered_pairs": 48,
+      "symmetric_difference": 0,
+      "full_Q_image": 73,
+      "angular_Q_image": 3,
+      "angular_return_histogram": {
+        "1": 1,
+        "2": 2,
+        "6": 6
+      },
+      "full_return_histogram": {
+        "1": 1,
+        "2": 240,
+        "6": 48
+      },
+      "geometric_mean_display": 2.394602447567966,
+      "maximum_genuine_returns": 6,
+      "counts_method": "exhaustive exact angular core; full completion derived by ML-4 equations (19)-(20)",
+      "field_modulus": [
+        1,
+        -1,
+        1
+      ],
+      "radical_degree_D": 103
+    },
+    {
+      "k": 2,
+      "modular_input_size": 49,
+      "primitive_modular_pairs": 2352,
+      "orbit_count": 56,
+      "angular_scalar_size": 21,
+      "lifted_real_input_size": 1121,
+      "surviving_actions": 42,
+      "median_genuine_returns": 2,
+      "identity_only_pairs": 1,
+      "epsilon": "1/4",
+      "threshold_ceiling": 6,
+      "bad_pairs": 1251265,
+      "mixed_shell_pairs": 1232000,
+      "projection_fibers_on_encoded_pairs": 1,
+      "engineered_pairs": 2352,
+      "symmetric_difference": 0,
+      "full_Q_image": 313657,
+      "angular_Q_image": 102,
+      "angular_return_histogram": {
+        "1": 1,
+        "2": 344,
+        "6": 54,
+        "42": 42
+      },
+      "full_return_histogram": {
+        "1": 1,
+        "2": 1251264,
+        "6": 3024,
+        "42": 2352
+      },
+      "geometric_mean_display": 2.016752704339401,
+      "maximum_genuine_returns": 42,
+      "counts_method": "exhaustive exact angular core; full completion derived by ML-4 equations (19)-(20)",
+      "field_modulus": [
+        1,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        1,
+        0,
+        -1,
+        -1,
+        0,
+        1,
+        1
+      ],
+      "radical_degree_D": 4747
+    }
+  ],
+  "error": null,
+  "reproducibility": {
+    "command": [
+      "experiments/modular_lift.py",
+      "--output",
+      "examples/2026-09-30-modular-lift.json",
+      "--raw",
+      "local-only/runs/T03/2026-09-30-modular-lift/core-and-orbits.json"
+    ],
+    "python": "3.12.7",
+    "fixed_k": [
+      1,
+      2
+    ],
+    "code_sha256": "0be8b14d111991ec4df96141702e9f4ef156088fc70c3517abd377240b0f6f14",
+    "charged_evaluations": 40452,
+    "categories": {
+      "modular_orbit_transition": 2400,
+      "angular_core_Q": 450,
+      "angular_core_norm_oracle": 450,
+      "angular_complex_action": 18576,
+      "angular_matrix_oracle": 18576
+    },
+    "cpu_seconds": 3.0722199999999997,
+    "wall_seconds": 3.086176666081883,
+    "query_cap": 100000,
+    "cpu_cap_seconds": 60,
+    "network_used": false,
+    "equality": "integer coefficients modulo Phi_m; theta powers independent through 2t",
+    "rounding": "geometric mean display only",
+    "seed": null
+  }
+}

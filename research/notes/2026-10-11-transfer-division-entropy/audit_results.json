@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "bezout_certificates": 5,
+  "independent_P_evaluations": 196,
+  "full_pair_vertices_including_isolates": 196,
+  "component_histogram": {
+    "1": 186,
+    "5": 2
+  },
+  "common_output_denominator": "1044773344858995387373421595301374383345664",
+  "all_conjugate_output_bound": "3381560280126721696866124364346287926",
+  "all_conjugate_input_bound": "57332594340448401883115",
+  "separation_bound": "1 / (common_output_denominator^8 * (2*all_conjugate_output_bound)^7)",
+  "separation_denominator_bits": 1974,
+  "total_cycle_P_evaluations": 598,
+  "python": "3.12.7",
+  "wall_seconds": 0.11577237513847649,
+  "cpu_seconds": 0.115317,
+  "hashes": {
+    "exact_cycle.py": "b5e25e8bdc1d170d7597b0061d6529c2d7a3215b414705ec0c52f5fb3870ae66",
+    "attachments_results.json": "76072f08356684b59fbbadb864d51c8a4c6f80b1930383b504d300e57b863000",
+    "elliptic_results.json": "5e994b8bfd6a689152d5e918fccf0f307226a91a5cbdeeca8822d3ffd1f8c939",
+    "audit_results.py": "08511a3ac1e7b8c094f9541993c8904f0a7391b2b5133fc48369ad47a54d839c"
+  }
+}

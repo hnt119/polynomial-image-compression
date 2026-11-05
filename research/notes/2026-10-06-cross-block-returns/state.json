@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-06",
+  "thread": "T03",
+  "cycle": "new-cross-block-returns",
+  "polynomial": "x^2+xy+y^2",
+  "network": "strictly offline",
+  "status": "TWO_CARRIER_OBSTRUCTIONS_PROVED",
+  "claims": {
+    "XB-A1": {
+      "status": "PROVED",
+      "source": "actions.md \u00a71",
+      "meaning": "Explicit norm-one ratio swaps coordinates; mixed parity outside mu_m at cross-parity sources"
+    },
+    "XB-A2": {
+      "status": "PROVED",
+      "source": "actions.md \u00a72",
+      "meaning": "Fixed swap-certified source domain is one real line; full domain separately given; finite deduplicated action inventory"
+    },
+    "XB-A3": {
+      "status": "PROVED",
+      "source": "actions.md \u00a73",
+      "meaning": "Fixed Vieta action maps (b,tb) to (b,-(1+t)b) inside the mixed carrier"
+    },
+    "XB-C1": {
+      "status": "PROVED",
+      "source": "composition.md \u00a7\u00a73-4",
+      "exceptional_independent_sources_at_most": "4(n-1)"
+    },
+    "XB-F1": {
+      "status": "PROVED",
+      "source": "audit.md \u00a72",
+      "parameter": "d>=1, unchanged pure dyadic carrier",
+      "full_fiber": 4,
+      "source_population_at_least": "4(n-1)^2/9",
+      "actual_image_at_least": "(n-1)^2/9",
+      "scope": "all collisions and all action choices on this carrier"
+    },
+    "XB-F2": {
+      "status": "PROVED",
+      "source": "audit.md \u00a7\u00a73-5",
+      "parameter": "d>=1, unchanged mixed dyadic carrier",
+      "full_fiber_at_most": 48,
+      "source_population_at_least": "(n-1)^2/2-4(n-1)",
+      "actual_image_at_least": "(n-1)^2/96-(n-1)/12",
+      "scope": "all collisions and all action choices on this carrier"
+    }
+  },
+  "carrier_status": {
+    "pure_dyadic_power_saving": "FAILED IN STATED SCOPE",
+    "mixed_dyadic_power_saving": "FAILED IN STATED SCOPE",
+    "actual_image_rate_both": "Theta(n^2)",
+    "lambda_limit": "NOT ESTABLISHED"
+  },
+  "return_tail": {
+    "epsilon_delta": "No fixed positive epsilon,delta work for either carrier, uniformly over all finite norm-one action families",
+    "eta": "inapplicable; same-set squares only",
+    "positive_c": false,
+    "pure_improvement": "2 to4 on at least4(n-1)^2/9 sources; not a claim about global median",
+    "mixed_improvement": "Explicit extra Vieta targets on a line; no typical-growth claim"
+  },
+  "remaining_status": {
+    "T03": "OPEN",
+    "DC-O1": "OPEN",
+    "ML-O1": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG/TCRC": "OPEN",
+    "HR-N1": "DISPROVED"
+  },
+  "next_obligation": {
+    "id": "XB-O1",
+    "status": "OPEN",
+    "source": "README.md final section",
+    "meaning": "Construct disjoint ML-O1 amplitudes with actual scalar growth and a fixed power-spreading bound on every line over each relative quadratic subfield of the real coefficient field",
+    "not_equivalent_to_target": true,
+    "not_a_positive_conjecture": true
+  },
+  "review": {
+    "lead_independent_symbolic_audit": true,
+    "independent_specialist_full_fiber_audit": true,
+    "external_review": false
+  },
+  "budget": {
+    "evaluation_definition": "One exact evaluation for each ordered-pair Q value, each actual multiplier/source target-and-membership test, or each independent exact validation of one such value/test. Carrier-generation primitive arithmetic is timed but not a pair/action evaluation. Both complete and interrupted runs are charged.",
+    "total_evaluation_limit": 2000000,
+    "total_cpu_seconds_limit": 600,
+    "discovery_limit": {
+      "evaluations": 1600000,
+      "cpu_seconds": 480
+    },
+    "verification_reserve": {
+      "evaluations": 400000,
+      "cpu_seconds": 120
+    },
+    "execution_authority": "lead only; subagents prohibited from mathematical program execution",
+    "used": {
+      "evaluations": 0,
+      "cpu_seconds": 0
+    },
+    "enforcement": "No research program may start without lead authorization and preflight count within remaining discovery/reserve; a running scout must stop on its counter or process CPU deadline. No scout is currently authorized."
+  },
+  "search_accounting": {
+    "specialists": 3,
+    "mechanisms": 1,
+    "finalists": 2,
+    "mutations": 0,
+    "research_program_runs": 0,
+    "stop": "Both finalists rigorously obstructed before scouting"
+  },
+  "novelty_claimed": false,
+  "historical_sources_modified": false,
+  "uncommitted": true,
+  "checks": {
+    "repository": "PASS:39 archives,167 Markdown files",
+    "setup": "PASS:50 references,43 T03 members",
+    "git_diff_check": "PASS",
+    "new_file_formatting": "PASS",
+    "preservation": "PASS:five exact append-only handoffs,all other296-file baseline entries unchanged",
+    "regressions": "not run; no code changed"
+  }
+}

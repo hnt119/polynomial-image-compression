@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-11",
+  "version": 1,
+  "note": "SHA-256 of complete written proofs and evidence files; manifest excludes itself. Source files are unchanged inputs.",
+  "files": {
+    "README.md": "c4f022e8b261537e790b03b8cabfa480e38e41765f94a93bb83b4b996efcda94",
+    "audit.md": "fcc2feabeaab614396f07d696de78fae65f645a6d442b3de9f175a3494c204fe",
+    "elimination.md": "5b01814892fa351cde2971c6b21b97010fcb0f7b8b9d26cda6153f8f49de8906",
+    "ledger.md": "811b91497ff27a1b13c66bf0475a7af1326152b1613c2a2e8edd90ace3e55c37",
+    "state.json": "2afd269753fcebc03580089c3d43fd954a3e1967c3bed286a9cd3f68279df9c9",
+    "tower.md": "e32682b1c594b0787556f509fa7439e2e13a558586975801a46c5e317d60f265",
+    "two-adic-screen.md": "5a4b33a84dd5c4ea5e83080c2d9199eaeaec676e555ac19061b5c43a9755e958",
+    "verification.md": "6664398455e632f44a016402a59abea29e12e228908d7c4a41f0cf867ceb0c2b"
+  },
+  "sources": {
+    "research/notes/2026-10-11-balanced-full-fibers/README.md": "458d9314e799c1e4a4818779bdbb9add08c414af2acabf12e62033ee483f3205",
+    "research/notes/2026-10-11-balanced-full-fibers/algebra.md": "57bf015d74740c2f1ce4ce487d4429c51e07827b52bf3137c14d94bf367262d0",
+    "research/notes/2026-10-11-balanced-full-fibers/coupled.md": "7d46f921aeea196270d970f1ddd700bf567c5e203cc7d8d413d0ea58671539e9",
+    "research/notes/2026-10-11-balanced-full-fibers/audit.md": "a36728c584cf4b24308e76f556e882e9ae164c5626f032f3ec697d8f5b400519",
+    "research/notes/2026-10-11-balanced-full-fibers/ledger.md": "b33307bfc0952c8a4fa457d4da80e781f7588f21cfdee63a44cc01959521890c",
+    "research/notes/2026-10-11-balanced-full-fibers/data.json": "4ba1c72a7ab75cdd96fce364f861fd2998b03dcfd66325c75b491f16085228b9",
+    "research/notes/2026-10-11-balanced-full-fibers/state.json": "0f410dd267bda98363cddb9c23e65d22b18081e8727b842766d5e4e956936bba",
+    "research/notes/2026-10-06-cross-block-amplification/amplitudes.md": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6",
+    "research/notes/2026-10-06-fiber-growth/amplitudes.md": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba",
+    "local-only/migration/sources/T03_CURRENT_STATE.md": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850",
+    "local-only/migration/sources/00_MASTER_HANDOFF.md": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250"
+  },
+  "local_accounting": {
+    "local-only/runs/T03/2026-10-11-bff-o1/budget-initial.json": "8701fbee553cba328c719fa78502f4963428a31ccd8c99d19ff10f005233fb8f",
+    "local-only/runs/T03/2026-10-11-bff-o1/budget.json": "39e4f001326fcf86ce45432fa937527f86180af6bc5cf54ee9f62a5b303ae6c0",
+    "local-only/runs/T03/2026-10-11-bff-o1/checks.json": "d3a429f1121b7ec433439cb5d85d57bd7db02feb86c19ca8106022c364006145",
+    "local-only/runs/T03/2026-10-11-bff-o1/preservation.json": "324a3163ec4d475be7ca4d32222c17cd740ea471468cced38a3597d4cae191e6",
+    "local-only/runs/T03/2026-10-11-bff-o1/validation-preflight.json": "4a4a587ff607d3a78af0726ee80f2d0f415b0c8b6274be1b044a6907a4004a17"
+  }
+}

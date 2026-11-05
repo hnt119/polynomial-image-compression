@@ -1,0 +1,396 @@
+{
+  "thread": "T03",
+  "result_id": "UE-20260916",
+  "date": "2026-09-16",
+  "version": 1,
+  "verdict": "ACTION GO / CARTESIAN FAIL",
+  "polynomial": "x^2+xy+y^2",
+  "network_policy": "strictly offline",
+  "scope": "One independent norm-one exponent-orbit construction and one sparse valuation-support box; no further mutation or affine work.",
+  "construction": {
+    "fixed_main_L": 1,
+    "fixed_main_h": 1,
+    "growing_parameter": "d",
+    "recursion": "P_0=1; t_i=3P_(i-1)^(2L+1); q_i=t_i^2+t_i+1; P_i=P_(i-1)q_i",
+    "units": "u_i=(t_i-omega)/(t_i-conjugate(omega))",
+    "field": "Q(omega), omega^2+omega+1=0",
+    "norm_blocks": "Pairwise coprime composite-allowed integers; factors within one block share exponent."
+  },
+  "claims": [
+    {
+      "id": "UE-P1",
+      "status": "PROVED",
+      "proof": "primary-proof.md section 1",
+      "quantifiers": "Every fixed integer L>=1; every finite integer relation and every depth; action width h>=1 fixed",
+      "conclusion": "Multiplicative independence including torsion; (2h+1)^d distinct actual actions",
+      "dependencies": [
+        "elementary Eisenstein factorization",
+        "private prime-support valuations"
+      ],
+      "evidence": "complete analytic proof",
+      "audit": "lead full inspection and independent internal review passed"
+    },
+    {
+      "id": "UE-P2",
+      "status": "PROVED",
+      "proof": "primary-proof.md section 2",
+      "quantifiers": "Fixed L,h>=1 and nonzero seed; all d and all orbit exponents",
+      "conclusion": "Exact product return count; uniform 2^d for L=h=1; binomial typical rate and explicit lower tail",
+      "dependencies": [
+        "UE-P1"
+      ],
+      "evidence": "analytic product counting and finite-moment argument",
+      "audit": "lead and independent review passed"
+    },
+    {
+      "id": "UE-P3",
+      "status": "PROVED",
+      "failed_scope": "Engineered-pair certificate on a subexponential number of norm shells",
+      "proof": "primary-proof.md section 3",
+      "quantifiers": "Seed1 for exact n=2M; arbitrary real A and k norm values for <=2k|A| coverage",
+      "conclusion": "Exactly 3^d engineered pairs in scalar square of size4*9^d; no small exceptional complement",
+      "dependencies": [
+        "UE-P1 torsion exclusion",
+        "quadratic root count",
+        "inherited one-shell obstruction"
+      ],
+      "evidence": "analytic proof",
+      "audit": "lead and independent review passed",
+      "not_implied": "No actual-image lower bound or universal bound on uncontrolled cross-pair returns"
+    },
+    {
+      "id": "UE-S1",
+      "status": "PROVED",
+      "failed_scope": "Specified sparse valuation box and entire generated integer-power group",
+      "proof": "secondary-proof.md sections1-4",
+      "quantifiers": "Every fixed L>=1, all d>=1, every ordered pair, every integer action exponent vector",
+      "conclusion": "Exactly one returning action and pair, the identity",
+      "dependencies": [
+        "coprime norm blocks",
+        "minimum-exponent recovery from norms",
+        "one prime valuation per block"
+      ],
+      "evidence": "complete analytic proof",
+      "audit": "lead full inspection and independent internal review passed"
+    },
+    {
+      "id": "UE-S2",
+      "status": "PROVED",
+      "failed_scope": "Actual quadratic image of the specified secondary family",
+      "proof": "secondary-proof.md sections5-6",
+      "quantifiers": "Every fixed L>=1 and d>=1",
+      "conclusion": "|Q(A,A)|=n^2/4+n/2; all fibers have size2 or4",
+      "dependencies": [
+        "q_i>6P_(i-1)^(4L)",
+        "six-term specialization",
+        "formal monomial support classification"
+      ],
+      "evidence": "analytic all-support proof independent of UE-S1 inference",
+      "audit": "lead and independent review passed"
+    },
+    {
+      "id": "UE-X1",
+      "status": "EXPERIMENTAL",
+      "proof": "examples/2026-09-16-unit-exponent.json",
+      "quantifiers": "Both carriers at d=1,2,3, L=h=1; all ordered pairs and all actions in box",
+      "evidence": "exact Fraction enumeration and independent per-label sqrt(-3) action oracle",
+      "audit": "pre-execution code review, exhaustive oracle and output review passed"
+    }
+  ],
+  "rate": {
+    "action": "log3",
+    "primary_orbit_min_return": "log2",
+    "primary_orbit_typical_return": "(2log2+log3)/3",
+    "both_input_a": "log3",
+    "secondary_cartesian_return_rate": 0,
+    "primary_uncertified_pair_exponent": "2log3",
+    "secondary_actual_output_b": "2log3",
+    "secondary_signed_gap": 0,
+    "valid_positive_c0": null
+  },
+  "remaining_status": {
+    "quadratic_target": "OPEN",
+    "ARG": "OPEN",
+    "TCRC": "OPEN",
+    "RC15_4": "OPEN",
+    "primary_actual_image_rate": "OPEN",
+    "primary_uncontrolled_cartesian_returns": "OPEN",
+    "secondary_family_power_saving": "FAILED by exact actual-image theorem",
+    "HR_N1": "FAILED / DISPROVED; certificate CLOSED"
+  },
+  "one_next_obligation": "Existing T03-O4 / RC15/4 as stated in report section10; not begun here.",
+  "computation": {
+    "evaluation_cap": 2000000,
+    "cpu_seconds_cap": 600,
+    "fixed_schedule": {
+      "families": 2,
+      "depths": [
+        1,
+        2,
+        3
+      ],
+      "L": 1,
+      "h": 1
+    },
+    "diagnostic_runs": 1,
+    "diagnostic_reruns": 0,
+    "diagnostic_charges": 340986,
+    "diagnostic_cpu_seconds": 5.944325,
+    "regression_charged_project_calls": 90132,
+    "total_charges": 431118,
+    "total_cpu_seconds": 8.910798,
+    "unit_tests_passed": 52,
+    "baseline_checks_passed": 159,
+    "python": "3.12.7",
+    "seed": null
+  },
+  "artifacts": [
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/README.md",
+      "bytes": 27707,
+      "sha256": "5056cce252d8e5acdf8cb3e59214a857fb34fd6fb23b0ee09be6bcb7f86ef473"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/primary-proof.md",
+      "bytes": 21268,
+      "sha256": "e043643d28cb9bea69ba4bcf47dc044ff8e0aa69a88eca90c8f0cb53bfa10da9"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/secondary-proof.md",
+      "bytes": 22150,
+      "sha256": "d638d84b22d4307328db77e0fd02ff81d614383220e61eb0b76d0c5630f73868"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/verification.md",
+      "bytes": 10922,
+      "sha256": "5f0d878af45993f387296811cf740427c1be7dea4743bca460c9136ff6eba10d"
+    },
+    {
+      "path": "experiments/unit_exponent.py",
+      "bytes": 12112,
+      "sha256": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a"
+    },
+    {
+      "path": "examples/2026-09-16-unit-exponent.json",
+      "bytes": 27742,
+      "sha256": "bbccc30421126b56c7a3d783ed29edcbad345316bbafb3ec3544255e6e2bf42c"
+    }
+  ],
+  "public_dependencies": [
+    {
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "bytes": 19551,
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "bytes": 28388,
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d"
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/carrier-screen.md",
+      "bytes": 18059,
+      "sha256": "911639903102a7d57d27110cf546a54fb2083339689c85139320f64e6b2c89eb"
+    },
+    {
+      "path": "research/history-sources/Q_Constructive_Local_Compression_to_Real_Set_Report.md",
+      "bytes": 11581,
+      "sha256": "de467c0f98cd4f3cc9298378711c29062fa310a60bc61952510748a9166f3065"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/README.md",
+      "bytes": 28287,
+      "sha256": "d5c2575ec3cf005d1184ea2b9f0f153e7ecfd36c8c9050f7a02607f25bc5269c"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-final-freeze/README.md",
+      "bytes": 39786,
+      "sha256": "8461ef585241538ea53e57d792ddade1e0ec92677c6e716fe6fbc97d95ce0ed4"
+    }
+  ],
+  "append_sections": [
+    {
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "prefix_bytes": 9842,
+      "prefix_sha256": "0ca98fb8d5686a225854734902fe315e01a452a5eeae1027541de61cbe48dc90",
+      "append_bytes": 1276,
+      "append_sha256": "2ba440be904b38370172f07310440da4a198696fff47966f9ea0f44f12cceed7",
+      "heading": "## 2026-09-16 — unit-exponent Cartesian cycle"
+    },
+    {
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "prefix_bytes": 16047,
+      "prefix_sha256": "35b511a1737d6c59e50be60c73aa3c9038c6a5d010ae0ecec5d8a67de60144fd",
+      "append_bytes": 1881,
+      "append_sha256": "872ac6dfbfb0a7c2e301f68d25621d5a21944aa9aaf6e82a3957be2a3fbe59dc",
+      "heading": "## 2026-09-16 — independent unit actions and Cartesian valuation obstruction"
+    },
+    {
+      "path": "research/FAILURE_LIBRARY.md",
+      "prefix_bytes": 41374,
+      "prefix_sha256": "a846c97dd7a8d6590e20a042e3e3822b3833d1aaff9af62ea7aee5409a062132",
+      "append_bytes": 1928,
+      "append_sha256": "1849102d05976df1f9f8425d1a594f61b5d30996e4bea55529620ab654012875",
+      "heading": "## 2026-09-16 — T03-UE-F1/F2, unit-exponent carrier failures"
+    },
+    {
+      "path": "research/OPEN_LEMMAS.md",
+      "prefix_bytes": 13372,
+      "prefix_sha256": "e6b1daf775544ad5a052568d5c3a3daad7d7fab6314e47b8e9c51ef2b3be5232",
+      "append_bytes": 1074,
+      "append_sha256": "5fa626c2f48c385fcdcfe7e2cda3723e0807503ee394de3650e7780c11243717",
+      "heading": "## 2026-09-16 — unit-exponent cycle disposition"
+    },
+    {
+      "path": "research/MECHANISM_LIBRARY.md",
+      "prefix_bytes": 12723,
+      "prefix_sha256": "da1b406e907b3540ca032cbaf42439c0333d6969153791b94e30ac2ce770c7d5",
+      "append_bytes": 1694,
+      "append_sha256": "8623080be094464a287843d40701a2cf69077e2df4b10c08e5eb1f3e630aedd0",
+      "heading": "## 2026-09-16 — UE-P1/P2 action growth and UE-S1/S2 valuation separation"
+    }
+  ],
+  "local_records": [
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-prefix/research/CURRENT_PROJECT_MAP.md",
+      "bytes": 9842,
+      "sha256": "0ca98fb8d5686a225854734902fe315e01a452a5eeae1027541de61cbe48dc90"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-prefix/research/FAILURE_LIBRARY.md",
+      "bytes": 41374,
+      "sha256": "a846c97dd7a8d6590e20a042e3e3822b3833d1aaff9af62ea7aee5409a062132"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-prefix/research/MECHANISM_LIBRARY.md",
+      "bytes": 12723,
+      "sha256": "da1b406e907b3540ca032cbaf42439c0333d6969153791b94e30ac2ce770c7d5"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-prefix/research/OPEN_LEMMAS.md",
+      "bytes": 13372,
+      "sha256": "e6b1daf775544ad5a052568d5c3a3daad7d7fab6314e47b8e9c51ef2b3be5232"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-prefix/research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "bytes": 16047,
+      "sha256": "35b511a1737d6c59e50be60c73aa3c9038c6a5d010ae0ecec5d8a67de60144fd"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-record.json",
+      "bytes": 1863,
+      "sha256": "f18a1cc50be72e388ee318004221f4d05a23010a0ac77a25cdb6c7a9dffba15a"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-sections/research/CURRENT_PROJECT_MAP.md",
+      "bytes": 1276,
+      "sha256": "2ba440be904b38370172f07310440da4a198696fff47966f9ea0f44f12cceed7"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-sections/research/FAILURE_LIBRARY.md",
+      "bytes": 1928,
+      "sha256": "1849102d05976df1f9f8425d1a594f61b5d30996e4bea55529620ab654012875"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-sections/research/MECHANISM_LIBRARY.md",
+      "bytes": 1694,
+      "sha256": "8623080be094464a287843d40701a2cf69077e2df4b10c08e5eb1f3e630aedd0"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-sections/research/OPEN_LEMMAS.md",
+      "bytes": 1074,
+      "sha256": "5fa626c2f48c385fcdcfe7e2cda3723e0807503ee394de3650e7780c11243717"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/append-sections/research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "bytes": 1881,
+      "sha256": "872ac6dfbfb0a7c2e301f68d25621d5a21944aa9aaf6e82a3957be2a3fbe59dc"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/baseline.json",
+      "bytes": 23862,
+      "sha256": "6ce184800a0ba20d39f88149ff2f5b73bedf35f16028ea6379164ffdbe9d98d5"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/before/research/CURRENT_PROJECT_MAP.md",
+      "bytes": 9842,
+      "sha256": "0ca98fb8d5686a225854734902fe315e01a452a5eeae1027541de61cbe48dc90"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/before/research/FAILURE_LIBRARY.md",
+      "bytes": 41374,
+      "sha256": "a846c97dd7a8d6590e20a042e3e3822b3833d1aaff9af62ea7aee5409a062132"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/before/research/MECHANISM_LIBRARY.md",
+      "bytes": 12723,
+      "sha256": "da1b406e907b3540ca032cbaf42439c0333d6969153791b94e30ac2ce770c7d5"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/before/research/OPEN_LEMMAS.md",
+      "bytes": 13372,
+      "sha256": "e6b1daf775544ad5a052568d5c3a3daad7d7fab6314e47b8e9c51ef2b3be5232"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/before/research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "bytes": 16047,
+      "sha256": "35b511a1737d6c59e50be60c73aa3c9038c6a5d010ae0ecec5d8a67de60144fd"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/inherited.patch",
+      "bytes": 75007,
+      "sha256": "d0fea9bb86cbdb2e96005e016026983c05a17208bd526d3f9e0c32bbceeeff8a"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/initial-status.txt",
+      "bytes": 1791,
+      "sha256": "daabdf101510a7e60a458a675ee0d2cb505a8d05d5efb035b7cd382cf209e1cf"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/pairs.json",
+      "bytes": 3250235,
+      "sha256": "5a1dab91667ed857ec21c371a921c50b3056be95f3754bc3c87a622e087431ce"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/preservation.json",
+      "bytes": 320,
+      "sha256": "82889d0298a440d30f50a1d6b0c53a2a4a8460e0c8e91a6d1d9afa36803a1e27"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/regression-unittest.json",
+      "bytes": 12096,
+      "sha256": "3321e7f94006ceb2605d42c42bb038937fbea5699f2856462e9fe4fb2a40db42"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/regression-unittest.txt",
+      "bytes": 6461,
+      "sha256": "6220a79c50405a349956331fb3c5e14d8806aa8db527316b667ad33ba6a1ba5f"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/regression-verify.json",
+      "bytes": 1180,
+      "sha256": "3d60fa5d3746755d081a2d4b34d77ed84cbdd348598402950d3bb5ef8ce5ec1d"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/regression-verify.txt",
+      "bytes": 23193,
+      "sha256": "825d17a1344b8550e68c502f549111143ce2d15b63b92add938beedcee3ff70e"
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-16-unit-exponent/regression_guard.py",
+      "bytes": 3245,
+      "sha256": "c06cdde6defec27fb057b7257761d1b9d83661509b54aa13022907f26ed6ec2e"
+    }
+  ],
+  "verification": {
+    "repository": "PASS:39 archived sources and77 Markdown files",
+    "local_setup": "PASS:42 references and43 T03 ZIP members",
+    "whitespace": "PASS:tracked diff and7 new files",
+    "protected_files": 137,
+    "append_sections": 5,
+    "other_tracked_diff_blocks_unchanged": 8
+  },
+  "source_policy": "No outside theorem was imported; no MISSING EXTERNAL INPUT blocks the proved statements.",
+  "novelty": "Not assessed; no external literature or priority claim",
+  "committed": false
+}

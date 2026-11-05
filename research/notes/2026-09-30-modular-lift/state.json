@@ -1,0 +1,141 @@
+{
+  "track": "T03",
+  "cycle": "7-power-modular-to-real-lift",
+  "date": "2026-09-30",
+  "version": 1,
+  "polynomial": "x^2+xy+y^2",
+  "network": "strictly offline; no outside sources or APIs used",
+  "verdict": "EXACT LIFT GO / TAIL FAIL",
+  "claim_records": [
+    {
+      "id": "ML-1",
+      "status": "PROVED",
+      "proof": "proofs.md, section 1",
+      "scope": "Exact source/target carry expansion, integral matrix-lift defect, and Theta(7^k) distinct discrepancy states in the specified wrapped diagonal family"
+    },
+    {
+      "id": "ML-2",
+      "status": "PROVED",
+      "proof": "proofs.md, section 2",
+      "scope": "For every k>=1, every real scalar map preserving all diagonal omega returns has at most k+1 values",
+      "gap": "Partial constraints and noninjective projected families are not universally ruled out"
+    },
+    {
+      "id": "ML-3",
+      "status": "PROVED scoped obstruction",
+      "proof": "proofs.md, section 3",
+      "scope": "Explicit separated base-217 embedding of 0..6 digits has full Q-fibers at most 2401; all cyclic additive carries force the zero map"
+    },
+    {
+      "id": "ML-4",
+      "status": "PROVED exact lift; FAILED Cartesian tail",
+      "proof": "proofs.md, sections 4-6",
+      "parameter_range": "every integer k>=1",
+      "n": "7^k",
+      "m": "6*7^(k-1)",
+      "t": "8*7^(k-1)",
+      "D": "m*(2t+1)+1",
+      "theta": "positive real 2^(1/D)",
+      "encoding": "F(T_((-2)^r) p_j)=3*theta^j*zeta_m^r on all primitive modular pairs",
+      "injective_encoded_pairs": "t*m=(48/49)*n^2",
+      "retained_action_count": "m",
+      "same_set": "X=Y=A=union_(j=1)^t theta^j*S, where S is either coordinate projection of 3*mu_m",
+      "real_input_size": "N=1+t*(m/2-1)",
+      "cross_shell_pairs": "t*(t-1)*(m/2-1)^2=N^2-O(N^(3/2))",
+      "selected_returns_on_cross_shells": 2,
+      "full_fiber_on_cross_shells": 4,
+      "identity_only_pairs": 1,
+      "median_return_count": 2,
+      "actual_image_lower_bound": "N^2/4-O(N^(3/2))",
+      "scope_limit": "Independent-radius completion only; not all paired lifts or norm actions on other carriers"
+    },
+    {
+      "id": "ML-5",
+      "status": "PROVED scoped obstruction and restriction escape",
+      "proof": "proofs.md, section 7",
+      "hypotheses": [
+        "faithful homomorphic finite group action",
+        "equivariant cover of modular base pairs",
+        "injective encoding",
+        "at most s states per base pair"
+      ],
+      "state_cost": "s=Omega(n^(delta/2)) for nonzero lifts above all but O(n^(2-delta)) base pairs, fixed 0<delta<=2",
+      "escape": "Both modular scalar coordinates restricted to units retain at least m/3 returns; the separately completed independent-tag realization still has a quadratic cross-shell obstruction"
+    }
+  ],
+  "remaining_status": {
+    "modular_lift_route": "OPEN",
+    "DC-O1": "OPEN",
+    "quadratic_target": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG": "OPEN",
+    "TCRC": "OPEN",
+    "HR-N1": "DISPROVED"
+  },
+  "next_obligation": {
+    "id": "ML-O1",
+    "status": "OPEN",
+    "statement": "Choose explicit c_(k,j) in Q(zeta_m)^* with disjoint c_(k,j)*mu_m. For the paired encoding F(T_((-2)^r)p_j)=c_(k,j)*zeta_m^r, prove polynomial genuine returns outside a fixed power-saving bad set on its entire same-set scalar completion.",
+    "scope": "One proposed way to avoid independent radical tags; no broad carrier search or positive conjecture adopted"
+  },
+  "does_not_imply": [
+    "The general real quadratic target is false",
+    "RC15/4 or ARG/TCRC is false",
+    "Every modular-to-real lift is impossible",
+    "Every noninjective scalar map is useless",
+    "Polynomial state costs always erase a return gain"
+  ],
+  "review": {
+    "lead_proof_checks": "completed, detailed in verification.md",
+    "independent_internal_reviews_this_cycle": 0,
+    "external_review": false
+  },
+  "computation": {
+    "scout_runs": 1,
+    "fixed_k": [
+      1,
+      2
+    ],
+    "charged_research_evaluations": 40452,
+    "research_cpu_seconds": 3.07222,
+    "research_query_cap": 100000,
+    "research_cpu_cap_seconds": 60,
+    "equality": "Exact cyclotomic integer coefficients; radical independence proved",
+    "full_carrier_counts": "Derived by proved shell decomposition from exhaustive angular cores",
+    "regression_tests_passed": 88,
+    "benchmark_checks_passed": 159,
+    "regressions_separate_from_research_budget": true
+  },
+  "checks": {
+    "executed_source_hash": "PASS",
+    "raw_core_histograms_and_summary": "PASS; checked before documentation checker stopped on concurrent T01 link",
+    "repository_first_attempt": "PASS: 39 archive sources, 139 Markdown files",
+    "unittest": "88 PASS",
+    "benchmark_verify": "159 PASS",
+    "repository_latest": {
+      "exit_code": 1,
+      "output": "Broken local link in research/notes/2026-09-30-near-complete-charts/README.md: verification.md\n"
+    },
+    "setup": {
+      "exit_code": 0,
+      "output": "Verified 50 local reference files, original import identities, 43 T03 manifest members, duplicate states and C4 hashes. No research code executed.\n"
+    },
+    "diff": {
+      "exit_code": 0,
+      "output": ""
+    },
+    "scoped_new_note_links": "PASS: all four Markdown companions",
+    "repository_final": {
+      "exit_code": 1,
+      "output": "Broken local link in research/notes/2026-09-30-near-complete-charts/README.md: verification.md\n"
+    },
+    "artifact_formatting": "PASS",
+    "handoff_suffixes": "PASS; all five equal exactly this task’s append",
+    "diff_final": {
+      "exit_code": 0
+    }
+  },
+  "uncommitted": true,
+  "historical_sources_modified_by_this_task": false,
+  "novelty_claimed": false
+}

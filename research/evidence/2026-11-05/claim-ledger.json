@@ -1,0 +1,3855 @@
+{
+  "schema_version": 1,
+  "archive_date": "2026-11-05",
+  "semantics": "Scope-normalized claim groups. Dates are carried by the checkpoint key or the dated source locator. For additional native subclaims, explicit construction ledgers, historical audit registers and finite evidence, join checkpoint to checkpoints.json. A proof_locator can identify the recorded statement or scoped finite evidence where no proof is available. Documentary reconciliation only.",
+  "claims": [
+    {
+      "id": "T01/migration/TARGET",
+      "native_ids": [],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Fixed P, a fixed c>0, arbitrarily large finite A in R. Use one set in both coordinates and all ordered pairs.",
+      "result": "No construction proving |P(A,A)| <= |A|^(2-c) is established for this target.",
+      "proof_locator": {
+        "path": "research/tracks/01-cubic-digital/STATUS.md",
+        "section": "Current status and dated addenda"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Latest controlling track checkpoints"
+      ],
+      "scope": "Separate benchmark branches and local certificates do not discharge this target.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "TARGET"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/01-cubic-digital/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T02/migration/TARGET",
+      "native_ids": [],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Fixed P, a fixed c>0, arbitrarily large finite A in R. Use one set in both coordinates and all ordered pairs.",
+      "result": "No construction proving |P(A,A)| <= |A|^(2-c) is established for this target.",
+      "proof_locator": {
+        "path": "research/tracks/02-quartic-hybrid/STATUS.md",
+        "section": "Current status and dated addenda"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Latest controlling track checkpoints"
+      ],
+      "scope": "Separate benchmark branches and local certificates do not discharge this target.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "TARGET"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/02-quartic-hybrid/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T03/migration/TARGET",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Fixed P, a fixed c>0, arbitrarily large finite A in R. Use one set in both coordinates and all ordered pairs.",
+      "result": "No construction proving |P(A,A)| <= |A|^(2-c) is established for this target.",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "Current status and dated addenda"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Latest controlling track checkpoints"
+      ],
+      "scope": "Separate benchmark branches and local certificates do not discharge this target.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "TARGET"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T04/migration/TARGET",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Fixed P, a fixed c>0, arbitrarily large finite A in R. Use one set in both coordinates and all ordered pairs.",
+      "result": "No construction proving |P(A,A)| <= |A|^(2-c) is established for this target.",
+      "proof_locator": {
+        "path": "research/tracks/04-cubic-slices/STATUS.md",
+        "section": "Current status and dated addenda"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Latest controlling track checkpoints"
+      ],
+      "scope": "Separate benchmark branches and local certificates do not discharge this target.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "TARGET"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/04-cubic-slices/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "SHARED/2026-10-11-finite-field-chebotarev-report/Q1",
+      "native_ids": [
+        "Q1",
+        "Q2"
+      ],
+      "track": "SHARED",
+      "polynomial": "(a x+b y)^2+c x+e y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fixed integer coefficients, gcd(a,b)=1 and ab(ae-bc) nonzero. Choose tower parameters before the field degree grows.",
+      "result": "Arbitrarily large same-set real inputs admit a fixed power saving. For (x-y)^2+x+y the explicit base is 13 D rho < 1.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "3 Quadratic compression, Q1–Q2"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "A5 external field supply",
+        "G1–G7 support and rate counts"
+      ],
+      "scope": "Rank-one quadratic, no conclusion for T01–T04.",
+      "supersession": "The November MP-01 statement extends the permitted coefficient quadruples. The earlier statement stands.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "SHARED/2026-10-11-finite-field-chebotarev-report/A5",
+      "native_ids": [
+        "A5"
+      ],
+      "track": "SHARED",
+      "polynomial": "(a x+b y)^2+c x+e y",
+      "status": "EXTERNAL RESULT",
+      "hypotheses_and_quantifiers": "For sufficiently large ell, choose the tower and its finite list of split primes together; fixed data precede unbounded totally real layer degree.",
+      "result": "Proposition 3.8 supplies the field and prime data needed by the quadratic construction, with bounded common root discriminant and the stated quantitative tradeoff.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "1 Arithmetic input from the original paper, A2–A5"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "Planar Point Sets with Many Unit Distances, Propositions 3.2–3.8"
+      ],
+      "scope": "A result about arithmetic supply. Independent splitting at arbitrary preassigned primes is not asserted.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Attributed external theorem. See the cited source document for theorem and hypotheses.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "External theorem locator and recorded use."
+    },
+    {
+      "id": "SHARED/2026-11-04/MP-01",
+      "native_ids": [
+        "MP-01",
+        "MP-02",
+        "MP-03",
+        "MP-04",
+        "MP-05",
+        "MP-06",
+        "MP-07"
+      ],
+      "track": "SHARED",
+      "polynomial": "(a x+b y)^2+c x+e y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every fixed integer quadruple (a,b,c,e), including all degenerate cases. All parameters and split primes are fixed before field degree grows.",
+      "result": "For P=(ax+by)^2+cx+ey there is a fixed epsilon_P>0 and arbitrarily large finite A in R with |P(A,A)| <= |A|^(2-epsilon_P). One explicit exponent is -log(theta)/log(2X+1), theta=C_P D rho<1.",
+      "proof_locator": {
+        "path": "docs/release/2026-11-05/shared-quadratic.md",
+        "section": "MP-01 through MP-07; Theorem 1 §§3.1–3.5 as identified there"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "External Proposition 3.8 field supply",
+        "integral norm separation and CRT",
+        "same-set scaling"
+      ],
+      "scope": "ab(ae-bc) nonzero is an additional nonspeciality condition, not required for compression. No full-rank or cubic target follows.",
+      "supersession": "Generalizes the earlier Q1 coefficient range. No change to T01–T04.",
+      "evidence_grade": "Public mathematical digest and proof sketch. Full theorem identified in source system; internal 4 November audit reported, not repeated here.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "docs/release/2026-11-05/shared-quadratic.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T01-P0/migration/P0-TRANSFER",
+      "native_ids": [],
+      "track": "T01-P0",
+      "polynomial": "x^2+xy+y^2+x",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Arbitrarily large C with |q(C,C)| <= K |C|^(2-c0), |C-C| <= D |C|^(1+eta), 0<c0<=1 and 0<=eta<c0/2, fixed constants, q=x²+xy+y².",
+      "result": "A richest nonzero difference transfers to a common-set P0 certificate with exponent (c0-2eta)/(1-eta) before constant absorption. P0=q(x+2/3,y-1/3)-1/3.",
+      "proof_locator": {
+        "path": "research/tracks/01-cubic-digital/STATUS.md",
+        "section": "Separate completed norm–trace branch"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Completing the norm",
+        "homogeneous support and difference hypotheses"
+      ],
+      "scope": "The homogeneous witness is OPEN. No P0 witness or T01 cubic witness follows unconditionally.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Identified in source system; public reconciliation states the transfer and hypotheses.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "P0-TRANSFER"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/01-cubic-digital/STATUS.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/TB-S1",
+      "native_ids": [
+        "TB-S1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Bounded Borel W in R^m of volume V>0. P applied coordinatewise.",
+      "result": "The continuous unit-cover number of P(W,W) is greater than (sqrt(3)/pi)^m V².",
+      "proof_locator": {
+        "path": "research/history-sources/Concrete_Cubic_Compression_Block_NoGo_Checkpoint.md",
+        "section": "§F.3, equations F.6–F.10"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "Jacobian integral bound"
+      ],
+      "scope": "Finite zero-volume sets are outside the statement.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/TB-S2",
+      "native_ids": [
+        "TB-S2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fixed base b, finite strongly connected right-resolving digit graph, fixed start, all states terminal and growth mu>1.",
+      "result": "The cleared normalized image of its length-n digit set has at least c_G |D_n|² outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-lift/source-scope.md",
+        "section": "§1 TB-S2"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "Digital checkpoint named in the controlling T01 state"
+      ],
+      "scope": "Fixed regular languages at positive entropy only.",
+      "supersession": "20 September intake supplies recovery metadata, not the named original bytes.",
+      "evidence_grade": "Reported proof. MISSING SOURCE / PROVENANCE FILE for the complete digital checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/TB-S3",
+      "native_ids": [
+        "TB-S3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fixed finite nonempty prime set S, alpha>0. All sufficiently large S-smooth N and D in [0,N) intersect Z with |D|>=N^alpha.",
+      "result": "The cleared normalized image satisfies |Z_N(D,D)| >= eta(S,alpha)|D|².",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-lift/source-scope.md",
+        "section": "§1 TB-S3"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "Digital checkpoint named in T01 state"
+      ],
+      "scope": "Changing prime support or subpolynomial density is outside scope.",
+      "supersession": "20 September recovery metadata leave original-byte availability open.",
+      "evidence_grade": "Reported proof. MISSING SOURCE / PROVENANCE FILE for the complete digital checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/TB-S4",
+      "native_ids": [
+        "TB-S4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Only the exact T01.7 largest quadratic-fiber carrier T_j and scaling sigma_1(T_j/(2sqrt(zeta_j))), with rho_2 R<=1/100, M>=64 and X=2 floor(M/8)>=4sqrt(R).",
+      "result": "The actual plus-cubic image is pair-injective on the specified family.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-lift/source-scope.md",
+        "section": "§1 TB-S4"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "T01.7 modular separation, norm and monotonicity argument as reported"
+      ],
+      "scope": "Not arbitrary largest fibers or arbitrary scalings.",
+      "supersession": "20 September recovery intake lists the source but does not supply its original bytes.",
+      "evidence_grade": "Reported proof. MISSING SOURCE / PROVENANCE FILE for Cubic_Target_Exact_Elements_and_Candidate_Test.md.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/TB-L1",
+      "native_ids": [
+        "TB-L1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "For all k,d>=1 and nonempty E in (Z/3^k)^d, with coordinatewise P.",
+      "result": "For every fixed second input the coordinate maps are permutations. Normalized full-image ratio 3^(kd)|P(E,E)|/|E|² >= 3^(kd)/|E| >=1.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-lift/source-scope.md",
+        "section": "§2 TB-L1"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "Permutation lifting in one variable"
+      ],
+      "scope": "Counts normalized finite local support; does not produce real scalar gains.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-lift/SIX-POINT",
+      "native_ids": [],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Use the one six-point rational lift and its three specified branches exactly as displayed in the original report.",
+      "result": "All 36 ordered input pairs have precisely 22 different real outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-lift/README.md",
+        "section": "§§4–6; complete scalar image and block intersections"
+      },
+      "checkpoint": "2026-09-16-three-branch-lift",
+      "dependencies": [
+        "Exact endpoint and block identities"
+      ],
+      "scope": "Single finite gadget. No asymptotic exponent.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "SIX-POINT"
+      ],
+      "version": "Checkpoint 2026-09-16-three-branch-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-lift.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-lift/symbolic-audit.md",
+          "research/notes/2026-09-16-three-branch-lift/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-16-three-branch-continuation/TC-D1",
+      "native_ids": [
+        "TC-D1",
+        "TC-D2",
+        "TC-D3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Iterate only the fixed maps x -> x/2+r/3, r=0,1,2, on the displayed six-point seed.",
+      "result": "Distinct-input growth has exponential base 2; the full image has N²-O(N^(3/2)) outputs, so its base is 4.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-three-branch-continuation/direct-iteration.md",
+        "section": "Literal iteration and dyadic progression proof"
+      },
+      "checkpoint": "2026-09-16-three-branch-continuation",
+      "dependencies": [
+        "Explicit affine iterates",
+        "collision count on actual scalars"
+      ],
+      "scope": "Fails this iteration as an asymptotic compression construction. Other recursive gadgets remain outside.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-three-branch-continuation",
+      "evidence_locators": {
+        "code": [
+          "experiments/three_branch_continuation.py"
+        ],
+        "data": [
+          "examples/2026-09-16-three-branch-continuation.json"
+        ],
+        "tests": [
+          "tests/test_three_branch_continuation.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-three-branch-continuation/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-cubic-returns/CR-U1",
+      "native_ids": [
+        "CR-U1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every finite real A with |A|=N, every real tau != 0, E_tau counting returns of the specified cubic-preserving difference shift on A².",
+      "result": "E_tau <= 5 N^(11/6). No fixed-step, positive-density return mechanism of this type exists.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-cubic-returns/universal-bounds.md",
+        "section": "CR-U1, uniform cubic shift return bound"
+      },
+      "checkpoint": "2026-09-21-cubic-returns",
+      "dependencies": [
+        "Unit-shift interpolation and exact incidence counts"
+      ],
+      "scope": "The bound is uniform in tau. A growing inventory is a different question.",
+      "supersession": "Resolves the preceding fixed-step question. Growing-step inventory remains open.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-cubic-returns",
+      "evidence_locators": {
+        "code": [
+          "experiments/cubic_returns.py"
+        ],
+        "data": [
+          "examples/2026-09-21-cubic-returns.json"
+        ],
+        "tests": [
+          "tests/test_cubic_returns.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-cubic-returns/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-growing-step-cubic/GS-U1",
+      "native_ids": [
+        "GS-U1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Any finite real A of N scalars and M distinct nonzero steps in S.",
+      "result": "Sum over S of E_tau <=9N² M^(2/3)+NM+12N².",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-growing-step-cubic/multistep-bounds.md",
+        "section": "Joint-step bound; see main report §6"
+      },
+      "checkpoint": "2026-09-21-growing-step-cubic",
+      "dependencies": [
+        "Joint incidence count",
+        "nonzero steps"
+      ],
+      "scope": "Does not improve the existing universal N^(1/6) coverage threshold.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-growing-step-cubic",
+      "evidence_locators": {
+        "code": [
+          "experiments/growing_step_cubic.py"
+        ],
+        "data": [
+          "examples/2026-09-21-growing-step-cubic.json"
+        ],
+        "tests": [
+          "tests/test_growing_step_cubic.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-growing-step-cubic/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-growing-step-cubic/GS-P3",
+      "native_ids": [
+        "GS-P3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every complete consecutive integer output-by-difference rectangle under the alignment hypotheses in GS-P3, mapped into an N-element scalar set.",
+      "result": "Its Q prescribed ordered pairs satisfy Q<=4N^(4/3).",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-growing-step-cubic/structure-and-reuse.md",
+        "section": "GS-P3"
+      },
+      "checkpoint": "2026-09-21-growing-step-cubic",
+      "dependencies": [
+        "Counting distinct scalar endpoints"
+      ],
+      "scope": "Only full aligned rectangles; correlated subgrids and the full actual image are outside.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-growing-step-cubic",
+      "evidence_locators": {
+        "code": [
+          "experiments/growing_step_cubic.py"
+        ],
+        "data": [
+          "examples/2026-09-21-growing-step-cubic.json"
+        ],
+        "tests": [
+          "tests/test_growing_step_cubic.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-growing-step-cubic/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-growing-step-cubic/GS-A1",
+      "native_ids": [
+        "GS-A1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "A={a+jh:0<=j<N}, h=1 or h=1/3, real translate a, N>=1.",
+      "result": "All actual fibers are connected by T_1; the exact full image has N²-E_1 outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-growing-step-cubic/progression-laboratory.md",
+        "section": "Progression laboratory, integer and third-integer connectivity"
+      },
+      "checkpoint": "2026-09-21-growing-step-cubic",
+      "dependencies": [
+        "Difference congruences and interval monotonicity"
+      ],
+      "scope": "Subgroup-coset membership is not connectivity on arbitrary real carriers.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-growing-step-cubic",
+      "evidence_locators": {
+        "code": [
+          "experiments/growing_step_cubic.py"
+        ],
+        "data": [
+          "examples/2026-09-21-growing-step-cubic.json"
+        ],
+        "tests": [
+          "tests/test_growing_step_cubic.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-growing-step-cubic/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-sublinear-cubic/SC-Q1",
+      "native_ids": [
+        "SC-Q1",
+        "SC-Q2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Balanced nonfaithful quadratic coefficient boxes in the stated real quadratic order, fixed nonsquare D. In the shrinking case h² is rational and h²L>=kappa>0 with L large; constants also depend on the fixed bounds on aspect/scale.",
+      "result": "At fixed scale the full image has N²-O_D(N^(3/2)log(2N)) outputs. In the critical range a positive fraction of pairs have bounded actual fibers, so the full image is Omega(N²).",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-sublinear-cubic/reuse-and-projections.md",
+        "section": "SC-Q1 and SC-Q2"
+      },
+      "checkpoint": "2026-09-21-sublinear-cubic",
+      "dependencies": [
+        "Conjugate identity",
+        "integral norm band",
+        "full-fiber count"
+      ],
+      "scope": "No conclusion in the uncontrolled tiny rational scales or for arbitrary projected sets.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-sublinear-cubic",
+      "evidence_locators": {
+        "code": [
+          "experiments/growing_step_cubic.py",
+          "experiments/sublinear_cubic.py"
+        ],
+        "data": [
+          "examples/2026-09-21-sublinear-cubic.json"
+        ],
+        "tests": [
+          "tests/test_growing_step_cubic.py",
+          "tests/test_sublinear_cubic.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-sublinear-cubic/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-21-nonlinear-reuse/NR-L1",
+      "native_ids": [
+        "NR-L1",
+        "NR-L2",
+        "NR-L3",
+        "NR-L4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Real U,V in two variables of total degree <=2. A nonconstant statistic Phi of degree <=2 has J(U³+V,Phi)=0; constant-coordinate and constant-output cases handled in the native statements.",
+      "result": "In the nonconstant cases the shared-statistic classification bounds distinct scalar pairs from a single such chart with endpoints in an N-set by 2N. The classification also gives the precise specified-statistic polynomial compositions.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-nonlinear-reuse/low-degree-classification.md",
+        "section": "NR-L1–L4 and degree-three boundary"
+      },
+      "checkpoint": "2026-09-21-nonlinear-reuse",
+      "dependencies": [
+        "Affine normal forms and polynomial Jacobian kernels"
+      ],
+      "scope": "Small finite support alone does not imply polynomial factorization. Degree three and arbitrary correlated parameter clouds are outside.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-nonlinear-reuse",
+      "evidence_locators": {
+        "code": [
+          "experiments/nonlinear_reuse.py"
+        ],
+        "data": [
+          "examples/2026-09-21-nonlinear-reuse.json"
+        ],
+        "tests": [
+          "tests/test_nonlinear_reuse.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-nonlinear-reuse/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-near-complete-charts/NC-C1",
+      "native_ids": [
+        "NC-C1",
+        "NC-C2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Finite A, N=|A|; B_A(R) counts pairs whose entire actual output fiber has fewer than R members, with the threshold convention of NC-C2.",
+      "result": "A fixed-exponent full-image saving on a growing family is equivalent, after allowing exponent loss and constants, to B_A(N^eta)=O(N^(2-gamma)) for some fixed eta,gamma>0.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-near-complete-charts/coverage-and-overlap.md",
+        "section": "NC-C1–C2, complement and actual small-fiber mass"
+      },
+      "checkpoint": "2026-09-30-near-complete-charts",
+      "dependencies": [
+        "Partition of A² into actual output fibers"
+      ],
+      "scope": "No chart family satisfying the necessary tail is supplied.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-near-complete-charts",
+      "evidence_locators": {
+        "code": [
+          "experiments/near_complete_charts.py"
+        ],
+        "data": [
+          "examples/2026-09-30-near-complete-charts.json"
+        ],
+        "tests": [
+          "tests/test_near_complete_charts.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-near-complete-charts/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-elliptic-geometry/EG-G1",
+      "native_ids": [
+        "EG-G1",
+        "EG-G2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Exact fixed output z; two fixed outputs with chosen scalar slots s,t=±1, c their gap, geometric genus over C.",
+      "result": "A single P fiber is a polynomial graph of genus zero. A shared endpoint imposes u³-v³-su+tv=c. Generic smooth cubics have genus one; at equal signs and c=0 there is a line and conic, and each nonzero exceptional singular cubic has genus-zero normalization. The signed critical-value table distinguishes real and complex exceptions.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-elliptic-geometry/genus.md",
+        "section": "EG-G1 and EG-G2, including the special-value table"
+      },
+      "checkpoint": "2026-09-30-elliptic-geometry",
+      "dependencies": [
+        "Difference parametrization",
+        "projective closure and singularity analysis"
+      ],
+      "scope": "Genus alone does not bound finite real point counts.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-elliptic-geometry",
+      "evidence_locators": {
+        "code": [
+          "experiments/elliptic_geometry.py"
+        ],
+        "data": [
+          "examples/2026-09-30-elliptic-geometry.json"
+        ],
+        "tests": [
+          "tests/test_elliptic_geometry.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-elliptic-geometry/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-elliptic-geometry/EG-B2",
+      "native_ids": [
+        "EG-B2",
+        "EG-B3",
+        "EG-B4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Complex elliptic curves, fixed meromorphic f,g, nonconstant H, nonzero isogenies alpha,beta, constant translate T and a polynomial in the two scalar coordinates. Domains and poles as in EG-B2–B4.",
+      "result": "A separated polynomial in f(R),g(S) cannot identically equal H(alpha R+beta S+T). On finite grids the proof gives a degree-dependent coverage bound including scalar projection multiplicities.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-elliptic-geometry/group-law.md",
+        "section": "§§3–5, EG-B2–B4"
+      },
+      "checkpoint": "2026-09-30-elliptic-geometry",
+      "dependencies": [
+        "Polar divisors",
+        "meromorphic degree counts"
+      ],
+      "scope": "Does not exclude sparse correlated parametrizations or arbitrary growing-degree charts.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-elliptic-geometry",
+      "evidence_locators": {
+        "code": [
+          "experiments/elliptic_geometry.py"
+        ],
+        "data": [
+          "examples/2026-09-30-elliptic-geometry.json"
+        ],
+        "tests": [
+          "tests/test_elliptic_geometry.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-elliptic-geometry/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-elliptic-geometry/EG-C1",
+      "native_ids": [
+        "EG-C1",
+        "EG-C2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Equal-sign sharing model, c nonzero and 16s³ != 27c². For the rational example use the specified s=1,c=6 point on the resulting curve.",
+      "result": "The Weierstrass model is Y²=X³-48s²X+128s³-432c². Its specified point (40,216) at c=6 has infinite order. The two planted outputs account for at most 2N scalar pairs.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-elliptic-geometry/complex-extensions.md",
+        "section": "EG-C1–C2; main report §§3–5 for Cartesian counting"
+      },
+      "checkpoint": "2026-09-30-elliptic-geometry",
+      "dependencies": [
+        "Birational coordinate maps",
+        "good-reduction valuation",
+        "injectivity in x for fixed y"
+      ],
+      "scope": "Infinite parameter order does not imply enough scalar pairs in the same square.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-elliptic-geometry",
+      "evidence_locators": {
+        "code": [
+          "experiments/elliptic_geometry.py"
+        ],
+        "data": [
+          "examples/2026-09-30-elliptic-geometry.json"
+        ],
+        "tests": [
+          "tests/test_elliptic_geometry.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-elliptic-geometry/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-elliptic-geometry/EG-G3",
+      "native_ids": [
+        "EG-G3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^4+x+y (comparator only)",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Quartic comparator only, Q=(x-y)^4+x+y, sharing equation u^4-v^4-su+tv=c with s,t=±1 in the cases of EG-G3.",
+      "result": "Every nonzero real c gives a smooth curve of genus three. At c=0 the components have genera zero and one. The six nonreal nonzero critical values give nodal irreducible quartics of genus two after normalization.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-elliptic-geometry/genus.md",
+        "section": "EG-G3, quartic comparator"
+      },
+      "checkpoint": "2026-09-30-elliptic-geometry",
+      "dependencies": [
+        "Projective singularities and branch counts"
+      ],
+      "scope": "This comparison is neither the T02 polynomial nor a real point-count bound.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-elliptic-geometry",
+      "evidence_locators": {
+        "code": [
+          "experiments/elliptic_geometry.py"
+        ],
+        "data": [
+          "examples/2026-09-30-elliptic-geometry.json"
+        ],
+        "tests": [
+          "tests/test_elliptic_geometry.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-elliptic-geometry/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-sharing-compatibility/SH-G1",
+      "native_ids": [
+        "SH-G1",
+        "SH-G2",
+        "SH-G3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "A directed triangle of real scalars has prescribed ordered outputs; for the special gap put r=1/sqrt(3), h=2r.",
+      "result": "At most one real triangle realizes each ordered triple. For equally spaced outputs of gap h every compatible triangle is a common translate of (-r,0,r).",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-sharing-compatibility/geometry.md",
+        "section": "SH-G1 through SH-G3"
+      },
+      "checkpoint": "2026-10-06-sharing-compatibility",
+      "dependencies": [
+        "Simultaneous scalar reconstruction",
+        "comparison of the real coordinate systems"
+      ],
+      "scope": "No uniqueness of arbitrary networks or of triangles with unordered labels.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-sharing-compatibility",
+      "evidence_locators": {
+        "code": [
+          "experiments/sharing_compatibility.py"
+        ],
+        "data": [
+          "examples/2026-10-06-sharing-compatibility.json"
+        ],
+        "tests": [
+          "tests/test_sharing_compatibility.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-sharing-compatibility/exact-audit.md",
+          "research/notes/2026-10-06-sharing-compatibility/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-sharing-compatibility/SH-C1",
+      "native_ids": [
+        "SH-C1",
+        "SH-C2",
+        "SH-C3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Finite nonempty real T; assemble all directed triangles translated by T in A=T+{-r,0,r}, r=1/sqrt(3), and count distinct planted pairs.",
+      "result": "Q<=2N-3 and Z=N. Consecutive strips attain the linear pair bound and their actual full image has N²-O(N^(3/2)) outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-sharing-compatibility/construction.md",
+        "section": "SH-C1 through SH-C3"
+      },
+      "checkpoint": "2026-10-06-sharing-compatibility",
+      "dependencies": [
+        "SH-G3",
+        "endpoint and strip counts"
+      ],
+      "scope": "The actual-image assertion only applies to the consecutive strip.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-sharing-compatibility",
+      "evidence_locators": {
+        "code": [
+          "experiments/sharing_compatibility.py"
+        ],
+        "data": [
+          "examples/2026-10-06-sharing-compatibility.json"
+        ],
+        "tests": [
+          "tests/test_sharing_compatibility.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-sharing-compatibility/exact-audit.md",
+          "research/notes/2026-10-06-sharing-compatibility/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-sharing-compatibility/SH-O1",
+      "native_ids": [
+        "SH-O1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "All finite T and the actual closure T+{-r,0,r} at this fixed r.",
+      "result": "Is there a uniform quadratic lower bound for the full cubic image throughout this closure family?",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-sharing-compatibility/README.md",
+        "section": "One next proof obligation"
+      },
+      "checkpoint": "2026-10-06-sharing-compatibility",
+      "dependencies": [
+        "SH-C1–C3"
+      ],
+      "scope": "Subsequent variable-gap constructions do not settle arbitrary T.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-sharing-compatibility",
+      "evidence_locators": {
+        "code": [
+          "experiments/sharing_compatibility.py"
+        ],
+        "data": [
+          "examples/2026-10-06-sharing-compatibility.json"
+        ],
+        "tests": [
+          "tests/test_sharing_compatibility.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-sharing-compatibility/exact-audit.md",
+          "research/notes/2026-10-06-sharing-compatibility/verification.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T01/2026-10-06-variable-gap-sharing/VG-G1",
+      "native_ids": [
+        "VG-G1",
+        "VG-G2",
+        "VG-G3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Shared directed edge in triangles (a,b,c),(a,b,d); differences u=a-b,v=b-c,t=b-d, z0=P(a,b). More generally real directed cycles of arbitrary finite length with fixed ordered outputs.",
+      "result": "For v and t separately the two output gaps are v³-u³-u-v and -(u+v)³-u³-v, with b=(z0-u³-u)/2. The simultaneous conditions are sufficient; each real directed cycle has at most one realization per ordered output tuple.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-variable-gap-sharing/compatibility.md",
+        "section": "VG-G1–G3"
+      },
+      "checkpoint": "2026-10-06-variable-gap-sharing",
+      "dependencies": [
+        "Exact endpoint reconstruction",
+        "cycle comparison including even degenerate case"
+      ],
+      "scope": "Does not imply that ordered edge labels are compatible.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-variable-gap-sharing",
+      "evidence_locators": {
+        "code": [
+          "experiments/variable_gap_sharing.py"
+        ],
+        "data": [
+          "examples/2026-10-06-variable-gap-sharing.json"
+        ],
+        "tests": [
+          "tests/test_variable_gap_sharing.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-variable-gap-sharing/exact-audit.md",
+          "research/notes/2026-10-06-variable-gap-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-variable-gap-sharing/VG-C1",
+      "native_ids": [
+        "VG-C1",
+        "VG-C2",
+        "VG-C3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Integers k>=3, L=k³, differences 1<=|u|<=k and exactly the registered integer output windows I_u.",
+      "result": "A is [0,L-1] intersect Z. The prescribed pairs are the off-diagonal band, with N=k³, Q=2k⁴-k²-k, Z=2k³-k. Each edge has growing partner count but the uncovered complement has quadratic order.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-variable-gap-sharing/construction.md",
+        "section": "VG-C1–C3"
+      },
+      "checkpoint": "2026-10-06-variable-gap-sharing",
+      "dependencies": [
+        "VG-G3",
+        "exact input, pair and label counts"
+      ],
+      "scope": "Only this variable-gap window family. Its finite VG-O1 rigidity test was resolved by CP-R1.",
+      "supersession": "CP-R1 resolves VG-O1 without changing these construction counts.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-variable-gap-sharing",
+      "evidence_locators": {
+        "code": [
+          "experiments/variable_gap_sharing.py"
+        ],
+        "data": [
+          "examples/2026-10-06-variable-gap-sharing.json"
+        ],
+        "tests": [
+          "tests/test_variable_gap_sharing.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-variable-gap-sharing/exact-audit.md",
+          "research/notes/2026-10-06-variable-gap-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-changed-collision-pattern/CP-R1",
+      "native_ids": [
+        "CP-R1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The registered ordered, normalized, strictly increasing 27 real inputs, with the entire 150-edge pattern 1<=|i-l|<=3 and its shared w_j labels.",
+      "result": "P(x_i,x_l)=w_(((i-l)^3+i+l)/2) forces x_i=i and every used w_j=2j. Distinctness of output labels is not needed.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-changed-collision-pattern/rigidity.md",
+        "section": "CP-R1, normalized incidence rigidity"
+      },
+      "checkpoint": "2026-10-06-changed-collision-pattern",
+      "dependencies": [
+        "Equalities and strict increase in the registered pattern"
+      ],
+      "scope": "No result for arbitrary sizes or modified collision graphs.",
+      "supersession": "Closes VG-O1 for this finite normalized incidence pattern.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-changed-collision-pattern",
+      "evidence_locators": {
+        "code": [
+          "experiments/changed_collision_pattern.py"
+        ],
+        "data": [
+          "examples/2026-10-06-changed-collision-pattern.json"
+        ],
+        "tests": [
+          "tests/test_changed_collision_pattern.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-changed-collision-pattern/exact-audit.md",
+          "research/notes/2026-10-06-changed-collision-pattern/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-06-changed-collision-pattern/CP-C1",
+      "native_ids": [
+        "CP-C1",
+        "CP-C2",
+        "CP-C3",
+        "CP-C4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Use the nonconcentric six-scalar bridge and the exact fixed-width ladder extension, integer m>=1, with the stated endpoint identifications.",
+      "result": "The bridge has eight specified pairs and three outputs. Its prescribed ladder has N=2m+2, Q=4m, Z=m+1; the entire actual image has at least N²/4 outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-changed-collision-pattern/construction.md",
+        "section": "CP-C1–C4"
+      },
+      "checkpoint": "2026-10-06-changed-collision-pattern",
+      "dependencies": [
+        "Simultaneous frame compatibility",
+        "subsquare injection"
+      ],
+      "scope": "Other widths, roles or incidence patterns remain outside.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-changed-collision-pattern",
+      "evidence_locators": {
+        "code": [
+          "experiments/changed_collision_pattern.py"
+        ],
+        "data": [
+          "examples/2026-10-06-changed-collision-pattern.json"
+        ],
+        "tests": [
+          "tests/test_changed_collision_pattern.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-changed-collision-pattern/exact-audit.md",
+          "research/notes/2026-10-06-changed-collision-pattern/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-transfer-division-entropy/B-CP",
+      "native_ids": [
+        "B-CP"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Use the registered third-frame conditions at the exact CP seed, including its prior width and row/column roles.",
+      "result": "Five finite Bézout certificates exclude that third-frame attachment.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-transfer-division-entropy/B_division.md",
+        "section": "B1–B2, complete finite obstruction"
+      },
+      "checkpoint": "2026-10-11-transfer-division-entropy",
+      "dependencies": [
+        "CP seed",
+        "exact polynomial elimination and certificates"
+      ],
+      "scope": "Only this specified attachment.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-transfer-division-entropy",
+      "evidence_locators": {
+        "code": [
+          "experiments/changed_collision_pattern.py",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.py",
+          "research/notes/2026-10-11-transfer-division-entropy/exact_cycle.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-transfer-division-entropy/attachments_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/elliptic_results.json"
+        ],
+        "tests": [
+          "tests/test_changed_collision_pattern.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-11-transfer-division-entropy/README.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-transfer-division-entropy/B-X",
+      "native_ids": [
+        "B-X"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Exactly the documented 14 real scalar set from the separate division construction, complete ordered square of 196 pairs.",
+      "result": "188 different outputs, with 186 singleton fibers and two fibers of size five.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-transfer-division-entropy/B_division.md",
+        "section": "B6, scalar carrier, full image and complete graph audit"
+      },
+      "checkpoint": "2026-10-11-transfer-division-entropy",
+      "dependencies": [
+        "Exact field calculation and archived portable data"
+      ],
+      "scope": "Single finite set, no asymptotic conclusion.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-transfer-division-entropy",
+      "evidence_locators": {
+        "code": [
+          "experiments/changed_collision_pattern.py",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.py",
+          "research/notes/2026-10-11-transfer-division-entropy/exact_cycle.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-transfer-division-entropy/attachments_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/elliptic_results.json"
+        ],
+        "tests": [
+          "tests/test_changed_collision_pattern.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-11-transfer-division-entropy/README.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T01/2026-10-11-transfer-division-entropy/C-BRIDGE",
+      "native_ids": [
+        "C-BRIDGE"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "CONDITIONAL",
+      "hypotheses_and_quantifiers": "A construction supplies the stated output-resolution bound plus a controlled number of exact outputs per occupied cell and a charged bound for every omitted ordered pair.",
+      "result": "Under the stated cost inequality this information gives an upper bound for the entire exact image; entropy or occupied-cell count alone does not.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-transfer-division-entropy/C_entropy.md",
+        "section": "C3, covering bridge; C5, exact support and fibers"
+      },
+      "checkpoint": "2026-10-11-transfer-division-entropy",
+      "dependencies": [
+        "Controlled output cover",
+        "per-cell capacity",
+        "exception charge"
+      ],
+      "scope": "The necessary control has not been proved for a T01 witness.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Conditional consequence with missing premise.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-transfer-division-entropy",
+      "evidence_locators": {
+        "code": [
+          "experiments/changed_collision_pattern.py",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.py",
+          "research/notes/2026-10-11-transfer-division-entropy/exact_cycle.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-transfer-division-entropy/attachments_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/audit_results.json",
+          "research/notes/2026-10-11-transfer-division-entropy/elliptic_results.json"
+        ],
+        "tests": [
+          "tests/test_changed_collision_pattern.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-11-transfer-division-entropy/README.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T01/2026-10-11-torsion-compatible-sharing/TC-G1",
+      "native_ids": [
+        "TC-G1",
+        "TC-G2",
+        "TC-G3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fix real z>w and use the stated row-pair sharing curve, c=z-w. Admissible 0<h<1/sqrt(3), s>0, h!=s on 3h²+s²=1.",
+      "result": "A full same-output frame requires c=8h(1-2h²); at most two admissible positive widths and four real marked points occur for this fixed pair of outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-torsion-compatible-sharing/geometry.md",
+        "section": "TC-G1–TC-G3"
+      },
+      "checkpoint": "2026-10-11-torsion-compatible-sharing",
+      "dependencies": [
+        "Sharing maps on E_c",
+        "equality of both scalar rows"
+      ],
+      "scope": "Arbitrary outputs and networks are outside.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-torsion-compatible-sharing",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-audit.md",
+          "research/notes/2026-10-11-torsion-compatible-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-torsion-compatible-sharing/TC-G4",
+      "native_ids": [
+        "TC-G4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "On the stated smooth s=-1 sharing curve for any real c nonzero, complete a general row with a second difference, and optionally pull back by an isogeny of degree e.",
+      "result": "The completion W²=4-3u² is a connected double cover of genus 4; its isogeny pullback has genus 1+3e. No nonconstant rational elliptic parametrization supplies the general completion.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-torsion-compatible-sharing/geometry.md",
+        "section": "TC-G4"
+      },
+      "checkpoint": "2026-10-11-torsion-compatible-sharing",
+      "dependencies": [
+        "Simple branching and Riemann–Hurwitz"
+      ],
+      "scope": "Isolated real points and different completion maps are not excluded.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-torsion-compatible-sharing",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-audit.md",
+          "research/notes/2026-10-11-torsion-compatible-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-torsion-compatible-sharing/TC-G5",
+      "native_ids": [
+        "TC-G5"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Take the registered different-width construction reusing two endpoints on its fixed-output pair.",
+      "result": "The six distinct inputs support eight specified ordered pairs on two outputs, leaving 28 unprescribed pairs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-torsion-compatible-sharing/geometry.md",
+        "section": "TC-G5, different-width worked case"
+      },
+      "checkpoint": "2026-10-11-torsion-compatible-sharing",
+      "dependencies": [
+        "Fixed-output frame equations"
+      ],
+      "scope": "Finite compatibility only; the full-image enumeration is a separate finite record.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-torsion-compatible-sharing",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-audit.md",
+          "research/notes/2026-10-11-torsion-compatible-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-torsion-compatible-sharing/TC-X1",
+      "native_ids": [
+        "TC-X1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Only the two registered cases and three torsion orders 2,3,4 under their exact nondegeneracy tests; the six-point seed is enumerated on its entire square.",
+      "result": "No tested torsion attachment succeeds; the six-point seed has 30 outputs on 36 pairs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-torsion-compatible-sharing/README.md",
+        "section": "Division audit and whole square"
+      },
+      "checkpoint": "2026-10-11-torsion-compatible-sharing",
+      "dependencies": [
+        "Exact division-polynomial checks and complete 36-pair computation"
+      ],
+      "scope": "Finite exclusion; did not at the time decide all orders.",
+      "supersession": "MS-C1 later proves infinite order for the one specified marked difference.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-torsion-compatible-sharing",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-torsion-compatible-sharing/exact-audit.md",
+          "research/notes/2026-10-11-torsion-compatible-sharing/verification.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T01/2026-10-11-marked-shift-certificate/MS-C1",
+      "native_ids": [
+        "MS-C1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Exact T=R2-R1 of the TC different-width case, with positive radicals and the field/embedding fixed in the source.",
+      "result": "T has infinite order on its specified elliptic curve. The conjugation T+sigma(T)=2R2 and negative valuation at the good prime 23 rule out all finite orders.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-marked-shift-certificate/arithmetic.md",
+        "section": "§§1–6 and the all-orders conclusion"
+      },
+      "checkpoint": "2026-10-11-marked-shift-certificate",
+      "dependencies": [
+        "TC-G5 marked points",
+        "local valuation and conjugation identity"
+      ],
+      "scope": "No assertion about all torsion points, rank or scalar image growth.",
+      "supersession": "Resolves the October TC-O1 for this marked difference, beyond the earlier finite division checks.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-marked-shift-certificate",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-marked-shift-certificate/referee-audit.md",
+          "research/notes/2026-10-11-marked-shift-certificate/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-varying-output-frames/VO-C1",
+      "native_ids": [
+        "VO-C1",
+        "VO-C2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The prescribed three outputs (-Delta,0,Delta) and two outer rows, with the positive algebraic root t in (1/50,1/49) and all simultaneous endpoint identifications.",
+      "result": "A real eight-scalar zero-new-scalar junction exists, with Q=10, Z=3 and 54 unprescribed ordered pairs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-varying-output-frames/compatibility.md",
+        "section": "VO-C1–C2"
+      },
+      "checkpoint": "2026-10-11-varying-output-frames",
+      "dependencies": [
+        "Exact width root, isolation and endpoint identities"
+      ],
+      "scope": "Finite new junction only.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-varying-output-frames",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-varying-output-frames/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-varying-output-frames/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-varying-output-frames/audit.md",
+          "research/notes/2026-10-11-varying-output-frames/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-varying-output-frames/VO-C3",
+      "native_ids": [
+        "VO-C3",
+        "VO-C4",
+        "VO-C5"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Use only the registered same-rule family for integer m>=2, or the stated same-pool frame closures.",
+      "result": "The family has N=4m,Q=6m-2,Z=m+1 and actual image at least N²/16. All allowed frame closures within this scalar pool still prescribe at most 20N pairs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-varying-output-frames/compatibility.md",
+        "section": "VO-C3–C5"
+      },
+      "checkpoint": "2026-10-11-varying-output-frames",
+      "dependencies": [
+        "VO-C1/C2",
+        "scalar-pool and Cartesian-subsquare calculations"
+      ],
+      "scope": "No prohibition on other junction rules or pools.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-varying-output-frames",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-varying-output-frames/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-varying-output-frames/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-varying-output-frames/audit.md",
+          "research/notes/2026-10-11-varying-output-frames/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-11-varying-output-frames/VO-X1",
+      "native_ids": [
+        "VO-X1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Registered m=2,3,4 only; enumerate the entire scalar square exactly.",
+      "result": "Actual output counts are respectively 53,122,223.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-varying-output-frames/README.md",
+        "section": "§5 Exact finite audit"
+      },
+      "checkpoint": "2026-10-11-varying-output-frames",
+      "dependencies": [
+        "Exact algebraic arithmetic on each registered instance"
+      ],
+      "scope": "Finite confirmation, not the argument for the all-m bound.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-varying-output-frames",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-11-varying-output-frames/exact_audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-varying-output-frames/exact-results.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-varying-output-frames/audit.md",
+          "research/notes/2026-10-11-varying-output-frames/verification.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T01/2026-10-11-vo-o1-freeze/VO-C6",
+      "native_ids": [
+        "VO-C6"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Positive admissible conic widths in the VO-O1 mixed-role system; g(x)=2x-4x³, H=k+g(h)=s+g(k), g(H)=g(h)+g(k).",
+      "result": "The system has no solution. Its necessary inequalities H<1/2<h and H>h contradict one another.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-vo-o1-freeze/README.md",
+        "section": "§§1–4, exact statement, subsystem and proof"
+      },
+      "checkpoint": "2026-10-11-vo-o1-freeze",
+      "dependencies": [
+        "VO-O1 role equations",
+        "elementary inequalities"
+      ],
+      "scope": "Only the specified mixed row/column junction.",
+      "supersession": "Closes VO-O1. Earlier positive VO-C1–C2 junction remains intact.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-vo-o1-freeze",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-vo-o1-freeze/referee-audit.md",
+          "research/notes/2026-10-11-vo-o1-freeze/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-20-tetrahedral-junction/TJ-C1",
+      "native_ids": [
+        "TJ-C1",
+        "TJ-C2",
+        "TJ-C3",
+        "TJ-C4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "a,b>0, four outputs (0,a,a+b,2a+b), both registered signs on opposite edges, and only the two designated zero-new-scalar closing patterns with their positive conic width branches.",
+      "result": "Every one of the four registered simultaneous systems is impossible. No candidate exists to which N,Q,Z,B or a full-square histogram can be assigned.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-20-tetrahedral-junction/compatibility.md",
+        "section": "TJ-C1–C4; catalogue.md for the four systems"
+      },
+      "checkpoint": "2026-10-20-tetrahedral-junction",
+      "dependencies": [
+        "Exact role equations and strict width inequalities"
+      ],
+      "scope": "No enumeration was activated. Other output rules or role patterns are not classified.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-20-tetrahedral-junction",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-20-tetrahedral-junction/referee-audit.md",
+          "research/notes/2026-10-20-tetrahedral-junction/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-tj-o1-freeze/TJ-C6",
+      "native_ids": [
+        "TJ-C6"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "a,b>0, epsilon=-1, the retained four gap/conic equations, 2ell=v-u, H=r, S=e+q, e=a/4, ell=(a+b)/4; positive columns and 0<row widths<1/sqrt(3).",
+      "result": "No real tuple exists: q+g(p)<1<S+g(w) while the closing equations equate the outer two quantities.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-tj-o1-freeze/README.md",
+        "section": "Exact statement and geometric meaning; complete contradiction"
+      },
+      "checkpoint": "2026-10-21-tj-o1-freeze",
+      "dependencies": [
+        "TJ-C1 common bounds",
+        "strict signed role equations"
+      ],
+      "scope": "Extra distinct-pair and third-row conditions are unnecessary. Arbitrary systems remain open.",
+      "supersession": "Closes TJ-O1 after the 20 October catalogue.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-tj-o1-freeze",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-tj-o1-freeze/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-L0",
+      "native_ids": [
+        "MC-L0"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Real parent pair a,b, normalized children u,v in the unit interval, scale rho>0, d=a-b. Keep P exactly after rescaling by rho and subtracting P(a,b).",
+      "result": "The normalized map is (1+3d²)u+(1-3d²)v+3d rho (u-v)²+rho²(u-v)³; its nonlinear remainder has magnitude <=3|d|rho+rho².",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/appendix.md",
+        "section": "A. MC-L0, exact coefficients, resolution and exceptional differences"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "Binomial identity",
+        "bounded children"
+      ],
+      "scope": "Closeness at a chosen resolution does not give an exact support count.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-S1",
+      "native_ids": [
+        "MC-S1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "For every exact real z, a finite real A and any square in a nested half-open interval partition, quarter both scalar sides.",
+      "result": "The fiber x=f_z(y) is smooth and globally 1-Lipschitz. Its actual points in the parent occupy at most eight of the sixteen child squares.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+        "section": "MC-S1, global fiber graph and eight-child bound"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "Strict real monotonicity for fixed y",
+        "derivative bound"
+      ],
+      "scope": "No scale-balance conclusion.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-S2",
+      "native_ids": [
+        "MC-S2"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "All finite A of N>=2 real scalars; partition to a level separating inputs; b>=0 integer; B_L(p) counts genuine branch events of p's own exact output.",
+      "result": "Number of ordered pairs with B_L(p)<=b is at most |P(A,A)|8^b. If |P(A,A)|<=N^(2-c), then for each 0<gamma<c at most N^(2-gamma) pairs have at most floor((c-gamma)log_8 N) such levels.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+        "section": "MC-S2, near-full pair mass and genuine branch levels"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "MC-S1",
+        "finite prefix-tree count"
+      ],
+      "scope": "Necessary only. No claim on alignment, least separation, depth, spacing or positions of branches.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-S3",
+      "native_ids": [
+        "MC-S3"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Fix two levels j and j+k of the same tree, use the exact local output set S_C of each parent and its maximum descendant fiber capacity M(C) as defined in MC-S3.",
+      "result": "The number of pairs with at most b same-output branches between those levels is bounded by 8^b times the sum over parents of M(C)|S_C|.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+        "section": "MC-S3, local scale window"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "MC-S1/2",
+        "finite weighted leaf count"
+      ],
+      "scope": "The factor counts membership across cells, so sums of local supports cannot be treated as disjoint outputs.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-S4",
+      "native_ids": [
+        "MC-S4"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Compare an asserted |P(A,A)|<=N^(2-c) to a lower bound c0 N^beta with c0>0 uniform on the same unbounded family.",
+      "result": "A contradiction follows from this exponent comparison for beta>2-c; equality needs a separate constant check.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+        "section": "§4 Theorem applicability, MC-S4"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "Exponent comparison on identical domains and scale"
+      ],
+      "scope": "The Raz–Zahl exponent and its energy-dispersion input are unavailable in the supplied source record. No such theorem is invoked.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-X1",
+      "native_ids": [
+        "MC-X1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Exactly six registered carriers, 533 ordered pairs under the finite protocol at the two selected resolutions.",
+      "result": "The archived audit gives 1,599 charged P-evaluations; the nonuniform cases of sizes 9 and 12 have 75 and 136 actual scalar outputs respectively.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+        "section": "§5 Bounded exact laboratory"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "Exact finite data",
+        "independent counts and reconstruction preserved in checkpoint"
+      ],
+      "scope": "No asymptotic conclusion from the finite cases.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T01/2026-10-21-multiscale-collisions/MC-O1",
+      "native_ids": [
+        "MC-O1"
+      ],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "For every finite D in [0,7], rho=1/64, on the same D² put F0(u,v)=P(rho u,rho v), F1(u,v)=P(1+rho u,rho v). Count ordered quadruples of pairs with equal F0 by row, distinct row labels, equal F1 by column and distinct column labels.",
+      "result": "Determine whether the rectangle count Q4(D) <= C|D|³ with absolute C, or give a counterexample sequence.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+        "section": "§6 One next proof obligation, MC-O1"
+      },
+      "checkpoint": "2026-10-21-multiscale-collisions",
+      "dependencies": [
+        "Exact two-map collision relations, not inferred from MC-S2"
+      ],
+      "scope": "Proposed diagnostic only; no witness or proof assigned by the archive.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-multiscale-collisions",
+      "evidence_locators": {
+        "code": [
+          "research/notes/2026-10-21-multiscale-collisions/audit.py"
+        ],
+        "data": [
+          "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "research/notes/2026-10-21-multiscale-collisions/referee-counts.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-multiscale-collisions/verification.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T02/2026-10-11-finite-field-chebotarev-report/C2",
+      "native_ids": [
+        "C2",
+        "F7"
+      ],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "At either s=±1 on R=F7[pi]/pi³, h_s(z)=2z^4+s z, under the C2 determinant-seven map.",
+      "result": "The map has index 7^d and the occupied scalar local support has |h_s(R)|=208. The index and scalar restriction cannot be charged as independent gains.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "§6 F7; C2 determinant and local image"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "Exact determinant image and local derivative cases"
+      ],
+      "scope": "Deep local levels and globally realized box populations require additional information.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T02/2026-10-11-finite-field-chebotarev-report/C3",
+      "native_ids": [
+        "C3"
+      ],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Every nonempty E in the same 343-element ring R; s=±1.",
+      "result": "343|h_s(3E-E)|/|E|² >=4/7 with equality exactly on the full critical fibers a+pi R, a³=-s.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "§6 F7, sharp ramified-one-level optimum"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "C2 local ring",
+        "charging both input restrictions"
+      ],
+      "scope": "Universal only on this ring at this depth.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T02/2026-10-11-finite-field-chebotarev-report/C4",
+      "native_ids": [
+        "C4",
+        "F3"
+      ],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Ramified e=3,f=1, 7O=p³. R_m=O/p^(3m), E_m=(alpha+p) modulo p^(3m), alpha³=-1 modulo p, all m>=1.",
+      "result": "|P(E_1,E_1)|=4. For m>=2 the support is three full p³ cosets and one p⁴ coset, with 22·7^(3m-4) outputs and normalized two-input factor 22/49.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "§6 F3, actual higher ramified precision"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "Mixed-characteristic arithmetic",
+        "lifting on the full critical inverse image"
+      ],
+      "scope": "No optimum over arbitrary deeper local inputs.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T02/2026-10-11-finite-field-chebotarev-report/F4",
+      "native_ids": [
+        "F4",
+        "F5"
+      ],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "FAILED",
+      "hypotheses_and_quantifiers": "Same critical-coset carrier, entire local product support, full continuous intervals on every branch and uniform norm packing; arbitrary finite 7-supported ideal-coset covers under the stated equal-radius carrier hypotheses.",
+      "result": "The standard rational-modulus, saturation and mixed-depth envelope rates are negative. For the whole covered product, the stated numerical envelope divided by the pair budget is at least [81·22^(1/3)/64]^d.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "§6 F4–F5; track status, Failed routes"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "C4 local support",
+        "actual input ideal counts",
+        "discriminant, width and multiplicity costs"
+      ],
+      "scope": "Lower bound on a proposed numerical certificate, not on the actual quartic image.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Scoped negative result or failed certificate documented in the stated source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T02/2026-10-11-finite-field-chebotarev-report/F8",
+      "native_ids": [
+        "F8"
+      ],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "C1 fourth-power interval certificates under the hypotheses of F8; the independently given correlated case is p=5,d=2.",
+      "result": "C1's main scoped interval/thinning obstructions are reported; the finite p=5,d=2 correlated case has a reproduced argument.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-finite-field-chebotarev-report/report.md",
+        "section": "§6 F8, C1 and correlated inputs"
+      },
+      "checkpoint": "2026-10-11-finite-field-chebotarev-report",
+      "dependencies": [
+        "C1 status addendum",
+        "correction chain"
+      ],
+      "scope": "General correlated input inequality remains open.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Mixed provenance. C1 main proof reported but original missing; only the identified finite subcase has a reproduced proof.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-finite-field-chebotarev-report",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-finite-field-chebotarev-report/verification.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T02/migration/T02-O1",
+      "native_ids": [],
+      "track": "T02",
+      "polynomial": "(x+2y)^4+3x-y",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Fix the existing C_j; choose C'_j of at least exp((a-eta)d_j-o(d_j)) elements, eta<a, charge both input losses and every realized branch across all ordered pairs.",
+      "result": "Seek the branch-dependent full-support sum at most exp((2(a-eta)-epsilon)d_j+o(d_j)) for some epsilon>0.",
+      "proof_locator": {
+        "path": "research/tracks/02-quartic-hybrid/STATUS.md",
+        "section": "OPEN next obligation — recorded, not begun"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "C4",
+        "exact ideal norm, widths and realized-support multiplicities"
+      ],
+      "scope": "A stronger local density for an unrelated carrier would not fulfill these hypotheses.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T02-O1"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/02-quartic-hybrid/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T04/migration/T04-INPUT",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "A0={0}, epsilon=2+sqrt(3), a0=sqrt(3)/2, A_(m+1)=(epsilon A_m+a0) union (epsilon^(-1) A_m-a0). Lambda>1 solves Lambda^(-1)+Lambda^(-3)+Lambda^(-5)=1; phi=(1+sqrt(5))/2.",
+      "result": "Lambda^(m-2)/(m+1)<=|A_m|<=2 phi^4 phi^m. The actual limit input entropy a_* is between log Lambda and log phi.",
+      "proof_locator": {
+        "path": "research/tracks/04-cubic-slices/STATUS.md",
+        "section": "PROVED input theorem; OPEN full output"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Affine walk representation and input construction in the identified source"
+      ],
+      "scope": "Counts distinct scalar inputs, not cubic outputs.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Identified proof in source system; public STATUS reports the result and companion source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-INPUT"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/04-cubic-slices/STATUS.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T04/migration/T04-O1",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Same affine sequence; a_* is its actual limiting input rate.",
+      "result": "Need a uniform strict gap limsup m^(-1) log |P(A_m,A_m)| < 2a_*.",
+      "proof_locator": {
+        "path": "research/tracks/04-cubic-slices/STATUS.md",
+        "section": "PROVED input theorem; OPEN full output"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "T04-INPUT and exact pair evolution"
+      ],
+      "scope": "No positive output gap is established.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-O1"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/04-cubic-slices/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T04/migration/T04-ENCODING",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "CONDITIONAL",
+      "hypotheses_and_quantifiers": "An encoding of every ordered-pair output on the same A_m with total multiplicity charged and at most K(m+1)^B kappa^m labels for fixed K,B and kappa<Lambda².",
+      "result": "Then every strictly smaller exponent c<2-log(kappa)/log(Lambda) is available.",
+      "proof_locator": {
+        "path": "research/tracks/04-cubic-slices/STATUS.md",
+        "section": "PROVED exact pair evolution; missing output count"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Input lower bound",
+        "unproved label bound for every pair"
+      ],
+      "scope": "Conditional certificate only. No encoding with this growth is known.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Conditional consequence with missing premise.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-ENCODING"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/04-cubic-slices/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T04/migration/T04-X12",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Depth m=12 of the exact specified affine sequence and all ordered pairs.",
+      "result": "1,030 inputs, 1,060,900 pairs and 1,058,120 outputs; largest fiber eight.",
+      "proof_locator": {
+        "path": "research/tracks/04-cubic-slices/STATUS.md",
+        "section": "OPEN alternatives and evidence limits; current state and finite observations"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Historical exact counts"
+      ],
+      "scope": "Finite only. The deeper input CSV originally cited at depth 30 has a separate availability gap.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Exact finite data as reported in the source system, not rerun in the archival pass.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-X12"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/04-cubic-slices/STATUS.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T04/migration/T04-Q8-INERT",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The exact quadratic transfer witness at T=Q/8 for its specified q=5 mod 12 prime regime and scales.",
+      "result": "The negative-linear cubic is pair-injective on this witness. No exponent saving survives the transfer.",
+      "proof_locator": {
+        "path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+        "section": "Quadratic-to-cubic transfer proof; T04 STATUS, exact scope"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Frozen quadratic witness and prime/scale hypotheses"
+      ],
+      "scope": "Only this carrier/window and this sign of the cubic.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-Q8-INERT"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T04/migration/T04-Q8-SPLIT",
+      "native_ids": [],
+      "track": "T04",
+      "polynomial": "(x-y)^3-3(x+y)",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The complementary transfer witness at T=Q/8 under the specified q=1 mod 12 prime regime, all sufficiently large field layers with fixed data.",
+      "result": "The cubic has at least N²/(1+exp(-delta d)) distinct outputs for fixed delta>0.",
+      "proof_locator": {
+        "path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+        "section": "Complementary-prime transfer proof; T04 STATUS, exact scope"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Frozen quadratic witness and complementary split-prime hypotheses"
+      ],
+      "scope": "Only this witness and window. See MC-02 for the damaged historical display.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "T04-Q8-SPLIT"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/history-sources/complementary_prime_transfer_obstruction.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/migration/ADAPTIVE-LIFT",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Nonempty symmetric real A, M=max absolute element, C>M. Put d_C=C-M, take both roots ±sqrt((C+a)/d_C) for all a in A.",
+      "result": "The lift has exactly 2|A| inputs; its full quadratic image is d_C^(-1) times the union of all branches 2C+a+b±sqrt((C+a)(C+b)).",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "PROVED adaptive construction and exact finite ledger"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Exact substitution",
+        "distinct signed roots"
+      ],
+      "scope": "A construction step is not a subquadratic recurrence.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Source-system proof identified in controlling state and public reconciliation.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "ADAPTIVE-LIFT"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T03/migration/SIGNED-ROOT",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "n=|A| and C>M as in the adaptive lift. Use precisely K=Q(A,C); c_j are square-class sizes of C+A in K, W the union cardinality of in-field branches.",
+      "result": "Full branch support is n²-sum_j c_j²+W. The in-field union is all scaled signed homogeneous class images, including their class factors.",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "PROVED adaptive construction and exact finite ledger"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Square-class decomposition and both signs"
+      ],
+      "scope": "One large square class alone does not control W.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Source-system proof identified in controlling state and public reconciliation.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "SIGNED-ROOT"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Public proof status or digest; see evidence_grade for original availability."
+    },
+    {
+      "id": "T03/migration/ADAPTIVE-X",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Frozen optimizer and tie rule, actual levels m=0 through 4 only, starting at {±1}.",
+      "result": "Exact sizes (2,4,8,16,32), images (2,5,17,68,269). The first four optimizing parameters are 5/3,5/2,4,3.",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "PROVED adaptive construction and exact finite ledger"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Finite ARDC/DSCR records"
+      ],
+      "scope": "Next optimal parameter unknown; no uniform asymptotic claim.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Exact finite certificates reported, not rerun here.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "ADAPTIVE-X"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T03/migration/T03-O4",
+      "native_ids": [
+        "T03-O4",
+        "RC15/4"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "There must be fixed H,m0 and for every actual m>=m0 an explicit legal C in Q(A_m); at most H sqrt(n_m) exceptions to one positive square class with positive in-field roots, both signs retained.",
+      "result": "Require |gamma_m Q(U_m,U_m)| <= (15/4)s_m+H n_m^(3/2) for the entire signed root set on the actual adaptive levels.",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "OPEN selected obligation and CONDITIONAL consequence"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Adaptive lift",
+        "exact signed-root and exception counts"
+      ],
+      "scope": "An alternate descendant or sparse sequence of favorable steps cannot supply this requirement.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T03/migration/RC15-IMPLICATION",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "CONDITIONAL",
+      "hypotheses_and_quantifiers": "If all T03-O4 / RC15/4 hypotheses and the uniform signed-root bound hold on the actual eventual levels.",
+      "result": "Then s_(m+1)<=(15/4)s_m+4H n_m^(3/2) and every c<log_2(16/15) is available eventually.",
+      "proof_locator": {
+        "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+        "section": "OPEN selected obligation and CONDITIONAL consequence"
+      },
+      "checkpoint": null,
+      "dependencies": [
+        "Actual optimizer",
+        "signed-root reduction",
+        "unproved uniform RC15/4 premise"
+      ],
+      "scope": "Unconditional target remains open.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Conditional consequence with missing premise.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "RC15-IMPLICATION"
+      ],
+      "version": "November 2026 documentary edition of sources identified in the linked section.",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/tracks/03-eisenstein-cartesianization/STATUS.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T03/2026-09-16-hr-n1-offline/HN1-2",
+      "native_ids": [
+        "HN1-2",
+        "HN1-3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The frozen rational two-prime architecture, L=10m, m>=2, allowing all integer powers of the two specified norm-one generators.",
+      "result": "At least N²/200 ordered pairs admit only the identity return. Thus the HR-N1 high-return-tail assertion is false in its exact scope.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-hr-n1-offline/README.md",
+        "section": "§§3–4, dominant gap and positive-density obstruction"
+      },
+      "checkpoint": "2026-09-16-hr-n1-offline",
+      "dependencies": [
+        "Valuations of the explicit two-prime rational carrier"
+      ],
+      "scope": "The actual full image of the whole family does not follow from failure of these actions.",
+      "supersession": "Closes HR-N1 from the 16 September high-return checkpoint.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-hr-n1-offline",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-09-16-hr-n1-offline/independent-audit.md",
+          "research/notes/2026-09-16-hr-n1-offline/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-16-two-prime-character/TP-G1",
+      "native_ids": [
+        "TP-G1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The specified character-correlated unit residues modulo 7 and 19, all selected norm actions, and the product realization assumptions in the checkpoint.",
+      "result": "The local block supplies genuine modular return savings. The audited characteristic-zero homomorphic realization has at most 18 actions and does not retain the extensive independent return inventory.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-two-prime-character/README.md",
+        "section": "§§2–6, block counts, product and global realizations"
+      },
+      "checkpoint": "2026-09-16-two-prime-character",
+      "dependencies": [
+        "CRT character agreement",
+        "local action enumeration and algebraic realization"
+      ],
+      "scope": "Positive modular behavior is not a same-set real support theorem.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-two-prime-character",
+      "evidence_locators": {
+        "code": [
+          "experiments/two_prime_character.py"
+        ],
+        "data": [
+          "examples/2026-09-16-two-prime-character.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-09-16-two-prime-character/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-16-unit-exponent/UNIT-ORBIT",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Primary orbit of the registered independent unit actions, L=1, dimension d; secondary family is the separate sparse valuation box in §§5–6.",
+      "result": "The primary orbit has 3^d distinct actions and >=2^d returns on encoded pairs, covering only 1/(4·3^d) of its scalar square. The secondary actual full image equals n²/4+n/2.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-unit-exponent/README.md",
+        "section": "§§2–6, primary action and secondary image"
+      },
+      "checkpoint": "2026-09-16-unit-exponent",
+      "dependencies": [
+        "Independent unit exponents",
+        "real coordinate projection"
+      ],
+      "scope": "Primary actual image remains open. The secondary statement is for a different family.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "UNIT-ORBIT"
+      ],
+      "version": "Checkpoint 2026-09-16-unit-exponent",
+      "evidence_locators": {
+        "code": [
+          "experiments/unit_exponent.py"
+        ],
+        "data": [
+          "examples/2026-09-16-unit-exponent.json"
+        ],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-09-16-unit-exponent/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-21-dense-cartesianization/DC-R1",
+      "native_ids": [
+        "DC-R1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Real rectangle X by Y, A=X union Y with n=|A|, at least R distinct norm-preserving returns off the specified exceptional subset E, as defined in DC-R1.",
+      "result": "Full quadratic image of A² is at most n²/R+|X minus Y|²+|Y minus X|²+2|E|.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-dense-cartesianization/README.md",
+        "section": "DC-R1, rectangular returns to a same-set bound"
+      },
+      "checkpoint": "2026-09-21-dense-cartesianization",
+      "dependencies": [
+        "Symmetry of Q",
+        "return counting and square completion"
+      ],
+      "scope": "A high-overlap rectangular construction with a strong return tail is missing.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-dense-cartesianization",
+      "evidence_locators": {
+        "code": [
+          "experiments/dense_cartesianization.py",
+          "experiments/unit_exponent.py"
+        ],
+        "data": [
+          "examples/2026-09-21-dense-cartesianization.json"
+        ],
+        "tests": [
+          "tests/test_dense_cartesianization.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-dense-cartesianization/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-21-dc-o1/MP-1",
+      "native_ids": [
+        "MP-1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Specified correlated zero-sum ternary words evaluated at B_d=[10(d+2)]^(4d), full selected width-one exponent box.",
+      "result": "There are 3^d selected moving-pole multipliers but every distinct-return count is at most 27.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-dc-o1/README.md",
+        "section": "Moving-pole carrier, MP-1"
+      },
+      "checkpoint": "2026-09-21-dc-o1",
+      "dependencies": [
+        "Nonvanishing at algebraic poles",
+        "coefficient bounds"
+      ],
+      "scope": "Does not cover arbitrary integer powers or unrelated actions.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-dc-o1",
+      "evidence_locators": {
+        "code": [
+          "experiments/rectangular_returns.py",
+          "experiments/unit_exponent.py"
+        ],
+        "data": [
+          "examples/2026-09-21-dc-o1.json"
+        ],
+        "tests": [
+          "tests/test_rectangular_returns.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-dc-o1/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-21-correlated-dc-o1/CD-3",
+      "native_ids": [
+        "CD-3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Concrete CRT cube-root carrier X=Y, n=3^d, d>=1 and the 3^d selected width-one actions.",
+      "result": "At least n²/48 ordered pairs have just the identity return.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-correlated-dc-o1/README.md",
+        "section": "§4 CRT cube roots, positive-density obstruction"
+      },
+      "checkpoint": "2026-09-21-correlated-dc-o1",
+      "dependencies": [
+        "Simultaneous residues, norm and moment bounds"
+      ],
+      "scope": "Selected-action failure only, no all-action or actual-image conclusion.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-correlated-dc-o1",
+      "evidence_locators": {
+        "code": [
+          "experiments/correlated_returns.py"
+        ],
+        "data": [
+          "examples/2026-09-21-correlated-dc-o1.json"
+        ],
+        "tests": [
+          "tests/test_correlated_returns.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-correlated-dc-o1/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-21-return-tail/CY-1",
+      "native_ids": [
+        "CY-1",
+        "CY-2",
+        "CY-3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Specified cyclotomic trace carrier n=3p+1 with 6p selected norm-one actions.",
+      "result": "All non-sign actions have one common 6p-point domain; n²-6p sources have exactly two returns.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-return-tail/README.md",
+        "section": "§2 Cyclotomic traces"
+      },
+      "checkpoint": "2026-09-21-return-tail",
+      "dependencies": [
+        "Common domains of the selected actions"
+      ],
+      "scope": "No quadratic image lower bound inferred.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-return-tail",
+      "evidence_locators": {
+        "code": [
+          "experiments/return_tail.py"
+        ],
+        "data": [
+          "examples/2026-09-21-return-tail.json"
+        ],
+        "tests": [
+          "tests/test_return_tail.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-return-tail/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-21-return-tail/RT-D1",
+      "native_ids": [
+        "RT-D1",
+        "RT-D2",
+        "RT-D3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Specified bounded-height rational sequence H=12L, large coprime source denominators, all actual targets on that scalar square.",
+      "result": "At least n_H²/400000 pairs have subpolynomial full fibers. For each fixed rho>0 eventually the image has size at least n_H^(2-rho).",
+      "proof_locator": {
+        "path": "research/notes/2026-09-21-return-tail/README.md",
+        "section": "§4 Rational denominator states"
+      },
+      "checkpoint": "2026-09-21-return-tail",
+      "dependencies": [
+        "Target-denominator restrictions and full-fiber estimate"
+      ],
+      "scope": "A different carrier can have different fibers.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-21-return-tail",
+      "evidence_locators": {
+        "code": [
+          "experiments/return_tail.py"
+        ],
+        "data": [
+          "examples/2026-09-21-return-tail.json"
+        ],
+        "tests": [
+          "tests/test_return_tail.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-21-return-tail/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-30-modular-lift/ML-4",
+      "native_ids": [
+        "ML-4"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The exact paired algebraic lift of the specified primitive 7^k orbit and its independent-radius Cartesian completion, with n=1+t(m/2-1) as defined there.",
+      "result": "On n²-O(n^(3/2)) sources the selected return count is two and the complete quadratic fiber has size four. Actual image >= n²/4-O(n^(3/2)).",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-modular-lift/proofs.md",
+        "section": "ML paired lift and independent-radius full-fiber obstruction; main report §§2–3"
+      },
+      "checkpoint": "2026-09-30-modular-lift",
+      "dependencies": [
+        "Exact lift, scalar distinctness and full-fiber classification"
+      ],
+      "scope": "Only the independent-radius completion.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-modular-lift",
+      "evidence_locators": {
+        "code": [
+          "experiments/modular_lift.py"
+        ],
+        "data": [
+          "examples/2026-09-30-modular-lift.json"
+        ],
+        "tests": [
+          "tests/test_modular_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-modular-lift/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-30-multiscale-packing/MS-C1",
+      "native_ids": [
+        "MS-C1",
+        "MS-C2"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Two specified dyadic cosine-product carriers and their full selected root-of-unity group mu_(6·2^d).",
+      "result": "At least 4(n-1)²/9 sources have exactly two selected returns on the pure carrier; at least (n-1)²/2 have at most sixteen on the mixed-amplitude carrier.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-multiscale-packing/README.md",
+        "section": "§2 The two scoped obstructions"
+      },
+      "checkpoint": "2026-09-30-multiscale-packing",
+      "dependencies": [
+        "Scalar population separation",
+        "exact return counting"
+      ],
+      "scope": "Return-tail failures, not yet a statement about every actual target.",
+      "supersession": "Cross-block full-fiber proofs on 6 October strengthen the result for both carriers.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-30-multiscale-packing",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-09-30-multiscale-packing/audit.md",
+          "research/notes/2026-09-30-multiscale-packing/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-06-cross-block-returns/XB-F1",
+      "native_ids": [
+        "XB-F1",
+        "XB-F2"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "The same two unchanged dyadic packings at all depths, counting entire actual quadratic fibers, irrespective of selected actions.",
+      "result": "Their actual images have respectively at least (n-1)²/9 and (n-1)²/96-(n-1)/12 outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-cross-block-returns/README.md",
+        "section": "Full fibers decide both finalists"
+      },
+      "checkpoint": "2026-10-06-cross-block-returns",
+      "dependencies": [
+        "Complete fiber bounds on positive-density source families"
+      ],
+      "scope": "Only the two stated models.",
+      "supersession": "Strengthens the September selected-action result without replacing its scope.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-cross-block-returns",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-06-cross-block-returns/audit.md",
+          "research/notes/2026-10-06-cross-block-returns/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-06-fiber-growth/FG-A1",
+      "native_ids": [
+        "FG-A1",
+        "FG-A2",
+        "FG-A3",
+        "FG-A4",
+        "FG-A5",
+        "FG-F1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Explicit amplitudes h(1+omega xi^j), q=7^r and the cosets specified in the proof; large q for the full-fiber estimate.",
+      "result": "q²/2<=n<=48q², the stated subfield-line population is <=64sqrt(2)sqrt(n), and the full image is Theta(n²) by bounded fibers on a positive fraction of sources.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-fiber-growth/README.md",
+        "section": "§§2–3, exact construction, spreading and full fibers"
+      },
+      "checkpoint": "2026-10-06-fiber-growth",
+      "dependencies": [
+        "Coset inventory",
+        "coefficient and full-fiber matching"
+      ],
+      "scope": "Spreading does not imply compression.",
+      "supersession": "Closes XB-O1 spreading with the stated prefactor; the full-fiber theorem retires only this family.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-fiber-growth",
+      "evidence_locators": {
+        "code": [
+          "experiments/modular_lift.py"
+        ],
+        "data": [
+          "research/notes/2026-10-06-fiber-growth/data.json"
+        ],
+        "tests": [
+          "tests/test_modular_lift.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-06-fiber-growth/audit.md",
+          "research/notes/2026-10-06-fiber-growth/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-06-cross-block-amplification/AMP-R1",
+      "native_ids": [
+        "AMP-R1",
+        "AMP-R2",
+        "AMP-R3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Balanced factor family at r>=8, independent coordinate-switch certificate including all stated sign, swap and encoded equal-Q edges and their iterates.",
+      "result": "At least n²/2 sources have at most four targets under this certificate.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-06-cross-block-amplification/README.md",
+        "section": "§3 Finalist 1: balanced factor products"
+      },
+      "checkpoint": "2026-10-06-cross-block-amplification",
+      "dependencies": [
+        "Phase counts and exact closure of specified edges"
+      ],
+      "scope": "This result alone is not a full-fiber bound.",
+      "supersession": "Later BFF-O1 controls the actual full fibers of this balanced family.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-06-cross-block-amplification",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-06-cross-block-amplification/audit.md",
+          "research/notes/2026-10-06-cross-block-amplification/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-11-balanced-full-fibers/BFF-FINITE",
+      "native_ids": [],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "All 1,079 inputs of the registered balanced carrier at r=1, exact complete scalar square.",
+      "result": "286,664 actual quadratic outputs were counted.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-balanced-full-fibers/README.md",
+        "section": "§4 Complete small full-fiber audit"
+      },
+      "checkpoint": "2026-10-11-balanced-full-fibers",
+      "dependencies": [
+        "Exact arithmetic on a single finite family member"
+      ],
+      "scope": "No extrapolation to later r.",
+      "supersession": "BFF-O1 later supplies an independent uniform large-r theorem.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "BFF-FINITE"
+      ],
+      "version": "Checkpoint 2026-10-11-balanced-full-fibers",
+      "evidence_locators": {
+        "code": [
+          "experiments/__main__.py",
+          "experiments/modular_lift.py",
+          "experiments/return_tail.py"
+        ],
+        "data": [
+          "research/notes/2026-10-11-balanced-full-fibers/data.json"
+        ],
+        "tests": [
+          "tests/test_modular_lift.py",
+          "tests/test_return_tail.py"
+        ],
+        "verification": [
+          "research/notes/2026-10-11-balanced-full-fibers/audit.md",
+          "research/notes/2026-10-11-balanced-full-fibers/verification.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    },
+    {
+      "id": "T03/2026-10-11-bff-o1/BFF-O1",
+      "native_ids": [
+        "BFF-O1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Balanced factor construction A_r, q=7^r. There exists fixed M and r0 such that for every r>=r0 at least 32q^4 specified ordered sources have at most M actual targets over all of A_r².",
+      "result": "n²/(18M)<=|Q(A_r,A_r)|<=n². This family cannot attain a fixed positive exponent saving.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-11-bff-o1/README.md",
+        "section": "§§1–5, finite-fiber elimination and image bound"
+      },
+      "checkpoint": "2026-10-11-bff-o1",
+      "dependencies": [
+        "Localized elimination",
+        "exceptional-source and scalar counts"
+      ],
+      "scope": "Only the unchanged balanced-factor family; other T03 programs remain open.",
+      "supersession": "Resolves BFF-O1 and supersedes the earlier actual-image open status of this carrier.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-11-bff-o1",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-11-bff-o1/audit.md",
+          "research/notes/2026-10-11-bff-o1/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-20-mixed-signature/MS-F1",
+      "native_ids": [
+        "MS-F1",
+        "MS-F2",
+        "MS-F3",
+        "MS-F4",
+        "MS-F5",
+        "MS-F6"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Base change the fixed totally real tower by the real root of s³+s+1 and then adjoin omega; use the relative order and the all-conjugate scalar box of the checkpoint.",
+      "result": "The relative order-unit rank is d_j. At T0=2sqrt(D0·31^(1/3)), the scalar count is between (4pi)^d_j and (4sqrt(D0·31^(1/3))+1)^(3d_j); all nonzero source returns have their units in the specified finite logarithmic inventory.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-20-mixed-signature/README.md",
+        "section": "§§2–4, exact carrier, integral actions and inventory; MS-F1–F6 and MS-C1"
+      },
+      "checkpoint": "2026-10-20-mixed-signature",
+      "dependencies": [
+        "C0 arithmetic tower",
+        "signatures, discriminants, relative units and bounded distortion"
+      ],
+      "scope": "An inventory upper envelope is not an orbit-return theorem.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-20-mixed-signature",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-20-mixed-signature/audit.md",
+          "research/notes/2026-10-20-mixed-signature/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-20-mixed-signature/MS-C3",
+      "native_ids": [
+        "MS-C3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "FAILED",
+      "hypotheses_and_quantifiers": "All powers of the inherited s²+s omega seed times all order torsion units; T_j>=T0 in the same tower.",
+      "result": "At most O((log n_j)^3) distinct targets per input pair are possible from these actions.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-20-mixed-signature/README.md",
+        "section": "§5 A decisive obstruction for the inherited seed"
+      },
+      "checkpoint": "2026-10-20-mixed-signature",
+      "dependencies": [
+        "Input growth and seed height"
+      ],
+      "scope": "Only the seed-generated actions fail; all relative units are a different set.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Scoped negative result or failed certificate documented in the stated source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-20-mixed-signature",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-20-mixed-signature/audit.md",
+          "research/notes/2026-10-20-mixed-signature/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-21-relative-unit-population/MSU-A1",
+      "native_ids": [
+        "MSU-A1",
+        "MSU-A2",
+        "MSU-A3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Unchanged mixed-signature tower and order. The explicit fixed K_R is defined in §2; set T*=max(T0,exp(2K_R/3)).",
+      "result": "At every level j the relative order logarithmic covolume is <=K_R^d_j and the finite inventory |U_j(T*)|>=2^d_j.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-relative-unit-population/arithmetic.md",
+        "section": "§§2–5, MSU-A1–A3"
+      },
+      "checkpoint": "2026-10-21-relative-unit-population",
+      "dependencies": [
+        "Relative ideal classes",
+        "logarithmic fundamental domain and lattice count"
+      ],
+      "scope": "Counts eligible units, without a pointwise or typical lower bound on actual returns.",
+      "supersession": "Resolves MS-O1 exponential population at fixed radius. Does not resolve MS-O2.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-relative-unit-population",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-relative-unit-population/geometry-audit.md",
+          "research/notes/2026-10-21-relative-unit-population/verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-21-typical-unit-returns/MS2-W1",
+      "native_ids": [
+        "MS2-W1",
+        "MS2-W2",
+        "MS2-W3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Same frozen all-conjugate box, any nonzero source in its square and the actual order-unit actions.",
+      "result": "Actual returns are counted by source-dependent logarithmic and phase windows with kernel/torsion costs retained. There is no positive near-full tail proved by counting the inventory alone.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-typical-unit-returns/source-windows.md",
+        "section": "MS2-W1–W3, exact source-dependent windows"
+      },
+      "checkpoint": "2026-10-21-typical-unit-returns",
+      "dependencies": [
+        "MS-F1–F6",
+        "archimedean embeddings and phases"
+      ],
+      "scope": "A translated log-window may exclude most inventory units.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-typical-unit-returns",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "research/notes/2026-10-21-typical-unit-returns/ledger-verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-21-typical-unit-returns/MTR-L1",
+      "native_ids": [
+        "MTR-L1",
+        "MTR-L2"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "FAILED",
+      "hypotheses_and_quantifiers": "Only the stated actual-discrete first-moment certificate using its center and box costs on this tower.",
+      "result": "Its optimized certificate has log(P*/(2K_R))<0. The calculation supplies no positive exponential lower bound for typical return counts.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-typical-unit-returns/lower-incidence.md",
+        "section": "MTR-L1–L2, actual discrete estimate"
+      },
+      "checkpoint": "2026-10-21-typical-unit-returns",
+      "dependencies": [
+        "MSU covolume and the specified window lower-count budget"
+      ],
+      "scope": "Failure of this particular lower certificate does not give small actual returns.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Scoped negative result or failed certificate documented in the stated source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-typical-unit-returns",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "research/notes/2026-10-21-typical-unit-returns/ledger-verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-21-typical-unit-returns/MSR-I1",
+      "native_ids": [
+        "MSR-I1",
+        "MSR-I2",
+        "MSR-I3",
+        "MSR-I4"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "Omega_j=A_j² minus (0,0), N_j=n_j²-1. R_j(p) counts distinct genuine order-unit targets in the square. nu_j counts occupied joint (principal ideal, norm) labels.",
+      "result": "The finite components are the full realized orbit intersections, N_j E_{Omega_j}[1/R_j]=nu_j, and |Q(A_j,A_j)|<=1+nu_j.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-typical-unit-returns/incidences.md",
+        "section": "MSR-I1–I4, components, reciprocal returns and joint labels"
+      },
+      "checkpoint": "2026-10-21-typical-unit-returns",
+      "dependencies": [
+        "Exact same-set orbit correspondence",
+        "principal ideals",
+        "norm-one units"
+      ],
+      "scope": "Multiple ideal labels may have the same norm. This is an upper bound by occupied classes, not an image lower bound.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-typical-unit-returns",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "research/notes/2026-10-21-typical-unit-returns/ledger-verification.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-10-21-typical-unit-returns/MS-O2-I",
+      "native_ids": [
+        "MS-O2-I"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "OPEN",
+      "hypotheses_and_quantifiers": "Same fixed T* and mixed-signature tower. Require fixed gamma>0, C1<infinity and for all sufficiently large j the bound on occupied labels nu_j rather than all available ambient labels.",
+      "result": "Seek nu_j<=C1 N_j exp(-gamma d_j). The proved inverse-return identity would then furnish full support control and a fixed saving after the input cost.",
+      "proof_locator": {
+        "path": "research/notes/2026-10-21-typical-unit-returns/README.md",
+        "section": "§6 Status and one unresolved lemma"
+      },
+      "checkpoint": "2026-10-21-typical-unit-returns",
+      "dependencies": [
+        "MSR-I1–I4",
+        "all-level input growth and real projection"
+      ],
+      "scope": "Inventory population MS-O1 is established; this actual-incidence bound is open. RC15/4 belongs to a separate branch.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Open obligation or target.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-10-21-typical-unit-returns",
+      "evidence_locators": {
+        "code": [],
+        "data": [],
+        "tests": [],
+        "verification": [
+          "research/notes/2026-10-21-typical-unit-returns/audit.md",
+          "research/notes/2026-10-21-typical-unit-returns/ledger-verification.md"
+        ]
+      },
+      "locator_role": "Statement and dependencies; the open conclusion is not a proved result."
+    },
+    {
+      "id": "T03/2026-09-16-high-return/HR-1",
+      "native_ids": [
+        "HR-1"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "A finite parameter set S surjects onto the full real square A², F=P after projection; each legal return preserves F. Off E, at least M return labels, each target state occurring at most mu_* times.",
+      "result": "The entire image has at most |S|mu_*/M+|F(E)| outputs. With direct scalar multiplicity nu_* the main term becomes |A|²nu_*/M.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+        "section": "§2 HR-1(a), and §§3–6 for other variants"
+      },
+      "checkpoint": "2026-09-16-high-return",
+      "dependencies": [
+        "Exact preservation, Cartesian membership, multiplicity and exception costs"
+      ],
+      "scope": "This theorem applies to any fixed real polynomial; T03 is the benchmark. No return-tail witness is supplied.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-high-return",
+      "evidence_locators": {
+        "code": [
+          "experiments/cartesian_returns.py"
+        ],
+        "data": [
+          "examples/2026-09-16-cartesian-returns.json"
+        ],
+        "tests": [
+          "tests/test_cartesian_returns.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-high-return/validation.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T03/2026-09-16-solvable-norm-trace/NT-20260916-3",
+      "native_ids": [
+        "NT-20260916-3"
+      ],
+      "track": "T03",
+      "polynomial": "x^2+xy+y^2 and separate benchmark x^2+xy+y^2+x",
+      "status": "PROVED",
+      "hypotheses_and_quantifiers": "For every m>=1 on the specified multiquadratic sign cube of n=2^m distinct scalars.",
+      "result": "The homogeneous Q image has exactly n²/4+n/2 outputs. On the identical family Q+x is pair-injective.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-16-solvable-norm-trace/sign-cube.md",
+        "section": "Exact image theorem; homogeneous coefficient recovery and linear perturbation"
+      },
+      "checkpoint": "2026-09-16-solvable-norm-trace",
+      "dependencies": [
+        "Independent sign monomials and exact real projection"
+      ],
+      "scope": "Only this fixed sign-cube family.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Complete argument identified in the dated public source.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Source claim, obligation or documented proof label; the archive ID qualifies it by track and checkpoint.",
+      "archive_aliases": [],
+      "version": "Checkpoint 2026-09-16-solvable-norm-trace",
+      "evidence_locators": {
+        "code": [
+          "experiments/eisenstein_rephase.py",
+          "experiments/eisenstein_solvable.py",
+          "experiments/solvable_norm_trace.py"
+        ],
+        "data": [
+          "examples/2026-09-16-solvable-norm-trace.json"
+        ],
+        "tests": [
+          "tests/test_eisenstein_rephase.py",
+          "tests/test_eisenstein_solvable.py",
+          "tests/test_solvable_norm_trace.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-16-solvable-norm-trace/run-summary.md"
+        ]
+      },
+      "locator_role": "Argument or precise source exposition for the stated claim."
+    },
+    {
+      "id": "T01/2026-09-30-elliptic-geometry/ELLIPTIC-PREFIX",
+      "native_ids": [],
+      "track": "T01",
+      "polynomial": "(x-y)^3+x+y",
+      "status": "EXPERIMENTAL",
+      "hypotheses_and_quantifiers": "Exactly the registered rational sharing prefixes m=2,4,6,8 at s=1,c=6, and separately the four registered direct x-coordinate prefixes with N=4,8,12,16.",
+      "result": "The first four full images have 23,115,279,515 outputs on 5,11,17,23 scalars. Each has two size-m fibers and all remaining fibers singleton. The four direct-coordinate cases have N²-2 outputs.",
+      "proof_locator": {
+        "path": "research/notes/2026-09-30-elliptic-geometry/README.md",
+        "section": "§3 Best elliptic candidate, computational table"
+      },
+      "checkpoint": "2026-09-30-elliptic-geometry",
+      "dependencies": [
+        "EG-C1–C2",
+        "actual all-pairs enumeration"
+      ],
+      "scope": "Eight finite examples. No general full-fiber classification of the infinite family.",
+      "supersession": "Retained at the scope stated. See the dated native record for subsequent branch questions.",
+      "evidence_grade": "Finite evidence in the historical checkpoint.",
+      "audit_this_pass": "Documentary reconciliation and locator check only. No proof audit or mathematical experiment was performed.",
+      "identifier_provenance": "Archive locator for the unnumbered or grouped source statement.",
+      "archive_aliases": [
+        "ELLIPTIC-PREFIX"
+      ],
+      "version": "Checkpoint 2026-09-30-elliptic-geometry",
+      "evidence_locators": {
+        "code": [
+          "experiments/elliptic_geometry.py"
+        ],
+        "data": [
+          "examples/2026-09-30-elliptic-geometry.json"
+        ],
+        "tests": [
+          "tests/test_elliptic_geometry.py"
+        ],
+        "verification": [
+          "research/notes/2026-09-30-elliptic-geometry/verification.md"
+        ]
+      },
+      "locator_role": "Finite evidence and range."
+    }
+  ]
+}

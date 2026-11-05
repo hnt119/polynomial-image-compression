@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-21",
+  "track": "T03",
+  "polynomial": "x^2+xy+y^2",
+  "content": [
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/README.md",
+      "sha256": "0f4c2e1a83992d628831e11d14e39191d045abd7ba15ed8935e3f50bfebc939e",
+      "bytes": 13373
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/crt-domains.md",
+      "sha256": "0fac4940e7418bb612fe31f285565c2dca7ed1c5d3b126b6e24b217b831ab7bb",
+      "bytes": 13701
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/factor-switching.md",
+      "sha256": "fdc0238f16f1fc4b65d9a8daaf42ad834f1453463d84a811b7ea0b14851ce2d6",
+      "bytes": 21928
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/level-reflections.md",
+      "sha256": "b3a2e050551c4d210e36504bea55a61a86345ae6f6f104708ce7fd8b2f767fb7",
+      "bytes": 17880
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/verification.md",
+      "sha256": "ddc7fd9421da1e4923f0c40e0b9f0b5cfcef42c8d5339a6add6eb232d4b9b104",
+      "bytes": 10756
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/state.json",
+      "sha256": "590012a0d1f4ee77055ea7e5b0e258773de527ef7abaa6eee940d0785fdc8355",
+      "bytes": 2092
+    },
+    {
+      "path": "experiments/correlated_returns.py",
+      "sha256": "bf53d5b24523fb7c94d9bcc89f61d177b4ff142ab70c728c35444efce82a37a7",
+      "bytes": 8994
+    },
+    {
+      "path": "tests/test_correlated_returns.py",
+      "sha256": "9bed251e7bcc92e335b3e0426331e2e5ac1c2675e260fbcb034d82a2cbc90d23",
+      "bytes": 1284
+    },
+    {
+      "path": "examples/2026-09-21-correlated-dc-o1.json",
+      "sha256": "ec33357cd1c841eb427f848a265d751a19fe4cb76bcd57e968ee17698421d219",
+      "bytes": 10233
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/addenda-prefixes.json",
+      "sha256": "bf3027e6759ae9c7a301959ebc725d96ad3203205cb3896ee6d130b53252e386",
+      "bytes": 809
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/baseline.json",
+      "sha256": "a2e1676161bf1f2fd3a48d41ff1419ab630e13f747a672fb472c94b15bdacc05",
+      "bytes": 24530
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/inherited-status.txt",
+      "sha256": "6a7f223f39e9aa0ea2a40ce31cc6bbb6e2236d02588d8a3af9d38aa93b57af67",
+      "bytes": 2490
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/inherited.patch",
+      "sha256": "3ed7af73ddb1f79d9359ebd96b17124eefe84cfc631fc387ff79bf4160ed0004",
+      "bytes": 90095
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/integrity.json",
+      "sha256": "c17073aaaf1189e20d7ffba632bac124bfce28f819f80fd63201dde947166048",
+      "bytes": 847
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/pairs.json",
+      "sha256": "de715e3d1f1317d360c338411f01da990a70e5bed85b3bbac805176b6507da90",
+      "bytes": 1264168
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/regression-unittest.json",
+      "sha256": "561fe914cd51351039ce2c330f957e77348d803619207496889d057aba5120ce",
+      "bytes": 15737
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/regression-unittest.txt",
+      "sha256": "b667ccb9a5da67a02d1a1255116a251ac93f32179715790fdf599986122282cc",
+      "bytes": 8113
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/regression-verify.json",
+      "sha256": "390c12dc5b959827d5856e768f61fa1bc30b96978e8fa2612d3bb7f6db5d57d9",
+      "bytes": 1183
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/regression-verify.txt",
+      "sha256": "825d17a1344b8550e68c502f549111143ce2d15b63b92add938beedcee3ff70e",
+      "bytes": 23193
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-correlated-dc-o1/regression_guard.py",
+      "sha256": "4fbb1e043177596435630e7e2ebf3e3e97c505b6cbadeb4841b65bd281f1f089",
+      "bytes": 3248
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d",
+      "bytes": 28388
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e",
+      "bytes": 19551
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/block-rectangle.md",
+      "sha256": "68563f8b96b485b9e095c5d856f363e9cf1f8ec9482017ba157c30f59702f6c1",
+      "bytes": 20843
+    },
+    {
+      "path": "research/notes/2026-09-21-dc-o1/README.md",
+      "sha256": "5ba33d865d3095620dc555c3f86da4f0dd57e3e2d5b4f37f18ca3e315f3a32c2",
+      "bytes": 17771
+    },
+    {
+      "path": "research/notes/2026-09-21-dc-o1/tensor-compatibility.md",
+      "sha256": "3acd30d1a5eccc5863f96d15d746aab832f6f6455923180407addfa06fa25014",
+      "bytes": 18946
+    },
+    {
+      "path": "experiments/unit_exponent.py",
+      "sha256": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a",
+      "bytes": 12112
+    },
+    {
+      "path": "experiments/rectangular_returns.py",
+      "sha256": "09e3fcd5db3e59a75b8ce795cda793c60a200a78af2fce551701fbf351fc5bfd",
+      "bytes": 10076
+    }
+  ],
+  "claims": {
+    "FS-1\u2013FS-3": {
+      "source": "factor-switching.md",
+      "evidence": "complete local proof; independent internal audit passed"
+    },
+    "CR-L1\u2013CR-L4": {
+      "source": "level-reflections.md",
+      "evidence": "complete local proof; independent internal audit passed"
+    },
+    "CD-1\u2013CD-3": {
+      "source": "crt-domains.md",
+      "evidence": "complete local proof; two independent internal audits passed"
+    }
+  },
+  "self_hash_omitted": true
+}

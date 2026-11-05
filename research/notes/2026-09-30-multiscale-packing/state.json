@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-30",
+  "thread": "T03",
+  "polynomial": "x^2+xy+y^2",
+  "cycle": "multiscale-fractal-coordinate-packing",
+  "status": "SCOPED_RETURN_TAIL_FAIL",
+  "network_policy": "strictly offline",
+  "claims": {
+    "MP-L1": {
+      "status": "PROVED",
+      "scope": "historical four-scalar seed with explicit finite action table",
+      "source": "local-gadgets.md \u00a71",
+      "n": 4,
+      "image": 5,
+      "return_histogram": {
+        "2": 6,
+        "4": 4,
+        "6": 6
+      }
+    },
+    "MP-L2": {
+      "status": "PROVED",
+      "scope": "two norm orbits; exact hand classification",
+      "source": "local-gadgets.md \u00a72",
+      "n": 11,
+      "image": 24,
+      "return_histogram": {
+        "1": 1,
+        "2": 64,
+        "6": 24,
+        "8": 8,
+        "12": 24
+      }
+    },
+    "MS-C1": {
+      "status": "PROVED",
+      "certificate_status": "FAILED",
+      "source": "composition.md",
+      "parameter": "integer d>=1; m=6*2^d",
+      "bad_pair_lower_bound": "4(n-1)^2/9",
+      "return_count": 2,
+      "action_scope": "all selected roots mu_m; not all norm-one multipliers"
+    },
+    "MS-C2": {
+      "status": "PROVED",
+      "certificate_status": "FAILED",
+      "source": "composition.md",
+      "parameter": "integer d>=1; m=6*2^d",
+      "bad_pair_lower_bound": "(n-1)^2/2",
+      "return_upper_bound": 16,
+      "action_scope": "all selected roots mu_m; not all norm-one multipliers",
+      "stronger_input_lower_bound": "6*2^d+1"
+    }
+  },
+  "input_count_bounds": "3*2^d+1 <= n <= 3*4^d+1",
+  "lambda": "exact rate and existence unproved; if it exists, between2 and4",
+  "rho": "no rho>1 possible outside power-saving bad set for selected actions; obstruction population has log return/d ->0",
+  "bad_pair_exponent": 2,
+  "certified_positive_c": false,
+  "actual_image_lower_bound_for_new_growing_carriers": null,
+  "remaining_status": {
+    "quadratic_image_rate": "OPEN",
+    "T03": "OPEN",
+    "DC-O1": "OPEN",
+    "ML-O1": "OPEN",
+    "RC15/4": "OPEN",
+    "ARG/TCRC": "OPEN",
+    "HR-N1": "DISPROVED"
+  },
+  "does_not_imply": [
+    "actual images have quadratic size",
+    "all norm-one action tails fail",
+    "every multiscale carrier fails",
+    "quadratic target false",
+    "RC15/4 false"
+  ],
+  "next_obligation": {
+    "id": "ML-O1",
+    "status": "OPEN",
+    "disposition": "retained without replacement",
+    "source": "../2026-09-30-modular-lift/proofs.md \u00a78"
+  },
+  "review": {
+    "lead_independent_symbolic_checks": true,
+    "independent_internal_auditor": true,
+    "external_review": false,
+    "details": "audit.md and verification.md"
+  },
+  "computation": {
+    "new_research_program_runs": 0,
+    "charged_exact_evaluations": 0,
+    "research_program_cpu_seconds": 0,
+    "evaluation_cap": 2000000,
+    "cpu_cap_seconds": 600,
+    "finite_tables": "analytic exact hand classification",
+    "local_gadgets": 2,
+    "serious_definitions": 2,
+    "related_mutations": 1,
+    "specialized_subagents": 3,
+    "lead_role": "exact scout and independent lead audit; no scout run"
+  },
+  "stop_rule": "two selected definitions rigorously obstructed; no further search",
+  "novelty_claimed": false,
+  "uncommitted": true,
+  "checks": {
+    "repository": "PASS:39 archives,155 Markdown files",
+    "setup": "PASS:50 references,43 T03 members",
+    "git_diff_check": "PASS",
+    "new_markdown_formatting": "PASS after delimiter repair",
+    "preservation": "PASS:exact five append prefixes/suffixes; no unexpected baseline changes",
+    "regressions": "not run; no code changed"
+  }
+}

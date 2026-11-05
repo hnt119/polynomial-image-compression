@@ -1,0 +1,33 @@
+{
+  "claim": "VO-C6",
+  "date": "2026-10-11",
+  "version": 1,
+  "proof_source": "Complete inline user-supplied proof in current message; no separate attachment located.",
+  "files": [
+    {
+      "path": "research/notes/2026-10-11-varying-output-frames/README.md",
+      "bytes": 10011,
+      "sha256": "aca44ca8fd26f32389ed96f535d7c5957f7d21a2fd8c32fb07b9867bdf572038"
+    },
+    {
+      "path": "research/notes/2026-10-11-varying-output-frames/compatibility.md",
+      "bytes": 13794,
+      "sha256": "885cfb686b97849391c8337720b15053d7b0357a72fbf972ce393a14381b6658"
+    },
+    {
+      "path": "research/notes/2026-10-11-varying-output-frames/audit.md",
+      "bytes": 12215,
+      "sha256": "47cc54571b10706006eee21f602929644983529a991d7ff3d4db3f879ec911e6"
+    },
+    {
+      "path": "research/notes/2026-10-11-varying-output-frames/verification.md",
+      "bytes": 11882,
+      "sha256": "7a03e1cde6095f9eeb7b26b8956e10ee34425185b81339e819c2decf50440904"
+    },
+    {
+      "path": "research/notes/2026-10-11-torsion-compatible-sharing/geometry.md",
+      "bytes": 20850,
+      "sha256": "713c2372740eb9b3f54dcb4242192b170436b98002f2ceacdfcc075903cb2d58"
+    }
+  ]
+}

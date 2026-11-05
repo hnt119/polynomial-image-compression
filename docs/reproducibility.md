@@ -99,3 +99,12 @@ The repository does not currently implement growing number-field towers,
 unit/regulator enumeration, a general symbolic proof assistant, or exhaustive
 search over correlated residue subsets. Those require separately specified
 research tasks and source inputs.
+
+
+## 2026-11-05 evidence release
+
+A public checkout can run all three standard checks above with the Python standard library. In addition, run `python3 scripts/check_evidence_release.py` from the repository root to validate the dated claim and checkpoint locators, publication-copy hashes, and typeset export inventory. See the [release record](release/2026-11-05/README.md) for the measured results. The release check is archival verification, not a test of an asymptotic claim.
+
+The [ledger](../research/EVIDENCE_INDEX.md) identifies portable JSON evidence and full proof text separately from finite research scripts. Historical run commands describe their original budgets and inputs; they need not be run to read or verify this export. The original source check `python3 scripts/check_codex_setup.py` is **local-bundle only**: a public clone deliberately lacks its 50 restricted reference inputs. Do not infer a missing proof from a passing public check or recreate withheld files from filenames.
+
+The [LaTeX export](../research/reports/2026-11-05-evidence-export/README.md) has its own build instructions and bibliography. The committed PDFs are provided for reading without a TeX installation. Auxiliary TeX and page-inspection files are not publication artifacts.

@@ -1,0 +1,115 @@
+{
+  "scope": "New cross-block amplification companions only; excludes this manifest. Historical manifests unchanged.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9813,
+      "sha256": "0398af69d9f679ca06713d5d541b4a594aba92b311a422e1a9140b6756feea72"
+    },
+    {
+      "path": "amplitudes.md",
+      "bytes": 20337,
+      "sha256": "4e95e9939199189702e0e9f5ad48584908a8ec03f5662a7449323c57b850bca6"
+    },
+    {
+      "path": "audit.md",
+      "bytes": 25402,
+      "sha256": "0dac3200d89fd1cfdd72af5297d4f9664109941a2cd7f68e07707168f1e4e6b3"
+    },
+    {
+      "path": "identities.md",
+      "bytes": 10751,
+      "sha256": "8413323a7e9a7e292650511f160ee0aabeccad42f8e8a2aaba3d921e2da14919"
+    },
+    {
+      "path": "ledger.md",
+      "bytes": 7822,
+      "sha256": "25f6b276ace6a56daf5f949bf4ee2f8696f829b50eef627a6f04bf10344446b1"
+    },
+    {
+      "path": "returns.md",
+      "bytes": 9499,
+      "sha256": "37f9b63119ba9591e31075164539068e638823c38eca73476cbc711912479096"
+    },
+    {
+      "path": "state.json",
+      "bytes": 11507,
+      "sha256": "a1aaf155c022c55d8997757ddf0a8a1fec00334db4a2c36787336c1d14e4aee4"
+    },
+    {
+      "path": "verification.md",
+      "bytes": 8708,
+      "sha256": "ce0734b5c8a2aa57e6d1b25723c56118b9cebaa5d33d399a1e9e7002fde02c21"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "research/notes/2026-10-06-fiber-growth/README.md",
+      "bytes": 9330,
+      "sha256": "344a26592bf14fc048b1820951be9c1443db6c5b889b5f7b34b7f38d75441d8f"
+    },
+    {
+      "path": "research/notes/2026-10-06-fiber-growth/amplitudes.md",
+      "bytes": 18481,
+      "sha256": "d74797dd038b7ef61c945a8557a72337bd4d2d01f5e0f0142c036a65ac45f8ba"
+    },
+    {
+      "path": "research/notes/2026-10-06-fiber-growth/fibers.md",
+      "bytes": 22104,
+      "sha256": "e04cce623dfbc1c1476895d7f1fd163903966a5ae7d0f12a9ca54a70c60a629b"
+    },
+    {
+      "path": "research/notes/2026-10-06-fiber-growth/audit.md",
+      "bytes": 21793,
+      "sha256": "77237016b617ba1769651b02794f0e7872207ef5f3f656dcc6a29cd840e0b9e8"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/matrix-product.md",
+      "bytes": 26780,
+      "sha256": "5eb36fd94c17d2a960cd66a98efc53111dcd878792c7cbda22bc67ca8c35b382"
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/proofs.md",
+      "bytes": 19264,
+      "sha256": "2d020a9dd84d67179f4b190d393f3712ff34c05b4c823fb145417b7a1ed2b1fd"
+    },
+    {
+      "path": "research/templates/CONSTRUCTION_LEDGER.md",
+      "bytes": 2460,
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6"
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "bytes": 63057,
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850"
+    }
+  ],
+  "local_accounting_files": [
+    {
+      "path": "local-only/runs/T03/2026-10-06-cross-block-amplification/baseline.json",
+      "bytes": 39679,
+      "sha256": "375d6b96fcffbdee4c9e4c16181b924a63a8ad49d5dc4265aa6662557bbe4cb2"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-cross-block-amplification/budget-initial.json",
+      "bytes": 1124,
+      "sha256": "d6d802faadd6b22609872eae54186f3a04dc8f41553c2bc59d0f4823e6dc4179"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-cross-block-amplification/budget.json",
+      "bytes": 1286,
+      "sha256": "79292d95ffe51967c78c4aa5639c0b57b5e2dee1baabde559202b9d8f63ecfa2"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-cross-block-amplification/handoff-appends.json",
+      "bytes": 2880,
+      "sha256": "c0be3468a8287b5b1e34d186d9cf1b2515639adaeea29cceaad64d9891596ed1"
+    },
+    {
+      "path": "local-only/runs/T03/2026-10-06-cross-block-amplification/preservation-check.json",
+      "bytes": 421,
+      "sha256": "b0771d828b6478c5eb86506a052444f9b66b3244b498dadd5957e2893fffdca2"
+    }
+  ],
+  "local_records": "Initial state, policy and append preservation records remain ignored local files; no mathematical program or raw scout exists."
+}

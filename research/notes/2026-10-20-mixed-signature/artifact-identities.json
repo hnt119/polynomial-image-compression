@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-20",
+  "scope": "This new report package only; manifest excludes itself.",
+  "files": [
+    {
+      "filename": "README.md",
+      "bytes": 12540,
+      "sha256": "97e7455d516067990d718e4824ab97b31d1549484fdb2dd11a1ce5aedcdb7442"
+    },
+    {
+      "filename": "audit.md",
+      "bytes": 18697,
+      "sha256": "a86e969d1131d3cc780db25f75a1cd89ac2cbcbf0b98ebfc2a673e17b86f758e"
+    },
+    {
+      "filename": "budget.json",
+      "bytes": 3194,
+      "sha256": "9aa2667b8629617a41af83bbff3ceaedf9bb1486e66856f5cf7fcbc944dcdbb8"
+    },
+    {
+      "filename": "carrier-rate.md",
+      "bytes": 15771,
+      "sha256": "7cc77d0fe9d4aadd8cf43ad51677d254f363856276b479f3172a634b7149e861"
+    },
+    {
+      "filename": "field-units.md",
+      "bytes": 22564,
+      "sha256": "b8b7c74b1a8924137207556e17c601df60f7d3530268f7ecc7a5d88803d48f70"
+    },
+    {
+      "filename": "source-identities.json",
+      "bytes": 3602,
+      "sha256": "7bdce5cb064f7a909c124ecf895baad69a7ce85a5f3a201adb8fb6dd58e2b46d"
+    },
+    {
+      "filename": "state.json",
+      "bytes": 3196,
+      "sha256": "af4780ee1a7ee2f6275fbf5875ccfb986eccbb6280acc4ce53e87a6883ab10b8"
+    },
+    {
+      "filename": "verification.md",
+      "bytes": 10474,
+      "sha256": "8cace1e29a88b3f2e4fa109c0dbd2e22c021a760d65fa10eedc855721371928f"
+    },
+    {
+      "filename": "window-returns.md",
+      "bytes": 18801,
+      "sha256": "12ea4e7c362c9cf7bfa42212959abb152053afb92c018870ad6e1dcfe437a1fd"
+    }
+  ]
+}

@@ -1,0 +1,1400 @@
+{
+  "date": "2026-09-21",
+  "claim_id": "NR-X1",
+  "status": "EXPERIMENTAL exact finite chart audits",
+  "polynomial": "(x-y)^3+x+y",
+  "preflight": {
+    "model_records": 16,
+    "distinct_normalized_carriers": 12,
+    "maximum_N": 18,
+    "cached_full_square_P_evaluations": 924,
+    "formal_label_construction_checks": 980,
+    "models": [
+      {
+        "id": "permuted_squares_m5",
+        "N": 5,
+        "Q0": 25,
+        "Q": 25,
+        "lambda": "1",
+        "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism."
+      },
+      {
+        "id": "permuted_squares_m9",
+        "N": 9,
+        "Q0": 81,
+        "Q": 81,
+        "lambda": "1",
+        "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism."
+      },
+      {
+        "id": "permuted_rational_m5",
+        "N": 5,
+        "Q0": 25,
+        "Q": 25,
+        "lambda": "1",
+        "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism."
+      },
+      {
+        "id": "permuted_rational_m9",
+        "N": 9,
+        "Q0": 81,
+        "Q": 81,
+        "lambda": "1",
+        "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism."
+      },
+      {
+        "id": "signed_square_m3",
+        "N": 4,
+        "Q0": 49,
+        "Q": 16,
+        "lambda": "1",
+        "stop": "Two small multiplicity controls only; repeated labels do not change selected or full output support."
+      },
+      {
+        "id": "signed_square_m5",
+        "N": 6,
+        "Q0": 121,
+        "Q": 36,
+        "lambda": "1",
+        "stop": "Two small multiplicity controls only; repeated labels do not change selected or full output support."
+      },
+      {
+        "id": "forced_quadratic_sum_m2",
+        "N": 8,
+        "Q0": 4,
+        "Q": 4,
+        "lambda": "1",
+        "stop": "Stop after the single minimal size: compare distinct selected pairs with actual scalars and charge the uncovered square; no larger sparse chart search."
+      },
+      {
+        "id": "forced_product_m2",
+        "N": 6,
+        "Q0": 4,
+        "Q": 3,
+        "lambda": "1",
+        "stop": "Stop after the single minimal size: compare distinct selected pairs with actual scalars and charge the uncovered square; no larger sparse chart search."
+      },
+      {
+        "id": "conic_H1",
+        "N": 6,
+        "Q0": 10,
+        "Q": 5,
+        "lambda": "1",
+        "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion."
+      },
+      {
+        "id": "conic_H2",
+        "N": 10,
+        "Q0": 20,
+        "Q": 10,
+        "lambda": "1",
+        "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion."
+      },
+      {
+        "id": "conic_H2_transpose_diagonal",
+        "N": 10,
+        "Q0": 50,
+        "Q": 24,
+        "lambda": "1",
+        "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion."
+      },
+      {
+        "id": "conic_H2_full_completion",
+        "N": 10,
+        "Q0": 110,
+        "Q": 100,
+        "lambda": "1",
+        "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion."
+      },
+      {
+        "id": "nodal_H1",
+        "N": 10,
+        "Q0": 8,
+        "Q": 7,
+        "lambda": "1/3",
+        "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion."
+      },
+      {
+        "id": "nodal_H2",
+        "N": 18,
+        "Q0": 16,
+        "Q": 14,
+        "lambda": "1/3",
+        "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion."
+      },
+      {
+        "id": "nodal_H2_transpose_diagonal",
+        "N": 18,
+        "Q0": 50,
+        "Q": 46,
+        "lambda": "1/3",
+        "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion."
+      },
+      {
+        "id": "nodal_H2_full_completion",
+        "N": 18,
+        "Q0": 326,
+        "Q": 324,
+        "lambda": "1/3",
+        "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion."
+      }
+    ]
+  },
+  "carriers": [
+    {
+      "id": "carrier01",
+      "N": 5,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier01.json",
+      "raw_sha256": "18022a3e59e7d8f4434317d16fde19df2c76eb554a4836ac69653020090eb6ed"
+    },
+    {
+      "id": "carrier02",
+      "N": 9,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier02.json",
+      "raw_sha256": "03af3ebc7679260e0e9a7d8ccde496d96b676603bc06099321e816103271121f"
+    },
+    {
+      "id": "carrier03",
+      "N": 5,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier03.json",
+      "raw_sha256": "eeb2c3fbde811162ba96824faf343fff123fc66515552a79d1b0c63792907a4e"
+    },
+    {
+      "id": "carrier04",
+      "N": 9,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier04.json",
+      "raw_sha256": "0247d36ef906d7173462e5140b8d46acfe7cba6c752217ca86c748e9a9330213"
+    },
+    {
+      "id": "carrier05",
+      "N": 4,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier05.json",
+      "raw_sha256": "7e9f13a7644f37851a1f51269ef495fc57a933fdd2f449be1607fd54c84b2bbe"
+    },
+    {
+      "id": "carrier06",
+      "N": 6,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier06.json",
+      "raw_sha256": "6cecce39d3486c96af1286fa14fa9891fdaa7ad62f81d02194bbef30586ead9e"
+    },
+    {
+      "id": "carrier07",
+      "N": 8,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier07.json",
+      "raw_sha256": "00fba32243f9ecbefc84094d613f67a6ec0b4ed83fdc93ae037645d6a5a8b4a6"
+    },
+    {
+      "id": "carrier08",
+      "N": 6,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier08.json",
+      "raw_sha256": "bbc1f5f1cc7c9683b456f9f76c35d521d7a75576d60f32ceac76802b555cbf99"
+    },
+    {
+      "id": "carrier09",
+      "N": 6,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier09.json",
+      "raw_sha256": "2db71c7631f3e0fee5187c7d57efbc373b7c7c3d7916590d1dd4c74d9762d887"
+    },
+    {
+      "id": "carrier10",
+      "N": 10,
+      "lambda": "1",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier10.json",
+      "raw_sha256": "a4f303af1289c4cad6a066855b3bffa6aeb4697e39d7e4c0e3f3bcc758c426f4"
+    },
+    {
+      "id": "carrier11",
+      "N": 10,
+      "lambda": "1/3",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier11.json",
+      "raw_sha256": "b14e969d9c17087765f74a95fa3f095bdf67de19ebe76c4fca919513e5a299a8"
+    },
+    {
+      "id": "carrier12",
+      "N": 18,
+      "lambda": "1/3",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/carrier12.json",
+      "raw_sha256": "279fa89cd79e65454fe43a32e2b6c7346aa83864cfac62b5fc61260c78f9a856"
+    }
+  ],
+  "models": [
+    {
+      "id": "permuted_squares_m5",
+      "family": "full_square_reindexing_control",
+      "parameters": {
+        "m": 5,
+        "f": "squares",
+        "column_index": "(s+r^2) mod m"
+      },
+      "scope": "Modulo reindexing is not a bounded-degree rational chart. It preserves the full Cartesian square and all its outputs.",
+      "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1",
+        "4",
+        "9",
+        "16"
+      ],
+      "N": 5,
+      "Q0": 25,
+      "Q": 25,
+      "selected_image_size": 22,
+      "full_image_size": 22,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 22,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 25
+      },
+      "maximum_formal_pair_multiplicity": 1,
+      "coordinate_projection_multiplicity_distribution": {
+        "10": 5
+      },
+      "formal_coordinate_occurrences": 50,
+      "formal_coordinate_reuse": "10",
+      "distinct_selected_coordinate_occurrences": 50,
+      "distinct_selected_coordinate_reuse": "10",
+      "distinct_pair_label_reuse": "1",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 19,
+        "2": 3
+      },
+      "average_actual_fiber": "25/22",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 3,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier01",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/permuted_squares_m5.json",
+      "raw_sha256": "d37621349c021345d329d8fb8b2b989beb595c43d29e081e55e6ec83f56cfec5"
+    },
+    {
+      "id": "permuted_squares_m9",
+      "family": "full_square_reindexing_control",
+      "parameters": {
+        "m": 9,
+        "f": "squares",
+        "column_index": "(s+r^2) mod m"
+      },
+      "scope": "Modulo reindexing is not a bounded-degree rational chart. It preserves the full Cartesian square and all its outputs.",
+      "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1",
+        "4",
+        "9",
+        "16",
+        "25",
+        "36",
+        "49",
+        "64"
+      ],
+      "N": 9,
+      "Q0": 81,
+      "Q": 81,
+      "selected_image_size": 78,
+      "full_image_size": 78,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 78,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 81
+      },
+      "maximum_formal_pair_multiplicity": 1,
+      "coordinate_projection_multiplicity_distribution": {
+        "18": 9
+      },
+      "formal_coordinate_occurrences": 162,
+      "formal_coordinate_reuse": "18",
+      "distinct_selected_coordinate_occurrences": 162,
+      "distinct_selected_coordinate_reuse": "18",
+      "distinct_pair_label_reuse": "1",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 75,
+        "2": 3
+      },
+      "average_actual_fiber": "27/26",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 3,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier02",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/permuted_squares_m9.json",
+      "raw_sha256": "a64b737dad09e0d189113fbef61aed6a03e45337f614f25ceca74ea30ff642af"
+    },
+    {
+      "id": "permuted_rational_m5",
+      "family": "full_square_reindexing_control",
+      "parameters": {
+        "m": 5,
+        "f": "rational",
+        "column_index": "(s+r^2) mod m"
+      },
+      "scope": "Modulo reindexing is not a bounded-degree rational chart. It preserves the full Cartesian square and all its outputs.",
+      "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5"
+      ],
+      "N": 5,
+      "Q0": 25,
+      "Q": 25,
+      "selected_image_size": 25,
+      "full_image_size": 25,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 25,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 25
+      },
+      "maximum_formal_pair_multiplicity": 1,
+      "coordinate_projection_multiplicity_distribution": {
+        "10": 5
+      },
+      "formal_coordinate_occurrences": 50,
+      "formal_coordinate_reuse": "10",
+      "distinct_selected_coordinate_occurrences": 50,
+      "distinct_selected_coordinate_reuse": "10",
+      "distinct_pair_label_reuse": "1",
+      "maximum_actual_fiber": 1,
+      "actual_fiber_size_distribution": {
+        "1": 25
+      },
+      "average_actual_fiber": "1",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 0,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier03",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/permuted_rational_m5.json",
+      "raw_sha256": "fd6ea9a145dda4ecc0794acf0125b0c6dd44fd50066156c5c253e5b6a4b375d0"
+    },
+    {
+      "id": "permuted_rational_m9",
+      "family": "full_square_reindexing_control",
+      "parameters": {
+        "m": 9,
+        "f": "rational",
+        "column_index": "(s+r^2) mod m"
+      },
+      "scope": "Modulo reindexing is not a bounded-degree rational chart. It preserves the full Cartesian square and all its outputs.",
+      "stop": "Two small reindexing controls only. Automatic full-square coordinate reuse is not a new compression mechanism.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1/2",
+        "2/3",
+        "3/4",
+        "4/5",
+        "5/6",
+        "6/7",
+        "7/8",
+        "8/9"
+      ],
+      "N": 9,
+      "Q0": 81,
+      "Q": 81,
+      "selected_image_size": 81,
+      "full_image_size": 81,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 81,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 81
+      },
+      "maximum_formal_pair_multiplicity": 1,
+      "coordinate_projection_multiplicity_distribution": {
+        "18": 9
+      },
+      "formal_coordinate_occurrences": 162,
+      "formal_coordinate_reuse": "18",
+      "distinct_selected_coordinate_occurrences": 162,
+      "distinct_selected_coordinate_reuse": "18",
+      "distinct_pair_label_reuse": "1",
+      "maximum_actual_fiber": 1,
+      "actual_fiber_size_distribution": {
+        "1": 81
+      },
+      "average_actual_fiber": "1",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 0,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier04",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/permuted_rational_m9.json",
+      "raw_sha256": "ce0edf70e687ef5e087822c425528457dab5db1f3a9e734f731c59705442ba1d"
+    },
+    {
+      "id": "signed_square_m3",
+      "family": "many_to_one_full_square_control",
+      "parameters": {
+        "m": 3,
+        "range": [
+          -3,
+          3
+        ]
+      },
+      "scope": "The map (r,s)->(r\u00b2,s\u00b2) has genuine parameter multiplicities, but its actual pair set is a Cartesian square.",
+      "stop": "Two small multiplicity controls only; repeated labels do not change selected or full output support.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1",
+        "4",
+        "9"
+      ],
+      "N": 4,
+      "Q0": 49,
+      "Q": 16,
+      "selected_image_size": 14,
+      "full_image_size": 14,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 14,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 1,
+        "2": 6,
+        "4": 9
+      },
+      "maximum_formal_pair_multiplicity": 4,
+      "coordinate_projection_multiplicity_distribution": {
+        "14": 1,
+        "28": 3
+      },
+      "formal_coordinate_occurrences": 98,
+      "formal_coordinate_reuse": "49/2",
+      "distinct_selected_coordinate_occurrences": 32,
+      "distinct_selected_coordinate_reuse": "8",
+      "distinct_pair_label_reuse": "49/16",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 12,
+        "2": 2
+      },
+      "average_actual_fiber": "8/7",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 2,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier05",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/signed_square_m3.json",
+      "raw_sha256": "25a7fb6ab817500f38d3cf74616fdfe1ede1538aaec089dbe110a9caa4ec36ad"
+    },
+    {
+      "id": "signed_square_m5",
+      "family": "many_to_one_full_square_control",
+      "parameters": {
+        "m": 5,
+        "range": [
+          -5,
+          5
+        ]
+      },
+      "scope": "The map (r,s)->(r\u00b2,s\u00b2) has genuine parameter multiplicities, but its actual pair set is a Cartesian square.",
+      "stop": "Two small multiplicity controls only; repeated labels do not change selected or full output support.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "0",
+        "1",
+        "4",
+        "9",
+        "16",
+        "25"
+      ],
+      "N": 6,
+      "Q0": 121,
+      "Q": 36,
+      "selected_image_size": 33,
+      "full_image_size": 33,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 33,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 1,
+        "2": 10,
+        "4": 25
+      },
+      "maximum_formal_pair_multiplicity": 4,
+      "coordinate_projection_multiplicity_distribution": {
+        "22": 1,
+        "44": 5
+      },
+      "formal_coordinate_occurrences": 242,
+      "formal_coordinate_reuse": "121/3",
+      "distinct_selected_coordinate_occurrences": 72,
+      "distinct_selected_coordinate_reuse": "12",
+      "distinct_pair_label_reuse": "121/36",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 30,
+        "2": 3
+      },
+      "average_actual_fiber": "12/11",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 3,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier06",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/signed_square_m5.json",
+      "raw_sha256": "c47f6399dca28feda34643354723fbe4afffb2603a2f7cc35eb7bf1b5ca55d49"
+    },
+    {
+      "id": "forced_quadratic_sum_m2",
+      "family": "output_forced_low_degree",
+      "parameters": {
+        "m": 2,
+        "U": "r+s\u00b2",
+        "Z": "r+s",
+        "L": "Z-U\u00b3"
+      },
+      "scope": "U and Z have degree at most two; L=Z-U\u00b3 can have degree six. This is not a claim that both U and L are quadratic.",
+      "stop": "Stop after the single minimal size: compare distinct selected pairs with actual scalars and charge the uncovered square; no larger sparse chart search.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-109",
+        "-103",
+        "-127/2",
+        "-117/2",
+        "-27/2",
+        "-21/2",
+        "-4",
+        "-2"
+      ],
+      "N": 8,
+      "Q0": 4,
+      "Q": 4,
+      "selected_image_size": 3,
+      "full_image_size": 63,
+      "uncovered_pairs": 60,
+      "selected_pair_fraction": "1/16",
+      "safe_full_image_upper_bound": 63,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 4
+      },
+      "maximum_formal_pair_multiplicity": 1,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 8
+      },
+      "formal_coordinate_occurrences": 8,
+      "formal_coordinate_reuse": "1",
+      "distinct_selected_coordinate_occurrences": 8,
+      "distinct_selected_coordinate_reuse": "1",
+      "distinct_pair_label_reuse": "1",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 62,
+        "2": 1
+      },
+      "average_actual_fiber": "64/63",
+      "outside_output_count": 60,
+      "new_outputs_outside_selected": 60,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 1,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier07",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/forced_quadratic_sum_m2.json",
+      "raw_sha256": "51371f2e7767b891efbd1ff043ec5a98db8a06b0b0c179166409f50bd112aa11"
+    },
+    {
+      "id": "forced_product_m2",
+      "family": "output_forced_low_degree",
+      "parameters": {
+        "m": 2,
+        "U": "rs",
+        "Z": "r+s",
+        "L": "Z-U\u00b3"
+      },
+      "scope": "U and Z have degree at most two; L=Z-U\u00b3 can have degree six. This is not a claim that both U and L are quadratic.",
+      "stop": "Stop after the single minimal size: compare distinct selected pairs with actual scalars and charge the uncovered square; no larger sparse chart search.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-32",
+        "-28",
+        "-7/2",
+        "-3/2",
+        "0",
+        "1"
+      ],
+      "N": 6,
+      "Q0": 4,
+      "Q": 3,
+      "selected_image_size": 3,
+      "full_image_size": 34,
+      "uncovered_pairs": 33,
+      "selected_pair_fraction": "1/12",
+      "safe_full_image_upper_bound": 36,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 2,
+        "2": 1
+      },
+      "maximum_formal_pair_multiplicity": 2,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 4,
+        "2": 2
+      },
+      "formal_coordinate_occurrences": 8,
+      "formal_coordinate_reuse": "4/3",
+      "distinct_selected_coordinate_occurrences": 6,
+      "distinct_selected_coordinate_reuse": "1",
+      "distinct_pair_label_reuse": "4/3",
+      "maximum_actual_fiber": 2,
+      "actual_fiber_size_distribution": {
+        "1": 32,
+        "2": 2
+      },
+      "average_actual_fiber": "18/17",
+      "outside_output_count": 32,
+      "new_outputs_outside_selected": 31,
+      "shared_selected_outside_outputs": 1,
+      "outside_pair_mass_in_selected_outputs": 1,
+      "unordered_collision_counts": {
+        "selected_selected": 0,
+        "selected_outside": 1,
+        "outside_outside": 1
+      },
+      "carrier_id": "carrier08",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/forced_product_m2.json",
+      "raw_sha256": "9a44ea2b646b0e8c14772c8381f88d36549ca476fbecb69aa5ac077393b7ffe7"
+    },
+    {
+      "id": "conic_H1",
+      "family": "same_output_conic",
+      "parameters": {
+        "H": 1,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "t_denominator": 2,
+        "outputs": "2b"
+      },
+      "scope": "The u/v matching is a nonlinear conic relation, not one fixed affine template map.",
+      "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-1",
+        "-185/343",
+        "-87/343",
+        "0",
+        "60/343",
+        "1"
+      ],
+      "N": 6,
+      "Q0": 10,
+      "Q": 5,
+      "selected_image_size": 1,
+      "full_image_size": 30,
+      "uncovered_pairs": 31,
+      "selected_pair_fraction": "5/36",
+      "safe_full_image_upper_bound": 32,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 2,
+        "2": 1,
+        "3": 2
+      },
+      "maximum_formal_pair_multiplicity": 3,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "11": 1
+      },
+      "formal_coordinate_occurrences": 20,
+      "formal_coordinate_reuse": "10/3",
+      "distinct_selected_coordinate_occurrences": 10,
+      "distinct_selected_coordinate_reuse": "5/3",
+      "distinct_pair_label_reuse": "2",
+      "maximum_actual_fiber": 5,
+      "actual_fiber_size_distribution": {
+        "1": 27,
+        "2": 2,
+        "5": 1
+      },
+      "average_actual_fiber": "6/5",
+      "outside_output_count": 29,
+      "new_outputs_outside_selected": 29,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 10,
+        "selected_outside": 0,
+        "outside_outside": 2
+      },
+      "carrier_id": "carrier09",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/conic_H1.json",
+      "raw_sha256": "407eee8e71ace6d5fb46e4e9b96874c10c18b37e29097f7e573f31ecd36e55e9"
+    },
+    {
+      "id": "conic_H2",
+      "family": "same_output_conic",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "t_denominator": 2,
+        "outputs": "2b"
+      },
+      "scope": "The u/v matching is a nonlinear conic relation, not one fixed affine template map.",
+      "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-1",
+        "-185/343",
+        "-87/343",
+        "0",
+        "60/343",
+        "158/343",
+        "256/343",
+        "1",
+        "403/343",
+        "2"
+      ],
+      "N": 10,
+      "Q0": 20,
+      "Q": 10,
+      "selected_image_size": 2,
+      "full_image_size": 83,
+      "uncovered_pairs": 90,
+      "selected_pair_fraction": "1/10",
+      "safe_full_image_upper_bound": 92,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 4,
+        "2": 2,
+        "3": 4
+      },
+      "maximum_formal_pair_multiplicity": 3,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 4,
+        "2": 3,
+        "3": 1,
+        "13": 1,
+        "14": 1
+      },
+      "formal_coordinate_occurrences": 40,
+      "formal_coordinate_reuse": "4",
+      "distinct_selected_coordinate_occurrences": 20,
+      "distinct_selected_coordinate_reuse": "2",
+      "distinct_pair_label_reuse": "2",
+      "maximum_actual_fiber": 5,
+      "actual_fiber_size_distribution": {
+        "1": 72,
+        "2": 9,
+        "5": 2
+      },
+      "average_actual_fiber": "100/83",
+      "outside_output_count": 81,
+      "new_outputs_outside_selected": 81,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 20,
+        "selected_outside": 0,
+        "outside_outside": 9
+      },
+      "carrier_id": "carrier10",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/conic_H2.json",
+      "raw_sha256": "c5795245e2b5dd7eea9692019c8b8248e876488eaef21a1abae8a354a3718abf"
+    },
+    {
+      "id": "conic_H2_transpose_diagonal",
+      "family": "same_output_conic_transpose_diagonal",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "t_denominator": 2,
+        "outputs": "2b",
+        "completion": "transpose_diagonal"
+      },
+      "scope": "The u/v matching is a nonlinear conic relation, not one fixed affine template map.",
+      "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-1",
+        "-185/343",
+        "-87/343",
+        "0",
+        "60/343",
+        "158/343",
+        "256/343",
+        "1",
+        "403/343",
+        "2"
+      ],
+      "N": 10,
+      "Q0": 50,
+      "Q": 24,
+      "selected_image_size": 14,
+      "full_image_size": 83,
+      "uncovered_pairs": 76,
+      "selected_pair_fraction": "6/25",
+      "safe_full_image_upper_bound": 90,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 16,
+        "2": 2,
+        "3": 2,
+        "5": 2,
+        "7": 2
+      },
+      "maximum_formal_pair_multiplicity": 7,
+      "coordinate_projection_multiplicity_distribution": {
+        "4": 4,
+        "6": 3,
+        "8": 1,
+        "28": 1,
+        "30": 1
+      },
+      "formal_coordinate_occurrences": 100,
+      "formal_coordinate_reuse": "10",
+      "distinct_selected_coordinate_occurrences": 48,
+      "distinct_selected_coordinate_reuse": "24/5",
+      "distinct_pair_label_reuse": "25/12",
+      "maximum_actual_fiber": 5,
+      "actual_fiber_size_distribution": {
+        "1": 72,
+        "2": 9,
+        "5": 2
+      },
+      "average_actual_fiber": "100/83",
+      "outside_output_count": 76,
+      "new_outputs_outside_selected": 69,
+      "shared_selected_outside_outputs": 7,
+      "outside_pair_mass_in_selected_outputs": 7,
+      "unordered_collision_counts": {
+        "selected_selected": 22,
+        "selected_outside": 7,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier10",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/conic_H2_transpose_diagonal.json",
+      "raw_sha256": "aca53e7b8dc66023ca8f2be4f08dc41ab0ce99cbc72c96b03923b4b0502b5382"
+    },
+    {
+      "id": "conic_H2_full_completion",
+      "family": "same_output_conic_full_completion",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1,
+          2
+        ],
+        "t_denominator": 2,
+        "outputs": "2b",
+        "completion": "full_completion"
+      },
+      "scope": "The u/v matching is a nonlinear conic relation, not one fixed affine template map.",
+      "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion.",
+      "normalization": {
+        "lambda": "1",
+        "h": "1",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-1",
+        "-185/343",
+        "-87/343",
+        "0",
+        "60/343",
+        "158/343",
+        "256/343",
+        "1",
+        "403/343",
+        "2"
+      ],
+      "N": 10,
+      "Q0": 110,
+      "Q": 100,
+      "selected_image_size": 83,
+      "full_image_size": 83,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 83,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 94,
+        "2": 2,
+        "3": 4
+      },
+      "maximum_formal_pair_multiplicity": 3,
+      "coordinate_projection_multiplicity_distribution": {
+        "20": 6,
+        "21": 1,
+        "22": 1,
+        "28": 1,
+        "29": 1
+      },
+      "formal_coordinate_occurrences": 220,
+      "formal_coordinate_reuse": "22",
+      "distinct_selected_coordinate_occurrences": 200,
+      "distinct_selected_coordinate_reuse": "20",
+      "distinct_pair_label_reuse": "11/10",
+      "maximum_actual_fiber": 5,
+      "actual_fiber_size_distribution": {
+        "1": 72,
+        "2": 9,
+        "5": 2
+      },
+      "average_actual_fiber": "100/83",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 29,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier10",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/conic_H2_full_completion.json",
+      "raw_sha256": "303fc35f4e97de3835d5df3ba8a93f420c34d112713cdd7589d5f0a90608b438"
+    },
+    {
+      "id": "nodal_H1",
+      "family": "distinct_output_nodal",
+      "parameters": {
+        "H": 1,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1
+        ],
+        "t_denominator": 2,
+        "outputs": "2b and 2b+4/3 in normalized units"
+      },
+      "scope": "The distinct-output matching has a nonconstant nonlinear rational u/v relation; no fixed translation step is imposed.",
+      "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion.",
+      "normalization": {
+        "lambda": "1/3",
+        "h": "1/sqrt(3)",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-5/3",
+        "23/81",
+        "1/3",
+        "77/81",
+        "4/3",
+        "7/3",
+        "266/81",
+        "4393/1029",
+        "7627/1029",
+        "7774/1029"
+      ],
+      "N": 10,
+      "Q0": 8,
+      "Q": 7,
+      "selected_image_size": 2,
+      "full_image_size": 95,
+      "uncovered_pairs": 93,
+      "selected_pair_fraction": "7/100",
+      "safe_full_image_upper_bound": 95,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 6,
+        "2": 1
+      },
+      "maximum_formal_pair_multiplicity": 2,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 6,
+        "2": 3,
+        "4": 1
+      },
+      "formal_coordinate_occurrences": 16,
+      "formal_coordinate_reuse": "8/5",
+      "distinct_selected_coordinate_occurrences": 14,
+      "distinct_selected_coordinate_reuse": "7/5",
+      "distinct_pair_label_reuse": "8/7",
+      "maximum_actual_fiber": 4,
+      "actual_fiber_size_distribution": {
+        "1": 93,
+        "3": 1,
+        "4": 1
+      },
+      "average_actual_fiber": "20/19",
+      "outside_output_count": 93,
+      "new_outputs_outside_selected": 93,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 9,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier11",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/nodal_H1.json",
+      "raw_sha256": "b77568bca253cccde70d64b38ec6f8d9fa5ae9e30a0f6d499c0dbaee3cf34383"
+    },
+    {
+      "id": "nodal_H2",
+      "family": "distinct_output_nodal",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1
+        ],
+        "t_denominator": 2,
+        "outputs": "2b and 2b+4/3 in normalized units"
+      },
+      "scope": "The distinct-output matching has a nonconstant nonlinear rational u/v relation; no fixed translation step is imposed.",
+      "stop": "Only the minimal H1/H2 illustrations: scalar count comparable to distinct selected-pair count triggers no further size expansion.",
+      "normalization": {
+        "lambda": "1/3",
+        "h": "1/sqrt(3)",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-5/3",
+        "-2/3",
+        "23/81",
+        "1/3",
+        "77/81",
+        "104/81",
+        "4/3",
+        "158/81",
+        "7/3",
+        "266/81",
+        "10/3",
+        "4393/1029",
+        "347/81",
+        "5422/1029",
+        "7627/1029",
+        "7774/1029",
+        "8656/1029",
+        "8803/1029"
+      ],
+      "N": 18,
+      "Q0": 16,
+      "Q": 14,
+      "selected_image_size": 4,
+      "full_image_size": 306,
+      "uncovered_pairs": 310,
+      "selected_pair_fraction": "7/162",
+      "safe_full_image_upper_bound": 314,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 12,
+        "2": 2
+      },
+      "maximum_formal_pair_multiplicity": 2,
+      "coordinate_projection_multiplicity_distribution": {
+        "1": 10,
+        "2": 5,
+        "3": 1,
+        "4": 1,
+        "5": 1
+      },
+      "formal_coordinate_occurrences": 32,
+      "formal_coordinate_reuse": "16/9",
+      "distinct_selected_coordinate_occurrences": 28,
+      "distinct_selected_coordinate_reuse": "14/9",
+      "distinct_pair_label_reuse": "8/7",
+      "maximum_actual_fiber": 4,
+      "actual_fiber_size_distribution": {
+        "1": 297,
+        "2": 4,
+        "3": 1,
+        "4": 4
+      },
+      "average_actual_fiber": "18/17",
+      "outside_output_count": 304,
+      "new_outputs_outside_selected": 302,
+      "shared_selected_outside_outputs": 2,
+      "outside_pair_mass_in_selected_outputs": 2,
+      "unordered_collision_counts": {
+        "selected_selected": 18,
+        "selected_outside": 6,
+        "outside_outside": 7
+      },
+      "carrier_id": "carrier12",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/nodal_H2.json",
+      "raw_sha256": "d6c4bf3042652f52b70b1ff53e80147de35aa1f6b66f0df053f4012a3af45f89"
+    },
+    {
+      "id": "nodal_H2_transpose_diagonal",
+      "family": "distinct_output_nodal_transpose_diagonal",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1
+        ],
+        "t_denominator": 2,
+        "outputs": "2b and 2b+4/3 in normalized units",
+        "completion": "transpose_diagonal"
+      },
+      "scope": "The distinct-output matching has a nonconstant nonlinear rational u/v relation; no fixed translation step is imposed.",
+      "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion.",
+      "normalization": {
+        "lambda": "1/3",
+        "h": "1/sqrt(3)",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-5/3",
+        "-2/3",
+        "23/81",
+        "1/3",
+        "77/81",
+        "104/81",
+        "4/3",
+        "158/81",
+        "7/3",
+        "266/81",
+        "10/3",
+        "4393/1029",
+        "347/81",
+        "5422/1029",
+        "7627/1029",
+        "7774/1029",
+        "8656/1029",
+        "8803/1029"
+      ],
+      "N": 18,
+      "Q0": 50,
+      "Q": 46,
+      "selected_image_size": 35,
+      "full_image_size": 306,
+      "uncovered_pairs": 278,
+      "selected_pair_fraction": "23/162",
+      "safe_full_image_upper_bound": 313,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 42,
+        "2": 4
+      },
+      "maximum_formal_pair_multiplicity": 2,
+      "coordinate_projection_multiplicity_distribution": {
+        "4": 10,
+        "6": 5,
+        "8": 1,
+        "10": 1,
+        "12": 1
+      },
+      "formal_coordinate_occurrences": 100,
+      "formal_coordinate_reuse": "50/9",
+      "distinct_selected_coordinate_occurrences": 92,
+      "distinct_selected_coordinate_reuse": "46/9",
+      "distinct_pair_label_reuse": "25/23",
+      "maximum_actual_fiber": 4,
+      "actual_fiber_size_distribution": {
+        "1": 297,
+        "2": 4,
+        "3": 1,
+        "4": 4
+      },
+      "average_actual_fiber": "18/17",
+      "outside_output_count": 276,
+      "new_outputs_outside_selected": 271,
+      "shared_selected_outside_outputs": 5,
+      "outside_pair_mass_in_selected_outputs": 6,
+      "unordered_collision_counts": {
+        "selected_selected": 21,
+        "selected_outside": 8,
+        "outside_outside": 2
+      },
+      "carrier_id": "carrier12",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/nodal_H2_transpose_diagonal.json",
+      "raw_sha256": "002014a2ac3c45f932f2cb0d71ad24098fc29113edccdc4c817c5fdb25077180"
+    },
+    {
+      "id": "nodal_H2_full_completion",
+      "family": "distinct_output_nodal_full_completion",
+      "parameters": {
+        "H": 2,
+        "t_indices": [
+          -2,
+          -1,
+          0,
+          1
+        ],
+        "t_denominator": 2,
+        "outputs": "2b and 2b+4/3 in normalized units",
+        "completion": "full_completion"
+      },
+      "scope": "The distinct-output matching has a nonconstant nonlinear rational u/v relation; no fixed translation step is imposed.",
+      "stop": "Completion audit on this same fixed scalar carrier only; no size expansion and no success claim from automatic Cartesian completion.",
+      "normalization": {
+        "lambda": "1/3",
+        "h": "1/sqrt(3)",
+        "identity": "P(hx,hy)/h=lambda*(x-y)^3+x+y"
+      },
+      "inputs_in_units_of_h": [
+        "-5/3",
+        "-2/3",
+        "23/81",
+        "1/3",
+        "77/81",
+        "104/81",
+        "4/3",
+        "158/81",
+        "7/3",
+        "266/81",
+        "10/3",
+        "4393/1029",
+        "347/81",
+        "5422/1029",
+        "7627/1029",
+        "7774/1029",
+        "8656/1029",
+        "8803/1029"
+      ],
+      "N": 18,
+      "Q0": 326,
+      "Q": 324,
+      "selected_image_size": 306,
+      "full_image_size": 306,
+      "uncovered_pairs": 0,
+      "selected_pair_fraction": "1",
+      "safe_full_image_upper_bound": 306,
+      "formal_pair_projection_multiplicity_distribution": {
+        "1": 322,
+        "2": 2
+      },
+      "maximum_formal_pair_multiplicity": 2,
+      "coordinate_projection_multiplicity_distribution": {
+        "36": 14,
+        "37": 4
+      },
+      "formal_coordinate_occurrences": 652,
+      "formal_coordinate_reuse": "326/9",
+      "distinct_selected_coordinate_occurrences": 648,
+      "distinct_selected_coordinate_reuse": "36",
+      "distinct_pair_label_reuse": "163/162",
+      "maximum_actual_fiber": 4,
+      "actual_fiber_size_distribution": {
+        "1": 297,
+        "2": 4,
+        "3": 1,
+        "4": 4
+      },
+      "average_actual_fiber": "18/17",
+      "outside_output_count": 0,
+      "new_outputs_outside_selected": 0,
+      "shared_selected_outside_outputs": 0,
+      "outside_pair_mass_in_selected_outputs": 0,
+      "unordered_collision_counts": {
+        "selected_selected": 31,
+        "selected_outside": 0,
+        "outside_outside": 0
+      },
+      "carrier_id": "carrier12",
+      "raw_path": "local-only/runs/T01/2026-09-21-nonlinear-reuse/nodal_H2_full_completion.json",
+      "raw_sha256": "f974bc4809bec1d6f71df6161e11d8a2bb7ea196e1d9816baa060d958b203c0e"
+    }
+  ],
+  "errors": [],
+  "limitations": "Finite reindexing controls and complement-completion audits are not new mechanisms. Sparse reverse designs stop at the declared minimal sizes. All h=1/sqrt(3) records are exact rational normalized computations for the same fixed P."
+}

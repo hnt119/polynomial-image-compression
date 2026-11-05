@@ -26,7 +26,12 @@ def check(root):
     # Historical source links retain their original environment and must not be
     # rewritten just to satisfy navigation checks. Their bytes are checked above.
     archived = {root / record["path"] for record in manifest["files"]}
-    markdown_files = [p for p in root.rglob("*.md") if ".git" not in p.parts and p not in archived]
+    # Private bundles retain historical links; check_codex_setup.py verifies hashes.
+    ignored_dirs = {".git", "local-only", "scratch", ".venv", "venv", "__pycache__"}
+    markdown_files = [
+        p for p in root.rglob("*.md")
+        if not ignored_dirs.intersection(p.relative_to(root).parts) and p not in archived
+    ]
     for path in markdown_files:
         # Ignore fenced examples; this deliberately checks destinations, not anchors.
         content = re.sub(r"```.*?```", "", path.read_text(), flags=re.S)

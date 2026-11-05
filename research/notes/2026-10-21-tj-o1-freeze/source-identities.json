@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-21",
+  "version": 1,
+  "claim": "TJ-C6 / TJ-O1 PROVED IMPOSSIBLE",
+  "supplied_argument": "Current user message: T01 \u2014 Verify and freeze TJ-O1",
+  "sources": [
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/README.md",
+      "role": "accepted checkpoint source read",
+      "bytes": 8900,
+      "sha256": "5e34f799e9d6749a5c3369e9e9aca07a7a02dbc8c7ac3c4fe3170624e3ecec7d"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/catalogue.md",
+      "role": "accepted checkpoint source read",
+      "bytes": 3332,
+      "sha256": "be0ce3ef32e6ae26d2f45fcdcd04be209afe05881175346595921578ec63deb1"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-20-tetrahedral-junction/compatibility.md",
+      "role": "accepted checkpoint source read",
+      "bytes": 10867,
+      "sha256": "01dd084226f890b69f642529563cb5562fbb504282e52a7b15ea2ade6a03625c"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-21-tj-o1-freeze/README.md",
+      "role": "new checked proof or audit",
+      "bytes": 5435,
+      "sha256": "1bbb67e76458954e9974c541550ccc399cffe58a159179709a9b1cfe427a9edd"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-21-tj-o1-freeze/algebraic-referee.md",
+      "role": "new checked proof or audit",
+      "bytes": 5024,
+      "sha256": "bcc96d01208cde9c1280237403081cb1930970b3c5c30d34c45696c9a8c860d7"
+    },
+    {
+      "path_from_repository_root": "research/notes/2026-10-21-tj-o1-freeze/proof-check.md",
+      "role": "new checked proof or audit",
+      "bytes": 5286,
+      "sha256": "be311cea8405eefba8e25a253cddd238ef5ae834b3e215e641704bd5b08bbbe9"
+    }
+  ]
+}

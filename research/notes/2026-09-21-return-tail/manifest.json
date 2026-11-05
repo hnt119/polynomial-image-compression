@@ -1,0 +1,221 @@
+{
+  "date": "2026-09-21",
+  "version": 1,
+  "track": "T03",
+  "cycle": "offline-correlated-return-tail",
+  "polynomial": "x^2+xy+y^2",
+  "verdict": "RETURN-TAIL FAIL",
+  "content": [
+    {
+      "path": "research/notes/2026-09-21-return-tail/README.md",
+      "sha256": "8f788c1f175654bc0e2fabda32ea5100144c3ebfca9f140a59b288f2a37c0e2f",
+      "bytes": 11906
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/cyclotomic-domains.md",
+      "sha256": "058e92a40ed5c63f5cb46421de43b2d3859d1590c9abfd921b9102d51ffc10c0",
+      "bytes": 18854
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/denominator-domains.md",
+      "sha256": "db93531821beded979a4b7ae52d592c79b4ba09ff99b38531b99ffd2e1219647",
+      "bytes": 12274
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/geometry.md",
+      "sha256": "4ced877842f1c264b81dc705d43b0375dfe3a7d6bc688e7fca16628b4eb462eb",
+      "bytes": 12940
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/modular-gadget.md",
+      "sha256": "1631a325333ebfdece895f1823b563e49772dfbfe868112cac7daaa9f93adeec",
+      "bytes": 20800
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/verification.md",
+      "sha256": "2a9200d7cdaf10061a553efc01921f6b8a994afe563003d6a99aab661f0bef3a",
+      "bytes": 13226
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/state.json",
+      "sha256": "952022d77d8d48a29d1fabeab651a698383c588d64dec56d1107326ed8119ddf",
+      "bytes": 5490
+    },
+    {
+      "path": "experiments/return_tail.py",
+      "sha256": "953224181b67bcdc9f4204661472dd28496be711769242385b414b9e0854bc9c",
+      "bytes": 9526
+    },
+    {
+      "path": "tests/test_return_tail.py",
+      "sha256": "182055019a8277bb579e7e8be53fdacd848ca40b31f82f3a2f2c589c469af8cc",
+      "bytes": 1581
+    },
+    {
+      "path": "examples/2026-09-21-return-tail.json",
+      "sha256": "d2c7acf5326ce9a3e6d2d5df9d79ee7b35fc2d3311126056f4c953fc9a54325b",
+      "bytes": 5240
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/addenda-prefixes.json",
+      "sha256": "d3bd0b9275741b85f9efdec76688a69e07b20764b6fd3031acce9f218f472803",
+      "bytes": 809
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/baseline.json",
+      "sha256": "0b23f9fe09dab1a8c0a5bb99908c71dea7e3e6bb24c69b09520c1bb0937190a6",
+      "bytes": 28346
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/checks.json",
+      "sha256": "a0a5e859733c59d79a0e6700e1a0395ce72a599802964a0065a72bf872d31f6c",
+      "bytes": 557
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/inherited-status.txt",
+      "sha256": "0d8b494168bce15888f45cf5c40d762bb0a8f57d0a8e0caec02b2745679afa03",
+      "bytes": 2981
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/inherited.patch",
+      "sha256": "6496935aff50047582aea0ed28c42a91059713aeb893deb2eb198779abf7186c",
+      "bytes": 95217
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/integrity.json",
+      "sha256": "954431bc3fc04d5f5134d37a8df7a4d563a5de955041e6800ffe010b53541636",
+      "bytes": 949
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/pairs.json",
+      "sha256": "c7c71674dcf57af55238427d645b7309cde7f3c9cd35b11edea0c81dce37da21",
+      "bytes": 725424
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/regression-unittest.json",
+      "sha256": "c1ee2931051c2b4a05d973645dd465dd2beacf791ae941cc22868c901fa04108",
+      "bytes": 20842
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/regression-unittest.txt",
+      "sha256": "f086605c44fcb55856d0115666a6dda95885ad825aef9d5bb49adbf9ca350882",
+      "bytes": 10363
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/regression-verify.json",
+      "sha256": "68f3224cf9eeab11fdd90655f9a50ab123b0b3d57073d0b0cf035f94433e192b",
+      "bytes": 1191
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/regression-verify.txt",
+      "sha256": "825d17a1344b8550e68c502f549111143ce2d15b63b92add938beedcee3ff70e",
+      "bytes": 23193
+    },
+    {
+      "path": "local-only/runs/T03/2026-09-21-return-tail/regression_guard.py",
+      "sha256": "60c0dd724869679d0ac4c03713f15dbfd4a781266a73b09ce0ec1c3ba9e5d82f",
+      "bytes": 3243
+    }
+  ],
+  "proof_and_context_dependencies": [
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/README.md",
+      "sha256": "0f4c2e1a83992d628831e11d14e39191d045abd7ba15ed8935e3f50bfebc939e",
+      "bytes": 13373
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/crt-domains.md",
+      "sha256": "0fac4940e7418bb612fe31f285565c2dca7ed1c5d3b126b6e24b217b831ab7bb",
+      "bytes": 13701
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/block-rectangle.md",
+      "sha256": "68563f8b96b485b9e095c5d856f363e9cf1f8ec9482017ba157c30f59702f6c1",
+      "bytes": 20843
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/denominator-obstruction.md",
+      "sha256": "71fecb36113621d3f100c147e0b021e46306d99f71f571c35c0aea0a93f8705d",
+      "bytes": 28388
+    },
+    {
+      "path": "research/notes/2026-09-16-high-return/return-lemma.md",
+      "sha256": "06fc4bab7bf793c380bf2d4661b5a98b612895ed41ba0fda68aaee3db0d3575e",
+      "bytes": 19551
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/primary-proof.md",
+      "sha256": "e043643d28cb9bea69ba4bcf47dc044ff8e0aa69a88eca90c8f0cb53bfa10da9",
+      "bytes": 21268
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/product-realization.md",
+      "sha256": "d01a61738ddabfee5e8a5ac7ed62ee61fe8250cc6a69433c5e75d8e09054b7ba",
+      "bytes": 19313
+    },
+    {
+      "path": "research/notes/2026-09-14-study-notes/03-eisenstein.md",
+      "sha256": "5bb95d6f716254743cd4ee2acc3c0a99c7ee22cf436af07d4d495f65ee844800",
+      "bytes": 9025
+    },
+    {
+      "path": "local-only/migration/sources/00_MASTER_HANDOFF.md",
+      "sha256": "b5ea32664e1a755faa4b29ad21848e11f3b16eef94b451d5b3ed5e9d18f6b250",
+      "bytes": 14694
+    },
+    {
+      "path": "local-only/migration/sources/T03_CURRENT_STATE.md",
+      "sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850",
+      "bytes": 63057
+    },
+    {
+      "path": "experiments/unit_exponent.py",
+      "sha256": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a",
+      "bytes": 12112
+    },
+    {
+      "path": "experiments/rectangular_returns.py",
+      "sha256": "09e3fcd5db3e59a75b8ce795cda793c60a200a78af2fce551701fbf351fc5bfd",
+      "bytes": 10076
+    },
+    {
+      "path": "research/templates/CONSTRUCTION_LEDGER.md",
+      "sha256": "dc5597cbb57546e8ac04225b9f925622922503b8e62b203877ddb537a6f3f3e6",
+      "bytes": 2460
+    }
+  ],
+  "handoff_file_snapshots": [
+    {
+      "path": "research/CURRENT_PROJECT_MAP.md",
+      "sha256": "0bbb38f5ba1aa290e1a90e8873fbb0a8b111264883a20e43975d5e2acceb0f77",
+      "bytes": 22925
+    },
+    {
+      "path": "research/MECHANISM_LIBRARY.md",
+      "sha256": "afc196aa48f9e68255f943d498db9dceb226642473f936bd51679ade201426f6",
+      "bytes": 26563
+    },
+    {
+      "path": "research/FAILURE_LIBRARY.md",
+      "sha256": "ed285d18c2f916e8c47aa35c3a23c1aa662b6f7d3e7e30dbd19bcdc29ef8212b",
+      "bytes": 56131
+    },
+    {
+      "path": "research/OPEN_LEMMAS.md",
+      "sha256": "036233f89be81ab34cffc5a1a4f89f99c194708e14c3dc478f96ee8a46b9cd6c",
+      "bytes": 23795
+    },
+    {
+      "path": "research/tracks/03-eisenstein-cartesianization/STATUS.md",
+      "sha256": "29970e145789102f0679bfe19cbc81b7dc33cd32c781147585108d69fcd3bd99",
+      "bytes": 27304
+    }
+  ],
+  "notes": [
+    "Manifest excludes itself to avoid a circular hash.",
+    "Local-only raw data and private migration references require a separate local handoff.",
+    "Handoff file hashes describe the observed snapshot; concurrent T01 append-only entries are not this task's work.",
+    "The historical proof and checkpoint files were not edited by this task.",
+    "Hashes establish file identities, not mathematical proof validity. Internal proof audits are recorded in verification.md."
+  ]
+}

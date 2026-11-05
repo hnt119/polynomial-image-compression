@@ -1,0 +1,179 @@
+{
+  "scope": "Original local research evidence is retained. Historical integrity hashes identify those originals. Only the cited provenance field or attachment locator changes in each public copy. No research output, theorem or experiment result was changed.",
+  "derivatives": [
+    {
+      "path": "examples/2026-09-16-cartesian-returns.json",
+      "original_sha256": "89d4e5626b9df0be357d1cfc8abaa57d833bae899f01eb1b7fb96202da39256c",
+      "public_sha256": "1e21dea14df69641f26df04266f7779ae6a1d941377c5199844069e6f3174971",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-16-two-prime-character.json",
+      "original_sha256": "e432f2254ad7557cb790c20afdbee84a635cc86e539ff2f25f66099bbf4dc5e4",
+      "public_sha256": "c3d2819aa4bbd3ea4faf84e7a6bdceefe3bdaa8838a0488485a98803d92af071",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-16-unit-exponent.json",
+      "original_sha256": "bbccc30421126b56c7a3d783ed29edcbad345316bbafb3ec3544255e6e2bf42c",
+      "public_sha256": "202e28c9b9376247fc08feaff1ac15e5aa445be868f44208c41e727e42b8ea65",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-21-correlated-dc-o1.json",
+      "original_sha256": "ec33357cd1c841eb427f848a265d751a19fe4cb76bcd57e968ee17698421d219",
+      "public_sha256": "336e478e01a1888fc9175c21ca8931f92daf279d7379e712e3db9c727bfe4c5e",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-21-dc-o1.json",
+      "original_sha256": "c73ebd54c116b2f05832daa2e5a8116bece7faa03a205376f00fec498f0bdb3a",
+      "public_sha256": "1192285ca47a107ad7f98550741579c0a9e7940c9db5b447df8da0996885c7f3",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-21-dense-cartesianization.json",
+      "original_sha256": "3df2848f5b53ebefa7ef4ebca2e5acb4909f2372ba69a3b93ef102503972de49",
+      "public_sha256": "160d66c248e4ab3a69567b9c51a5aa96f6cc352076f4f04952d679abed7dafe3",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-21-return-tail.json",
+      "original_sha256": "d2c7acf5326ce9a3e6d2d5df9d79ee7b35fc2d3311126056f4c953fc9a54325b",
+      "public_sha256": "5cae2409a73aeecdeb56a575e182607fa23549986582788a7811124e04173079",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "examples/2026-09-30-modular-lift.json",
+      "original_sha256": "b358fc2bc3155a106d2d370ebfe93109977a471313c6ef555092e9f88ea3b185",
+      "public_sha256": "9789706c7beefdb2b707d61deb11fd49a9680b8c26dac60ebf4ee4f31d335a8e",
+      "change": "invocation/source path made relative"
+    },
+    {
+      "path": "research/notes/2026-09-16-hr-n1-offline/local-action.md",
+      "original_sha256": "3f1dbc726a31dcb6da2ff3a18e4551789f9e8fe19cae9a3af91d110854495450",
+      "public_sha256": "a36c389f5ceeb8d46d9998c5b71935030ed28f942d72cbf1df9b715f81e06919",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-16-two-prime-character/local-count-proof.md",
+      "original_sha256": "64aab89a6d618d42559207dd618d3370d251c5964459cb136d3e369e24d2dc16",
+      "public_sha256": "45842c908d52e5d00bfe33beb06b255eca1080a54a5b34bb41b9a6f59bbd3ddc",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-16-unit-exponent/primary-proof.md",
+      "original_sha256": "e043643d28cb9bea69ba4bcf47dc044ff8e0aa69a88eca90c8f0cb53bfa10da9",
+      "public_sha256": "4f1456d40a49e942cce30c0fda2349ac4daa50c0e9d176f9738dc4c05adaf272",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/factor-switching.md",
+      "original_sha256": "fdc0238f16f1fc4b65d9a8daaf42ad834f1453463d84a811b7ea0b14851ce2d6",
+      "public_sha256": "d07b1f4891f68247cbe934421d655178ad781df38df5f6db28d3ac31e269ad09",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/level-reflections.md",
+      "original_sha256": "b3a2e050551c4d210e36504bea55a61a86345ae6f6f104708ce7fd8b2f767fb7",
+      "public_sha256": "bfedeb3d6b3623480d8afe85e6fb059c21514cecb8059f7265ad1279fef4ed70",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-correlated-dc-o1/verification.md",
+      "original_sha256": "ddc7fd9421da1e4923f0c40e0b9f0b5cfcef42c8d5339a6add6eb232d4b9b104",
+      "public_sha256": "8faf3f3135183a63e35d805c97e7a07e1291702611711f6dea081cedf53e7f74",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-cubic-returns/verification.md",
+      "original_sha256": "3cd02ecfa8aecafcf2cdd638cd4391f75d4bbc64bb27b4e37e10b48789596493",
+      "public_sha256": "a27e8bd58887186d8fdf2b2efc132ded09555a39735d554da0db26765a27768a",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-dc-o1/core-fringe.md",
+      "original_sha256": "27e0bebdfaf1038cb73b03c60dead590b7b593586de23870d737a65dd25fa58b",
+      "public_sha256": "9f34a424c74509998989f75fda31e59ebf7e6d1cc938aae39ed87a90a3749e09",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-dc-o1/verification.md",
+      "original_sha256": "af9d4cfcd0c5d6b5a07550055a487541283f35e19a0bd8008818404a4f49851c",
+      "public_sha256": "4a03c6eaf047248fcc1def8f4ffab16f397ecf7baf0e969e9d4f965400e6327c",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/README.md",
+      "original_sha256": "72062036343b8c5db9ea91b2f94b58a60b56576833a27bc33ca12a73c93dc245",
+      "public_sha256": "938a41b38c366abbbfa7bbf692f44c4d3082767aaf466be07e0c879885a3b318",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-dense-cartesianization/split-index.md",
+      "original_sha256": "9167560645deabc90537a710c3774fb8c29b1029d8f3336b2c58224d25d046cf",
+      "public_sha256": "ca9f6d5a39f1b5bdd8afc7541ca9b20fa21698c92e63bd131021067a82e4d965",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-growing-step-cubic/verification.md",
+      "original_sha256": "b78faa9ba235b0e4218070b7beb1d1a2dced3137cd0139d467bb80d886595576",
+      "public_sha256": "8ad5e2ea48835a501f22c289ec150ec943a78057cfc03fe9490c213a7e50ce85",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/cyclotomic-domains.md",
+      "original_sha256": "058e92a40ed5c63f5cb46421de43b2d3859d1590c9abfd921b9102d51ffc10c0",
+      "public_sha256": "537fdd955447fc119388424ae50913de8ed25dd73a3cb85180dd92f228885e4a",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/geometry.md",
+      "original_sha256": "4ced877842f1c264b81dc705d43b0375dfe3a7d6bc688e7fca16628b4eb462eb",
+      "public_sha256": "4a4b217867eecf87652a5127b866359b34934342b03f395deda7e949c0ded5be",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/modular-gadget.md",
+      "original_sha256": "1631a325333ebfdece895f1823b563e49772dfbfe868112cac7daaa9f93adeec",
+      "public_sha256": "500af8c05d85a1a494f1bba98c6b8ff9130ba7d04fb0833cced4b2853f239ff3",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-09-21-return-tail/verification.md",
+      "original_sha256": "2a9200d7cdaf10061a553efc01921f6b8a994afe563003d6a99aab661f0bef3a",
+      "public_sha256": "9b7d966240a1a05b921a478a3863dd6d95645b02ba191345424c66306086f8ba",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/proofs.md",
+      "original_sha256": "2d020a9dd84d67179f4b190d393f3712ff34c05b4c823fb145417b7a1ed2b1fd",
+      "public_sha256": "f2b090189a759cc961aa1a44e49ff01ba3b4f275a856a7005f3fb4363eef59ee",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-30-modular-lift/verification.md",
+      "original_sha256": "2cc93cbcaa29cf54a646e8b76e42692460a95138b3d7a789dcb70cb5e4671cfe",
+      "public_sha256": "ffb88a06f007f9d6202def85cfdc2d6004353157f83019553e2039ffd171f243",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-30-multiscale-packing/audit.md",
+      "original_sha256": "a2615cdf995ef2d071fd2042ba041ebfcbc5a29c6148057469b77834bbe3ce0a",
+      "public_sha256": "8b2dcfd80187f340f277ff65374d48edbc99c0ecc658569aa6553246e21a6cf8",
+      "change": "private commissioning-attachment identifier withheld"
+    },
+    {
+      "path": "research/notes/2026-09-30-multiscale-packing/composition.md",
+      "original_sha256": "2b5d044beaac8a01eacd1442fd2733be6efc433baf0e22e2eae72173c7c9fa08",
+      "public_sha256": "3ebae5d4707c696d52bd574ee256020179a44210b25afbf077b1ccddc2b47349",
+      "change": "private attachment locator withheld"
+    },
+    {
+      "path": "research/notes/2026-10-11-varying-output-frames/exact-results.json",
+      "original_sha256": "aac500eaa66bcd5f4c4049a83d636aad15f40589af688b956b97e1fd8e1230bb",
+      "public_sha256": "c7da43d4d65920af73945de21a3f74b403f2ec8ba092c033c058d4532c2bd8ff",
+      "change": "invocation/source path made relative"
+    }
+  ]
+}

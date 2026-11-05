@@ -1,0 +1,44 @@
+thread: T03
+result_id: HR-N1
+status: FAILED
+mathematical_status: DISPROVED
+theorem:
+  parameter_range: "L=10m, m>=2"
+  bad_pair_lower_bound: "|A_L|^2/200"
+  return_count: 1
+  surviving_return: "identity only"
+  identity_exponents: [0, 0]
+  action_scope: "all integer powers u^r v^s"
+proof_mechanisms:
+  - "simultaneous denominator constraints"
+  - "norm bounds"
+  - "prime-power congruence"
+consequence:
+  - "HR-N1 tail bound fails for every fixed epsilon,delta>0"
+  - "the specified HR-N1 return-tail certificate is closed"
+does_not_imply:
+  - "quadratic-image target is false"
+  - "actual image has quadratic size"
+  - "RC15/4 is false"
+  - "ARG/TCRC are false"
+  - "every return-based argument is impossible"
+remaining_status:
+  quadratic_image_rate: OPEN
+  quadratic_target: OPEN
+  RC15_4: OPEN
+  ARG: OPEN
+  TCRC: OPEN
+research_decision:
+  - "freeze HR-N1 as disproved"
+  - "do not repair or reuse the same tail certificate"
+  - "do not adopt a replacement conjecture without a separate research cycle"
+  - "retain T03-O4 as the existing next obligation; do not execute it in this freeze"
+review:
+  internal_reviews_passed: 2
+  external_peer_review_claimed: false
+computation:
+  charged_evaluations: 0
+  research_program_cpu_seconds: 0
+  enumeration_performed: false
+offline:
+  network_access_attempted: false

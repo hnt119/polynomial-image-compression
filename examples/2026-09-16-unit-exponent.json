@@ -1,0 +1,857 @@
+{
+  "blocks": [
+    {
+      "q": "13",
+      "t": "3",
+      "u_coefficients": [
+        "8/13",
+        "-7/13"
+      ]
+    },
+    {
+      "q": "43447873",
+      "t": "6591",
+      "u_coefficients": [
+        "43441280/43447873",
+        "-13183/43447873"
+      ]
+    },
+    {
+      "q": "292222562813909315797616421895632754319834188392704257",
+      "t": "540576139700883686531323647",
+      "u_coefficients": [
+        "292222562813909315797616421355056614618950501861380608/292222562813909315797616421895632754319834188392704257",
+        "-1081152279401767373062647295/292222562813909315797616421895632754319834188392704257"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "A_size": 6,
+      "HR1_reciprocal_sum": "98/3",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "1": 4,
+        "2": 10,
+        "6": 2
+      },
+      "R_Z": {
+        "arithmetic_mean": "7/3",
+        "geometric_mean_approx": 2.2894284851066637,
+        "geometric_mean_exact": "(2^2 * 3^1)^(1/3)",
+        "histogram": {
+          "2": 2,
+          "3": 1
+        },
+        "identity_only_fraction": "0",
+        "maximum": 3,
+        "median": "2",
+        "minimum": 2,
+        "population": 3,
+        "strict_threshold_fractions": {
+          "2": "0",
+          "3": "2/3"
+        }
+      },
+      "R_action": {
+        "arithmetic_mean": "23/18",
+        "geometric_mean_approx": 1.183607972646741,
+        "geometric_mean_exact": "(1^29 * 2^4 * 3^3)^(1/36)",
+        "histogram": {
+          "1": 29,
+          "2": 4,
+          "3": 3
+        },
+        "identity_only_fraction": "29/36",
+        "maximum": 3,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "29/36",
+          "3": "11/12"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "23/18",
+        "geometric_mean_approx": 1.183607972646741,
+        "geometric_mean_exact": "(1^29 * 2^4 * 3^3)^(1/36)",
+        "histogram": {
+          "1": 29,
+          "2": 4,
+          "3": 3
+        },
+        "identity_only_fraction": "29/36",
+        "maximum": 3,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "29/36",
+          "3": "11/12"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "11/9",
+        "geometric_mean_approx": 1.1480333746076383,
+        "geometric_mean_exact": "(1^30 * 2^4 * 3^2)^(1/36)",
+        "histogram": {
+          "1": 30,
+          "2": 4,
+          "3": 2
+        },
+        "identity_only_fraction": "5/6",
+        "maximum": 3,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "5/6",
+          "3": "17/18"
+        }
+      },
+      "Z_definition": "single norm-one exponent orbit; engineered subset of A^2",
+      "Z_size": 3,
+      "action_size": 3,
+      "carrier": [
+        "-7/13",
+        "0",
+        "7/13",
+        "8/13",
+        "1",
+        "15/13"
+      ],
+      "d": 1,
+      "engineered_density": "1/12",
+      "engineered_pairs": 3,
+      "family": "orbit_projection",
+      "finite_stabilizer_distribution": {
+        "1": 35,
+        "3": 1
+      },
+      "formal_action_labels": 3,
+      "full_Q_image_size": 16,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 6,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 36,
+      "projection_fibers": {
+        "tagged_coefficient_fibers": {
+          "1": 6
+        },
+        "x_fibers": {
+          "1": 3
+        },
+        "y_fibers": {
+          "1": 3
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 33
+    },
+    {
+      "A_size": 6,
+      "HR1_reciprocal_sum": "36",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "2": 6,
+        "4": 6
+      },
+      "R_action": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^36)^(1/36)",
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "1",
+          "3": "1"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^36)^(1/36)",
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "1",
+          "3": "1"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^36)^(1/36)",
+        "histogram": {
+          "1": 36
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 36,
+        "strict_threshold_fractions": {
+          "2": "1",
+          "3": "1"
+        }
+      },
+      "Z_definition": "full coefficient carrier A-omega*A, not a single norm orbit",
+      "Z_size": 36,
+      "action_size": 3,
+      "carrier": [
+        "-13",
+        "-1",
+        "-1/13",
+        "1/13",
+        "1",
+        "13"
+      ],
+      "d": 1,
+      "engineered_density": "1",
+      "engineered_pairs": 36,
+      "family": "valuation_box",
+      "finite_stabilizer_distribution": {
+        "1": 36
+      },
+      "formal_action_labels": 3,
+      "full_Q_image_size": 12,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 2,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 36,
+      "projection_fibers": {
+        "pair_parameter_fibers": {
+          "1": 36
+        },
+        "scalar_parameter_fibers": {
+          "1": 6
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 0
+    },
+    {
+      "A_size": 18,
+      "HR1_reciprocal_sum": "2786/9",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "1": 10,
+        "2": 112,
+        "4": 12,
+        "6": 4,
+        "18": 1
+      },
+      "R_Z": {
+        "arithmetic_mean": "49/9",
+        "geometric_mean_approx": 5.241482788417794,
+        "geometric_mean_exact": "(4^4 * 6^4 * 9^1)^(1/9)",
+        "histogram": {
+          "4": 4,
+          "6": 4,
+          "9": 1
+        },
+        "identity_only_fraction": "0",
+        "maximum": 9,
+        "median": "6",
+        "minimum": 4,
+        "population": 9,
+        "strict_threshold_fractions": {
+          "4": "0",
+          "9": "8/9"
+        }
+      },
+      "R_action": {
+        "arithmetic_mean": "103/81",
+        "geometric_mean_approx": 1.1038622173697479,
+        "geometric_mean_exact": "(1^305 * 4^8 * 6^8 * 9^3)^(1/324)",
+        "histogram": {
+          "1": 305,
+          "4": 8,
+          "6": 8,
+          "9": 3
+        },
+        "identity_only_fraction": "305/324",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "305/324",
+          "9": "107/108"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "103/81",
+        "geometric_mean_approx": 1.1038622173697479,
+        "geometric_mean_exact": "(1^305 * 4^8 * 6^8 * 9^3)^(1/324)",
+        "histogram": {
+          "1": 305,
+          "4": 8,
+          "6": 8,
+          "9": 3
+        },
+        "identity_only_fraction": "305/324",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "305/324",
+          "9": "107/108"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "101/81",
+        "geometric_mean_approx": 1.0964016382150055,
+        "geometric_mean_exact": "(1^306 * 4^8 * 6^8 * 9^2)^(1/324)",
+        "histogram": {
+          "1": 306,
+          "4": 8,
+          "6": 8,
+          "9": 2
+        },
+        "identity_only_fraction": "17/18",
+        "maximum": 9,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "17/18",
+          "9": "161/162"
+        }
+      },
+      "Z_definition": "single norm-one exponent orbit; engineered subset of A^2",
+      "Z_size": 9,
+      "action_size": 9,
+      "carrier": [
+        "-304286705/564822349",
+        "-7/13",
+        "-303983496/564822349",
+        "-13183/43447873",
+        "0",
+        "13183/43447873",
+        "303983496/564822349",
+        "7/13",
+        "304286705/564822349",
+        "347437959/564822349",
+        "8/13",
+        "347727985/564822349",
+        "43441280/43447873",
+        "1",
+        "43454463/43447873",
+        "651711481/564822349",
+        "15/13",
+        "651724664/564822349"
+      ],
+      "d": 2,
+      "engineered_density": "1/36",
+      "engineered_pairs": 9,
+      "family": "orbit_projection",
+      "finite_stabilizer_distribution": {
+        "1": 323,
+        "9": 1
+      },
+      "formal_action_labels": 9,
+      "full_Q_image_size": 139,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 18,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 324,
+      "projection_fibers": {
+        "tagged_coefficient_fibers": {
+          "1": 18
+        },
+        "x_fibers": {
+          "1": 9
+        },
+        "y_fibers": {
+          "1": 9
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 315
+    },
+    {
+      "A_size": 18,
+      "HR1_reciprocal_sum": "324",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "2": 18,
+        "4": 72
+      },
+      "R_action": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^324)^(1/324)",
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "1",
+          "9": "1"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^324)^(1/324)",
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "1",
+          "9": "1"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^324)^(1/324)",
+        "histogram": {
+          "1": 324
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 324,
+        "strict_threshold_fractions": {
+          "4": "1",
+          "9": "1"
+        }
+      },
+      "Z_definition": "full coefficient carrier A-omega*A, not a single norm orbit",
+      "Z_size": 324,
+      "action_size": 9,
+      "carrier": [
+        "-564822349",
+        "-43447873",
+        "-43447873/13",
+        "-13",
+        "-1",
+        "-1/13",
+        "-13/43447873",
+        "-1/43447873",
+        "-1/564822349",
+        "1/564822349",
+        "1/43447873",
+        "13/43447873",
+        "1/13",
+        "1",
+        "13",
+        "43447873/13",
+        "43447873",
+        "564822349"
+      ],
+      "d": 2,
+      "engineered_density": "1",
+      "engineered_pairs": 324,
+      "family": "valuation_box",
+      "finite_stabilizer_distribution": {
+        "1": 324
+      },
+      "formal_action_labels": 9,
+      "full_Q_image_size": 90,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 2,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 324,
+      "projection_fibers": {
+        "pair_parameter_fibers": {
+          "1": 324
+        },
+        "scalar_parameter_fibers": {
+          "1": 18
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 0
+    },
+    {
+      "A_size": 54,
+      "HR1_reciprocal_sum": "77402/27",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "1": 28,
+        "2": 1066,
+        "4": 156,
+        "6": 13,
+        "54": 1
+      },
+      "R_Z": {
+        "arithmetic_mean": "343/27",
+        "geometric_mean_approx": 11.999999999999995,
+        "geometric_mean_exact": "(8^8 * 12^12 * 18^6 * 27^1)^(1/27)",
+        "histogram": {
+          "8": 8,
+          "12": 12,
+          "18": 6,
+          "27": 1
+        },
+        "identity_only_fraction": "0",
+        "maximum": 27,
+        "median": "12",
+        "minimum": 8,
+        "population": 27,
+        "strict_threshold_fractions": {
+          "27": "26/27",
+          "8": "0"
+        }
+      },
+      "R_action": {
+        "arithmetic_mean": "1787/1458",
+        "geometric_mean_approx": 1.048276146090365,
+        "geometric_mean_exact": "(1^2861 * 8^16 * 12^24 * 18^12 * 27^3)^(1/2916)",
+        "histogram": {
+          "1": 2861,
+          "8": 16,
+          "12": 24,
+          "18": 12,
+          "27": 3
+        },
+        "identity_only_fraction": "2861/2916",
+        "maximum": 27,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "971/972",
+          "8": "2861/2916"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "1787/1458",
+        "geometric_mean_approx": 1.048276146090365,
+        "geometric_mean_exact": "(1^2861 * 8^16 * 12^24 * 18^12 * 27^3)^(1/2916)",
+        "histogram": {
+          "1": 2861,
+          "8": 16,
+          "12": 24,
+          "18": 12,
+          "27": 3
+        },
+        "identity_only_fraction": "2861/2916",
+        "maximum": 27,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "971/972",
+          "8": "2861/2916"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "887/729",
+        "geometric_mean_approx": 1.0470919912858685,
+        "geometric_mean_exact": "(1^2862 * 8^16 * 12^24 * 18^12 * 27^2)^(1/2916)",
+        "histogram": {
+          "1": 2862,
+          "8": 16,
+          "12": 24,
+          "18": 12,
+          "27": 2
+        },
+        "identity_only_fraction": "53/54",
+        "maximum": 27,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "1457/1458",
+          "8": "53/54"
+        }
+      },
+      "Z_definition": "single norm-one exponent orbit; engineered subset of A^2",
+      "Z_size": 27,
+      "action_size": 27,
+      "carrier": [
+        "-88919440765299993872861148412635418376806240984912331243600520/165053834359352309621792516016066325136268643578475752901039693",
+        "-304286705/564822349",
+        "-88919440765299993872861147332388471027307481679818116647545735/165053834359352309621792516016066325136268643578475752901039693",
+        "-2045557939697365210583314965702680493359164108969373681/3798893316580821105369013484643225806157844449105155341",
+        "-7/13",
+        "-2045557939697365210583314940836178067118514528528485896/3798893316580821105369013484643225806157844449105155341",
+        "-88830836254251751243127468935118520185244890122914359011539463/165053834359352309621792516016066325136268643578475752901039693",
+        "-303983496/564822349",
+        "-88830836254251751243127467854572263395259707332959361950394993/165053834359352309621792516016066325136268643578475752901039693",
+        "-3852370045575766510160024263615433980284071824042143182849/12696448796873254586291732001235871164328357198344288684695361",
+        "-13183/43447873",
+        "-3852370045575766510159930316084819220112676387119897217664/12696448796873254586291732001235871164328357198344288684695361",
+        "-1081152279401767373062647295/292222562813909315797616421895632754319834188392704257",
+        "0",
+        "1081152279401767373062647295/292222562813909315797616421895632754319834188392704257",
+        "3852370045575766510159930316084819220112676387119897217664/12696448796873254586291732001235871164328357198344288684695361",
+        "13183/43447873",
+        "3852370045575766510160024263615433980284071824042143182849/12696448796873254586291732001235871164328357198344288684695361",
+        "88830836254251751243127467854572263395259707332959361950394993/165053834359352309621792516016066325136268643578475752901039693",
+        "303983496/564822349",
+        "88830836254251751243127468935118520185244890122914359011539463/165053834359352309621792516016066325136268643578475752901039693",
+        "2045557939697365210583314940836178067118514528528485896/3798893316580821105369013484643225806157844449105155341",
+        "7/13",
+        "2045557939697365210583314965702680493359164108969373681/3798893316580821105369013484643225806157844449105155341",
+        "88919440765299993872861147332388471027307481679818116647545735/165053834359352309621792516016066325136268643578475752901039693",
+        "304286705/564822349",
+        "88919440765299993872861148412635418376806240984912331243600520/165053834359352309621792516016066325136268643578475752901039693",
+        "101529210797813949491810306171504619810254559963005075392986097/165053834359352309621792516016066325136268643578475752901039693",
+        "347437959/564822349",
+        "101529210797813949491810307205098490538608687304160238650082952/165053834359352309621792516016066325136268643578475752901039693",
+        "2337780502511274526380931363272386961139232403452513799/3798893316580821105369013484643225806157844449105155341",
+        "8/13",
+        "2337780502511274526380931387057737107978114610830754289/3798893316580821105369013484643225806157844449105155341",
+        "101613962938816616355033825672052356561451166184676876388871560/165053834359352309621792516016066325136268643578475752901039693",
+        "347727985/564822349",
+        "101613962938816616355033826705304159357820809543134002543008775/165053834359352309621792516016066325136268643578475752901039693",
+        "12694522173516622482172678292668740981014568558221671299408255/12696448796873254586291732001235871164328357198344288684695361",
+        "43441280/43447873",
+        "12694522173516622482172678339663885534143684504858759741325825/12696448796873254586291732001235871164328357198344288684695361",
+        "292222562813909315797616421355056614618950501861380608/292222562813909315797616421895632754319834188392704257",
+        "1",
+        "292222562813909315797616422436208894020717874924027903/292222562813909315797616421895632754319834188392704257",
+        "12698374543562198248682838269979970353363797181245879638543489/12696448796873254586291732001235871164328357198344288684695361",
+        "43454463/43447873",
+        "12698374543562198248682838316932356414994852630045713442591104/12696448796873254586291732001235871164328357198344288684695361",
+        "190444799193068367598161294559876422753080516876093364493403768/165053834359352309621792516016066325136268643578475752901039693",
+        "651711481/564822349",
+        "190444799193068367598161294607170876746696056307591235400411023/165053834359352309621792516016066325136268643578475752901039693",
+        "4383338442208639736964246327893915175096629139359240185/3798893316580821105369013484643225806157844449105155341",
+        "15/13",
+        "4383338442208639736964246328975067454498396512421887480/3798893316580821105369013484643225806157844449105155341",
+        "190448651563113943364671454537486961565916168983978355297628687/165053834359352309621792516016066325136268643578475752901039693",
+        "651724664/564822349",
+        "190448651563113943364671454584140038187060800947917406636586617/165053834359352309621792516016066325136268643578475752901039693"
+      ],
+      "d": 3,
+      "engineered_density": "1/108",
+      "engineered_pairs": 27,
+      "family": "orbit_projection",
+      "finite_stabilizer_distribution": {
+        "1": 2915,
+        "27": 1
+      },
+      "formal_action_labels": 27,
+      "full_Q_image_size": 1264,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 54,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 2916,
+      "projection_fibers": {
+        "tagged_coefficient_fibers": {
+          "1": 54
+        },
+        "x_fibers": {
+          "1": 27
+        },
+        "y_fibers": {
+          "1": 27
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 2889
+    },
+    {
+      "A_size": 54,
+      "HR1_reciprocal_sum": "2916",
+      "L": 1,
+      "Q_fiber_histogram": {
+        "2": 54,
+        "4": 702
+      },
+      "R_action": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^2916)^(1/2916)",
+        "histogram": {
+          "1": 2916
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "1",
+          "8": "1"
+        }
+      },
+      "R_label": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^2916)^(1/2916)",
+        "histogram": {
+          "1": 2916
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "1",
+          "8": "1"
+        }
+      },
+      "R_pair": {
+        "arithmetic_mean": "1",
+        "geometric_mean_approx": 1.0,
+        "geometric_mean_exact": "(1^2916)^(1/2916)",
+        "histogram": {
+          "1": 2916
+        },
+        "identity_only_fraction": "1",
+        "maximum": 1,
+        "median": "1",
+        "minimum": 1,
+        "population": 2916,
+        "strict_threshold_fractions": {
+          "27": "1",
+          "8": "1"
+        }
+      },
+      "Z_definition": "full coefficient carrier A-omega*A, not a single norm orbit",
+      "Z_size": 2916,
+      "action_size": 27,
+      "carrier": [
+        "-165053834359352309621792516016066325136268643578475752901039693",
+        "-12696448796873254586291732001235871164328357198344288684695361",
+        "-12696448796873254586291732001235871164328357198344288684695361/13",
+        "-3798893316580821105369013484643225806157844449105155341",
+        "-292222562813909315797616421895632754319834188392704257",
+        "-292222562813909315797616421895632754319834188392704257/13",
+        "-3798893316580821105369013484643225806157844449105155341/43447873",
+        "-292222562813909315797616421895632754319834188392704257/43447873",
+        "-292222562813909315797616421895632754319834188392704257/564822349",
+        "-564822349",
+        "-43447873",
+        "-43447873/13",
+        "-13",
+        "-1",
+        "-1/13",
+        "-13/43447873",
+        "-1/43447873",
+        "-1/564822349",
+        "-564822349/292222562813909315797616421895632754319834188392704257",
+        "-43447873/292222562813909315797616421895632754319834188392704257",
+        "-43447873/3798893316580821105369013484643225806157844449105155341",
+        "-13/292222562813909315797616421895632754319834188392704257",
+        "-1/292222562813909315797616421895632754319834188392704257",
+        "-1/3798893316580821105369013484643225806157844449105155341",
+        "-13/12696448796873254586291732001235871164328357198344288684695361",
+        "-1/12696448796873254586291732001235871164328357198344288684695361",
+        "-1/165053834359352309621792516016066325136268643578475752901039693",
+        "1/165053834359352309621792516016066325136268643578475752901039693",
+        "1/12696448796873254586291732001235871164328357198344288684695361",
+        "13/12696448796873254586291732001235871164328357198344288684695361",
+        "1/3798893316580821105369013484643225806157844449105155341",
+        "1/292222562813909315797616421895632754319834188392704257",
+        "13/292222562813909315797616421895632754319834188392704257",
+        "43447873/3798893316580821105369013484643225806157844449105155341",
+        "43447873/292222562813909315797616421895632754319834188392704257",
+        "564822349/292222562813909315797616421895632754319834188392704257",
+        "1/564822349",
+        "1/43447873",
+        "13/43447873",
+        "1/13",
+        "1",
+        "13",
+        "43447873/13",
+        "43447873",
+        "564822349",
+        "292222562813909315797616421895632754319834188392704257/564822349",
+        "292222562813909315797616421895632754319834188392704257/43447873",
+        "3798893316580821105369013484643225806157844449105155341/43447873",
+        "292222562813909315797616421895632754319834188392704257/13",
+        "292222562813909315797616421895632754319834188392704257",
+        "3798893316580821105369013484643225806157844449105155341",
+        "12696448796873254586291732001235871164328357198344288684695361/13",
+        "12696448796873254586291732001235871164328357198344288684695361",
+        "165053834359352309621792516016066325136268643578475752901039693"
+      ],
+      "d": 3,
+      "engineered_density": "1",
+      "engineered_pairs": 2916,
+      "family": "valuation_box",
+      "finite_stabilizer_distribution": {
+        "1": 2916
+      },
+      "formal_action_labels": 27,
+      "full_Q_image_size": 756,
+      "full_group_stabilizers": "trivial off (0,0); entire infinite action group at (0,0)",
+      "h": 1,
+      "norm_one_fiber_size": 2,
+      "oracle": "PASS: every action, returned set, Q-value and finite stabilizer checked independently",
+      "ordered_pairs": 2916,
+      "projection_fibers": {
+        "pair_parameter_fibers": {
+          "1": 2916
+        },
+        "scalar_parameter_fibers": {
+          "1": 54
+        }
+      },
+      "uncontrolled_pairs_by_engineered_certificate": 0
+    }
+  ],
+  "fixed_schedule": {
+    "L": 1,
+    "d": [
+      1,
+      2,
+      3
+    ],
+    "families": [
+      "orbit_projection",
+      "valuation_box"
+    ],
+    "h": 1
+  },
+  "reproducibility": {
+    "categories": {
+      "constructed_action_norm_checks": 39,
+      "oracle_action_pair_tests": 163512,
+      "oracle_polynomial_evaluations": 6552,
+      "orbit_action_tests": 819,
+      "scalar_action_pair_tests": 163512,
+      "scalar_polynomial_evaluations": 6552
+    },
+    "charged_evaluations": 340986,
+    "command": [
+      "experiments/unit_exponent.py",
+      "--output",
+      "examples/2026-09-16-unit-exponent.json",
+      "--pairs-output",
+      "local-only/runs/T03/2026-09-16-unit-exponent/pairs.json"
+    ],
+    "cpu_cap_seconds": 600,
+    "cpu_seconds": 5.944325,
+    "evaluation_cap": 2000000,
+    "network_attempted": false,
+    "python": "3.12.7",
+    "seed": null,
+    "source_sha256": "11ef12740645b5ad4ec2bb597f52195e07d84c9f353ae0cfb131472f54fd681a",
+    "wall_seconds": 5.945250000004307
+  },
+  "status": "EXPERIMENTAL: exact exhaustive finite corroboration; proofs are separate"
+}
