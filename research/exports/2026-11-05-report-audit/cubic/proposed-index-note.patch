@@ -1,0 +1,6 @@
+--- a/research/EVIDENCE_INDEX.md
++++ b/research/EVIDENCE_INDEX.md
+@@ -47 +47,3 @@
+ Use the [availability and correction register](MIGRATION_CONFLICTS.md) for migration gaps, the [earlier mechanism library](MECHANISM_LIBRARY.md), [failure library](FAILURE_LIBRARY.md) and [open-lemma registry](OPEN_LEMMAS.md) for detailed historical claims, and the [reproduction guide](../docs/reproducibility.md) for validation commands. Superseded proposals remain readable: their age is not evidence that a missing premise was solved. Restricted reference material, private correspondence, academic/administrative notes and ignored raw files are not supplied by this index.
++
++**5 November 2026, cubic citation addendum.** For archive row `T04/migration/T04-Q8-SPLIT`, the damaged product in the complementary transfer proof is documented in the **T04 rendering** row of [Resolved supersessions and notation issues](MIGRATION_CONFLICTS.md#resolved-supersessions-and-notation-issues). The row's historical “MC-02” pointer refers instead to product-tree attribution. Equations (F.1) and (F.2) give the intended strict bound. See the [v6 cubic proof checks](exports/2026-11-05-report-audit/cubic/proof-checks.md).

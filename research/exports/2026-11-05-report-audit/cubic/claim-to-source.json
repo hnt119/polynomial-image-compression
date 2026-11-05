@@ -1,0 +1,754 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-11-05",
+  "audited_repository_head": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+  "report_revision": "MA2288 v6",
+  "report_pdf_sha256": "9d5ad8f21b86df90f3ff29cd24074bc7925d20f401fdee5a96dcf1ae966066cd",
+  "scope": "Report claim groups and separately identified optional later frontier. Rows may describe steps of one theorem. They do not count new independent results.",
+  "register_96_path": "research/evidence/2026-11-05/claim-ledger.json",
+  "register_75_path": "research/exports/2026-11-05-evidence/evidence_register.json",
+  "register_convention": "Null means the specific row has no direct counterpart. The T04 INERT and SPLIT group identifiers are archival aliases with empty native-ID arrays. Native equations and theorem labels identify the mathematical statements.",
+  "claims": [
+    {
+      "report_section": "§4.4, printed p.16 (PDF p.18)",
+      "topic": "Bridge and sample pairs",
+      "report_claim": "5P₋=5u³+3u²−3P₂. The pairs (1,0) and (0,1) both give P₂=6 and give P₋=−2 and −4 respectively.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§B, (B.1)–(B.2)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "For all real x,y and P₂=(x−y)²+5(x+y), set u=x−y.",
+      "proof_path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        250,
+        287
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md#L250-L287",
+      "section_theorem_or_equation": "§B, (B.1)–(B.2)",
+      "dependencies": "Direct substitution and recovery of the sum from (u,P₂).",
+      "verification_done_now": "Checked both displayed polynomials and both ordered examples in v6.",
+      "remaining_qualification": "The sample diagnoses loss of quadratic information; large-witness conclusions use the following separate arguments.",
+      "recommended_report_wording": "Keep the bridge identity and the two examples.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/T04-state-transfer-rich-fiber.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            5,
+            11
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T04-state-transfer-rich-fiber.md#L5-L11",
+          "source_sha256": "0ed6e43818a16dd9d7e2323a9ff8421d5ecb272f3e4a4d7bd9b2beef5c438a46"
+        }
+      ],
+      "source_sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+    },
+    {
+      "report_section": "§4.4, printed pp.16–17 (PDF pp.18–19); C.5, printed p.25 (PDF p.27)",
+      "topic": "Real witness and its size",
+      "report_claim": "(Q/(8√D))^d≤N≤(Q/4+1)^d. Q/8>√D gives unbounded sizes along increasing degrees.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§A.1–A.2, (A.1)–(A.3)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞.",
+      "proof_path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        40,
+        167
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md#L40-L167",
+      "section_theorem_or_equation": "§A.1–A.2, (A.1)–(A.3)",
+      "dependencies": "Imported totally real tower and complete splitting, Minkowski covolume, translated cube averaging, field norm and injective real embedding.",
+      "verification_done_now": "Checked the centered-box bound by subtracting a lattice point from the occupied translate, the scaling by Q, and the strict growth condition.",
+      "remaining_qualification": "The field supply is imported. Growth is a separate condition from fixed-layer injectivity.",
+      "recommended_report_wording": "Use the transfer construction’s own totally real tower and T=Q/8.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19)",
+      "topic": "Full injectivity at 5 modulo 12",
+      "report_claim": "The complete cubic image has N² values.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§D.3, (D.7)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. Every selected prime is 5 modulo 12.",
+      "proof_path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        498,
+        546
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md#L498-L546",
+      "section_theorem_or_equation": "§D.3, (D.7)",
+      "dependencies": "Cleared cubic Z=u³−3Q²v for numerator difference u and sum v; bijective cubing in each residue field, CRT, norm integrality.",
+      "verification_done_now": "Checked congruences componentwise including zero. If u−u′=Qh then all |σ(h)|≤1/2, forcing h=0. Equality of Z recovers the sum and ordered inputs.",
+      "remaining_qualification": "This uses the specific radius and the uniform congruence class of all selected primes.",
+      "recommended_report_wording": "P₋ is injective on the stated centered witness in this prime regime.",
+      "register_96_group_id": "T04/migration/T04-Q8-INERT",
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/T04-state-transfer-rich-fiber.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            13,
+            16
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T04-state-transfer-rich-fiber.md#L13-L16",
+          "source_sha256": "0ed6e43818a16dd9d7e2323a9ff8421d5ecb272f3e4a4d7bd9b2beef5c438a46"
+        }
+      ],
+      "source_sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19); C.5, printed p.25 (PDF p.27)",
+      "topic": "The successful quadratic estimate",
+      "report_claim": "With ρ=∏_{q|Q}(q+1)/(2q), the specific quadratic support estimate is |P₂(A,A)|≤Θ^d N², Θ=Dρ(164+64/Q). The report calls Θ<1 successful.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y); auxiliary P₂(x,y)=(x−y)²+5(x+y)",
+      "native_claim_id_or_equation": "§A.3, (A.4)–(A.7); complementary §F, (F.1)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. All t primes q are 1 modulo 12.",
+      "proof_path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        168,
+        247
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md#L168-L247",
+      "section_theorem_or_equation": "§A.3, (A.4)–(A.7); complementary §F, (F.1)",
+      "dependencies": "Local square residues modulo Q, complete splitting, packing each occupied class, B(T) lower bound.",
+      "verification_done_now": "Checked the quadratic interval and class count, then inserted T=Q/8 in Dρ(4+20Q/T+Q/T²). Compared (F.1) with Appendix C.5.",
+      "remaining_qualification": "Θ is a sufficient certificate for this witness. Its sign cannot be inferred merely from knowing the actual quadratic image is small.",
+      "recommended_report_wording": "Retain the explicit numerical hypothesis Θ<1.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            585,
+            599
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L585-L599",
+          "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        }
+      ],
+      "source_sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+    },
+    {
+      "report_section": "C.5, printed p.25 (PDF p.27)",
+      "topic": "Positivity of the rate δ",
+      "report_claim": "δ=(1/2)log Q−t log 4−log(32√D)>0. One has t≥8, D<2^t/164, Q>12^t t!, and exp(−2δ)<(256/41)(8/3)^t/t!<1.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§F, (F.1)–(F.4)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. All t primes q are 1 modulo 12. Assume the displayed quadratic certificate Θ=Dρ(164+64/Q)<1.",
+      "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        582,
+        646
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L582-L646",
+      "section_theorem_or_equation": "§F, (F.1)–(F.4)",
+      "dependencies": "ρ>2^(−t), D≥1, increasing distinct primes 1 modulo 12, factorial-ratio comparison.",
+      "verification_done_now": "Verified each strict inequality, the t=8 bound, and the ratio (8/3)/(t+1) beyond it. Compared the report with (F.1) and (F.2).",
+      "remaining_qualification": "A stray comma in source line 602 separates factors of 164D·2^(−t). The correction is the T04 rendering row of the migration conflict register.",
+      "recommended_report_wording": "Keep the success criterion and δ definition together.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+    },
+    {
+      "report_section": "C.5, printed p.25 (PDF p.27)",
+      "topic": "Off-diagonal differences including singular positions",
+      "report_claim": "For u,v∈B(Q/4), u≠v, a cubic collision requires u³≡v³ modulo Q²O_K. The total number of ordered differences obeying this congruence is at most (4^(t+1)√Q)^d.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§C, (C.3)–(C.5); §D, (D.1)–(D.16)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. All t primes q are 1 modulo 12.",
+      "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        202,
+        476
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L202-L476",
+      "section_theorem_or_equation": "§C, (C.3)–(C.5); §D, (D.1)–(D.16)",
+      "dependencies": "Integral cubic equality, four local types at each of td places, CRT, ideal-norm packing and the totally positive form X²+XY+Y².",
+      "verification_done_now": "Checked three lifted unit-ratio types and the fourth singular type. Verified both packing regimes and the multiplication by at most 4^(td) local patterns.",
+      "remaining_qualification": "This estimates congruent numerator differences. The number of input pairs per fixed difference must still be charged.",
+      "recommended_report_wording": "Call (D.1) a bound on ordered off-diagonal differences, including singular residue classes.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            159,
+            200
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L159-L200",
+          "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        }
+      ],
+      "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+    },
+    {
+      "report_section": "C.5, printed p.25 (PDF p.27)",
+      "topic": "From differences to ordered-pair collision energy",
+      "report_claim": "E=∑_z m_z²≤N²+N(4^(t+1)√Q)^d≤N²(1+exp(−δd)), with δ=(1/2)log Q−t log 4−log(32√D).",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§E, (E.1)–(E.4)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. All t primes q are 1 modulo 12.",
+      "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        478,
+        545
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L478-L545",
+      "section_theorem_or_equation": "§E, (E.1)–(E.4)",
+      "dependencies": "(D.1), at most N first pairs at each first difference, unique second sum at fixed first pair and second difference, N≥(Q/(8√D))^d.",
+      "verification_done_now": "Checked equal differences give exactly N² identical-pair collisions. Charged the N first-pair choices once and derived the displayed 32 in the exponential rate.",
+      "remaining_qualification": "No exponent saving of the cubic image follows from the quadratic upper certificate.",
+      "recommended_report_wording": "Retain the diagonal N² term and the factor N multiplying (D.1).",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19); C.5, printed p.25 (PDF p.27)",
+      "topic": "Near-injectivity at 1 modulo 12",
+      "report_claim": "|P₋(A,A)|≥N²/(1+exp(−δd)). Its ratio to N² tends to one along these tower layers.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "Main theorem (B.1)–(B.4), (E.1)–(E.4), (F.1)–(F.4)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Use a totally real transfer layer K=F_j of degree d and root discriminant at most D. Fix distinct rational primes q splitting completely throughout the chosen tower, Q their product, T=Q/8, B(T)={a in O_K: all |σ(a)|≤T}, A=ι(B(T))/Q for one real embedding and N=|A|. Parameters precede d→∞. All t primes q are 1 modulo 12. Require δ>0; in particular this follows when the specific Θ<1. For the asymptotic inference use fixed parameters and N→∞.",
+      "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+      "source_date": "Undated manuscript, archived 5 September 2026.",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        43,
+        120
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L43-L120",
+      "section_theorem_or_equation": "Main theorem (B.1)–(B.4), (E.1)–(E.4), (F.1)–(F.4)",
+      "dependencies": "∑_z m_z=N², Cauchy–Schwarz, the complete energy upper bound and δ positivity.",
+      "verification_done_now": "Checked N⁴≤|P₋(A,A)|E and the direction of the resulting actual-image lower bound. Applied δ>0 only under its hypotheses.",
+      "remaining_qualification": "This excludes a fixed positive saving on this witness, including its unrestricted full square. Other carriers and mixed lists of primes are outside the result.",
+      "recommended_report_wording": "Retain the conditional statement for the specified quadratic witness.",
+      "register_96_group_id": "T04/migration/T04-Q8-SPLIT",
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            478,
+            580
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L478-L580",
+          "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        },
+        {
+          "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            582,
+            646
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L582-L646",
+          "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        },
+        {
+          "proof_path": "research/proofs/source-recovery/T04-state-transfer-rich-fiber.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            14,
+            29
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T04-state-transfer-rich-fiber.md#L14-L29",
+          "source_sha256": "0ed6e43818a16dd9d7e2323a9ff8421d5ecb272f3e4a4d7bd9b2beef5c438a46"
+        }
+      ],
+      "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19); C.5, printed p.25 (PDF p.27)",
+      "topic": "The designated output and the four new/new pairs",
+      "report_claim": "P₋(f₊,f₋)=−12. The reversed pair gives −432i³−12 and the diagonals are −216i³−18εi−12.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§B, (8)–(10); §B.1, (15)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "For real i and f_ε(i)=36i³+3εi+2; construction uses positive integer indices.",
+      "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+      "source_date": "6 September 2026",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        102,
+        119
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L102-L119",
+      "section_theorem_or_equation": "§B, (8)–(10); §B.1, (15)",
+      "dependencies": "f₊−f₋=6i, f₊+f₋=72i³+4, P₋(x,x)=−6x.",
+      "verification_done_now": "Expanded each of the four ordered outputs and compared all signs with Appendix C.5.",
+      "remaining_qualification": "The identity alone supplies the designated pairs. Its exact multiplicity on the full square uses finite avoidance.",
+      "recommended_report_wording": "Keep the displayed order of the two inputs in the −12 identity.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+          "source_date": "6 September 2026",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            164,
+            174
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L164-L174",
+          "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+        }
+      ],
+      "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19); C.5, printed p.25 (PDF p.27)",
+      "topic": "No unintended output coincidences",
+      "report_claim": "The finite set of unwanted output equalities excludes only finitely many real roots, hence finitely many integer indices at each step.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§B.1, (14)–(15)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "For every N≥1, take the increasing positive indices selected by the T04 checkpoint. Put f_ε(i)=36i³+3εi+2 (ε=±1) and A_N={f_±(i_j):1≤j≤N}. In the induction the old vertices and their outputs are fixed, and both incoming vertices are chosen above every old one.",
+      "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+      "source_date": "6 September 2026",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        150,
+        174
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L150-L174",
+      "section_theorem_or_equation": "§B.1, (14)–(15)",
+      "dependencies": "Coefficients of i^9, i^7, i^6 in P₋(f_ε(i),a) are 46656,11664ε,7776−3888a. Reversal negates these coefficients. Old outputs are constants and the three nonconstant new/new polynomials have degree three.",
+      "verification_done_now": "Checked degree, orientation, sign and anchor separation. Excluded only unintended equalities and retained the designated constant −12; verified two distinct new vertices can be chosen above the old ones.",
+      "remaining_qualification": "The count applies to the chosen indices. Arbitrary distinct indices are not asserted to avoid accidental coincidences.",
+      "recommended_report_wording": "The finite exclusions allow an increasing positive index at each stage.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+    },
+    {
+      "report_section": "C.5, printed p.25 (PDF p.27)",
+      "topic": "Compatibility with the historical number-field progression",
+      "report_claim": "The congruences leave an infinite arithmetic progression at each stage, from which the finite output exclusions still permit a choice.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§B, (11)–(13); §B.2, (16)–(18)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "For every N≥1, take the increasing positive indices selected by the T04 checkpoint. Put f_ε(i)=36i³+3εi+2 (ε=±1) and A_N={f_±(i_j):1≤j≤N}. For the source’s additional field properties impose i≡3 mod 9, a simple-root nonroot lift modulo p² at each fresh odd anchor, and i≡p² mod p³ at earlier anchors.",
+      "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+      "source_date": "6 September 2026",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        176,
+        219
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L176-L219",
+      "section_theorem_or_equation": "§B, (11)–(13); §B.2, (16)–(18)",
+      "dependencies": "Squarefreeness and pairwise coprimality of the four anchor polynomials, infinitely many prime divisors of polynomial values, simple-root lifting and CRT.",
+      "verification_done_now": "Checked all four valuations at 3, the four fresh-prime choices, earlier anchors, positivity and the independence of radicand classes. Checked that finitely many removed roots leave infinitely many admissible integers.",
+      "remaining_qualification": "Field degree 16^N and exclusion of √3 are extra historical conditions. The real-scalar image count uses the finite exclusions alone. Several valid roots or lifts need tie-breaking only for a unique implementation.",
+      "recommended_report_wording": "Keep the sentence identifying the CRT restrictions as additional source requirements.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+          "source_date": "6 September 2026",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            121,
+            144
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L121-L144",
+          "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+        }
+      ],
+      "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19); C.5, printed p.25 (PDF p.27)",
+      "topic": "Complete rich-fiber histogram",
+      "report_claim": "|A_N|=2N; m(−12)=N; each of the other 4N²−N ordered pairs gives one separate output. Hence |P₋(A_N,A_N)|=4N²−N+1.",
+      "target_polynomial": "T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "§C, Theorem 3, (19)–(20)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "For every N≥1, take the increasing positive indices selected by the T04 checkpoint. Put f_ε(i)=36i³+3εi+2 (ε=±1) and A_N={f_±(i_j):1≤j≤N}.",
+      "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+      "source_date": "6 September 2026",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        221,
+        235
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L221-L235",
+      "section_theorem_or_equation": "§C, Theorem 3, (19)–(20)",
+      "dependencies": "Matched pair identity, degree-nine and degree-three comparisons, induction over finite prior vertices.",
+      "verification_done_now": "Counted all 4N² ordered pairs. At N=1 the designated fiber also has size one. Compared §4.4, Appendix C.5 and [17] with the recovered complete proof.",
+      "remaining_qualification": "The designated fiber occupies 1/(4N) of the square. The construction’s image has quadratic order.",
+      "recommended_report_wording": "For the recursively selected indices, retain the exact image count and its scope.",
+      "register_96_group_id": null,
+      "register_75_claim_id": "T04-RICH",
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/T04-state-transfer-rich-fiber.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            49,
+            57
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T04-state-transfer-rich-fiber.md#L49-L57",
+          "source_sha256": "0ed6e43818a16dd9d7e2323a9ff8421d5ecb272f3e4a4d7bd9b2beef5c438a46"
+        }
+      ],
+      "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19)",
+      "topic": "Reported fixed-prime digital theorem",
+      "report_claim": "With Z_N(U,V)=(U−V)³+N²(U+V), |Z_N(D,D)|≥η(S,α)|D|² for some fixed η(S,α)>0.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "T01.6 (state §4.3)",
+      "mathematical_status": "SOURCE-REPORTED PROVED; ORIGINAL PROOF NOT LOCATED IN CHECKED SOURCES",
+      "exact_hypotheses": "Fix a nonempty finite prime set S and α>0. For all sufficiently large integers N with every prime divisor in S and every D⊆{0,…,N−1} of size at least N^α.",
+      "proof_path": "research/proofs/source-recovery/T01-state-digital-theorems.md",
+      "source_date": "10 September 2026 state cutoff",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        14,
+        30
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T01-state-digital-theorems.md#L14-L30",
+      "section_theorem_or_equation": "T01.6 (state §4.3)",
+      "dependencies": "Located 10 September state statement and constants. The sought checkpoint is identified as Theorem A.2, §F.2, (F.13)–(F.20) in the 20 September recovery manifest.",
+      "verification_done_now": "Matched target, quantifiers, η and provenance to v6. A bounded source/ZIP/content/hash search did not locate the named original or alternative bundle. The checkpoint’s full proof could not be checked.",
+      "remaining_qualification": "The file contains intermediate formulas and the theorem statement only. The unrestricted real problem remains open.",
+      "recommended_report_wording": "Retain the source-reported qualification and explicit missing-proof sentence.",
+      "register_96_group_id": "T01/2026-09-16-three-branch-lift/TB-S3",
+      "register_75_claim_id": "T01-DIGITAL",
+      "additional_source_passages": [],
+      "source_sha256": "80a3faebb937412980227e4703b568bb50f837f652b64c2bfe30847e5c33c693"
+    },
+    {
+      "report_section": "§4.4, printed p.17 (PDF p.19)",
+      "topic": "Scaling from cleared outputs to the real carrier",
+      "report_claim": "N³P₊(U/N,V/N)=Z_N(U,V), so the real image has exactly as many elements as the cleared image. The reported lower bound would exclude fixed power saving on this family as |D|→∞.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "State §4.3 (T01.6) and the clearing identity in the 14 September study note",
+      "mathematical_status": "PROVED scaling identity; lower bound inherited from source-reported T01.6",
+      "exact_hypotheses": "Assume the T01.6 hypotheses above, set A=D/N and Z_N(U,V)=(U−V)³+N²(U+V). All primes dividing N belong to fixed S (for S={2,3}, N=2^i3^j with i,j≥0).",
+      "proof_path": "research/proofs/source-recovery/T01-state-digital-theorems.md",
+      "source_date": "10 September 2026 state cutoff",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        14,
+        30
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T01-state-digital-theorems.md#L14-L30",
+      "section_theorem_or_equation": "State §4.3 (T01.6) and the clearing identity in the 14 September study note",
+      "dependencies": "Direct substitution and injective scaling by nonzero N³; the quantitative bound uses T01.6.",
+      "verification_done_now": "Verified the identity, equality of support cardinalities and |D|≥N^α→∞. No proof of T01.6 was inferred from the identity.",
+      "remaining_qualification": "The transport computation is exact. Its fixed positive lower fraction has the same source-availability limitation as T01.6.",
+      "recommended_report_wording": "Keep the scaling identity followed by the reported theorem’s two restrictions and proof-availability qualification.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/notes/2026-09-14-study-notes/01-cubic-plus.md",
+          "source_date": "14 September 2026 study note",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            30,
+            39
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/notes/2026-09-14-study-notes/01-cubic-plus.md#L30-L39",
+          "source_sha256": "d565c03f393c6ecc3972b2e6a60ad4f0b94ac45c2aae29d2af9b1cae018e8228"
+        }
+      ],
+      "source_sha256": "80a3faebb937412980227e4703b568bb50f837f652b64c2bfe30847e5c33c693"
+    },
+    {
+      "report_section": "Bibliography [17], printed p.28 (PDF p.30)",
+      "topic": "Scope and evidence destinations of ref17",
+      "report_claim": "The index points to T01 state §4.3, T04 state §§4.5/4.7, both full T04 transfer checkpoints, and the recovered rich-fiber checkpoint. It distinguishes the missing original T01.6 proof.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y; T04: P₋(x,y)=(x−y)³−3(x+y)",
+      "native_claim_id_or_equation": "[17], pinned index heading ref17",
+      "mathematical_status": "DOCUMENTARY VERIFICATION",
+      "exact_hypotheses": "Use the existing ref17 key and source commit bd1f2d663262821575eebdfa559b7c25f76b46ab. The five relative file destinations must exist at that revision.",
+      "proof_path": "research/exports/2026-11-05-report-references/README.md",
+      "source_date": "5 November 2026 citation index",
+      "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+      "line_range": [
+        59,
+        63
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/exports/2026-11-05-report-references/README.md#L59-L63",
+      "section_theorem_or_equation": "[17], pinned index heading ref17",
+      "dependencies": "V6 [17], the five native sources, pinned index and its relative path resolution.",
+      "verification_done_now": "Read the historical pinned text and matched each filename, section and scope. The then-current index puts the ref17 heading at line 59. The local v6 bibliography describes the rich-fiber proof as available and the digital proof as unavailable for that revision.",
+      "remaining_qualification": "The shared bibliography was added after the evidence commit. The entry remains correct and can retain its historical evidence pin.",
+      "recommended_report_wording": "Retain ref17 and its proof-availability clause.",
+      "register_96_group_id": null,
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/proofs/source-recovery/T01-state-digital-theorems.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            14,
+            30
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T01-state-digital-theorems.md#L14-L30",
+          "source_sha256": "80a3faebb937412980227e4703b568bb50f837f652b64c2bfe30847e5c33c693"
+        },
+        {
+          "proof_path": "research/proofs/source-recovery/T04-state-transfer-rich-fiber.md",
+          "source_date": "10 September 2026 state cutoff",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            5,
+            57
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/T04-state-transfer-rich-fiber.md#L5-L57",
+          "source_sha256": "0ed6e43818a16dd9d7e2323a9ff8421d5ecb272f3e4a4d7bd9b2beef5c438a46"
+        },
+        {
+          "proof_path": "research/history-sources/quadratic_to_cubic_transfer_checkpoint.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            498,
+            546
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/quadratic_to_cubic_transfer_checkpoint.md#L498-L546",
+          "source_sha256": "bcacb783e76470333c84ef19101ffd4d6351a4cf7427ec3005667a88f793f566"
+        },
+        {
+          "proof_path": "research/history-sources/complementary_prime_transfer_obstruction.md",
+          "source_date": "Undated manuscript, archived 5 September 2026.",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            37,
+            120
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/history-sources/complementary_prime_transfer_obstruction.md#L37-L120",
+          "source_sha256": "800e5dcb9134a97eb029afffddb5240a3d3d9167178c840b55db625ad6eef4d2"
+        },
+        {
+          "proof_path": "research/proofs/source-recovery/rich_fiber_results_checkpoint.md",
+          "source_date": "6 September 2026",
+          "evidence_commit": "bd1f2d663262821575eebdfa559b7c25f76b46ab",
+          "line_range": [
+            221,
+            235
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/proofs/source-recovery/rich_fiber_results_checkpoint.md#L221-L235",
+          "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237"
+        }
+      ],
+      "source_sha256": "3095973f8b285d2b6c570fdbe172e75e02c38bd9ecad2d1313b88096e74e6281"
+    },
+    {
+      "report_section": "Optional later frontier, outside v6 §4.4 and C.5",
+      "topic": "Eight occupied children for one exact output",
+      "report_claim": "A fixed actual fiber enters at most eight of the sixteen four-by-four child squares of any parent.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "MC-S1, (1)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Finite nonempty A⊂ℝ of size N. A bounded half-open root interval containing A is quartered at each level until every occupied interval contains a single scalar. All fibers refer to exact values of P₊ on A².",
+      "proof_path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+      "source_date": "21 October 2026",
+      "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+      "line_range": [
+        11,
+        49
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/specialist.md#L11-L49",
+      "section_theorem_or_equation": "MC-S1, (1)",
+      "dependencies": "P_x=1+3(x−y)²≥1; global fiber graph x=f_z(y), with |f′_z|≤1.",
+      "verification_done_now": "Checked implicit derivative, strict finite spans inside half-open children, and two x-intervals per each of four y-children.",
+      "remaining_qualification": "Gives no saving in the number of distinct outputs by itself.",
+      "recommended_report_wording": "Optionally state the eight-child lemma as a necessary geometric constraint.",
+      "register_96_group_id": "T01/2026-10-21-multiscale-collisions/MC-S1",
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "358c22779005350d261efa77b0b5407dbef4732a7c4e073a7d5acca19855107c"
+    },
+    {
+      "report_section": "Optional later frontier, outside v6 §4.4 and C.5",
+      "topic": "Many branching generations under a small-image hypothesis",
+      "report_claim": "If b_L(ξ) counts genuine branch events of ξ’s own exact-output tree, #{ξ:b_L(ξ)≤b}≤|P₊(A,A)|8^b for every integer b≥0. At most N^(2−γ) pairs have at most floor((c−γ)log₈N) branches.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "MC-S2, (2)–(3)",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Finite nonempty A⊂ℝ of size N. A bounded half-open root interval containing A is quartered at each level until every occupied interval contains a single scalar. All fibers refer to exact values of P₊ on A². For the consequence assume |P₊(A,A)|≤N^(2−c), 0<γ<c.",
+      "proof_path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+      "source_date": "21 October 2026",
+      "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+      "line_range": [
+        51,
+        121
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/specialist.md#L51-L121",
+      "section_theorem_or_equation": "MC-S2, (2)–(3)",
+      "dependencies": "MC-S1; finite tree after suppressing unary vertices, prefix-free leaf words, all-pair partition by output.",
+      "verification_done_now": "Checked one leaf per actual pair, prefix-length bound and substitution of the integer floor.",
+      "remaining_qualification": "Neither the locations nor the balance of the branches are controlled. This gives a necessary condition and leaves T01 open.",
+      "recommended_report_wording": "Optionally include the necessity statement separately from the historical report.",
+      "register_96_group_id": "T01/2026-10-21-multiscale-collisions/MC-S2",
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "358c22779005350d261efa77b0b5407dbef4732a7c4e073a7d5acca19855107c"
+    },
+    {
+      "report_section": "Optional later frontier, outside v6 §4.4 and C.5",
+      "topic": "Local capacity and cross-cell output reuse",
+      "report_claim": "The local capacity is min(|A∩J|,3|A∩I|). With b_{j,k} the number of actual branches in this block, #{ξ:b_{j,k}(ξ)≤b}≤8^b∑_C M(C)|S_C|. Local rich mass transfers to finer cells with a threshold cost 2·4^k.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "MC-S3, (4)–(9); appendix B",
+      "mathematical_status": "PROVED",
+      "exact_hypotheses": "Finite nonempty A⊂ℝ of size N. A bounded half-open root interval containing A is quartered at each level until every occupied interval contains a single scalar. All fibers refer to exact values of P₊ on A². Choose j≤j+k≤L and integer b≥0; use the exact local output set S_C of each occupied parent C=I×J, and M(C) the maximum finer descendant capacity.",
+      "proof_path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+      "source_date": "21 October 2026",
+      "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+      "line_range": [
+        123,
+        214
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/specialist.md#L123-L214",
+      "section_theorem_or_equation": "MC-S3, (4)–(9); appendix B",
+      "dependencies": "At most one x for each (y,z), at most three y for each (x,z), MC-S2 prefix counting with terminal weights, actual supports summed per parent.",
+      "verification_done_now": "Checked the descendant weighting and the charging of duplicate output labels across coarse cells; inspected the direct rich-mass version in appendix B.",
+      "remaining_qualification": "Neither the local capacities nor the cross-cell reuse weights are bounded autonomously by this statement.",
+      "recommended_report_wording": "Keep the local result separate from a proposed construction or an inverse conclusion.",
+      "register_96_group_id": "T01/2026-10-21-multiscale-collisions/MC-S3",
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/notes/2026-10-21-multiscale-collisions/appendix.md",
+          "source_date": "21 October 2026",
+          "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+          "line_range": [
+            46,
+            69
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/appendix.md#L46-L69",
+          "source_sha256": "75abc4d32ba2e031343f6c47e042ba2108aba7cfae37d6ac0f428ef7c109ef75"
+        }
+      ],
+      "source_sha256": "358c22779005350d261efa77b0b5407dbef4732a7c4e073a7d5acca19855107c"
+    },
+    {
+      "report_section": "Optional later frontier, distinct from the analytic theorem",
+      "topic": "Six stored full-square histograms",
+      "report_claim": "The six (N,image) pairs are (8,44), (12,108), (6,29), (8,52), (9,75), (12,136). Their squares contain 533 ordered pairs in total.",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "MC-X1; README §5 finite census",
+      "mathematical_status": "EXPERIMENTAL",
+      "exact_hypotheses": "Only A={0,…,7}, A={0,…,11}, the fixed CP ladders m=2,3, and {0,1,3}+D/64 with D={0,1,3} or D={0,1,3,7}.",
+      "proof_path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+      "source_date": "21 October 2026",
+      "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+      "line_range": [
+        162,
+        198
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/README.md#L162-L198",
+      "section_theorem_or_equation": "MC-X1; README §5 finite census",
+      "dependencies": "Archived primary summary and referee exact-fiber tables. The historical run charged 1,599 evaluations across the two calculations.",
+      "verification_done_now": "Compared the six archived summaries and their stored fiber populations and counts. Checked coverage of all 533 labeled ordered pairs without reevaluating P₊.",
+      "remaining_qualification": "Exhaustive only on six declared sets. No asymptotics follow from this comparison. In the lead JSON the CP entries’ Q,Z describe selected frame pairs; their full-image counts are sums of the full histogram and appear explicitly in the referee table.",
+      "recommended_report_wording": "Describe these as archived exact finite data and distinguish table checking from recomputation.",
+      "register_96_group_id": "T01/2026-10-21-multiscale-collisions/MC-X1",
+      "register_75_claim_id": null,
+      "additional_source_passages": [
+        {
+          "proof_path": "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+          "source_date": "21 October 2026",
+          "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+          "line_range": [
+            1,
+            36
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/experiment-summary.json#L1-L36",
+          "source_sha256": "401cc94bdc87f543af378ee976f9d61baf2e777bdb00f64a91be47df725bf2fd"
+        },
+        {
+          "proof_path": "research/notes/2026-10-21-multiscale-collisions/referee-counts.json",
+          "source_date": "21 October 2026",
+          "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+          "line_range": [
+            1,
+            13
+          ],
+          "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/referee-counts.json#L1-L13",
+          "source_sha256": "927434b4acb38b36064cfb16f97baa0609f91e01881720a7596f55604f3e2958"
+        }
+      ],
+      "source_sha256": "f47f01566f3dd4b471359a3b37cf29372f4ac211669c71b5f0f43e9bd288f104"
+    },
+    {
+      "report_section": "Optional later frontier, outside v6 §4.4 and C.5",
+      "topic": "Cross-block rectangle question",
+      "report_claim": "Let Q₄(D) count ordered rectangles of pairs with equal F₀ values along each row and distinct values across rows, and equal F₁ values along columns and distinct values across columns. Is Q₄(D)≤C|D|³ for a universal C?",
+      "target_polynomial": "T01: P₊(x,y)=(x−y)³+x+y",
+      "native_claim_id_or_equation": "MC-O1, README §6",
+      "mathematical_status": "OPEN",
+      "exact_hypotheses": "Fix B={0,1,3}, ρ=1/64 and any finite D⊂[0,7]. On D² use F₀(u,v)=P₊(ρu,ρv), F₁(u,v)=P₊(1+ρu,ρv).",
+      "proof_path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+      "source_date": "21 October 2026",
+      "evidence_commit": "c689ab52ca3bb9e3221bd09ae9a083a3111e39df",
+      "line_range": [
+        212,
+        237
+      ],
+      "permalink": "https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/notes/2026-10-21-multiscale-collisions/README.md#L212-L237",
+      "section_theorem_or_equation": "MC-O1, README §6",
+      "dependencies": "Exact equalities for both maps on the same fine input pairs, distinct row/column labels as in the source.",
+      "verification_done_now": "Compared the two equality patterns and quantifiers with the recorded question. No feasibility tests or proof search were performed.",
+      "remaining_qualification": "This is an open diagnostic. MC-S1/S2/S3 supply no such cross-map estimate.",
+      "recommended_report_wording": "Retain the question only as separately identified later open work.",
+      "register_96_group_id": "T01/2026-10-21-multiscale-collisions/MC-O1",
+      "register_75_claim_id": null,
+      "additional_source_passages": [],
+      "source_sha256": "f47f01566f3dd4b471359a3b37cf29372f4ac211669c71b5f0f43e9bd288f104"
+    }
+  ]
+}
