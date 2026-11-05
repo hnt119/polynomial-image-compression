@@ -19,7 +19,7 @@ Date/version: **2026-09-16, version 1**.
 | Novelty | No external literature assessment or novelty claim; this cycle is strictly offline |
 
 The active assignment is the local attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 Historical T03 scope is recorded in
 `local-only/migration/sources/T03_CURRENT_STATE.md`, §§4, 7, 13–15,
 and the corresponding frozen T03 archive. The inherited return theorem is

@@ -5,7 +5,7 @@ return-tail cycle. **Fixed polynomial:** $Q(x,y)=x^2+xy+y^2$ on real
 inputs. This is a structural subtask, not a fourth carrier construction.
 
 The active authorization is the strictly offline return-tail attachment
-`d5ea649a-797c-4c93-a87e-75bc36557c65`. This note uses zero mathematical
+`[private attachment identifier withheld]`. This note uses zero mathematical
 program runs or evaluations, no network, no outside result and no novelty
 claim. Only this new file is authored. Proofs are internally derived and
 checked; an independent review, if performed, is recorded separately.

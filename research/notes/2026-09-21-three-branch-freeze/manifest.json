@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-21",
+  "version": 1,
+  "scope": "Documentation freeze only; no new research or proof audit",
+  "mathematical_state_date": "2026-09-16",
+  "target": "OPEN",
+  "sources": [
+    {
+      "path": "research/notes/2026-09-16-three-branch-continuation/README.md",
+      "bytes": 30165,
+      "sha256": "172ea65c4ff7df8a0563930469dd2f3dd939a1a3cf50d7a878723315f4e49093"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-continuation/affine-mechanism.md",
+      "bytes": 20691,
+      "sha256": "345b209e170be0b693b7a087af72287ff470d16db30531eba8d4db5438aaf21e"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-continuation/direct-iteration.md",
+      "bytes": 14080,
+      "sha256": "7487a05e91ddc74e1a49efb290f5323e39b9e606a23abd6bcffd3aefae2cbab6"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-continuation/rates-and-fiber-maps.md",
+      "bytes": 7403,
+      "sha256": "3f624f0e4d733ee50efafd8283f42150ba7aa4a6e0d9d322ebdd1baf36da8521"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-continuation/verification.md",
+      "bytes": 9169,
+      "sha256": "9c67b89c62c99c8db0d4b7a322ce7b15f1c2b0b99304ab9f5b54abb622894991"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-lift/README.md",
+      "bytes": 27011,
+      "sha256": "1e7056f422631fd355ee4aa558e20d4c57c252382d4e58710c971e533b4c70c3"
+    },
+    {
+      "path": "research/notes/2026-09-16-three-branch-lift/verification.md",
+      "bytes": 5473,
+      "sha256": "f9efb0090bda5ab42573e16978b563d108913298c387f3f43b7df1d677b5f804"
+    },
+    {
+      "path": "examples/2026-09-16-three-branch-continuation.json",
+      "bytes": 38116,
+      "sha256": "cbd0d1d964b5089b70cb5773ffbcd95217264fddcdbf285fdd6dae601b542b18"
+    },
+    {
+      "path": "experiments/three_branch_continuation.py",
+      "bytes": 15746,
+      "sha256": "505a6cbd7681f85422cd6da7793d16d561de95937831110694d83c9ce2b33888"
+    },
+    {
+      "path": "tests/test_three_branch_continuation.py",
+      "bytes": 2359,
+      "sha256": "9a95f260c9ff74a6ac427074d1af7ca19d577e9e1dc47226d2187b6b6fb25999"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "research/notes/2026-09-21-three-branch-freeze/Three_Branch_Continuation_Freeze.md",
+      "bytes": 36919,
+      "sha256": "82e1608e573c4cf4aecddf850792b70bd6b009c8e46050911be5150d6802f6dc"
+    },
+    {
+      "path": "research/notes/2026-09-21-three-branch-freeze/FREEZE_SUMMARY.md",
+      "bytes": 1441,
+      "sha256": "173981f5ae1af940355ab7a88f73bae5c6afdd6c45dd750f72a7b2e7d93f3e4c"
+    },
+    {
+      "path": "research/notes/2026-09-21-three-branch-freeze/verification.md",
+      "bytes": 6064,
+      "sha256": "abcf3406c607673b3a6ae7f6796d9940ba4780fff81de8846fa7000b4a9c1fd7"
+    },
+    {
+      "path": "output/pdf/Three_Branch_Continuation_Freeze.pdf",
+      "bytes": 1615054,
+      "sha256": "8ec2ab072209afe196ce251fa85f909655fff8c59f468af020433f9237b949c7"
+    }
+  ],
+  "pdf_pages": 21,
+  "math_expressions": 374,
+  "network_requests": 0,
+  "research_programs_executed": 0,
+  "next_obligation": "Decide whether limsup R_1(N)>0 or prove R_1(N) tends to zero; not attempted."
+}

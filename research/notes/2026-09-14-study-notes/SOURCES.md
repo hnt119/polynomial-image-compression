@@ -14,13 +14,13 @@ then each current-state export, then the master handoff, then reconciled
 repository history. Formal proof evidence remains the argument itself.
 A status summary can report a proved result without independently proving it.
 
-The starting orientation used `CODEX_SETUP` (local setup record),
+The starting orientation used [CODEX_SETUP](../../../docs/CODEX_SETUP.md),
 [CURRENT_PROJECT_MAP](../../CURRENT_PROJECT_MAP.md),
-`CODEX_MIGRATION_AUDIT` (local setup record), and all four tracks'
+[CODEX_MIGRATION_AUDIT](../../CODEX_MIGRATION_AUDIT.md), and all four tracks'
 SPEC and STATUS files. Those existing files and their inherited uncommitted
 changes were preserved. Original archive identity remains in
 [manifest.json](../../manifest.json); separate local-migration identity remains
-in `CODEX_SOURCE_MANIFEST.json` (local setup record).
+in [CODEX_SOURCE_MANIFEST.json](../../CODEX_SOURCE_MANIFEST.json).
 
 Private paths below are repository-relative locators. Their files remain in
 ignored `local-only/`; they were not copied into these notes. A Git-only handoff

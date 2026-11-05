@@ -4,7 +4,7 @@
 $Q(x,y)=x^2+xy+y^2$.
 
 **Authorization:** the user's “7^k Modular-to-Real Lift” attachment
-`7ad72c1c-ef08-448a-bbf1-e880f67dba39`. Strictly offline. These are new
+`[private attachment identifier withheld]`. Strictly offline. These are new
 written proofs and applications within that lift obligation, not a rerun
 of the frozen modular theorem. No external theorem or novelty claim.
 The lead derived and checked the proofs; no independent review is claimed.

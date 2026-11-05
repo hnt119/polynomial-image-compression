@@ -7,7 +7,7 @@ correlated DC-O1. **Fixed polynomial:** $Q(x,y)=x^2+xy+y^2$.
 
 This is one bounded symbolic mechanism in the newly authorized strictly
 offline cycle. Its authorization is the local attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 There are **no program runs, allocated mathematical evaluations, network
 calls, outside results or novelty claims**. Only this new file is authored.
 

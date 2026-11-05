@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-21",
+  "version": 1,
+  "identities": [
+    {
+      "path": "research/notes/2026-10-21-tj-o1-freeze/README.md",
+      "sha256": "1bbb67e76458954e9974c541550ccc399cffe58a159179709a9b1cfe427a9edd",
+      "bytes": 5435
+    },
+    {
+      "path": "research/notes/2026-10-11-transfer-division-entropy/C_entropy.md",
+      "sha256": "0ecfe1d4d4ea7682d1e247becf4697a07a49de1b47a89558550ef54760f15af8",
+      "bytes": 10809
+    },
+    {
+      "path": "research/notes/2026-09-21-growing-step-cubic/structure-and-reuse.md",
+      "sha256": "59616330f32c3b54fd0950e303927a14855f075996f4568d5a88638af8f97370",
+      "bytes": 13443
+    },
+    {
+      "path": "research/notes/2026-09-21-growing-step-cubic/README.md",
+      "sha256": "94bc71f4fc4a1ef4a0c0019a8443076e481e9caa8e2ce80ea343409921ac7f16",
+      "bytes": 23486
+    },
+    {
+      "path": "research/notes/2026-09-21-sublinear-cubic/reuse-and-projections.md",
+      "sha256": "2eaf6078ea9a70e2ff6eba55c449db350cc54a7bed083bfb001429f750c739b9",
+      "bytes": 16219
+    },
+    {
+      "path": "research/notes/2026-10-06-changed-collision-pattern/README.md",
+      "sha256": "4b05ca498a6d5541161fb91ebbc9a7b6186d361a81871b820e1df254532e93fd",
+      "bytes": 8751
+    },
+    {
+      "path": "research/notes/2026-10-06-changed-collision-pattern/construction.md",
+      "sha256": "a534dee8246cc2c71a580e1c136ef169df35511142bddd131a65d30df41ad30b",
+      "bytes": 16377
+    },
+    {
+      "path": "experiments/changed_collision_pattern.py",
+      "sha256": "50c3b2ee6892718ac2e17346a01d827dce5b43c743bbf18bd5ec74da552b7f33",
+      "bytes": 14799
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/README.md",
+      "sha256": "f47f01566f3dd4b471359a3b37cf29372f4ac211669c71b5f0f43e9bd288f104",
+      "bytes": 11134
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/appendix.md",
+      "sha256": "75abc4d32ba2e031343f6c47e042ba2108aba7cfae37d6ac0f428ef7c109ef75",
+      "bytes": 8056
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/specialist.md",
+      "sha256": "358c22779005350d261efa77b0b5407dbef4732a7c4e073a7d5acca19855107c",
+      "bytes": 12709
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/referee.md",
+      "sha256": "4ca5014fb572ac9773ad9673d98c57c6c454321355f0938ad4be6c0111dd4e88",
+      "bytes": 11911
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/audit.py",
+      "sha256": "3da86f0dd5944ab7f0d4b757baecf0d6ae14b3a61ed55ed8b46e71f0f61759b6",
+      "bytes": 4919
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/referee-counts.json",
+      "sha256": "927434b4acb38b36064cfb16f97baa0609f91e01881720a7596f55604f3e2958",
+      "bytes": 102991
+    },
+    {
+      "path": "research/notes/2026-10-21-multiscale-collisions/experiment-summary.json",
+      "sha256": "401cc94bdc87f543af378ee976f9d61baf2e777bdb00f64a91be47df725bf2fd",
+      "bytes": 10108
+    }
+  ]
+}

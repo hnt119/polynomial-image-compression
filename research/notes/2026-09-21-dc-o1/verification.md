@@ -8,7 +8,7 @@ recorded separately.
 ## 1. Authorization and source boundary
 
 The active assignment is the DC-O1 attachment with identifier
-`6d0a4217-186e-4a0a-8bf5-72bbb8084702`, read before the cycle began.
+`[private attachment identifier withheld]`, read before the cycle began.
 The inherited dense-Cartesianization report, DC-R1 and HR-1 supply the
 current witness obligation and its support implication. Master/current
 state, setup/map/audit, track SPEC/STATUS, conflicts and relevant libraries

@@ -8,7 +8,7 @@
 
 This is the new, explicitly commissioned **offline multiscale/fractal
 packing** cycle. Its authority is the user attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 The author, Agent B, performed symbolic derivation and local source inspection
 only: **zero mathematical program evaluations, zero experiments, no network**.
 The lead controls the shared finite budget. This file is the author's only

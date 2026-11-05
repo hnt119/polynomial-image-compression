@@ -1,0 +1,220 @@
+{
+  "cases": [
+    {
+      "reused_other_row": "minus_d",
+      "endpoint": "plus_a",
+      "gcd": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "bezout_cubic": [
+        [
+          "-13755/45314",
+          "8684/22657",
+          "-1464/22657"
+        ],
+        [
+          "2723/22657",
+          "-4868/22657",
+          "2240/22657"
+        ]
+      ],
+      "bezout_quadratic": [
+        [
+          "63015/22657",
+          "-192432/22657",
+          "147824/22657"
+        ],
+        [
+          "-7469/45314",
+          "24732/22657",
+          "-24040/22657"
+        ],
+        [
+          "-2723/22657",
+          "4868/22657",
+          "-2240/22657"
+        ]
+      ]
+    },
+    {
+      "reused_other_row": "minus_b",
+      "endpoint": "plus_a",
+      "gcd": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "bezout_cubic": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1/4",
+          "2",
+          "-4"
+        ]
+      ],
+      "bezout_quadratic": [
+        [
+          "-5/2",
+          "8",
+          "-8"
+        ],
+        [
+          "1/4",
+          "2",
+          "-4"
+        ],
+        [
+          "1/4",
+          "-2",
+          "4"
+        ]
+      ]
+    },
+    {
+      "reused_other_row": "minus_a",
+      "endpoint": "plus_a",
+      "gcd": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "bezout_cubic": [
+        [
+          "-21/824",
+          "82/103",
+          "-142/103"
+        ],
+        [
+          "-81/824",
+          "22/103",
+          "-18/103"
+        ]
+      ],
+      "bezout_quadratic": [
+        [
+          "-137/103",
+          "552/103",
+          "-564/103"
+        ],
+        [
+          "93/824",
+          "-113/103",
+          "158/103"
+        ],
+        [
+          "81/824",
+          "-22/103",
+          "18/103"
+        ]
+      ]
+    },
+    {
+      "reused_other_row": "plus_b",
+      "endpoint": "plus_a",
+      "gcd": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "bezout_cubic": [
+        [
+          "0",
+          "3",
+          "-4"
+        ],
+        [
+          "-1/4",
+          "3",
+          "-4"
+        ]
+      ],
+      "bezout_quadratic": [
+        [
+          "-2",
+          "11",
+          "-12"
+        ],
+        [
+          "-1/4",
+          "0",
+          "0"
+        ],
+        [
+          "1/4",
+          "-3",
+          "4"
+        ]
+      ]
+    },
+    {
+      "reused_other_row": "plus_d",
+      "endpoint": "plus_a",
+      "gcd": [
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "bezout_cubic": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "1/2",
+          "-6",
+          "8"
+        ]
+      ],
+      "bezout_quadratic": [
+        [
+          "4",
+          "-16",
+          "16"
+        ],
+        [
+          "1",
+          "-6",
+          "8"
+        ],
+        [
+          "-1/2",
+          "6",
+          "-8"
+        ]
+      ]
+    }
+  ],
+  "P_evaluations": 0,
+  "all_gcds_one": true,
+  "provenance": {
+    "python": "3.12.7",
+    "phase": "attachments",
+    "command": "python3 research/notes/2026-10-11-transfer-division-entropy/exact_cycle.py attachments",
+    "script_sha256": "b5e25e8bdc1d170d7597b0061d6529c2d7a3215b414705ec0c52f5fb3870ae66",
+    "wall_seconds": 0.015705749858170748,
+    "cpu_seconds": 0.015667,
+    "seed": null,
+    "equality": "exact rational quotient arithmetic",
+    "degree_cap": 32,
+    "per_run_seconds_cap": 120,
+    "cycle_seconds_cap": 600,
+    "ordered_pair_evaluation_cap": 200000
+  }
+}

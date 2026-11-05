@@ -5,7 +5,7 @@
 ## Authorization, source and inheritance
 
 The controlling request is the attached “7^k Modular-to-Real Lift for the
-Eisenstein Quadratic”, attachment `7ad72c1c-ef08-448a-bbf1-e880f67dba39`.
+Eisenstein Quadratic”, attachment `[private attachment identifier withheld]`.
 This commissions a new lift cycle, not a replay of earlier research prompts.
 The setup, project map, migration audit, master/T03 current state, historical
 SPEC, current STATUS, conflict register, latest return-tail checkpoint,

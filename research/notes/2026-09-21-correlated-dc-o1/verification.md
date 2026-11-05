@@ -8,7 +8,7 @@ integrity checks.
 ## 1. Authorization and fixed scope
 
 Controlling assignment: the user attachment
-`704dd481-a765-4807-a314-bd219fd6e17e/已粘贴的文本.txt`, titled
+`[private attachment identifier withheld]`, titled
 “Correlated DC-O1 Return-Domain Witness.” Its instruction commissions a
 new constructive cycle, superseding older freeze prompts as active work
 while preserving their mathematical conclusions.

@@ -1,6 +1,141 @@
-# Mechanism Library — T03 publication extracts
+# Mechanism library
 
-5 November 2026. Selected original T03 sections, in source order. Other tracks are maintained separately. See the [dated evidence register](exports/2026-11-05-evidence/README.md) for the current theorem scopes.
+Reconciled **11 September 2026**. This is a source-based registry, not a new
+proof audit. Statuses are **PROVED**, **CONDITIONAL**, **OPEN**, **FAILED**,
+**EXPERIMENTAL**, **EXTERNAL RESULT**, and **HISTORICAL / SUPERSEDED**.
+A proved implication may have an OPEN premise and only a CONDITIONAL application.
+Source identities and unresolved issues are in [MIGRATION_CONFLICTS.md](MIGRATION_CONFLICTS.md).
+
+## Shared project progress — separate from T01–T04
+
+**EXTERNAL RESULT — Phase A, reconstructed in the frozen supplied report.**
+The high-degree sum-product architecture uses $A=GP$: an additive Minkowski
+carrier $P$, logarithmic unit carrier $G$, directness $|A|=|G||P|$, and bounded
+archimedean distortion. The reproduced result has arbitrarily large real sets
+with both sum and product supports bounded by $|A|^{2-c}$ for a fixed $c>0$.
+Regulator, discriminant, unit, and distortion costs are paid before degree
+grows. This is the supplied reconstruction of known work, not a novelty claim
+or an automatic polynomial-image theorem. Source: frozen Phase A §§3–6 and
+its correction log; master handoff §4.
+
+**PROVED — Phase B collision/support distinction.** With
+$r_F(z)=\#\{(a,b)\in A^2:F(a,b)=z\}$ and $E_F(A)=\sum_zr_F(z)^2$,
+
+$$|F(A,A)|\ge |A|^4/E_F(A).$$
+
+Large collision energy is necessary but insufficient for small full support.
+A factor-through identity, full output container, or complete fiber/tail
+coverage is needed. Source: [Phase B state](history-sources/PHASE_B_STATE.md),
+Cycle 1, and master handoff §5.
+
+**PROVED — local-to-global split-prime mechanism, with hypotheses.** For fixed
+modulus $R$ in a degree-$d$ field, suppose the allowed residue support has at
+most $e^{(\log R-s)d+o(d)}$ classes and every class meets the output region in
+at most $e^{ud+o(d)}$ points. Then the complete support has exponent
+$c-s$, where $c=\log R+u$. If
+
+$$e^{ad-o(d)}\le|A_d|\le e^{Bd+o(d)},\qquad
+\delta=2a-c+s>0,$$
+
+then every fixed $0<\varepsilon<\delta/B$ is available after error absorption.
+Complete splitting gives $\mathcal O_K/p\mathcal O_K\cong\mathbb F_p^d$,
+so a scalar restriction of density $q_p$ becomes $q_p^d$; several fixed
+primes combine by CRT. This is product factorization, not assumed
+probabilistic independence. The per-class bound must be uniform.
+Sources: master handoff §6 and [Phase B state](history-sources/PHASE_B_STATE.md).
+
+**PROVED within the supplied project/source system — corrected Phase C0.**
+For fixed integral coefficients,
+
+$$P=L^2+M,\quad L=ax+by,\quad M=cx+ey,\quad
+\gcd(a,b)=1,\quad ab(ae-bc)\ne0,$$
+
+each fixed member admits arbitrarily large same-input finite real sets with
+a member-dependent fixed positive power saving. This includes
+$(x+2y)^2+3x-y$. It is shared progress, not a fifth track or a solution to T02/T03.
+The corrected report is now locally available; the older missing-proof note
+is historical. Source: `Phase_C0_Corrected.md`, Theorem C0.1 and §§5–6;
+`C0_CORRECTION_LOG.md`.
+
+For $P_Q=L^2+QM$, the exact transport is $P_Q(Qx,Qy)=Q^2P(x,y)$.
+Using fixed source-selected odd split primes,
+
+$$\rho=\prod_{p\mid Q}\frac{p+1}{2p},\quad
+C_P=2((|a|+|b|)^2+|c|+|e|)+1,\quad\theta=C_PD\rho<1.$$
+
+Choose fixed $X>\max(Q,\sqrt D)$ before tower degree varies. The full-support
+bound is $|P_Q(B,B)|\le\theta^d|B|^2$, while
+$(X/\sqrt D)^d\le|B|\le(2X+1)^d$; hence
+$\varepsilon_P=-\log\theta/\log(2X+1)>0$.
+The carriers lie in the totally real layers, not their CM companions.
+Primitivity is retained exactly as stated; this migration does not weaken it.
+
+**OPEN — external novelty.** The master handoff §8 records a later literature
+caution about closely related quadratic constructions. Priority and exact
+external scope have not been reverified here. “PROVED within the supplied
+source system” does not mean “new theorem.”
+
+**OPEN — latest supervisor direction.** General quadratic forms through
+addition and multiplication, norm/trace, and more general solvable extensions
+are the shared direction. A general full-rank compression theorem is absent.
+The T01 norm–trace branch has completed algebra and scoped tests; it does not
+supply a missing T03 witness or either cubic theorem. No new cycle is started.
+
+## Reusable mechanisms and their limits
+
+| ID / status | Mechanism and exact use | Required cost or missing ingredient |
+|---|---|---|
+| M1 — PROVED | Exact factor-through compression: if a parameterization of $A$ has multiplicity at most $\mu$ and $F$ factors through supports $U,V$, then $|F(A,A)|\le|U||V|$ | Relative to the parameter pair budget, charge $\mu^2$; no unconditional separation of mixed terms |
+| M2 — PROVED | Bounded-fiber coordinate maps with explicit domain and same-set transport | Charge every fiber and preserve the common Cartesian input; arbitrary coordinate mixing need not do so |
+| M3 — PROVED | All-conjugate output containers and norm-separated lattice counting | Coefficient height, field discriminant, degree, denominator, and all output branches |
+| M4 — PROVED | Sparse local values and complete splitting/CRT amplify restrictions | Actual prime decomposition and uniform packing; bounded carriers need not surject onto quotient rings |
+| M5 — PROVED | In a totally real degree-$d$ field, a fixed class modulo $R\mathcal O_K$ contributes at most $(1+2H/R)^d$ points with conjugates bounded by $H$ | Worst-case per-class count; multiplying a total volume by residue density alone is invalid |
+| M6 — PROVED | Fixed-polynomial rescaling by injective common input and output maps | Arithmetic parameters fixed before growth, or an exact valid removal of them |
+| M7 — PROVED | Strict signed rate conversion as above | Dimension multiplies losses and gains alike; constants and $o(d)$ terms require a strict gap |
+| M8 — PROVED | Rank classification over odd fields: rank one gives $(p+1)/2$ values; rank two gives the full field | Full-input statement; does not imply surjectivity for restricted inputs or every prime power |
+| M9 — PROVED | Completed quadratic norm/trace algebra and the T01 same-set difference-intersection transfer | Homogeneous support plus small differences is still an OPEN witness premise; split étale algebra must retain both factors |
+| M10 — PROVED | T02 determinant-7, universal first-level optimum, and higher critical-fiber saturation | Local counts only; the full-interval global certificates are FAILED within their stated scopes |
+| M11 — PROVED | T03 exact radical lift and square-class localization | Preserve both signs, class factors, exact field membership, exceptional indices, and every actual level |
+| M12 — PROVED | T04 exact slice union and reciprocal-multiplicity support accounting | Almost-complete rich coverage or a full support cover; selected rich fibers alone are insufficient |
+| M13 — PROVED | T04 complementary-unit affine input entropy and four exact pair transitions | An output-state count with strict exponential saving is OPEN; ten observables are not ten scalar states |
+| M14 — EXTERNAL RESULT | Supplied controlled-discriminant towers, norm/unit machinery, and the arithmetic survey recorded in the final T01 checkpoint | Finite solvable realizability alone supplies no favorable discriminant or output rate; no new external verification here |
+
+Sources for M1–M8: master §§9–10, corrected C0 §§4–6, and
+[historical mechanism library](history-sources/POLYNOMIAL_MECHANISM_LIBRARY.md).
+Sources for M9–M14: the four current-state exports and final-cycle records
+identified in [the source registry](MIGRATION_CONFLICTS.md#source-registry).
+
+## Exact bridges retained without promoting their premises
+
+**PROVED implication; CONDITIONAL application — norm–trace transfer.** If
+$q=x^2+xy+y^2$, $|q(C,C)|\le K_*N^{2-c_0}$,
+$|C-C|\le D_*N^{1+\eta}$, $0<c_0\le1$, and $0\le\eta<c_0/2$, a richest
+nonzero difference gives a witness for $q+x$ with exponent
+$(c_0-2\eta)/(1-\eta)$. No witness meeting both premises is supplied.
+Source: final T01 norm–trace checkpoint §2.3.
+
+**PROVED — radical support identity.** For finite nonempty symmetric $A\subset\mathbb R$, $C>\max|A|$,
+$d_C=C-\max|A|$,
+
+$$\mathcal L_C(A)=\{\pm\sqrt{(C+a)/d_C}:a\in A\},\quad
+Q(\mathcal L_C(A),\mathcal L_C(A))=d_C^{-1}\mathcal T_C(A),$$
+
+where $\mathcal T_C(A)=\{2C+a+b\pm\sqrt{(C+a)(C+b)}:a,b\in A\}$.
+For class sizes $c_j$ of $C+A$ in exactly $K^\times/K^{\times2}$,
+$K=\mathbb Q(A,C)$, the exact count is
+$|\mathcal T_C(A)|=|A|^2-\sum c_j^2+|\mathcal T_C(A)\cap K|$.
+Dominance alone does not compress the in-field signed root support.
+Source: T03 current state §§3–4.
+
+**PROVED — slice and coverage identities.** For T04, $A_u=A\cap(A-u)$,
+
+$$P_-(A,A)=\bigcup_{u\in A-A}(u^3-3u-6A_u),\quad
+\sum_u|A_u|=|A|^2.$$
+
+For any map $f$ on $A^2$, $|f(A,A)|=\sum_{(a,b)\in A^2}1/r_f(f(a,b))$.
+If at most $Cn^{2-\kappa}$ pairs have fiber size below $n^\varepsilon$,
+then $|f(A,A)|\le(C+1)n^{2-\min(\varepsilon,\kappa)}$.
+Source: T04 current state §4.7 and [SPEC](tracks/04-cubic-slices/SPEC.md).
 
 ## 2026-09-16 addendum — exact two-prime Cartesian legality
 
@@ -132,6 +267,26 @@ bound in that scope. No general prohibition on correlated digit returns
 or many different partial-return domains is inferred.
 
 
+## 2026-09-21 — T01 cubic fiber translation and its Cartesian bound
+
+For \(P=(x-y)^3+x+y\), coordinates \(u=x-y,z=P(x,y)\) invert as
+\(x=(z-u^3+u)/2,y=(z-u^3-u)/2\). The frozen symmetry becomes
+\(T_\tau:(u,z)\mapsto(u+\tau,z)\). **PROVED:** its Cartesian return
+count is \(\sum_z|U_A(z)\cap(U_A(z)-\tau)|\); for \(\tau=1\) it is
+also \(\sum_u|A_u\cap(A_{u+1}+c(u))|\), with
+\(c(u)=(3u^2+3u+2)/2\).
+
+The [new offline proof](notes/2026-09-21-cubic-returns/README.md) establishes
+\(E_\tau(A)\le5N^{11/6}\) uniformly in every nonzero real step. It
+reduces first-coordinate membership to a transverse rank-one quadratic,
+then proves the needed real-curve count using elementary planar graphs.
+The resulting fixed-step paths cannot cover a positive fraction of the
+square. A growing-step graph with almost-all pair mass in large components
+would still give a full-image bound by the proved component-count argument;
+CR-O1 requests that missing witness. All scalar-reuse and inventory costs
+must be charged. This mechanism solves none of the four fixed targets.
+
+
 ## 2026-09-21 DC-O1 — partial domains, fringes and scalar compatibility
 
 [New proved implications and exact scopes](notes/2026-09-21-dc-o1/README.md).
@@ -183,6 +338,56 @@ return tail required by the existing DC-R1 support implication. No new
 external theorem, support-transport theorem or novelty claim is imported.
 
 
+## 2026-09-21 — many cubic steps, finite connectivity, and displacement control
+
+The [growing-step cycle](notes/2026-09-21-growing-step-cubic/README.md)
+uses the exact graph on each \(U_A(z)\), joining differences whose gap
+belongs to the actual positive step inventory. Components map onto outputs;
+all but \(B\) pair vertices in components of size at least \(K\) imply
+\(|P(A,A)|\le N^2/K+B\). A subgroup coset is only a necessary invariant.
+
+**PROVED GS-U1:** old first coordinate and step index a parabola through
+transformed Cartesian points. Checking the two-point/two-curve degeneracies
+and applying the frozen elementary graph lemma gives
+\(\sum E_\tau\le9N^2M^{2/3}+NM+12N^2\). The large-inventory improvement
+does not improve the universal coverage gate.
+
+**PROVED GS-U2/U3:** the exact second-coordinate drop between two differences,
+with midpoint \(m\) and positive gap \(\tau\), is
+\(\tau(1+3m^2+\tau^2/4)/2\). Diameter and distinct-difference spacing
+therefore constrain every actual collision. For a common lattice the
+controlling cost is \(D/h^3\), yielding quadratic actual images when
+\(D=o(h^3N^2)\). Tiny difference gaps cannot be replaced by scalar gaps.
+Faithful coefficient recovery gives a separate actual-fiber classification
+outside that narrow-lattice regime. No successful common scalar witness
+or arithmetic amplification follows; CR-O1 remains OPEN.
+
+
+## 2026-09-21 — exact cubic reuse, residue descent and step-size coverage
+
+The [sublinear cubic cycle](notes/2026-09-21-sublinear-cubic/README.md)
+adds the following **PROVED** internal mechanisms, with independent proof
+audits recorded there:
+
+- SC-R1–R3: exact correlated sum/difference domain and scalar-reuse accounting;
+  affine template matching is bounded unless identical; distinct fibers
+  share at most one matched second-coordinate edge at a fixed nonzero step.
+- SC-Q1–Q4: a fixed quadratic relation can collapse coefficients without
+  producing cubic support compression. Both real substitutions force a
+  thin quadratic band; the critical rational scale has bounded fibers on
+  positive pair mass. Exact many-to-one scalar multiplicities are charged.
+- SC-D1/D2: a changing prime denominator with p congruent to 2 modulo 3 and
+  index width 2W<p² confines every nontrivial fiber to one residue-class
+  square. These square images are disjoint. Applying frozen GS-U3 after
+  this exact partition bounds nonsingleton mass by O(N(1+sqrt(W/p))).
+- SC-U1–U3: retain the fourth-coordinate horizontal mark in the parabola
+  incidence; split chosen steps by size to bound nonisolated vertices by
+  a small-step edge bound plus the actual near-diagonal pair population.
+
+These are reductions and obstructions, not a positive full-support rate.
+No arithmetic amplification follows. CR-O1 remains OPEN.
+
+
 ## 2026-09-21 return-domain geometry and exact lower-tail accounting
 
 Complete sources and internal audits:
@@ -216,6 +421,36 @@ result justify the stated actual-image conclusions; the cyclotomic
 selected-action theorem does not automatically give an image lower bound.
 
 
+## 2026-09-21 nonlinear coordinate-reuse mechanisms
+
+Complete statements and internally audited proofs:
+[nonlinear-reuse report](notes/2026-09-21-nonlinear-reuse/README.md).
+All claims concern T01's fixed plus-sign cubic.
+
+- **NR-C1–C4 / PROVED:** complete fixed-output polynomial and rational
+  coordinate-sharing identities, all degrees. Polynomial maps give only
+  the identical diagonal. Real rational nonlinear exceptions are one
+  same-output ellipse and two exceptional first-coordinate cubics.
+  The proof checks complex singularities and all poles of an explicit
+  rational differential; no external curve theorem is imported.
+- **NR-L1–L4 / PROVED:** for degree-two U,V and affine/quadratic Phi,
+  J(U³+V,Phi)=0 forces J(U,Phi)=J(V,Phi)=0. The full real-coefficient
+  normal-form classification yields at most 2N distinct square pairs
+  per chart. Exact polynomial composition is separately classified.
+- **NR-A1/A2, NR-P1 / PROVED:** separate labels from distinct pairs,
+  charge full-square completion, and bound rational curve libraries
+  by dJN. The explicit nonlinear cubic family has Q=2m, m<=N<=3m,
+  Z=2 and therefore only O(1/N) prescribed pair density.
+- **NR-G1/G2 / PROVED:** no rational other-coordinate formula completes
+  independently prescribed nonconstant rational scalar/output functions.
+  At numerator/denominator degree d, at most 7d max(|R|,|S|) defined
+  grid labels work per orientation.
+
+These classifications do not infer identities from small finite output
+support, exclude arbitrary finite correspondences, or supply a positive
+full-image rate. The exact 16-chart computations are EXPERIMENTAL.
+
+
 ## 2026-09-30 — exact modular orbit lift and carry identities
 
 [ML-1–ML-5](notes/2026-09-30-modular-lift/proofs.md), T03,
@@ -240,6 +475,49 @@ OPEN beyond its independent-radius completion; exact action realization
 alone is not claimed to supply DC-O1.
 
 
+## 2026-09-30 near-complete cubic coverage mechanisms
+
+Complete statements, proofs, exact scopes and internal audits:
+[near-complete-chart report](notes/2026-09-30-near-complete-charts/README.md).
+All claims concern the fixed T01 plus-sign cubic.
+
+- **NC-C1/C2 / PROVED:** largest-fiber cumulative coverage gives the exact
+  optimum at every output budget; the unrestricted safe-certificate minimum
+  equals the full image. A power saving is equivalent, after reducing fixed
+  exponents, to polynomially small pair mass in actual small fibers.
+- **NC-H1/H2 / PROVED:** disjoint chart assignment charges every stage and
+  overlap. With per-chart fiber cap D and summed chart-output intersection
+  H, selected support obeys Z>=Q²/(DQ+2D²H). This is an energy upper bound
+  used for a support lower bound; no reversal of the inequality occurs.
+- **NC-A1/A2/A5 / PROVED:** polynomial cubic-preserving automorphisms become
+  (u,z)->(a u+f(z),z). Common finite invariance permits only identity/reversal
+  on each ordered fiber. Polynomial output relabeling must be affine; at
+  most four ranks/output states are reachable. These give scoped orbit costs.
+- **NC-A3/A4 / PROVED:** arbitrary preserving row/column rules generate
+  classes at most three; rational global coordinate-preserving rules are
+  identity. Rational Möbius maps have arbitrarily long finite cubic-fiber
+  cycles, but the displayed scalar completion has Q=Theta(N) coverage.
+- **NC-R1 / PROVED:** K-map completion of an n-point seed gives Q<=Kn²;
+  near-full coverage on its scalar union requires N<=(1+o(1))sqrt(K)n.
+
+The broad carrier witness remains OPEN. Finite scouts are EXPERIMENTAL;
+no general output-overlap hypothesis is inferred from them.
+
+
+## 2026-09-30 T01 elliptic sharing and group-law bounds
+
+**PROVED, internally audited in this cycle:** EG-G1–G4, EG-B1–B6 and
+EG-C1–C4 in the [elliptic report and proof companions](notes/2026-09-30-elliptic-geometry/README.md).
+The actual P fibers normalize to genus zero; coordinate sharing
+u³−v³−su+tv=z−w is generically genus one, with explicitly classified nodes.
+Same-sign sharing has model y²=x³−48s²x+128s³−432c². The rational c=6 point
+(40,216) has certified infinite order but yields only two designated outputs.
+Global elliptic group-law factorization fails by mixed poles; a finite
+same-map chart covers at most d(4d+h)N scalar pairs, with isogeny and library
+costs explicit. The separate comparator (x−y)⁴+x+y has generic sharing genus
+three; it is not T02. No full-square compression follows from these facts.
+
+
 ## 2026-09-30 multiscale packing — exact reuse and bounded-line audit
 
 [Composition proofs](notes/2026-09-30-multiscale-packing/composition.md)
@@ -259,6 +537,20 @@ and [local tables](notes/2026-09-30-multiscale-packing/local-gadgets.md).
 These are scoped algebraic obstructions to selected return amplification.
 There is no positive asymptotic witness or actual-image lower bound for
 these two growing carriers. The sole retained next obligation is ML-O1.
+
+
+## 2026-10-06 T01 directed triangle compatibility
+
+**PROVED — SH-G1–G3 and SH-C1/C2**, with complete internally audited proofs
+in the [report and appendices](notes/2026-10-06-sharing-compatibility/README.md).
+For (a,b),(b,c),(c,a) with ordered outputs (z,z+h,z+2h), let u=a−b,v=b−c.
+Compatibility is exactly v³−u³−u−v=h and
+2u+v−3v(u²+uv+v²)=0, with b=(z−u³−u)/2. The ordered-output map is
+injective on real triples, by the positive comparison determinant
+2(1+k1*k2+k2*k3+k3*k1). At h=2/sqrt(3), every real triangle is a
+common translate of (−r,0,r). Its assemblies have exact selected support
+P(E)=2A+2r/3, Z=N, but sharp prescribed coverage Q≤2N−3. These results
+do not assume that elliptic edge curves compose through a group law.
 
 
 ## 2026-10-06 cross-block ratios and conjugate-fiber bounds
@@ -284,6 +576,23 @@ and [full-fiber proofs](notes/2026-10-06-cross-block-returns/audit.md).
 The resulting quadratic actual-image lower bounds apply to these two
 carriers and all actions, with no field-height or lambda assumption.
 They do not close arbitrary growing collections of subfield lines.
+
+
+## 2026-10-06 T01 — variable-gap sharing with checked closure
+
+**PROVED, internally independently checked:**
+[VG-G1–G3 and VG-C1–C3](notes/2026-10-06-variable-gap-sharing/README.md).
+One common anchor and differences u,v,t give simultaneous output gaps
+F(u,s)=s³−u³−u−s and G(u,s)=−(u+s)³−u³−s for s=v,t.
+Output-first integer windows reconstruct exactly the nonzero difference
+band |x−y|≤k on A={0,…,k³−1}. Every edge admits at least k−1
+partners, with exact closing-label shifts and local cross-partner closure.
+N=k³, Q=2k⁴−k²−k, Z=2k³−k; both reuse ratios grow, coverage does not.
+This adds explicit motif compatibility at the existing GS-P3 rate.
+
+The new all-cycle comparison proof establishes real injectivity for every
+prescribed ordered cycle-output list, including the even degenerate case.
+It does not exclude networks whose output labels vary.
 
 
 ## 2026-10-06 phased-chord spreading and sparse full-fiber rigidity
@@ -333,6 +642,73 @@ collapses all j into one cyclic coset per scale. Only eight cosets remain.
 No general convolution obstruction or new actual-image lower bound follows.
 
 
+## 2026-10-06 T01 — changed conic collision pattern
+
+**PROVED, independently checked internally:**
+[CP-R1 and CP-C1–C4](notes/2026-10-06-changed-collision-pattern/README.md).
+The old VG output partition is rigid: alternating positive-gap errors and
+two distance-two equations force unit spacing. No distance-three equation
+or output-distinctness hypothesis is needed for scalar rigidity.
+
+The inherited same-row conic yields a simultaneous two-row condition:
+{r±h} against{q±s} repeats both rows iff r=q and3h²+s²=1.
+A specific cubic algebraic width then permits two nonconcentric frames to
+share two scalars and merge their outputs into a four-pair fiber. The
+six-scalar bridge has N=6,Q=8,Z=3. Its exact fixed-width extension has
+N=2m+2,Q=4m,Z=m+1; all selected pairs cross a disjoint scalar-block
+partition, and4(m−1) pairs have outputs represented at two frame centers.
+This finite mechanism has no proved positive asymptotic rate.
+
+
+## 2026-10-11 T01 exact torsion compatibility locus
+
+**PROVED, independently audited internally:** TC-G1--G6 in the
+[torsion-compatible sharing report](notes/2026-10-11-torsion-compatible-sharing/README.md). For fixed c=z-w≠0,
+u³-v³+u-v=c maps to Y²=X³-48X-128-432c². Two distinct parameters
+with the same ordered rows must be negatives and satisfy 3d²+ell²=4,
+2d³-4d+c=0. There are at most four admissible real frame points.
+
+Completing one general sharing point requires W²=4-3u²: its normalization
+has genus 4, and a degree-e isogeny pullback has genus 1+3e. The existing
+three slots have degree 9 and completed slots degree 18, with real domain,
+poles and projection multiplicities retained. No elliptic rational family
+of these completions exists, but isolated finite lifts remain possible.
+
+The unique unequal-width common-center two-endpoint attachment has
+h1/h2=√2-1 and h2²=(3+√2)/14. Its two frames give N=6,Q=8,Z=2;
+all four new pairs reuse old scalars in their second position and grow
+each selected fiber to 4. This is a finite seed, not an unbounded mechanism.
+
+
+## 2026-10-11 T01 marked shift arithmetic certificate
+
+**PROVED — MS-C1, internally audited:** in the exact degree-eight field
+Q(sqrt(2),sqrt((3+sqrt(2))/14),sqrt(4sqrt(2)−3)), the TC-G5 difference
+T=R2−R1 has infinite order. The
+[arithmetic appendix](notes/2026-10-11-marked-shift-certificate/arithmetic.md)
+checks one good Q23 embedding of the R2 coordinate field and proves
+v23(X(4R2))=−2. The reproduced formal-logarithm lemma excludes every
+torsion order for R2; the proved field automorphism gives
+T+sigma(T)=2R2. This resolves TC-O1 without a finite-order inference.
+It supplies no new scalar family or asymptotic compression mechanism.
+
+
+## 2026-10-11 T01 output-first three-frame junction
+
+**PROVED — VO-C1–C3, internally checked:** the
+[new junction](notes/2026-10-11-varying-output-frames/README.md)
+starts with labels −Δ,0,Δ and two outside-row identifications. Its
+simultaneous equations force t=h² to be the unique root in (1/50,1/49)
+of 64t³−112t²+52t−1. Both conic column identities then hold, and the
+long frame adds exactly two new ordered cross-block pairs within eight
+old scalars. The ledger is N=8,Q=10,Z=3,B=54.
+
+The consecutive extension on jΔ has N=4m,Q=6m−2,Z=m+1, with only
+two rows and at most six selected pairs per output. This is exact finite
+compatibility and a counted failed extension, not a growing-reuse result.
+All positive width branches for the specified role are retained in the proof.
+
+
 ## 2026-10-11 balanced-factor scalar and full-fiber algebra
 
 **PROVED — BFF-A1–A4**, [algebra proof](notes/2026-10-11-balanced-full-fibers/algebra.md).
@@ -351,6 +727,18 @@ quartic unless kappa=±omega andc'=d. The degenerate factorization gives only
 ±swap or±(y,−x−y), with membership conditions retained. BFF-P2 closes this
 specific enlarged iterative certificate, not every possible coupled rule.
 All claims were independently checked internally and by the lead.
+
+
+## 2026-10-11 T01 mixed-role compatibility contradiction
+
+**PROVED - VO-C6**, [complete proof and independent audit](notes/2026-10-11-vo-o1-freeze/README.md).
+For g(w)=2w−4w³, the subsystem 0<h,k,H<1/√3, s>0,
+s²=1−3h², H=k+g(h)=s+g(k), g(H)=g(h)+g(k) is inconsistent.
+Cancelling H−k=g(h)>0 gives H²+Hk+k²=1/4, hence H<1/2<h.
+The positive-square identity (3h−8h³)²−s²=(4h²−1)³ then gives
+H>h, a contradiction. This is verification of the supplied proof, with
+no search or enumeration. It resolves the original VO-O1 signed-role
+junction and does not classify other endpoint roles or solve T01.
 
 
 ## 2026-10-11 last-layer full-fiber obstruction for balanced products
@@ -372,6 +760,21 @@ Redundant lower-rank target charts, including completed D representations,
 are covered by the same exceptional-output polynomial. The general lemma
 requires all its stated rank, target-cover and polynomial-avoidance
 hypotheses; it is not a universal full-rank quadratic obstruction.
+
+
+## 2026-10-20 T01 tetrahedral compatibility equations
+
+**PROVED — TJ-C1–C4**, [proof appendix](notes/2026-10-20-tetrahedral-junction/compatibility.md).
+For outputs (0,a,a+b,2a+b), the registered opposite-edge sharing forces
+a+b=2(v+epsilon*u), where 3u²+v²=1 and C(u)=a.
+Since 2a<Cmax, the short branch is unique with u<1/6; the total gap
+D=2v+(8+2epsilon)u−16u³ exceeds2, forcing the closing row width H<1/2.
+These simultaneous equations, with the two specified closing patterns,
+yield contradictions before scalar or pair enumeration.
+
+This is a compatibility obstruction for four registered assignments.
+It supplies neither a growing network nor a universal frame obstruction.
+The old VO-O1 contradiction is not a premise of the new proofs.
 
 
 ## 2026-10-20 mixed-signature integral unit actions and finite return cutoff
@@ -401,6 +804,17 @@ Relative regulator, basis shape, order passage and actual source-dependent
 window conditions remain explicit. The full-support implication is
 \(|Q(A,A)|\le n^2/R+|\mathcal E|\), using distinct targets and all ordered
 pairs. No positive return/exception rates are proved in this cycle.
+
+
+## 2026-10-21 T01 changed-column compatibility contradiction
+
+**PROVED — TJ-C6**, [verified proof](notes/2026-10-21-tj-o1-freeze/README.md).
+For TJ-O1's epsilon=-1 roles, C(p)=2(v−u)<2<C(H).
+The changed closure S=e+q implies p>H. The factorization
+C(x)−2=2(1−2x)(4x²+2x−1) then forces p>1/2, so q<p and
+q+g(p)<3p−4p³≤1. The other closure H=r gives S+g(w)>1,
+although the gap identity requires equality. This resolves TJ-O1;
+it is not a classification of other tetrahedral endpoint roles.
 
 
 ## 2026-10-21 relative-unit population by ideal and exact norm labels
@@ -454,3 +868,15 @@ its resulting mean rate is insufficient. The required exponential
 inverse-return saving and MS-O2 remain OPEN.
 
 
+## 2026-10-21 — T01 actual-fiber branching across scalar scales
+
+**PROVED — MC-S1–MC-S3**, [proof](notes/2026-10-21-multiscale-collisions/specialist.md).
+Since P_x=1+3(x-y)^2>=1, each exact fiber is a 1-Lipschitz graph x=f_z(y).
+Quartering each scalar cell yields at most eight occupied child squares
+per actual fiber. Suppressing unary nodes and counting prefix-free leaves
+gives low-branch pair mass <= |P(A,A)| 8^b. This yields the report's
+near-full logarithmic branch-generation necessity under a power-saving
+full-image hypothesis. Its local weighted version charges unresolved
+cluster capacity and actual cross-cell output reuse. Scale locations,
+split balance and a constructive image upper bound are not supplied.
+No entropy or energy surrogate replaces actual pair mass.

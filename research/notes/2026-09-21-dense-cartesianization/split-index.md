@@ -52,7 +52,7 @@ $Q(A,A)$ image is proved here.
 | No novelty claim | No external priority or novelty assessment was performed |
 
 The active assignment is
-`[private task attachment]`,
+`[private commissioning attachment; locator withheld]`,
 especially directions A–B and the full-square coverage gate. The preceding
 [frozen checkpoint](../2026-09-20-cartesian-norm-freeze/Cartesian_Norm_Symmetry_Research_Checkpoint.md),
 §§6 and 11, records the missing Cartesian bridge. The present user

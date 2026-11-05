@@ -7,7 +7,7 @@ This is one bounded mechanism: pair-dependent global reflections and
 transfers between levels of a nonzero linear function. It is not a
 search over norm levels, independent tensor rotations or arithmetic
 factor-divisibility families. The current local assignment is
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 The work is strictly offline and symbolic, with **zero mathematical
 program runs or evaluations**, no imported external result and no novelty
 claim. Only this new companion is authored.

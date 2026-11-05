@@ -12,7 +12,7 @@ strictly offline, no new outside theorem and no novelty claim. Only this
 new note is authored.
 
 The active assignment is the local attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 
 | Claim | Exact status and scope | Proof / evidence |
 |---|---|---|

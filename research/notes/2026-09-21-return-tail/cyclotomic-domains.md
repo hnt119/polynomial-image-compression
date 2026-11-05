@@ -7,7 +7,7 @@ return-tail cycle. **Fixed polynomial:** $Q(x,y)=x^2+xy+y^2$.
 
 This is the one cyclotomic trace mechanism assigned in the newly
 authorized strictly offline cycle. The active local attachment is
-<code>[private task attachment]
+<code>[private commissioning attachment; locator withheld]</code>.
 The subtask has **zero program runs or mathematical evaluation budget**,
 no network access, no outside theorem import and no novelty claim.
 Only this new companion is authored.

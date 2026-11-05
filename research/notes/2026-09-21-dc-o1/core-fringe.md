@@ -5,7 +5,7 @@
 **Authorized branch:** DC-O1, almost-common rectangular return domains.
 
 The current assignment is the local attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 This bounded subtask is strictly offline and symbolic: **zero mathematical
 program runs or evaluations**, no outside theorem, no literature search,
 and no novelty claim. Only this new note is changed. The complete proofs

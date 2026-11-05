@@ -1,0 +1,29 @@
+name: Research checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run exact computational tests
+        run: python -m unittest discover -s tests -v
+      - name: Check finite benchmarks
+        run: python -m experiments verify
+      - name: Verify source integrity and local documentation links
+        run: python scripts/check_repository.py
+      - name: Check published evidence locators and export hashes
+        run: python scripts/check_evidence_release.py

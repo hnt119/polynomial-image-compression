@@ -41,7 +41,7 @@ The new proof does not re-run any previous carrier family.
 | Novelty | No external novelty or priority claim |
 
 The active user assignment is
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 The inherited action is recorded in
 [SN-T03-1](../2026-09-14-study-notes/03-eisenstein.md), with its private
 source locator, and the full-image implication in

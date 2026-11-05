@@ -95,3 +95,8 @@ python3 scripts/check_repository.py
 This checks archived file sizes and hashes, all four track records, and local
 links in repository-authored Markdown. Historical source links remain unchanged.
 It verifies integrity and navigation, not mathematical correctness.
+
+
+## 2026-11-05 public evidence release
+
+Use the [dated evidence index](../research/EVIDENCE_INDEX.md) for later track-specific proofs, corrections, finite data and verification records. The 39-file manifest above remains immutable. The separate 50-file local reference inventory identifies a restricted local bundle; its public inventory is not a substitute for the source contents. [Release retention and portable copies](release/2026-11-05/README.md) distinguish missing originals from received but undistributed materials. No literature search or new novelty assessment was made.

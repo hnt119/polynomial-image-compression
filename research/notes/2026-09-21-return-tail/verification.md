@@ -8,7 +8,7 @@ repository integrity checks.
 ## 1. Authorization and scope
 
 The active user attachment is
-`d5ea649a-797c-4c93-a87e-75bc36557c65/已粘贴的文本.txt`, titled
+`[private attachment identifier withheld]`, titled
 “Offline Correlated Return-Tail Search for Q(x,y)=x^2+xy+y^2.” It explicitly
 commissions the present constructive cycle. Older attachments and frozen
 next-task statements were used as context, not as competing assignments.

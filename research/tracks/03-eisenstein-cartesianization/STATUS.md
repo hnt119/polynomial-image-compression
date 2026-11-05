@@ -770,3 +770,8 @@ It is exactly the permitted inverse endpoint on the same carrier, not
 a new construction. The carrier, actual image, T03 and RC15/4 remain
 OPEN. Complete new proofs passed independent internal and lead checks;
 zero mathematical evaluations and zero research-program CPU seconds.
+
+
+## 2026-11-05 — archival cross-reference
+
+The [public evidence index](../../EVIDENCE_INDEX.md) and [dated export](../../reports/2026-11-05-evidence-export/README.md) organize the source claims above. The publication pass checked locators, data packaging and archive integrity; it introduced no new proof, experiment or change to this track’s OPEN target.

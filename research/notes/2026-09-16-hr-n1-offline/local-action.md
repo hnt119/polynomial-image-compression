@@ -14,7 +14,7 @@ No external theorem, literature search or novelty claim is used.
 
 The current user expressly authorized a bounded, **strictly offline** HR-N1
 cycle in the local attachment
-`[private task attachment]`.
+`[private commissioning attachment; locator withheld]`.
 The primes, carrier and multiplier window below are frozen by that request.
 This independent subtask is symbolic only: **zero experiments, zero program
 executions of mathematical cases, and zero network access**. It does not

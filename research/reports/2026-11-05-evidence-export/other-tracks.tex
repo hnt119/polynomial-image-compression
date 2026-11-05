@@ -1,0 +1,48 @@
+\chapterpage{T02 AND T04\enspace /\enspace SEPTEMBER CHECKPOINTS}{Local output counts and real input growth}
+\subhead{T02\enspace /\enspace The fixed quartic}
+For $P_4(x,y)=(x+2y)^4+3x-y$, the September checkpoint counts outputs at every precision in a specific local ring. In the local cubic extension used there, $7\mathcal O=\mathfrak p^3$ and the residue field has seven elements. Take $R_m=\mathcal O/\mathfrak p^{3m}$ and the full critical residue class $E_m=(\alpha+\mathfrak p)\bmod\mathfrak p^{3m}$ with $\alpha^3\equiv-1\pmod{\mathfrak p}$. The C4 support count is
+\[
+ |P_4(E_m,E_m)|=
+ \begin{cases}
+  4,&m=1,\\
+  22\cdot7^{3m-4},&m\ge2.
+ \end{cases}
+\]
+For $m\ge2$ the output support consists of three full $\mathfrak p^3$-cosets and one full $\mathfrak p^4$-coset. The relative density improves once. After both input restrictions are charged, its factor stabilizes at $22/49$. The proposed real full-interval packing must also pay for the number of inputs and the widths of the output classes. The recorded certificate fails to produce a positive net saving. Other higher-precision subsets remain outside that conclusion. \src{E7}
+
+\subhead{T04\enspace /\enspace The minus-sign cubic}
+The fourth track asks about $P_-(x,y)=(x-y)^3-3(x+y)$. Its two real input maps have opposite shifts and reciprocal positive slopes. Let $\epsilon=2+\sqrt3$, $a_0=\sqrt3/2$ and set
+\[
+ A_0=\{0\},\qquad
+ A_{m+1}=(\epsilon A_m+a_0)\cup(\epsilon^{-1}A_m-a_0).
+\]
+The $2^m$ histories need not produce different scalars. The input theorem counts injective subfamilies and controls the number of distinct affine maps. For $\Lambda>1$ satisfying $\Lambda^{-1}+\Lambda^{-3}+\Lambda^{-5}=1$, and $\varphi=(1+\sqrt5)/2$, it gives
+\[
+ |A_m|=\exp(a_*m+o(m)),\qquad \log\Lambda\le a_*\le\log\varphi .
+\]
+All scalars lie in a fixed quadratic field with bounded denominator. Mixed branch pairs still move both the sum and the difference of the endpoints. The full output support has only the certified upper bound $\exp(2a_*m+o(m))$. The true exponential gap is unknown. No T01 plus-sign result supplies this estimate. \src{E9}
+
+\smallskip\tagword{Evidence status.} The two results above are reported from identified checkpoint proofs. Both are summarized here. The dated status notes distinguish recovered copies, corrections and still-missing earlier provenance.
+
+\chapterpage{T03 AND SHARED WORK\enspace /\enspace SEPTEMBER--NOVEMBER}{Norm symmetry and the cost of a return}
+\subhead{T03\enspace /\enspace The Eisenstein quadratic}
+For $Q(x,y)=x^2+xy+y^2$, write $\omega^2+\omega+1=0$. The product $(x-\omega y)(x-\omega^2y)=Q(x,y)$ identifies the output with a norm. Multiplying $z=x-\omega y$ by an element of norm one keeps the norm unchanged. It gives another pair only if both transformed coordinates belong to the original real input set.
+
+The September adaptive construction produced the exact finite $(N,|Q(A,A)|)$ values $(2,2)$, $(4,5)$, $(8,17)$, $(16,68)$, $(32,269)$. An all-level signed-root support bound, RC15/4, would give a uniform saving under its hypotheses. It remains open. Subsequent modular-lift and cross-block studies addressed the cost of realizing whole Cartesian products. \src{E8}
+
+In October the balanced-factor construction reached a decisive obstruction. For that unchanged sequence of carriers $A_r$ there are fixed $M\ge1$ and $r_*$ such that at all $r\ge r_*$,
+\[
+    |A_r|^2/(18M)\le |Q(A_r,A_r)|\le |A_r|^2.
+\]
+This bounds the actual image, ruling out a fixed exponent saving for that family. The proof restricts multiplicity on a positive proportion of sources, including alternatives outside the selected moves. \src{E8}
+
+A separate mixed-signature lattice carrier $A_j$ uses allowed coefficients inside fixed bounds at the archimedean embeddings. On the recorded tower with level parameter $d_j$, one radius $T_*$ supplies at least $2^{d_j}$ norm-one order units per level. On the $M_j=|A_j|^2-1$ nonzero source pairs define $R_j(p)$ as the number of actual pairs in the same unit orbit as $p$. Each occupied orbit contributes one to
+\[
+  \nu_j=\sum_p\frac{1}{R_j(p)}
+       =M_j\,\mathbb E_p\!\left[1/R_j(p)\right],
+  \qquad |Q(A_j,A_j)|\le 1+\nu_j.
+\]
+An upper bound decaying exponentially in $d_j$ for the inverse moment would give a power saving. It remains open. Counting available units does not tell how often both transformed coordinates fall back inside the set. \src{E8}
+
+\subhead{4 November\enspace /\enspace A separate proved family}
+The project reports Theorem 1 for every fixed $a,b,c,e\in\Z$. The polynomial $(ax+by)^2+cx+ey$ admits a fixed power saving on arbitrarily large finite real squares. The condition $ab(ae-bc)\ne0$ singles out nonspecial examples. The theorem includes degenerate cases. The proof imports a field-supply theorem (Proposition 3.8 in its source). The audit separates that input from internal deductions MP-01--MP-07. The quadratic part of this family has rank at most one. T03 has rank two. All four targets remain open. \src{E10}

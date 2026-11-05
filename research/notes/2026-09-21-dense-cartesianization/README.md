@@ -36,7 +36,7 @@ not just a dense set of coordinate labels.
 ## 1. Scope, evidence and preserved state
 
 This is the newly commissioned constructive cycle in the user's
-`d6bb1cda-2aea-4257-86a7-92ed5e800146` dense-Cartesianization attachment.
+`[private attachment identifier withheld]` dense-Cartesianization attachment.
 It was conducted **strictly offline**. No literature search, external API,
 database, outside theorem import, or novelty claim was used. All new
 arguments below are elementary local proofs. No external input was needed.

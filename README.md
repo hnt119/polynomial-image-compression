@@ -1,8 +1,5 @@
 # Polynomial Image Compression
 
-> **5 November 2026 evidence snapshot.** Start with the [professor brief, technical report and proof register](research/exports/2026-11-05-evidence/README.md). The latest square-plus-linear theorem covers every fixed integer quadruple. The full-rank quadratic remains open. Earlier status descriptions below record the original archive.
-
-
 Research notes and reproducible experiments on small polynomial image sets, motivated by unit-distance constructions, sum-product methods, and the Elekes–Rónyai problem.
 
 The central question is whether a **fixed** polynomial $P\in\mathbb R[x,y]$, depending on both variables, admits a **fixed** $\varepsilon>0$ and arbitrarily large finite sets $A\subset\mathbb R$ such that
@@ -13,33 +10,77 @@ $$
 
 The same set occurs in both inputs. The exponent may depend on the fixed polynomial, but cannot change with the size of the set.
 
+## Evidence release · 5 November 2026
+
+**All four fixed targets remain OPEN.** Read the [evidence index](research/EVIDENCE_INDEX.md) for statements, proof locations, data, and their verification boundaries. The [claim ledger](research/evidence/2026-11-05/claim-ledger.json) separates results proved in the original reports from conditional implications, finite observations, and failed constructions. This release organized those records; it did not run a new research cycle.
+
+The [4 November shared quadratic audit](docs/release/2026-11-05/shared-quadratic.md) supports compression for every fixed integer square-plus-linear quadruple within its cited theorem system. This includes degenerate coefficients; it does not extend to a general full-rank quadratic.
+
+For the plus-sign cubic, the progression from elliptic sharing through the frame and marked-shift restrictions ends at a necessary condition on exact fibers: a power saving would force almost all pairs to branch at logarithmically many scales. No set achieving that saving is known in these records. For the Eisenstein quadratic, the balanced-factor family has a quadratic-order image; the later relative-unit supply does not settle the Cartesian return bound. The distinct quartic and minus-sign cubic keep the open obligations recorded in their track files.
+
+[Professor summary (one page)](research/reports/2026-11-05-evidence-export/summary.pdf) · [Progress report and evidence appendix (PDF)](research/reports/2026-11-05-evidence-export/report.pdf) · [Editable LaTeX, build instructions and bibliography](research/reports/2026-11-05-evidence-export/README.md) · [Publication and retention record](docs/release/2026-11-05/README.md)
+
+The [three-page brief, editable Word version and technical report](research/exports/2026-11-05-evidence/README.md) provide the C0-to-mixed-signature account. For MA2288 v6, use the [reference index and linked LaTeX bibliography](research/exports/2026-11-05-report-references/README.md). Its source links are fixed to a commit.
+
 ## Start here
 
-- [Project history: four tracks](research/PROJECT_HISTORY.md): recent results, closed routes, and current directions.
+- [Codex local setup](docs/CODEX_SETUP.md): instructions, checks, and local reference transfer.
+- [Concise current project map](research/CURRENT_PROJECT_MAP.md) and [2026-09-14 setup audit](research/CODEX_MIGRATION_AUDIT.md).
+- [Reconciled project history](research/PROJECT_HISTORY.md): current four-track state, shared progress, and retained chronology.
 - [Track specifications and status](research/tracks/README.md): one precise target and continuation record per track.
-- [Research overview](docs/research-overview.md): questions, mechanisms, and mathematical status.
-- [Roadmap](docs/roadmap.md): concrete next steps and unresolved dependencies.
-- [Source record](docs/sources.md): archived materials, provenance, and missing reports.
+- [Mechanism library](research/MECHANISM_LIBRARY.md), [scoped failures](research/FAILURE_LIBRARY.md), and [open lemmas](research/OPEN_LEMMAS.md).
+- [Migration conflicts and source identities](research/MIGRATION_CONFLICTS.md): unresolved issues, authority order, and resolved corrections.
+- [Historical research overview](docs/research-overview.md): earlier questions and mechanisms.
+- [Historical roadmap](docs/roadmap.md): earlier proposed steps; use the reconciled open-lemma registry for current obligations.
+- [Historical source record](docs/sources.md): the original archive inventory; current availability is recorded in the migration audit.
 - [Reproduce the experiments](docs/reproducibility.md): exact finite computations and their limits.
-- [Publish to GitHub](docs/publishing.md): remaining setup for this prepared local repository.
+- [Publication guide](docs/publishing.md): existing repository, branch policy, release review, and local-only materials.
 
-## Research status
+## Historical reconciliation · September 2026
 
-This repository organizes a work in progress. It does not announce a new proof or establish external novelty.
+Reconciled **11 September 2026** against the latest final records and current-state
+exports, with research cutoff **10 September 2026**. This is documentation
+reconciliation only; no new proof search, mathematical experiment, or external
+novelty assessment was performed.
 
-| Track | Polynomial | Recent direction and status |
+Eight track recovery addenda/manifests were integrated on **20 September 2026**.
+They retain the same 10 September mathematical cutoff and do not supersede the
+later dated records in this repository. The attached intake did not include the
+larger original-source packages described by those manifests; that boundary is
+recorded in the migration conflict register.
+
+| Track | Fixed polynomial | Current recorded state |
 | --- | --- | --- |
-| T01 | $(x-y)^3+x+y$ | Exact digital carries after the positive-volume block obstruction; open |
-| T02 | $(x+2y)^4+3x-y$ | Hybrid unit/additive carrier and a realized-support lemma; open |
-| T03 | $x^2+xy+y^2$ | Parity-twisted norm code and global deficit contraction; open |
-| T04 | $(x-y)^3-3(x+y)$ | Direct overlapping slices after two specified quadratic-transfer obstructions; open |
+| T01 | $(x-y)^3+x+y$ | **OPEN**. Continuous-cover and regular/fixed-prime positive-entropy digital routes are closed in their exact scopes; no supported cubic candidate survives. The separate norm–trace quadratic branch is also open. |
+| T02 | $(x+2y)^4+3x-y$ | **OPEN**. C2/C3/C4 local structure and counts are proved; the stated full-interval class-packing routes fail. The quartic conjecture is not disproved. |
+| T03 | $x^2+xy+y^2$ | **OPEN**. Adaptive radical counts are certified through $(n,s)=(32,269)$; the uniform RC15/4 signed-root support bound is open. |
+| T04 | $(x-y)^3-3(x+y)$ | **OPEN**. The selected complementary-unit affine system has proved input entropy; a strict full-image output gap remains open. |
 
-The earlier rank-one quadratic family $(ax+by)^2+cx+ey$ is reported as established
-for integral coefficients with $\gcd(a,b)=1$ and $ab(ae-bc)\ne0$. Its original C0
-report has been recovered; the complete corrected C0 proof remains missing.
-The baseline $(x-y)^2+x+y$ and adversarial mixed cubic $xy(x+y)$ remain benchmarks.
+Shared progress is recorded separately: Phase A high-degree sum-product
+reconstruction; Phase B's collision/support distinction; local-to-global
+split-prime amplification with uniform residue packing; and the corrected
+Phase C0 family $P=(ax+by)^2+cx+ey$, with integral coefficients,
+$\gcd(a,b)=1$ and $ab(ae-bc)\ne0$, **PROVED within the supplied source system**.
+The corrected C0 proof is now locally available. C0 is not one of the four
+tracks and does not solve the fixed quartic or full-rank quadratic.
 
-The [C1 review](research/notes/Phase_C1_Review_and_Next_Steps.md) contains two short corrections to the earlier roadmap. A failure of an upper-bound method is not a disproof of compression for the polynomial.
+The latest shared supervisor direction is general quadratic forms via
+addition and multiplication, norm/trace, and more general solvable extensions.
+Its construction frontier remains **OPEN**. No new cycle starts in this migration.
+The handoff's caution about related external quadratic constructions is retained;
+no external novelty is claimed.
+
+The four `SPEC.md` files remain unchanged. Their dated route descriptions must
+be read with current `STATUS.md`; T01's obsolete digital-witness OPEN statement
+is explicitly flagged for review. Previous STATUS text and the September 5
+history are retained as **HISTORICAL / SUPERSEDED**. The unchanged dated JSON
+registry and older overview/roadmap/source documents are historical snapshots,
+not competing current-status authorities.
+
+Use the labels **PROVED**, **CONDITIONAL**, **OPEN**, **FAILED**,
+**EXPERIMENTAL**, **EXTERNAL RESULT**, and **HISTORICAL / SUPERSEDED**.
+A failed certificate is not a disproof of its polynomial target; source proof
+labels do not imply a new independent audit or external certification.
 
 ## Run locally
 
@@ -66,16 +107,18 @@ python3 -m experiments carriers --polynomial mixed-cubic --carrier geometric --s
 
 Outputs are JSON with exact rational quantities. Finite enumeration verifies the listed finite cases; it does not prove an asymptotic theorem or construct a number-field tower. Collision energy gives a **lower** bound on image size and is used only as a diagnostic.
 
-The initial experiment suite implements five benchmark polynomials. The two
-distinct cubic targets T01 and T04 are specified in the history but are not yet
-implemented in that suite.
+The original CLI provides five benchmark polynomial identifiers. The later standalone exact modules listed in the evidence index include T01-specific cubic experiments. Running the baseline verifier does not rerun those exploratory searches.
 
 ## Repository layout
 
 ```text
 docs/                  Research overview, roadmap, sources, reproduction guide
 research/
-  PROJECT_HISTORY.md   Four-track history and current mathematical directions
+  PROJECT_HISTORY.md   Reconciled state, shared progress, and retained chronology
+  MECHANISM_LIBRARY.md Reusable results with hypotheses and costs
+  FAILURE_LIBRARY.md   Scoped failures, including later C2/C3/C4 results
+  OPEN_LEMMAS.md       Current obligations and historical alternatives
+  MIGRATION_CONFLICTS.md Authority, source identities, and unresolved issues
   tracks/              Specifications, status records, and JSON track registry
   history-sources/     Recovered checkpoints and shared Phase A/B background
   conjectures/         Original proposed nonsingular-quadratic direction

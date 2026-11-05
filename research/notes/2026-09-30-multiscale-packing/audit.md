@@ -11,7 +11,7 @@ check. Agent D ran no mathematical programs or experiments. File inspection
 and symbolic derivation are the evidence recorded here.
 
 The controlling instruction is the current attachment
-`343cc68d-b887-428d-9c31-c039edf06cc5/Pasted text.txt`, headed “Full-Rank
+`[private attachment identifier withheld]`, headed “Full-Rank
 Quadratic — Multiscale / Fractal Packing Search.” Historical carrier searches
 and the latest modular-lift proof remain unchanged. In particular:
 
