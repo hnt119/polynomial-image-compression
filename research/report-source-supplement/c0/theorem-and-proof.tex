@@ -1,0 +1,198 @@
+\section{A power-saving theorem for the square-plus-linear family}
+\label{sec:quadratic}
+
+We present the C0 counting argument in a form that separates the assumptions needed for compression from the additional conditions used to identify its nonspecial examples \cite[Theorem C0.1 and \S{}\S{}4--6]{ref10}. The family consists of squares of integral linear forms plus integral linear terms. The five stages below account for every ordered pair of the final real set.
+
+\subsection{The family and the scaling identity}
+\label{subsec:quadratic-family}
+
+\begin{theorem}[Compression for squares of linear forms plus linear terms]
+\label{thm:quadratic-compression}
+For every fixed $a,b,c,e\in\mathbb Z$, define $L(x,y)=ax+by$, $M(x,y)=cx+ey$ and
+\[
+P(x,y)=(ax+by)^2+cx+ey=L(x,y)^2+M(x,y).
+\]
+There exist a constant $\epsilon_P>0$ and finite sets $A_j\subset\mathbb R$, with $|A_j|\to\infty$, such that
+\begin{equation}
+|P(A_j,A_j)|\le |A_j|^{2-\epsilon_P}.
+\label{eq:quadratic-target}
+\end{equation}
+The coefficients and polynomial are fixed before the construction grows; the exponent may depend on $P$.
+\end{theorem}
+
+This is an existence theorem for suitable finite real sets of unbounded cardinality, not an upper bound for every finite set. The same set occupies both coordinates, and every ordered input pair is included. Compression requires no primitivity or nonvanishing condition.
+
+\textbf{Structural remark.} Under the additional condition $ab(ae-bc)\ne0$, the polynomial is \emph{nonspecial}: it has neither exceptional form from Section~\ref{sec:image-objective}. This subfamily supplies the connection with Elekes--R\'onyai. Nonspecialness explains that connection; the residue restriction below drives the counting proof.
+
+To prove the remark, assume $ab(ae-bc)\ne0$ and suppose first that $P=g(u(x)+v(y))$. All three polynomials are nonconstant because $P$ depends on both variables. Its nonzero mixed coefficient $2ab$ excludes a linear $g$. Total degree two therefore forces $g$ to be quadratic and both inner polynomials to be affine. Comparing homogeneous quadratic parts makes the inner linear form proportional to $L$. The linear part of $P$ must then also be proportional to $L$, forcing $ae-bc=0$, a contradiction. In a multiplicative representation $P=g(u(x)v(y))$, total degrees instead give
+\[
+\deg g\,(\deg u+\deg v)=2.
+\]
+The three degrees must all be one. The quadratic part would be a multiple of $xy$, whereas $L^2$ has nonzero $x^2$ and $y^2$ terms. This excludes that representation as well.
+
+The determinant $ae-bc$ measures independence of the two linear forms $L$ and $M$. When $ab\ne0$ but $ae-bc=0$, there is a scalar $\lambda$ with $M=\lambda L$, so $P=L^2+\lambda L=h(L)$ has an additive exceptional representation. Compression still holds. This determinant is distinct from the determinant of the matrix of the homogeneous quadratic part: $L^2$ has rank one whenever $(a,b)\ne(0,0)$, and rank zero when $a=b=0$.
+
+For a concrete nonspecial example, $(a,b,c,e)=(1,2,3,-1)$ gives
+\[
+P_*(x,y)=(x+2y)^2+3x-y,
+\qquad ae-bc=-7.
+\]
+The enlarged family also includes $a=b=0$, when $P=cx+ey$, possibly zero, and integer intervals already give $O_P(|A|)$ outputs. Exactly one of $a,b$ being zero need not make $P$ univariate, as $x^2+y$ shows. The counting argument below covers these cases as well.
+
+For a positive squarefree integer $R$, introduce the auxiliary polynomial
+\begin{equation}
+P_R=L^2+RM,
+\qquad P_R(Rx,Ry)=R^2P(x,y).
+\label{eq:quadratic-scaling}
+\end{equation}
+The identity follows from $L(Rx,Ry)=RL(x,y)$ and $M(Rx,Ry)=RM(x,y)$, including when either form is zero. Modulo a prime dividing $R$, the linear term of $P_R$ vanishes, leaving a square. At the end, \eqref{eq:quadratic-scaling} will return us to the original polynomial using the same scalar change in both input coordinates. We will fix $R$ once; it will not depend on $j$.
+
+\Needspace{18\baselineskip}
+\subsection{The field supply and the order of parameters}
+\label{subsec:quadratic-fields}
+The external field-supply theorem provides enough split primes for the square-residue saving to dominate the discriminant cost. Proposition 3.8 of the unit-distance paper \cite{ref1} applies to every sufficiently large integer $\ell$. Put
+\[
+t=\left\lfloor\frac{(\ell-1)^2}{100}\right\rfloor.
+\]
+The proposition supplies distinct primes $p_1,\ldots,p_t\equiv1\pmod4$ and totally real fields $F_j$ with degrees $d_j=[F_j:\mathbb Q]\to\infty$. Every selected prime splits completely in every layer, and
+\begin{equation}
+\operatorname{rd}(F_j)=D,
+\qquad \log D=O(\ell\log\ell).
+\label{eq:quadratic-field-supply}
+\end{equation}
+The constant $D$ and the primes are supplied together with the tower after $\ell$ is fixed; they are not an arbitrary prescribed list. We use the totally real fields $F_j$, rather than the complex fields $F_j(i)$ from the unit-distance construction.
+
+Fix the polynomial first, and write
+\[
+H_P=(|a|+|b|)^2+|c|+|e|,
+\qquad C_P=2H_P+1.
+\]
+For the primes supplied at a chosen $\ell$, set
+\[
+R=\prod_{i=1}^t p_i,
+\qquad \rho=\prod_{i=1}^t\frac{p_i+1}{2p_i}.
+\]
+The square-residue container occupies a fraction $\rho$ of the product of the selected prime fields. Complete splitting repeats this container across the field coordinates, giving fraction $\rho^d$ in the full quotient for a layer of degree $d$. The actual image may occupy fewer classes.
+
+Since $p_i\ge5$, every factor of $\rho$ is at most $3/5$. Consequently
+\[
+\log(C_PD\rho)
+\le\log C_P+O(\ell\log\ell)+t\log(3/5),
+\]
+which is negative for sufficiently large $\ell$: the negative term has quadratic order in $\ell$. Choose such an $\ell$, fixing the tower and primes, so that
+\begin{equation}
+\theta=C_PD\rho<1.
+\label{eq:quadratic-theta}
+\end{equation}
+The factor $\theta$ includes the coefficient and discriminant costs. The strict inequality is the net saving needed before increasing the field degree. These definitions do not divide by any coefficient: even if all four coefficients vanish, $H_P=0$ and $C_P=1$ remain valid.
+
+Finally choose one real number $X>\max\{R,\sqrt D\}$. The coefficients, $\ell$, tower, primes, $R$, $\rho$, $\theta$ and $X$ are now fixed. Only the layer $j$ will vary. This order pays the discriminant cost before using high degree to amplify the saving.
+
+\subsection{Constructing and counting the integral inputs}
+\label{subsec:quadratic-inputs}
+
+We choose algebraic integers whose conjugates all lie in a fixed interval. The lower count shows that the resulting sets have arbitrarily large cardinality. The upper count will later convert the saving per field degree into a power saving in that cardinality. Work in one layer $K=F_j$ of degree $d=d_j$. Its $d$ real embeddings identify an algebraic integer $\alpha$ with its vector of conjugates. Under this identification, $\mathcal O_K$ is a lattice in $\mathbb R^d$ of covolume $\sqrt{|\Delta_K|}=D^{d/2}$. Define the finite set
+\[
+B_K(X)=\{\alpha\in\mathcal O_K:
+|\sigma(\alpha)|\le X\text{ for every embedding }\sigma\},
+\qquad n=|B_K(X)|.
+\]
+These coordinates come from one algebraic integer; they cannot be chosen independently. The input count satisfies
+\begin{equation}
+\left(\frac X{\sqrt D}\right)^d
+\le n\le(2X+1)^d.
+\label{eq:quadratic-input-count}
+\end{equation}
+
+For the lower bound, average the number of lattice points in translates of the half-open cube $[-X/2,X/2)^d$. The average is its volume divided by the lattice covolume, namely $X^d/D^{d/2}$. Some translate therefore contains at least that many points. Choose one of them, $v_0$, and replace each point $v$ by $v-v_0$. These differences are distinct lattice points in $[-X,X]^d$. Include $v=v_0$, whose difference is zero, so no point is lost. This proves the lower bound for the centered set actually used.
+
+For the upper bound, distinct algebraic integers $\alpha,\beta$ have a nonzero integer norm $N_{K/\mathbb Q}(\alpha-\beta)$. If every conjugate difference had absolute value less than one, the absolute norm would also be less than one. Thus their vectors are separated by at least one in the maximum norm. Cubes of side one centered at the $n$ vectors have disjoint interiors and lie in $[-X-1/2,X+1/2]^d$. Comparing volumes proves the upper bound. Since $X>\sqrt D$, the lower bound grows without limit as $d_j\to\infty$.
+
+\subsection{A bound for every deformed output}
+\label{subsec:quadratic-outputs}
+
+We count every deformed output in two steps: first count its allowed residue classes, then bound the number of outputs in each class uniformly. For every selected odd prime $p\mid R$,
+\[
+P_R(x,y)\equiv(ax+by)^2\pmod p,
+\qquad
+P_R(\mathbb F_p,\mathbb F_p)\subseteq\{z^2:z\in\mathbb F_p\}.
+\]
+If at least one of $a,b$ is nonzero modulo $p$, the reduced linear form is surjective, so the image is the full square set. Its cardinality is $(p+1)/2$: each nonzero square has the two roots $z,-z$, and zero contributes one further value. If both coefficients vanish modulo $p$, the image is $\{0\}$. In either case,
+\[
+|P_R(\mathbb F_p,\mathbb F_p)|\le\frac{p+1}{2}.
+\]
+This upper bound needs neither primitivity nor the exclusion of primes dividing both coefficients. The finite input set only needs containment in the allowed classes; it need not fill the residue plane.
+
+Complete splitting and the Chinese remainder theorem give
+\[
+\mathcal O_K/R\mathcal O_K
+\cong\prod_{i=1}^t\mathbb F_{p_i}^{\,d}.
+\]
+\Needspace{8\baselineskip}
+In each coordinate belonging to $p_i$, the reduction of $P_R$ is a square. The number of allowed classes modulo $R\mathcal O_K$ is therefore at most
+\begin{equation}
+\prod_{i=1}^t\left(\frac{p_i+1}{2}\right)^d
+=(\rho R)^d.
+\label{eq:quadratic-residue-count}
+\end{equation}
+This is a product count in a quotient ring, not an assumption of probabilistic independence or equidistribution.
+
+Next bound the number of possible outputs within any one class. For $\alpha,\beta\in B_K(X)$ and every embedding $\sigma$,
+\[
+\begin{aligned}
+|\sigma(P_R(\alpha,\beta))|
+&\le (|a|+|b|)^2X^2+R(|c|+|e|)X\\
+&\le H_PX^2=:H,
+\end{aligned}
+\]
+using $R<X$. This is a containing radius, not a claim that the maximum is attained. Two distinct elements of one residue class differ by $R\gamma$ for a nonzero algebraic integer $\gamma$. The same norm argument makes their vectors at least $R$ apart in maximum norm. Cubes of side $R$ centered at those vectors have disjoint interiors and fit in a cube of side $2H+R$. Thus each class contains at most $(2H/R+1)^d$ possible outputs. This remains valid at $H=0$, when the entire output set is $\{0\}$ and the per-class bound is one.
+
+Multiplying this uniform bound by \eqref{eq:quadratic-residue-count} yields
+\begin{equation}
+\begin{aligned}
+|P_R(B_K(X),B_K(X))|
+&\le (\rho R)^d(2H/R+1)^d\\
+&=[\rho(2H+R)]^d\\
+&\le(C_P\rho X^2)^d
+\le\theta^d n^2.
+\end{aligned}
+\label{eq:quadratic-full-image}
+\end{equation}
+Here $X>R\ge1$ gives $R<X^2$, so $2H+R\le C_PX^2$. The last inequality uses $X^{2d}\le D^dn^2$ from the lower bound in \eqref{eq:quadratic-input-count}. The uniform per-class estimate covers every ordered pair, with no exceptional or discarded outputs.
+
+\subsection{Returning to the fixed polynomial over the reals}
+\label{subsec:quadratic-conclusion}
+
+The real embedding and common scaling preserve input and output cardinalities, so the algebraic estimate becomes a bound for the original polynomial on a real Cartesian square. Choose $\sigma_j:F_j\hookrightarrow\mathbb R$ and put
+\[
+A_j=R^{-1}\sigma_j(B_{F_j}(X)),
+\qquad n_j=|A_j|=|B_{F_j}(X)|.
+\]
+Polynomial evaluation commutes with the embedding, so \eqref{eq:quadratic-scaling} gives
+\[
+P(A_j,A_j)
+=R^{-2}\sigma_j\!\left(P_R(B_{F_j}(X),B_{F_j}(X))\right).
+\]
+The embedding and the nonzero scalar maps are injective; polynomial evaluation itself need not be. Hence \eqref{eq:quadratic-full-image} gives
+\[
+|P(A_j,A_j)|\le\theta^{d_j}n_j^2.
+\]
+This is the criterion of Section~\ref{sec:transfer-obligations} with $\gamma=-\log\theta$ and $B=\log(2X+1)$.
+
+Define the fixed positive exponent
+\begin{equation}
+\epsilon_P=\frac{-\log\theta}{\log(2X+1)}.
+\label{eq:quadratic-exponent}
+\end{equation}
+The upper input bound is essential for the direction of the final comparison:
+\[
+n_j\le(2X+1)^{d_j}
+\quad\Longrightarrow\quad
+n_j^{\epsilon_P}\le\theta^{-d_j}
+\quad\Longrightarrow\quad
+\theta^{d_j}\le n_j^{-\epsilon_P}.
+\]
+Thus $|P(A_j,A_j)|\le n_j^{2-\epsilon_P}$. The lower input bound gives $n_j\to\infty$. This proves Theorem~\ref{thm:quadratic-compression}. No error terms or extra prefactors require shrinking the exponent in \eqref{eq:quadratic-exponent}.
+
+The construction therefore meets the objective for every fixed integer quadruple $a,b,c,e$ in $P=(ax+by)^2+cx+ey$. Under the additional condition $ab(ae-bc)\ne0$, these examples are also nonspecial. The homogeneous quadratic part remains a square or zero, so the full-rank quadratic and higher-degree targets lie outside the theorem and remain open in this project.
+

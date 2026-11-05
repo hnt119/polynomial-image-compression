@@ -1,0 +1,334 @@
+{
+  "format_version": 1,
+  "date": "2026-11-05",
+  "scope": "Source supplement for supplied bibliography references 9, 10, 11, 14, 16, 17; existing published sources serve other references.",
+  "verification": "Byte identity or exact source-section inclusion checked. ZIP members inspected before selective reads. No imported mathematical program executed; no new mathematical proof audit.",
+  "files": [
+    {
+      "destination": "c0/Phase_C0_Corrected.md",
+      "source_filename": "shared/Phase_C0_Corrected.md",
+      "source_section": "entire corrected file",
+      "source_sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be",
+      "copied_sha256": "8ef3670bb8903b2f851b1bba594435d8635882849dae37912baadf6c49eb85be",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED within the historical source system; corrected narrower statement",
+      "limitations": "Preserved September hypotheses; later all-integer statement is a separate dated excerpt.",
+      "references": [
+        10
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c0/C0_CORRECTION_LOG.md",
+      "source_filename": "shared/C0_CORRECTION_LOG.md",
+      "source_section": "entire corrected file",
+      "source_sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480",
+      "copied_sha256": "5da48e6372e1ea10af8d395c30faff6e7676bc546749ffa5fc36765a7b040480",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED within the historical source system; corrected narrower statement",
+      "limitations": "Preserved September hypotheses; later all-integer statement is a separate dated excerpt.",
+      "references": [
+        10
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "phase_c0/CANDIDATE_LEDGER.md",
+      "source_filename": "T02_MIGRATION_PACKAGE/phase_c0/CANDIDATE_LEDGER.md",
+      "source_section": "whole file",
+      "source_sha256": "8c68940ea705c8c894f6d8ab8a2b2f35b749bd928d8e70fe105ac928e7d09cd8",
+      "copied_sha256": "8c68940ea705c8c894f6d8ab8a2b2f35b749bd928d8e70fe105ac928e7d09cd8",
+      "mode": "whole-file copy",
+      "evidence_status": "HISTORICAL candidate ledger / internal proof review",
+      "limitations": "Preserves original corrected-C0 links. Reviews are inherited, not performed in this publication task.",
+      "references": [
+        10
+      ]
+    },
+    {
+      "destination": "phase_c0/REFEREE_REPORT.md",
+      "source_filename": "T02_MIGRATION_PACKAGE/phase_c0/REFEREE_REPORT.md",
+      "source_section": "whole file",
+      "source_sha256": "dc4b61c965ff9c872040804fa84de9a51b74527dc8f9c5bb11211bd2bc67aab9",
+      "copied_sha256": "dc4b61c965ff9c872040804fa84de9a51b74527dc8f9c5bb11211bd2bc67aab9",
+      "mode": "whole-file copy",
+      "evidence_status": "HISTORICAL candidate ledger / internal proof review",
+      "limitations": "Preserves original corrected-C0 links. Reviews are inherited, not performed in this publication task.",
+      "references": [
+        10
+      ]
+    },
+    {
+      "destination": "c0/theorem-and-proof.tex",
+      "source_filename": "3 November 2026 final main.tex",
+      "source_section": "section 3 including all five subsections",
+      "source_sha256": "66de069e7e9c2f7ac49d1d7ad1682fe48cca00c44437cfe00698826183d4c7e8",
+      "copied_sha256": "928cbe5fe7beba56d12607b877762a6b7084408426c829d8539a85db5bcd68c4",
+      "mode": "verbatim section excerpt",
+      "evidence_status": "PROVED in the 3 November source theorem system; Theorem 1 all integer coefficients",
+      "limitations": "Verbatim section3 excerpt from 3 November revision, not a claim of byte equality with a later revision. External field supply remains imported.",
+      "references": [
+        10
+      ]
+    },
+    {
+      "destination": "c0/audit-2026-11-04.txt",
+      "source_filename": "4 November 2026 Mathematical_Audit_v5.txt",
+      "source_section": "MP-01 through MP-07",
+      "source_sha256": "c821a85880bd34ae90e02cd5e08c2e1d90a9b2b65edfb89da93a0b4cf443c7fb",
+      "copied_sha256": "791b06bde2b353a6b2593bd434f186d65c15c23894deda6c3f3bc462e8aa1fc5",
+      "mode": "verbatim section excerpt",
+      "evidence_status": "HISTORICAL internal audit MP-01 through MP-07",
+      "limitations": "Audit language describes 4 November work. This publication checked source identity and scope, not the proof again.",
+      "references": [
+        10
+      ]
+    },
+    {
+      "destination": "c2/Phase_C2_Hybrid_Carrier_Structural_Lemma.md",
+      "source_filename": "Phase_C2_Hybrid_Carrier_Structural_Lemma.md",
+      "source_section": "whole file; cited main sections 4.1, 5.1–5.2, 8",
+      "source_sha256": "3d2171e450c691f64cc6f25778e53ebb40a8b829e9b470552043aa67fe5264d9",
+      "copied_sha256": "3d2171e450c691f64cc6f25778e53ebb40a8b829e9b470552043aa67fe5264d9",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED structural identities; OPEN fixed quartic; historical correction chain",
+      "limitations": "Read main report together with precision addendum. Zero certified gain does not fix actual image exponent.",
+      "references": [
+        9
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c2/C2_PRECISION_ADDENDUM.md",
+      "source_filename": "C2_PRECISION_ADDENDUM.md",
+      "source_section": "whole file; cited main sections 4.1, 5.1–5.2, 8",
+      "source_sha256": "c747922830646d3311cb106ac2b11b7ee80e30e3a8c99696df71bfa0d378d032",
+      "copied_sha256": "c747922830646d3311cb106ac2b11b7ee80e30e3a8c99696df71bfa0d378d032",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED structural identities; OPEN fixed quartic; historical correction chain",
+      "limitations": "Read main report together with precision addendum. Zero certified gain does not fix actual image exponent.",
+      "references": [
+        9
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c2/C2_C3_REVIEW_CHANGE_LOG.md",
+      "source_filename": "C2_C3_REVIEW_CHANGE_LOG.md",
+      "source_section": "whole file; cited main sections 4.1, 5.1–5.2, 8",
+      "source_sha256": "016afcd90e64b0d22f5267e3f1f05960465baacf19cf080687bfeebd0a0dc901",
+      "copied_sha256": "016afcd90e64b0d22f5267e3f1f05960465baacf19cf080687bfeebd0a0dc901",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED structural identities; OPEN fixed quartic; historical correction chain",
+      "limitations": "Read main report together with precision addendum. Zero certified gain does not fix actual image exponent.",
+      "references": [
+        9
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c4/Phase_C4_Higher_Ramified_Precision.md",
+      "source_filename": "Phase_C4_Higher_Ramified_Precision.md",
+      "source_section": "whole file; main theorem sections 1–6",
+      "source_sha256": "0c438ad31f11c48ff8a74bff5454bf1eda8dd7cc3b5f8b2cd05e7dd6b582a91c",
+      "copied_sha256": "0c438ad31f11c48ff8a74bff5454bf1eda8dd7cc3b5f8b2cd05e7dd6b582a91c",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED local support and scoped packing obstruction; OPEN quartic target",
+      "limitations": "Full inverse-image local pattern and full-interval uniform packing only. Finite checks/reviews are inherited.",
+      "references": [
+        16
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c4/C4_SIGNED_RATE_LEDGER.md",
+      "source_filename": "C4_SIGNED_RATE_LEDGER.md",
+      "source_section": "whole file; main theorem sections 1–6",
+      "source_sha256": "76afd88f997cdf5385dda7463654e3a164ef8044ed86cd066ef8e0fd52b4fbd8",
+      "copied_sha256": "76afd88f997cdf5385dda7463654e3a164ef8044ed86cd066ef8e0fd52b4fbd8",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED local support and scoped packing obstruction; OPEN quartic target",
+      "limitations": "Full inverse-image local pattern and full-interval uniform packing only. Finite checks/reviews are inherited.",
+      "references": [
+        16
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c4/REFEREE_REPORT_C4.md",
+      "source_filename": "REFEREE_REPORT_C4.md",
+      "source_section": "whole file; main theorem sections 1–6",
+      "source_sha256": "03f241fde0e23332f0f7fa54ed02fd906e32c9c6f089dc1d606807de74eab169",
+      "copied_sha256": "03f241fde0e23332f0f7fa54ed02fd906e32c9c6f089dc1d606807de74eab169",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED local support and scoped packing obstruction; OPEN quartic target",
+      "limitations": "Full inverse-image local pattern and full-interval uniform packing only. Finite checks/reviews are inherited.",
+      "references": [
+        16
+      ],
+      "original_source_match": "Retained original source bytes match copied file and migration hash."
+    },
+    {
+      "destination": "c4/T02_C4_REVIEW_ACCEPTANCE_AND_HANDOFF.md",
+      "source_filename": "T02_C4_REVIEW_ACCEPTANCE_AND_HANDOFF(1).md",
+      "source_section": "whole file",
+      "source_sha256": "8d093d4111e04dfd42d6bf13117305809beffceb44f1e8d81f16b64d4ef7c714",
+      "copied_sha256": "8d093d4111e04dfd42d6bf13117305809beffceb44f1e8d81f16b64d4ef7c714",
+      "mode": "whole-file copy",
+      "evidence_status": "HISTORICAL acceptance and provenance record",
+      "limitations": "Original supplied-review description is preserved as attribution. No external review is performed or independently authenticated here.",
+      "references": [
+        16
+      ]
+    },
+    {
+      "destination": "norm-transfer/norm-transfer.md",
+      "source_filename": "T01_Norm_Trace_Quadratic_Research_Checkpoint.md",
+      "source_section": "sections 2.1–2.3",
+      "source_sha256": "a9de1edb1ebc43465de7e12cd2e815e8647b4199a0c303afff2e4a8815abc0db",
+      "copied_sha256": "43184647844c46a703d1511cdd52c06b37578e182fa3a663c47212a592942588",
+      "mode": "verbatim section excerpt",
+      "evidence_status": "PROVED transfer implication; OPEN construction premises",
+      "limitations": "Separate quadratic P0=x^2+xy+y^2+x, not the plus-sign cubic target.",
+      "references": [
+        11
+      ]
+    },
+    {
+      "destination": "adaptive-root/state-sections-2-to-7.md",
+      "source_filename": "T03_CURRENT_STATE.md",
+      "source_section": "sections 2–7",
+      "source_sha256": "8048b4d9d3121757a28abe90e227fa5fba84cb4eb172bef8b6aa7186b3792850",
+      "copied_sha256": "af8ab8403af308b39a6de4dfb6789e63a34dad47c87a06adf5372d4d232d20d9",
+      "mode": "verbatim section excerpt",
+      "evidence_status": "PROVED as reported finite adaptive levels; OPEN RC15/4",
+      "limitations": "Dated state excerpt; no uniform asymptotic support bound and no new execution.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a2_exact_certificate.py",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a2_exact_certificate.py",
+      "source_section": "entire archive member",
+      "source_sha256": "f957dd5a648bca462e9e12fd9e21fa0aee2da4c17cd623161c7ba1e1dca13233",
+      "copied_sha256": "f957dd5a648bca462e9e12fd9e21fa0aee2da4c17cd623161c7ba1e1dca13233",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a2_exact_results.json",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a2_exact_results.json",
+      "source_section": "entire archive member",
+      "source_sha256": "f63ea6b9902019e96826bb1a1c2cc37078f81bcfa921ac4cb0e6c11a12b11164",
+      "copied_sha256": "f63ea6b9902019e96826bb1a1c2cc37078f81bcfa921ac4cb0e6c11a12b11164",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a3_exact_certificate.py",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a3_exact_certificate.py",
+      "source_section": "entire archive member",
+      "source_sha256": "8db331480e95940419c66ed792e43725cf56f4511ef933586f176cca5dc210d6",
+      "copied_sha256": "8db331480e95940419c66ed792e43725cf56f4511ef933586f176cca5dc210d6",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a3_exact_results.json",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a3_exact_results.json",
+      "source_section": "entire archive member",
+      "source_sha256": "27164f6aea453816dd7192aa113b56d04292d78905ac1ec91fd5b55746a0a4c3",
+      "copied_sha256": "27164f6aea453816dd7192aa113b56d04292d78905ac1ec91fd5b55746a0a4c3",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a3_squareclass_certificate.py",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a3_squareclass_certificate.py",
+      "source_section": "entire archive member",
+      "source_sha256": "097cd88fc7e4d3f23444291a672339c226a0f499bef7f052b3c4bcacf4ec111a",
+      "copied_sha256": "097cd88fc7e4d3f23444291a672339c226a0f499bef7f052b3c4bcacf4ec111a",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "adaptive-root/ardc_a3_squareclass_results.json",
+      "source_filename": "T03_RESEARCH_RECORD_20260910.zip::output/ardc_a3_squareclass_results.json",
+      "source_section": "entire archive member",
+      "source_sha256": "3c0de5f83dc9076ec1d1d62a9a4b9aea296f9566083d36205889bef98917c1a4",
+      "copied_sha256": "3c0de5f83dc9076ec1d1d62a9a4b9aea296f9566083d36205889bef98917c1a4",
+      "mode": "whole archive-member copy",
+      "archive_sha256": "5c51114ec0fa2663b586665db30bc6648f1e3a1beaae2e578099b9abc6e85430",
+      "evidence_status": "EXPERIMENTAL exact exhaustive finite certificate / stored result",
+      "limitations": "Archival code and JSON inspected as data and matched to archive member; not executed. A3-named files certify the A3-to-A4 transition.",
+      "references": [
+        14
+      ]
+    },
+    {
+      "destination": "cubic-obstructions/rich_fiber_results_checkpoint.md",
+      "source_filename": "T04_SOURCE_ARCHIVE/rich_fiber_results_checkpoint.md",
+      "source_section": "entire file; see sections B and C",
+      "source_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237",
+      "copied_sha256": "d55ab9d3f4b61e55c5742f0a1dd7ead0970284748dfe3273efc3c073b49ed237",
+      "mode": "whole-file copy",
+      "evidence_status": "PROVED within identified source system; complete native checkpoint",
+      "limitations": "T04 minus-sign cubic and specified avoidance construction only. No fresh proof audit.",
+      "references": [
+        17
+      ]
+    },
+    {
+      "destination": "cubic-obstructions/T01-state-digital-theorems.md",
+      "source_filename": "T01_CURRENT_STATE.md",
+      "source_section": "state section 4.3; statement witness, not the missing proof",
+      "source_sha256": "2095cb7b4a5f7d848dea1356956ad36f5303e4037b13b2efe7fa32b0c08f2624",
+      "copied_sha256": "80a3faebb937412980227e4703b568bb50f837f652b64c2bfe30847e5c33c693",
+      "mode": "verbatim section excerpt",
+      "evidence_status": "PROVED AS REPORTED; statement witness only",
+      "limitations": "Complete standalone proof of digital theorem T01.6 remains unavailable for this citation. Do not cite this extract as a full proof.",
+      "references": [
+        17
+      ]
+    },
+    {
+      "destination": "cubic-obstructions/T04-state-sections-4.5-and-4.7.md",
+      "source_filename": "T04_CURRENT_STATE.md",
+      "source_section": "sections 4.5 and 4.7, each to the next section heading, concatenated in order",
+      "source_sha256": "17d5bb792fc4a9903bac337e0b96d283bad551796ddccaa3b8965816b8ac59b5",
+      "copied_sha256": "e7e0c104648c35cdaea3aef8764bc78d0f92c6dbb18b2636bf0c86dc1df2e652",
+      "mode": "verbatim section concatenation",
+      "evidence_status": "PROVED as reported transfer obstructions, coverage identity and rich-fiber construction",
+      "limitations": "State witness read with existing public transfer proofs and included rich-fiber checkpoint; no new proof audit.",
+      "references": [
+        17
+      ]
+    }
+  ]
+}

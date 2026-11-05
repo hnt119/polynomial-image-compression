@@ -1,0 +1,31 @@
+MP-01. Theorem 1, printed p.9 / PDF p.11, Section 3.1.
+Track: shared C0 family, not any of the four fixed open targets.
+Polynomial: P=(ax+by)^2+cx+ey, a,b,c,e fixed integers.
+Quantifier: for each such P, one epsilon_P>0 and a sequence of finite A_j subset R with |A_j| tending to infinity and full image at most |A_j|^(2-epsilon_P).
+Status: PROVED within the cited theorem system; internal argument independently audited here.
+No claim of novelty, effective practical size, all finite sets, or general full-rank quadratics follows.
+
+MP-02. Nonspeciality, printed p.9 / PDF p.11.
+Under ab(ae-bc) nonzero, additive special form is impossible: a linear outer polynomial has no xy term; otherwise degree two forces quadratic outer and affine inners, so the linear term must be parallel to ax+by. This contradicts ae-bc nonzero. Multiplicative form forces outer degree one and both inner degrees one, so its homogeneous degree-two part is a nonzero multiple of xy, which cannot match a^2 x^2+2abxy+b^2 y^2 when ab nonzero. The degree factorizations are exhaustive over R. Degenerate choices can be special while still compressible. Matrix rank of the quadratic part is a different issue from the determinant ae-bc.
+Status: PROVED, independently checked. No stronger classification claimed.
+
+MP-03. Auxiliary deformation, printed pp.8,10 / PDF pp.10,12.
+P_R=L^2+RM and P_R(Rx,Ry)=R^2P(x,y) by homogeneity of L and M. Equivalently P(alpha/R,beta/R)=R^-2 P_R(alpha,beta). This is the same scaling on both coordinates; no mixed-coordinate transport occurs. If a,b vanish modulo a selected prime, its local image is {0}, which only improves containment in squares. Hence gcd(a,b)=1 and ab(ae-bc) nonzero are not needed for the counting proof.
+Status: PROVED, independently checked for all coefficient degeneracies.
+
+MP-04. Parameter supply and order, Section 3.2, printed p.10 / PDF p.12.
+Local source inspected: local-only/migration/research_supplement/shared/03-unit-distance-proof.pdf, Proposition 3.8 (PDF/printed p.12) and Remark 3.9 (p.14).
+P1-P4 supply t=floor((ell-1)^2/100), totally real F_j, degrees tending to infinity, rd(F_j)=D=rd(F), log D=O(ell log ell), and distinct fixed primes p_i congruent 1 modulo 4 splitting in every layer. The family constant C_P is fixed first. Since rho <= (3/5)^t, log(C_P D rho) <= log C_P+O(ell log ell)-c ell^2 becomes negative for sufficiently large ell. No arbitrary prescribed-prime theorem is assumed. Source root discriminant and prime set are chosen together; their actual values can be huge but remain fixed. Then X>max(R,sqrt D) is fixed before j grows.
+Status: EXTERNAL RESULT (statement inspected) plus PROVED rate consequence (independently checked).
+
+MP-05. Actual input counts, Section 3.3, printed p.11 / PDF p.13.
+B_K(X) consists of algebraic integers with every real conjugate bounded by X. Covolume is sqrt(|Delta_K|)=D^(d/2). Averaging translates of a half-open cube of side X yields at least X^d/D^(d/2) lattice points in one translate. Subtracting one point maps all of them injectively into the centered box of radius X, including the zero difference. Thus n >= (X/sqrt D)^d. A nonzero algebraic integer has nonzero integral norm, so at least one conjugate has modulus >=1. Distinct embedded lattice points are sup-norm separated by >=1, giving n <= (2X+1)^d by disjoint interiors of side-one cubes. These are uniform in degree and need no equidistribution, regulator estimate, minimum Euclidean separation assumption, or successive-minima bound.
+Status: PROVED, independently checked. Lower count proves unbounded actual cardinality because X/sqrt D>1.
+
+MP-06. Full output count, Section 3.4, printed pp.11-12 / PDF pp.13-14.
+Complete splitting and CRT give O_K/R O_K isomorphic to product_i F_(p_i)^d. The allowed square containers therefore have product cardinality (rho R)^d. This does not require B_K(X) to fill any residue class. For every ordered alpha,beta in B_K(X), the all-conjugate output bound H=H_P X^2 follows from R<X. Within one residue class, two distinct outputs differ by R gamma for integral nonzero gamma, so sup-norm separation >=R. Side-R cubes yield at most (2H/R+1)^d elements in each class, uniformly. Thus the full image is at most [rho(2H+R)]^d <= (C_P rho X^2)^d <= (C_P rho D)^d n^2=theta^d n^2. Input thinning, parameter fibers, exceptional pairs and output branches introduce no additional cost: there is no thinning or parameterization, all pairs lie in the same container, and no exceptions are discarded. Denominator R, coefficient height C_P and discriminant D are explicitly charged. Field degrees vary but enter only as the amplification exponent. No regulator or unit population is used in this construction.
+Status: PROVED, independently checked. H=0 yields per-class bound one, so the zero polynomial is covered without a division by zero.
+
+MP-07. Real transport and exponent, Section 3.5, printed pp.12-13 / PDF pp.14-15.
+A_j=R^-1 sigma_j(B_Fj(X)); field embedding and nonzero scalar maps are injective. Evaluation commutes with sigma_j since coefficients are integral. Hence input and output cardinalities are unchanged under transport. With epsilon_P=-log theta/log(2X+1)>0 and n_j <= (2X+1)^d_j, we get n_j^epsilon_P <= theta^-d_j, or theta^d_j <= n_j^-epsilon_P. The inequality direction is correct. The exact endpoint exponent is available because there is neither o(d) error nor an additional prefactor in the displayed estimates. The lower input bound is used for growth, not this final exponent conversion.
+Status: PROVED, independently checked.
