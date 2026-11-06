@@ -1,6 +1,6 @@
 # Academic report citation compatibility
 
-**7 November 2026.** This record covers the private 32-page academic PDF supplied for packaging. Its SHA-256 is `95fb18eba5e8c66665e3356e34703b378d1f64f43ed7990d5c1cb024d83ef285`. The public evidence index and scholarly sources can be checked without a copy of the academic submission.
+**7 November 2026.** This record covers the [32-page academic PDF](../../../research/reports/2026-11-05-ma2288/MA2288-Polynomial-Image-Compression.pdf) originally supplied privately and subsequently published by the author. Its SHA-256 is `95fb18eba5e8c66665e3356e34703b378d1f64f43ed7990d5c1cb024d83ef285`. The public evidence index and scholarly sources can be checked without a copy of the academic submission.
 
 ## Inventory and scope
 

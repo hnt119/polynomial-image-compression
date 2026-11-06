@@ -1,44 +1,45 @@
-# From unit distances to polynomial image compression
+# From Unit Distances and Sum–Product to Polynomial-Image Compression
 
-Huang Yixuan’s MA2288 research project at the National University of Singapore, supervised by Prof. Tran Chieu Minh. The starting point was a construction of planar sets with many unit distances. Here the question is how often different real input pairs can give the same polynomial value.
+**Huang Yixuan** · MA2288 undergraduate research, National University of Singapore
 
-**Start with the [nine-page public progress report](research/reports/2026-11-05-evidence-export/report.pdf)** or its [one-page professor summary](research/reports/2026-11-05-evidence-export/summary.pdf). Then use the [evidence index](research/EVIDENCE_INDEX.md) to reach the original argument, correction or finite computation. The [website handoff](docs/WEBSITE_HANDOFF.md) gives permanent links and identifies the separate academic edition.
+Supervised by **Prof. Tran Chieu Minh** · 5 November 2026
 
-## Question and positive result
+**[Read the academic report (PDF, 32 pages)](research/reports/2026-11-05-ma2288/MA2288-Polynomial-Image-Compression.pdf)** · [Download the PDF](https://github.com/hnt119/polynomial-image-compression/releases/download/ma2288-report-2026-11-05/MA2288-Polynomial-Image-Compression.pdf) · [One-page research summary](research/reports/2026-11-05-evidence-export/summary.pdf)
 
-For a fixed polynomial $P$, find a fixed $\varepsilon_P>0$ and finite real sets $A_j$, with $|A_j|\to\infty$, such that
+If a set contains $n$ numbers, it gives $n^2$ ordered pairs. How few distinct answers can a fixed polynomial give on those pairs? This project takes a construction from the study of unit distances and adapts its arithmetic to polynomial values. It proves a saving for an entire family of quadratics, including $(x+2y)^2+3x-y$. Four further polynomials remain open.
+
+## Main result
+
+For **every fixed integer quadruple** $(a,b,c,e)$, let $P(x,y)=(ax+by)^2+cx+ey$. There is a fixed $\varepsilon_P>0$ and a sequence of finite real sets $A_j$, with $|A_j|\to\infty$, such that
 
 $$
 |P(A_j,A_j)|\le |A_j|^{2-\varepsilon_P}.
 $$
 
-The same set supplies both coordinates. The count includes every ordered pair. The exponent can depend on $P$ and is fixed as the sets grow.
+Both inputs use the same set, and the bound covers every ordered pair. The theorem includes zero coefficients. The extra condition $ab(ae-bc)\ne0$ identifies the nonspecial examples. Section 3.6 of the academic report separately extends the conclusion to fixed rational-coefficient quadratics whose homogeneous quadratic part has rank one. [Theorem 1 and proof](research/proofs/c0-v5/theorem-and-proof.tex) · [Corollary and normalization](research/EVIDENCE_INDEX.md#rational-corollary)
 
-**PROVED in the project sources.** This holds for $P(x,y)=(ax+by)^2+cx+ey$ for **every fixed integer quadruple**, including zero coefficients. The additional condition $ab(ae-bc)\ne0$ identifies the nonspecial subfamily. The restricted 3 September statement and the broader November theorem have separate [proofs and corrections](research/exports/2026-11-05-report-references/README.md#ref10).
+**How the construction works.** Choose algebraic integers whose real conjugates all lie in a fixed interval. One real embedding and a common rescaling turn them into the input set $A_j$. The number of distinct inputs grows exponentially with the field degree. At the selected split primes, the rescaled polynomial can take only square residues. Counting those classes and then packing the possible outputs inside each class gives the saving. Proposition 3.8 of *Planar Point Sets with Many Unit Distances* supplies the fields and split primes. [Counting argument](docs/release/2026-11-05/shared-quadratic.md) · [External field theorem](https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf#page=12)
 
-**The real set.** In a totally real number field $F_j$ of degree $d_j$, take all algebraic integers whose real conjugates have magnitude at most a fixed $X$. Project this box through one embedding into $\mathbb R$ and divide every scalar by the same fixed product $R$ of split primes. Proposition 3.8 of *Planar Point Sets with Many Unit Distances* supplies the fields and primes together. [External field theorem](https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf#page=12)
+## Four open problems
 
-**Why it works.** The box contains exponentially many distinct scalars. Before the common rescaling, the auxiliary polynomial is $(ax+by)^2+R(cx+ey)$. Modulo each selected prime its outputs must be squares. Counting square classes at all $d_j$ primes above each selected rational prime, then packing each class in the box of real embeddings, gives at most $\theta^{d_j}|A_j|^2$ values for a fixed $\theta<1$. The matching upper input bound converts this into the fixed exponent above. [Complete project proof, Theorem 1](research/proofs/c0-v5/theorem-and-proof.tex) · [Parameter choices and counts](docs/release/2026-11-05/shared-quadratic.md)
-
-## Four open targets
-
-| Track | Fixed polynomial | What the evidence establishes |
+| Track | Fixed polynomial | What is known |
 |---|---|---|
-| [T01](research/tracks/01-cubic-digital/STATUS.md) | $(x-y)^3+x+y$ | **OPEN.** A saving would force almost every pair to share its exact output across many scales. A construction with that property is missing. |
-| [T02](research/tracks/02-quartic-hybrid/STATUS.md) | $(x+2y)^4+3x-y$ | **OPEN.** The ramified local count is exact. The specified full-interval packing pays back the local gain. |
-| [T03](research/tracks/03-eisenstein-cartesianization/STATUS.md) | $x^2+xy+y^2$ | **OPEN.** One balanced-factor family has image of order $n^2$. A different tower has at least $2^{d_j}$ eligible units. A bound on how many return typical pairs is missing. |
-| [T04](research/tracks/04-cubic-slices/STATUS.md) | $(x-y)^3-3(x+y)$ | **OPEN.** A complementary-unit recursion produces exponentially many distinct inputs. A strictly smaller rate for its full output than twice its input rate is missing. |
+| [T01](research/tracks/01-cubic-digital/STATUS.md) | $(x-y)^3+x+y$ | A saving would force almost every pair to share its exact output across many scales. A construction is missing. |
+| [T02](research/tracks/02-quartic-hybrid/STATUS.md) | $(x+2y)^4+3x-y$ | An exact local count is known. The tested interval-packing bound loses the gain when all outputs are counted. |
+| [T03](research/tracks/03-eisenstein-cartesianization/STATUS.md) | $x^2+xy+y^2$ | One family has quadratic-order image. A different construction supplies many symmetries, but how often they return pairs to the input square remains open. |
+| [T04](research/tracks/04-cubic-slices/STATUS.md) | $(x-y)^3-3(x+y)$ | One recursion produces exponentially many distinct inputs. A power saving for its complete image remains open. |
 
-The separate affine quadratic $x^2+xy+y^2+x$ has a proved transfer implication whose simultaneous hypotheses remain open. Individual rich fibers, collision energy and finite examples can guide a search. An upper bound for the complete image requires accounting for all pairs. See the [restart record](research/OPEN_LEMMAS.md#restart) for the exact obligations, failed cases and missing sources.
+The [restart record](research/OPEN_LEMMAS.md#restart) gives the precise missing estimate in each direction and distinguishes the separate affine quadratic benchmark.
 
-## Reading and reproduction
+## Read the evidence
 
-- **Public reports, 5 November 2026.** The [four-track report package](research/reports/2026-11-05-evidence-export/README.md) is the primary reading path. The [C0/T03 technical report and three-page professor brief](research/exports/2026-11-05-evidence/README.md) give the detailed quadratic account with editable sources and figures. Compile a disposable copy using the commands in the respective package.
-- **Academic report.** The author’s private 32-page *From Unit Distances and Sum–Product to Polynomial-Image Compression* is the 5 November submission-prepared edition after v8. Its [citation inventory and preservation checks](docs/release/2026-11-07/report-citations.md) identify the exact public destinations. The academic PDF and editable submission materials are retained locally.
-- **Evidence.** The [claim ledger and checkpoint catalogue](research/evidence/2026-11-05/README.md) point to proof sections, corrections, code and saved data. The [project map](research/CURRENT_PROJECT_MAP.md), [history](research/PROJECT_HISTORY.md) and [source-gap register](research/MIGRATION_CONFLICTS.md) explain chronology and availability. The T01 fixed-prime digital theorem is source-reported proved; its standalone proof remains unavailable.
-- **Dates.** The September migration records have a 10 September cutoff. The latest active T01/T03 mechanism checkpoints are 21 October. The public research record through 5 November includes the 3 November shared proof and its 4 November audit. Packaging pass: 7 November 2026.
+- **For a research overview:** the [nine-page progress report](research/reports/2026-11-05-evidence-export/report.pdf) compares all four tracks. The [three-page quadratic brief](research/exports/2026-11-05-evidence/professor_brief.pdf) focuses on the successful construction and the full-rank obstacle.
+- **To check a claim:** the [evidence index](research/EVIDENCE_INDEX.md) leads to the original proof, correction, or finite computation. The [citation inventory](docs/release/2026-11-07/report-citations.md) maps the academic report’s references to their exact destinations. One recorded T01 digital theorem still lacks its standalone proof.
+- **To resume or cite the project:** see the [project map](research/CURRENT_PROJECT_MAP.md), [source gaps](research/MIGRATION_CONFLICTS.md), and [website handoff with permanent links](docs/WEBSITE_HANDOFF.md). The research record runs through 5 November 2026. The archive was packaged on 7 November.
 
-From a full-history clone with Python 3.10+:
+## Reproduce the checks
+
+From a full-history clone with Python 3.10 or later:
 
 ```sh
 python3 scripts/check_repository.py
@@ -49,4 +50,4 @@ python3 -m unittest discover -s tests -v
 python3 -m experiments verify
 ```
 
-The first four commands check archive integrity, source locators and citations. The last two run finite regressions. Mathematical verification requires reading the proofs and checking their hypotheses, including the imported field supply. [Reproduction guide](docs/reproducibility.md) · [Public/private retention policy](docs/publishing.md) · [Contributing](CONTRIBUTING.md) · [License notice](LICENSE-NOTICE.md)
+These commands check published files, citations and finite examples. The asymptotic argument is in the proof linked above. [Reproduction and document builds](docs/reproducibility.md) · [Publication policy](docs/publishing.md) · [License notice](LICENSE-NOTICE.md)
