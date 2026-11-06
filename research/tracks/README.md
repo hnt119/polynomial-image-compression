@@ -1,5 +1,7 @@
 # Track index — reconciled current state
 
+**7 November 2026.** For the phase through 5 November, see the [four-track table](../EVIDENCE_INDEX.md) and [exact restart questions](../OPEN_LEMMAS.md#restart). The dated specifications and September registry retain their original scope.
+
 Updated **11 September 2026** from the final records and current-state exports;
 20 September recovery documents were integrated as provenance with the same
 10 September mathematical cutoff. The owner-selected four identities and all

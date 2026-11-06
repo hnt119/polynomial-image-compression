@@ -1,5 +1,21 @@
 # Research evidence index · 5 November 2026
 
+**Packaging addendum · 7 November 2026.** Read the [public four-track report](reports/2026-11-05-evidence-export/report.pdf) first. To trace a claim, choose its row below, then open the named argument or finite data. For resuming a direction, see the [restart record](OPEN_LEMMAS.md#restart). The complementary [C0/T03 report](exports/2026-11-05-evidence/README.md) follows the quadratic construction in more depth. The [website handoff](../docs/WEBSITE_HANDOFF.md) distinguishes both from the private post-v8 academic edition. [Exact academic citation routes](../docs/release/2026-11-07/report-citations.md)
+
+**Which register?** The [96-group ledger](evidence/2026-11-05/claim-ledger.json) groups native claims from all tracks. The [75-claim register](exports/2026-11-05-evidence/evidence_register.csv) gives finer C0/T03 steps. For example, `SHARED/2026-11-04/MP-01` groups MP-01–07; `C0-FULL` and `C0-NONSPECIAL` separate compression and nonspecialness. For BFF, `T03/2026-10-11-bff-o1/BFF-O1` corresponds to `BFF-O1` and `BFO-F1`. Use the [C0 crosswalk](exports/2026-11-05-report-audit/quadratic/c0.md), [carrier crosswalk](exports/2026-11-05-report-audit/quadratic/bff-and-radicals.md) and [unit crosswalk](exports/2026-11-05-report-audit/quadratic/norm-and-units.md). Row counts describe overlapping records.
+
+## Rational corollary
+
+The public [November Theorem 1](proofs/c0-v5/theorem-and-proof.tex) covers every fixed integral square-plus-linear quadruple. The 5 November academic edition, §3.6, printed p. 13, derives a separate corollary for every fixed rational-coefficient quadratic $f$ whose homogeneous quadratic part has rank one. Its normalization is recorded here from the final editable proof. Clear denominators so that $mf=\alpha x^2+\beta xy+\gamma y^2+\delta x+\eta y+\kappa$ has integer coefficients with $m>0$. Rank one gives $\beta^2=4\alpha\gamma$. If $\alpha\ne0$, then
+
+$$
+4\alpha(mf-\kappa)=(2\alpha x+\beta y)^2+4\alpha\delta x+4\alpha\eta y.
+$$
+
+The right side has Theorem 1's form, and the affine map on outputs has nonzero slope. If $\alpha=0$, then $\beta=0$ and $\gamma\ne0$; interchange the two variables, which permutes $A^2$. The sets and exponent for the normalized polynomial therefore work for $f$. The proof of Theorem 1 and its external field dependency carry through. This mathematical derivative records the scope added in the later academic edition. The archived September and November theorem texts retain their original statements.
+
+## Four-track evidence edition
+
 The combined MA2288 v6 audits provide a [21-entry bibliography and three editor corrections](exports/2026-11-05-report-audit/integration/README.md).
 
 **All four fixed-polynomial targets remain OPEN.** A solution requires a fixed positive exponent and arbitrarily large finite sets of real scalars, with the **same set in both inputs** and **every ordered pair** counted. The most recent T01 theorem gives a necessary pattern of repeated *exact* collisions; it does not exhibit sets with a small full image. T03 has proved a large population of eligible units; proving that enough of them return typical input pairs is a separate, unresolved matter.

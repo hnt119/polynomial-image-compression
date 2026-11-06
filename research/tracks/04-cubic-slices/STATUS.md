@@ -1,5 +1,7 @@
 # T04 status — cubic slice / overlap program
 
+**7 November 2026 · fixed target OPEN.** The complementary-unit recursion has proved scalar growth. T04-O1 still asks for a strict full-output rate gap. [Restart record](../../OPEN_LEMMAS.md#restart) · [Evidence and later checkpoints](../../EVIDENCE_INDEX.md). The dated record follows.
+
 Reconciled **11 September 2026**, cutoff **10 September**. **Fixed target: OPEN.**
 
 $$P_-(x,y)=(x-y)^3-3(x+y).$$

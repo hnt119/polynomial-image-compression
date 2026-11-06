@@ -1,5 +1,7 @@
 # T01 status — cubic / digital-carry program
 
+**7 November 2026 · fixed target OPEN.** MC-S1–S3 give necessary exact branching. MC-O1 is the separate two-map diagnostic. [Restart record](../../OPEN_LEMMAS.md#restart) · [Evidence and later checkpoints](../../EVIDENCE_INDEX.md). The dated record follows.
+
 Reconciled **11 September 2026** from the **10 September** final norm–trace
 checkpoint and `T01_CURRENT_STATE.md`. **Fixed target: OPEN.**
 

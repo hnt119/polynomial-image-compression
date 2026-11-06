@@ -108,3 +108,18 @@ A public checkout can run all three standard checks above with the Python standa
 The [ledger](../research/EVIDENCE_INDEX.md) identifies portable JSON evidence and full proof text separately from finite research scripts. Historical run commands describe their original budgets and inputs; they need not be run to read or verify this export. The original source check `python3 scripts/check_codex_setup.py` is **local-bundle only**: a public clone deliberately lacks its 50 restricted reference inputs. Do not infer a missing proof from a passing public check or recreate withheld files from filenames.
 
 The [LaTeX export](../research/reports/2026-11-05-evidence-export/README.md) has its own build instructions and bibliography. The committed PDFs are provided for reading without a TeX installation. Auxiliary TeX and page-inspection files are not publication artifacts.
+
+## Checking frozen releases from a current checkout
+
+Use a full Git clone. From its root run:
+
+~~~sh
+python3 scripts/check_evidence_release.py
+python3 scripts/check_c0_snapshot.py
+python3 scripts/check_quadratic_v6_references.py
+python3 scripts/check_quadratic_v6_references.py --bibliography research/exports/2026-11-05-report-audit/integration/bibliography-v6-editor.tex
+~~~
+
+The first check validates the four-track ledger, proof locators, finite outputs and report files. The second runs the original 5 November C0/T03 verifier in a temporary tree. The frozen manifest includes five subsequently updated navigation documents: the root README, current project map, project history, open-lemma registry and T03 status. Their historical bytes come from release `c689ab52ca3bb9e3221bd09ae9a083a3111e39df`. All five paths must still exist, and the verifier checks the other 262 listed files against the distributed bytes. The manifest and original verifier must themselves match the published Git objects. To run the legacy verifier directly on its original tree, use a separate checkout of that revision. The last two commands resolve the historical citations and source objects for each bibliography. See the [academic PDF route inventory](release/2026-11-07/report-citations.md) for the separate public link checks.
+
+**Typesetting.** In a disposable copy of the four-track export directory run `sh build.sh` with pdfLaTeX and BibTeX installed. The [source and toolchain notes](../research/reports/2026-11-05-evidence-export/README.md) describe the two outputs. For the quadratic report and brief, follow the [C0/T03 build recipe](../research/exports/2026-11-05-evidence/README.md) in a disposable copy of the repository. Compare frozen hashes before rebuilding. These procedures compile documents. The finite verifier above checks stated examples; the proof packages address unbounded input sizes.
