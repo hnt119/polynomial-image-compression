@@ -1,5 +1,7 @@
 # Project history and current research state
 
+**7 November 2026 · reading the chronology.** The 10 September cutoff below belongs to the migration. Later dated entries record the October mechanisms. The [November proof and its September predecessor](exports/2026-11-05-report-references/README.md#ref10) distinguish the two C0 formulations. The [evidence index](EVIDENCE_INDEX.md), [restart record](OPEN_LEMMAS.md#restart) and [edition history](../docs/WEBSITE_HANDOFF.md) cover the phase through 5 November. This packaging pass adds navigation and citation checks.
+
 Reconciled **11 September 2026**, using final records with research cutoff
 **10 September 2026**. This migration changes documentation only. Dates identify
 source checkpoints, not discovery or publication priority. The common target

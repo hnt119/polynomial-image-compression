@@ -140,3 +140,7 @@ authorize expanded mathematical searches. Run `git diff --check`; inspect tracke
 diffs and new files separately. Report actual changes, source/claim status,
 commands/results, retained gaps, and uncommitted state. Separate inherited work
 from this task's changes. Never claim tests prove a research target.
+
+## Dated publication pointer · 7 November 2026
+
+The September table and restricted C0 formulation above document the migration cutoff. For current scope use the [evidence index](research/EVIDENCE_INDEX.md) and [restart record](research/OPEN_LEMMAS.md#restart). November Theorem 1 covers every fixed integral quadruple in the displayed square-plus-linear family. All four named targets are open. For the frozen C0/T03 edition on a current checkout run `python3 scripts/check_c0_snapshot.py`. The [citation record](docs/release/2026-11-07/report-citations.md) identifies the academic PDF's permanent destinations.

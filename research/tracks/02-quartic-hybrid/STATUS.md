@@ -1,5 +1,7 @@
 # T02 current status — fixed quartic / hybrid / ramified precision
 
+**7 November 2026 · fixed target OPEN.** C4 gives the exact local count on the full critical input. T02-O1 asks for a bound on support actually attained. [Restart record](../../OPEN_LEMMAS.md#restart) · [Evidence and later checkpoints](../../EVIDENCE_INDEX.md). The dated record follows.
+
 Reconciled 2026-09-11 from the accepted checkpoint dated 2026-09-10.
 **Fixed-quartic target: OPEN.** The [SPEC](SPEC.md) remains the fixed target:
 

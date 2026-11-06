@@ -1,5 +1,7 @@
 # T03 status — full-rank quadratic / Eisenstein norm
 
+**7 November 2026 · fixed target OPEN.** BFF-O1 retires the balanced-factor carrier. MS-O1 supplies units, MS-O2-I asks about occupied labels, and RC15/4 is a separate adaptive obligation. [Restart record](../../OPEN_LEMMAS.md#restart) · [Evidence and later checkpoints](../../EVIDENCE_INDEX.md). The dated record follows.
+
 Reconciled **11 September 2026**, cutoff **10 September**. **Fixed target: OPEN.**
 
 $$Q_E(x,y)=x^2+xy+y^2.$$

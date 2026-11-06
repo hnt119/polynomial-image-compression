@@ -1,5 +1,7 @@
 # Current project map
 
+**Reading map · 7 November 2026.** Start with the [32-page academic report](reports/2026-11-05-ma2288/MA2288-Polynomial-Image-Compression.pdf) or the [shorter four-track overview](reports/2026-11-05-evidence-export/report.pdf), then the [evidence index](EVIDENCE_INDEX.md) for proof and computation, and the [restart record](OPEN_LEMMAS.md#restart) for the surviving questions. The [academic edition and public derivatives](../docs/WEBSITE_HANDOFF.md) have different purposes. The September map below identifies the migration sources. October checkpoints and the November shared theorem control the later results.
+
 Setup snapshot: **2026-09-14**. Reconciled snapshot: **2026-09-11**, with
 **2026-09-10** research cutoff. Source-recovery documents were integrated on
 **2026-09-20**; their own mathematical cutoff is still 10 September. All four
