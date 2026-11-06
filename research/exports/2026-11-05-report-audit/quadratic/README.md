@@ -1,0 +1,17 @@
+# MA2288 v6 quadratic and quartic evidence audit
+
+**Section 3 supports compression for every fixed integer quadruple in $(ax+by)^2+cx+ey$.** The September theorem imposed primitivity and transversality. The November proof needs only square-residue containment for compression. Its stronger nonvanishing condition identifies a nonspecial subfamily. The original external field-supply statement was available locally and was matched to its use in the proof. [Scope, provenance and parameter order](c0.md)
+
+**Three sentences in §§4.1–4.2 need editing.** The transfer proof chooses the most frequent *nonzero* difference. The relative-unit carrier already has at least two returns off zero. Negation also makes the illustrative three-point orbit intersection impossible. These edits preserve both support implications. The manuscript's cutoff and the cardinality bars in the radical inequality are correct in the rendered PDF. [Exact editor handoff](editor-handoff.md)
+
+| Report claim | Result of comparison |
+|---|---|
+| [Norm–trace transfer and relative units](norm-and-units.md) | The prefactor and strict transfer exponent match the same-set argument. MS-F6 exhausts nonzero returns, and MS-O1 supplies at least $2^{d_j}$ actions. MS-O2 counts occupied joint labels. Exponential saving on those labels (MS-O2-I) stays **OPEN**. |
+| [Completed balanced-factor carrier and radicals](bff-and-radicals.md) | A fixed positive proportion of balanced-factor sources have bounded full fibers, giving an actual $\Theta(n^2)$ image for that family. The five radical image sizes are certified finite results. The RC15/4 premise remains **OPEN** and its strict exponent consequence is **CONDITIONAL**. |
+| [Quartic hybrid, exact local count and interval obstruction](quartic.md) | The local outputs number 4 at the first precision and $22\cdot7^{3m-4}$ thereafter. C3 gives the exact continuous extrema for the translated carrier. C4 retires the stated class-packing upper bound. The actual quartic target stays **OPEN**. |
+
+The [58-row claim-to-source table](claims.csv) records the printed section, claim, native identifier, source date, theorem locator, dependencies, status, checks, limitations, commit, permalink and recommended wording. The companions cross-reference the existing 75-claim and 96-group registers by their actual scope. Counts in those registers use different groupings.
+
+**Audit boundary.** The comparison document was the original local 30-page v6 PDF, SHA-256 `9d5ad8f21b86df90f3ff29cd24074bc7925d20f401fdee5a96dcf1ae966066cd`. Published sources, both existing registers, reference entries and earlier reviews predate this audit. New work consists of the report comparison, arithmetic and locator checks, editor handoff, and an offline citation checker with regression tests. The four fixed targets retain their open status. [Verification and availability](verification.md)
+
+**Integration.** The existing 21 bibliography keys are valid. The [ref14 editor fragment](ref14-editor.tex) adds the §7 locator under the original key and pin. The [proposed patch](integration.patch) adds discovery from the shared evidence index and two CI checks. It requests full Git history so the historical pin is available locally. The integrator can apply or reconcile it once alongside the [cubic owner’s separate reference 17 handoff](https://github.com/hnt119/polynomial-image-compression/blob/1ebe48fa718b8dbd8b4cbed544daf98854d5f5f7/research/exports/2026-11-05-report-audit/cubic/README.md). No shared citation, registry or workflow file is modified by this branch.

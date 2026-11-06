@@ -1,0 +1,20 @@
+--- a/.github/workflows/checks.yml
++++ b/.github/workflows/checks.yml
+@@ -18,2 +18,4 @@
+       - uses: actions/checkout@v4
++        with:
++          fetch-depth: 0
+       - uses: actions/setup-python@v5
+@@ -29 +31,5 @@
+         run: python scripts/check_evidence_release.py
++      - name: Verify the C0 and T03 snapshot
++        run: python research/exports/2026-11-05-evidence/verify_snapshot.py
++      - name: Verify the bibliography and its pinned source files
++        run: python scripts/check_quadratic_v6_references.py
+--- a/research/EVIDENCE_INDEX.md
++++ b/research/EVIDENCE_INDEX.md
+@@ -42,2 +42,4 @@
+
++The [MA2288 v6 quadratic and quartic claim audit](exports/2026-11-05-report-audit/quadratic/README.md) compares the report with the historical proofs and records the proposed editor changes.
++
+ ## Reading and availability

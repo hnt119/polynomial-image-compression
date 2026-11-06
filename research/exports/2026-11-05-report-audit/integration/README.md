@@ -1,0 +1,26 @@
+# MA2288 v6 editor handoff
+
+Use [the consolidated bibliography](bibliography-v6-editor.tex) inside the report’s existing `thebibliography` environment. It contains all 21 published entries in their original order. The only changed entry, [14], now points to Section 7 for the open RC15/4 premise and its proved conditional consequence. Entry [15] cites Sections 1–5. Entry [17] retains the cubic audit’s qualification about the unavailable standalone digital proof. The thirteen project links lead to the mathematical evidence at the [original source-support revision](https://github.com/hnt119/polynomial-image-compression/blob/bd1f2d663262821575eebdfa559b7c25f76b46ab/research/exports/2026-11-05-report-references/README.md).
+
+Apply these three wording edits in a future report revision. Page numbers are printed pages, with physical PDF pages in parentheses.
+
+1. In §4.1, p. 14 (16), immediately after the definition of $A$, replace the clause about a most frequent difference with `where $h$ maximizes $\lvert C\cap(C-h)\rvert$ among the nonzero differences in $C-C$.`
+2. In §4.2, p. 15 (17), replace the last sentence before “To count the returns” with `The units $1$ and $-1$ give two distinct returning targets at every nonzero source. An exponential lower bound for the mean number of actual returns remains open.`
+3. On the same page, replace the three-point example immediately after (18) with `Each orbit intersection of size $m$ contributes $m(1/m)=1$ to the sum.` Negation pairs every nonzero point with a distinct partner.
+
+The quadratic audit checks the broader November C0 theorem separately from its historical September formulation. The cubic audit supports retaining the text of §4.4 and Appendix C.5. All four fixed polynomial targets remain **OPEN**. [Quadratic audit and exact locations](https://github.com/hnt119/polynomial-image-compression/blob/e00587e7691cd2ebd503c293a212a3862e196bf1/research/exports/2026-11-05-report-audit/quadratic/editor-handoff.md) · [Cubic audit](https://github.com/hnt119/polynomial-image-compression/blob/1ebe48fa718b8dbd8b4cbed544daf98854d5f5f7/research/exports/2026-11-05-report-audit/cubic/README.md)
+
+## Evidence limits
+
+- **T01 digital theorem.** Its state records Theorem A.2 as proved. The identified standalone proof and companion digital bundle were absent from the audited holdings. The qualification in [17] preserves that distinction. [Bounded recovery record](https://github.com/hnt119/polynomial-image-compression/blob/1ebe48fa718b8dbd8b4cbed544daf98854d5f5f7/research/exports/2026-11-05-report-audit/cubic/source-recovery.md)
+- **Separate source and execution gaps.** The standalone Phase A source-audit PDF and the T03 field-of-25 certificate were unavailable in the checked release. T04 lacks the retained depth-30 execution certificate and invocation. The local Raz–Zahl and energy-dispersion inputs are missing for the optional projection argument. MC-02 records a separate open T04 product-tree attribution. [Quadratic availability](https://github.com/hnt119/polynomial-image-compression/blob/e00587e7691cd2ebd503c293a212a3862e196bf1/research/exports/2026-11-05-report-audit/quadratic/verification.md) · [Cubic limits](https://github.com/hnt119/polynomial-image-compression/blob/1ebe48fa718b8dbd8b4cbed544daf98854d5f5f7/research/exports/2026-11-05-report-audit/cubic/optional-frontier.md) · [Attribution record](https://github.com/hnt119/polynomial-image-compression/blob/c689ab52ca3bb9e3221bd09ae9a083a3111e39df/research/MIGRATION_CONFLICTS.md#mc-02--open-provenance-t04-product-tree-attribution)
+
+## Integration and verification
+
+Both proposed patches are applied on the integration branch. The quadratic patch links the audit from the evidence index and enables full-history checkout, C0/T03 snapshot verification and historical citation verification in CI. The cubic patch corrects the index pointer for the damaged T04 expression to the “T04 rendering” row. CI also validates the editor bibliography as a separate input and verifies the frozen citation supplement’s checksums.
+
+The integration starts at `c689ab52ca3bb9e3221bd09ae9a083a3111e39df`. Commit `269f5dad69c9cabb10d921a144f0e94d434ed73f` combines the original cubic and quadratic review commits. The report, original bibliography, archive ledgers and release manifests retain their published bytes. [Cubic PR #4](https://github.com/hnt119/polynomial-image-compression/pull/4) · [Quadratic PR #5](https://github.com/hnt119/polynomial-image-compression/pull/5)
+
+Local validation passed 110 unit tests and 159 finite checks. The repository checker verified 39 archived sources and links in 311 Markdown files. The four-track release checker verified 96 claim groups, 44 checkpoints and 970 source locators. The C0/T03 snapshot verifier matched all 267 hashes and both copies of its 75-claim register. All 18 frozen citation-supplement checksums matched.
+
+The citation checker read the published file with its default invocation and the new editor file with `--bibliography`. Each run verified 21 ordered keys, 13 pinned citations, 47 historical child-file links and 13 historical provenance records. The corresponding current index has 48 child-file links. A separate byte comparison confirmed that [14] is the sole replacement. These checks verify publication integrity and the editor handoff.

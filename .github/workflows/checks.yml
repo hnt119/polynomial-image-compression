@@ -16,6 +16,8 @@ jobs:
         python-version: ['3.10', '3.12', '3.13']
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
@@ -25,5 +27,13 @@ jobs:
         run: python -m experiments verify
       - name: Verify source integrity and local documentation links
         run: python scripts/check_repository.py
+      - name: Verify the consolidated editor bibliography
+        run: python scripts/check_quadratic_v6_references.py --bibliography research/exports/2026-11-05-report-audit/integration/bibliography-v6-editor.tex
+      - name: Verify the frozen citation supplement
+        run: sha256sum -c research/exports/2026-11-05-report-references/checksums.sha256
       - name: Check published evidence locators and export hashes
         run: python scripts/check_evidence_release.py
+      - name: Verify the C0 and T03 snapshot
+        run: python research/exports/2026-11-05-evidence/verify_snapshot.py
+      - name: Verify the bibliography and its pinned source files
+        run: python scripts/check_quadratic_v6_references.py
